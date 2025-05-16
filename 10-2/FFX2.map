@@ -1,0 +1,2058 @@
+SIZE|0x166A0
+
+VAR|0x00|32
+
+// 08: 0 => 13 (0D)
+
+// 0x0C SAVESLOT, Story percent
+// 0x0D SAVESLOT, Yuna dress
+// 0x0E SAVESLOT, Rikku dress
+// 0x0F SAVESLOT, Pain dress
+// 0x10 SAVESLOT, playtime in seconds
+
+// 14: 0 => 1 (01) ЛеБлан зовет гунов
+// 14: 1 => 0 (00) ЛеБлан зовет гунов
+// 14: 0 => 1(01) первая битва в доках
+// 14: 1 => 0(00) первая битва в доках
+
+// 18: 0 => 16 (10)
+// 19: 0 => 104 (68)
+// 1a: 0 => 84 (54)
+// 1b: 0 => 8 (08)
+// 1c: 0 => 32 (20)
+// 1d: 0 => 64 (40)
+// 1e: 0 => 86 (56)
+// 1f: 0 => 8 (08)
+
+VAR|0x20|1|UNK__ENEMYCOUNT
+// 20: 0 => 5 (05) ЛеБлан с двумя гунами в первой битве
+// 20: 3 => 2 (02) вторая битва в турнире
+// 20: 4 => 3 (03) битва в доках: толстый и тощий
+// 20: 0 => 2 (02) битва в доках с ЛеБлан после ее переодевания
+
+VAR|0x21|31
+
+// 24: 0 => 16 (10)
+// 25: 0 => 16 (10)
+// 26: 0 => 127 (7F)
+// 27: 0 => 86 (56)
+
+// 24: 0 => 192 (C0) начали турнир
+// 25: 0 => 242(F2) начали турнир
+// 26: 0 => 249(F9) начали турнир
+// 27: 0 => 102(66) начали турнир
+
+// 24: 192 => 0 (00) выиграли матч
+// 25: 242 => 0(00) выиграли матч
+// 26: 249 => 0(00) выиграли матч
+// 27: 102 => 0(00) выиграли матч
+
+// 24: 0 => 224(E0) битва с ЛеБлан после ее переодевания
+// 25: 0 => 115(73) битва с ЛеБлан после ее переодевания
+// 26: 0 => 63(3F) битва с ЛеБлан после ее переодевания
+// 27: 0 => 76(4C) битва с ЛеБлан после ее переодевания
+// 24: 224 => 0(00) битва с ЛеБлан после ее переодевания
+// 25: 115 => 0(00) битва с ЛеБлан после ее переодевания
+// 26: 63 => 0(00) битва с ЛеБлан после ее переодевания
+// 27: 76 => 0(00) битва с ЛеБлан после ее переодевания
+
+VAR|0x40|2|UNK__ROOM1
+VAR|0x42|2|UNK__ROOM2
+VAR|0x44|2|UNK__ROOM3
+VAR|0x46|2|UNK__ROOM4
+
+VAR|0x48|180
+
+// 4c: 0 => 3(03) возврат из СС
+
+// 4e: 0 => 42 (2A)
+// 4e: 42 => 43 (2B) дали управление Рикку
+// 4e: 43 => 44 (2C) перешли во вторую зону доков
+// 4e: 45 => 0(00) мульт танцующей Юны
+// 4e: 0 => 45 (2D) ...
+// 4e: 45 => 210 (D2) летит кораблик
+// 4e: 210 => 211(D3) первая сценка на Цельсии
+// 4e: 211 => 0(00) вход с СС
+// 4e: 0 => 211(D3) возврат из СС
+
+// 52: 0 => 15 (0F) дали управление Рикку
+// 52: 15 => 0 (00) перешли во вторую зону доков
+// 52: 15 => 0 (00) вышли из bsim
+// 52: 0 => 15 (0F) вышли из турнира
+// 52: 0 => 15(0F) вход с СС
+// 52: 15 => 0(00) возврат в СС
+// 52: 0 => 15(0F) возврат из СС
+
+// 53: 0 => 2 (02)
+
+// 61: 0 => 255 (FF)
+
+// 62: 0 => 255 (FF)
+
+// 63: 0 => 255 (FF)
+
+// 6b: 1 => 0 (00) НОВАЯ ИГРА
+// 6b: 0 => 1 (01)
+
+// 74: 0 => 4 (04) интро Пэйн
+
+// a2: 0 => 64(40) интро Пэйн
+
+// e8: 255 => 11 (0B) вышли из bsim
+// e8: 11 => 255 (FF) вышли из турнира
+// e8: 0 => 255 (FF) мульт танцующей Юны
+// e8: 255 => 15(0F) первая сценка на Цельсии
+// e8: 15 => 255(FF) вход с СС
+
+// e9: 255 => 0(00) вышли из bsim
+// e9: 0 => 255(FF) вышли из турнира
+// e9: 0 => 255(FF) мульт танцующей Юны
+// e9: 255 => 0(00) первая сценка на Цельсии
+// e9: 0 => 255(FF) вход с СС
+
+// ea: 255 => 0(00) вышли из bsim
+// ea: 0 => 255(FF) вышли из турнира
+// ea: 0 => 255(FF) мульт танцующей Юны
+// ea: 255 => 0(00) первая сценка на Цельсии
+// ea: 0 => 255(FF) вход с СС
+
+// eb: 255 => 0(00) вышли из bsim
+// eb: 0 => 255(FF) вышли из турнира
+// eb: 0 => 255(FF) мульт танцующей Юны
+// eb: 255 => 0(00) первая сценка на Цельсии
+// eb: 0 => 255(FF) вход с СС
+
+// ed: 0 => 1 (01) при незагруженной игре
+// ee: 0 => 2 (02) при незагруженной игре
+// ef: 0 => 3 (03) при незагруженной игре
+// f0: 0 => 4 (04) при незагруженной игре
+// f1: 0 => 5 (05) при незагруженной игре
+// f2: 0 => 6 (06) при незагруженной игре
+// f3: 0 => 7 (07) при незагруженной игре
+
+// f8: 4 => 0(00) вход с СС
+// f8: 0 => 3(03) возврат из СС
+// f8: 3 => 4 (04) сфера сохранения
+
+// fa: 0 => 30(1E) мульт танцующей Юны
+// fa: 30 => 206 (CE) летит кораблик
+// fa: 206 => 182(B6) первая сценка на Цельсии
+// fa: 182 => 95(5F) вход с СС
+// fa: 95 => 146(92) вход в TrapCrerature
+// fa: 146 => 95(5F) возврат в СС
+// fa: 95 => 182(B6) возврат из СС
+
+// fb: 0 => 1(01) мульт танцующей Юны
+// fb: 1 => 0(00) летит кораблик
+// fb: 0 => 1(01) вход с СС
+// fb: 1 => 0(00) возврат из СС
+
+VAR|0xFC|4|GENERAL__PlayTime|PlayTime|EBytesBlockType.Timer
+VAR|0x100|2|UNK__ROOM5
+VAR|0x102|2|UNK__ROOM6
+VAR|0x104|2|UNK__ROOM7
+VAR|0x106|2|UNK__ROOM8
+
+VAR|0x108|292
+
+// 110: 0 => 2 (02) при незагруженной игре
+
+// 10c: 0 => 3(03) возврат из СС
+
+// 128: 1 => 0 (00) вышли из bsim
+// 128: 0 => 1 (01) вышли из bsim
+
+// 15c: 0 => 255(FF) НОВАЯ ИГРА
+// 15c: 255 => 184(B8) побили ЛеБлан
+// 15c: 184 => 255(FF) ЛеБлан сбежала, сценка на лестнице в доки
+// 15c: 255 => 185(B9) ЛеБлан сбежала, сценка на лестнице в доки
+// 15c: 185 => 255(FF) дали управление Рикку
+// 15c: 255 => 187(BB) третий док, сценка с Юной, толстым и тощим
+// 15c: 187 => 255 (FF) мульт танцующей Юны
+// 15c: 255 => 182 (B6) летит кораблик
+// 15c: 182 => 255(FF) первая сценка на Цельсии
+// 15c: 255 => 182 (B6) первая сценка на Цельсии
+// 15c: 182 => 255(FF) вход с СС
+
+// 15d: 0 => 255(FF) НОВАЯ ИГРА
+// 15d: 255 => 0(00) побили ЛеБлан
+// 15d: 0 => 255(FF) ЛеБлан сбежала, сценка на лестнице в доки
+// 15d: 255 => 0(00) ЛеБлан сбежала, сценка на лестнице в доки
+// 15d: 0 => 255(FF) дали управление Рикку
+// 15d: 255 => 0(00) третий док, сценка с Юной, толстым и тощим
+// 15d: 0 => 255(FF) мульт танцующей Юны
+// 15d: 255 => 0 (00) летит кораблик
+// 15d: 0 => 255(FF) первая сценка на Цельсии
+// 15d: 255 => 0(00) первая сценка на Цельсии
+// 15d: 0 => 255(FF) вход с СС
+
+// 164: 0 => 5(05) побили ЛеБлан
+// 164: 0 => 5(05) ЛеБлан сбежала, сценка на лестнице в доки
+// 164: 5 => 4 (04) ЛеБлан сбежала, сценка на лестнице в доки
+// 164: 4 => 0 (00) ЛеБлан сбежала, сценка на лестнице в доки
+// 164: 5 => 0 (00) дали управление Рикку
+// 164: 0 => 5 (05) третий док, сценка с Юной, толстым и тощим
+// 164: 5 => 4 (04) мульт YRP в доках
+// 164: 5 => 4 (04) ЛеБлан переодевается в домашнее-)
+// 164: 4 => 0 (00) мульт танцующей Юны
+// 164: 0 => 5 (05) летит кораблик
+// 164: 5 => 4(04) первая сценка на Цельсии
+// 164: 4 => 0(00) первая сценка на Цельсии
+// 164: 0 => 13(0D) первая сценка на Цельсии
+// 164: 13 => 12 (0C) Шинра объявляет о Creature Creator
+// 164: 12 => 0(00) вход с СС
+
+// 166: 0 => 1 (01) Пэйн понтуется
+// 166: 1 => 0 (00) Пэйн понтуется
+// 166: 0 => 1 (01) ЛеБлан понтуется
+// 166: 1 => 0 (00) ЛеБлан понтуется
+// 166: 0 => 1 (01) Юна понтуется в доках
+
+// 168: 0 => 1 (01) что-то тикает в начале первого боя
+// 168: 1 => 2(02) что-то тикает в начале первого боя
+// 168: 2 => 3(03) что-то тикает в начале первого боя
+// 168: 3 => 4(04) что-то тикает в начале первого боя
+// 168: 4 => 5(05) что-то тикает в начале первого боя
+// 168: 5 => 6(06) что-то тикает в начале первого боя
+// 168: 8 => 0 (00) сбросилось после боя с ЛеБлан
+// 168: 0 => 1 => 1 => 0 (01) пошло с начала в сценке на лестнице в доки
+// 168: 1 => 2 (02) ... первая битва в доках
+// 168: 1 => 0 (00) вторая зона доков
+// 168: 0 => 1 (01) вторая зона доков
+// 168 ...
+// 168: 8 => 22 (16) первая битва с толстым и тощим
+// 168: 22 => 9 (09) пришла ЛеБлан
+
+// 178: 0 => 13 (0D) НОВАЯ ИГРА
+// 179: 0 => 2 (02) НОВАЯ ИГРА
+// 17c: 0 => 116 (74) НОВАЯ ИГРА
+// 17d: 0 => 245 (F5) НОВАЯ ИГРА
+// 17e: 0 => 251 (FB) НОВАЯ ИГРА
+// 17f: 0 => 10 (0A) НОВАЯ ИГРА
+// 188: 0 => 1 (01) НОВАЯ ИГРА
+
+VAR|0x22C|1
+// 22c : 0 => 8 - карта, после обучения про хотспоты
+// 22c: 8 => 9 - карта, 9%!, 3 хотспота: Бисайд, Занарканд, Биканель
+// 22c: 9 => 8 - карта, осталось 2 хотспота: Бисайд, Занарканд
+
+VAR|0x22D|1
+// 22d: 0 => 1 О`ака выбежал из-за спины на озере Макалания
+
+VAR|0x22E|1
+
+VAR|0x22F|1
+// 22f: 0 => 8 первый раз пришли к агенству Рина/О`аки на озере Макалания
+
+VAR|0x230|1
+
+VAR|0x231|1|null|SPReq - Mushroom Rock [76543210]|EBytesBlockType.SPReq
+// 231[0] вошли на Mushroom Road
+// 231[1] Класко отправлен показывать дорогу
+// 231[2] Класко жалуется, что хочет Чокобо
+// 231[3] Увидели, что толстый и тощий спрыгнули к пещере
+// 231[4] Закончили миссию в Mushroom Rock
+// 231[5] Класко просится на корабль
+// 231[6] Let Clasko join airship
+// 231[7] после интро Youth League HQ
+
+VAR|0x232|1
+// 232[0] 0 => 1 - Люсиль не пускает нас в YL HQ
+// 232[1] 5 => 15 закончился монолог деда Maechen
+// 232[2] 1 => 5 - Люсиль рассказывает про воров сфер
+// 232[3] 5 => 15 закончился монолог деда Maechen
+// 232[4] ?
+// 232[5] ?
+// 232[6] 15 => 79 ch2, Яйбал порадовался нашему прибытию и убежал по делам
+// 232[7] ?
+
+VAR|0x233|1
+// 233[0] ?
+// 233[1] 0 => 2 закончилась сценка с расспросами Пейн о Нудже, получили CS7
+// 233[2] 2 => 6 убили Ochu
+// 233[3] 6 => 14 убили второго Ochu 
+// 233[4] ?
+// 233[5] ?
+// 233[6] 14 => 78 ch2, начата миссия по поиску сферы и одежки в Джозе
+// 233[7] ?
+
+VAR|0x234|1|null|SPReq - Shinra placing comm spheres f1 [---43---]|EBytesBlockType.BAD
+// 234[0] ?
+// 234[1] ?
+// 234[2] ?
+// 234[3] "Shinra seen placing a comm sphere at Mushroom Rock Road, but then he moves it"
+// 234[4] закончилась сценка с расспросами Пейн о Нудже, получили CS7
+// 234[5] ?
+// 234[6] ?
+// 234[7] ?
+
+VAR|0x235|4
+// 236[0] ?
+// 236[1] ?
+// 236[2] ?
+// 236[3] ?
+// 236[4] ?
+// 236[5] ?
+// 236[6] 128 => 192 поднялись на лифте из Mushroom rock к YL HQ
+// 236[7] 0 => 128 нашли CS9, уроненную толстым и тощим у пещеры
+
+// 237[0] 0 => 1 ch2, YL HQ, поговорили с Elma и Lucile 
+// 237[1] 1 => 3 ch2, YL HQ, Yaibal не пускает нас в штаб-квартиру
+// 237[2] ?
+// 237[3] ?
+// 237[4] ?
+// 237[5] ?
+// 237[6] ?
+// 237[7] ?
+
+VAR|0x239|1|null|SPReq - Character intros [--543210]|EBytesBlockType.BAD
+// 239[0] Rikku
+// 239[1] Shinra
+// 239[2] Buddy
+// 239[3] Brother
+// 239[4] Paine
+// 239[5] Barkeeper
+// 239[6] ?
+// 239[7] ?
+
+VAR|0x23A|1
+
+VAR|0x23B|1
+// 0f: 0 => 1 после сценки "comfort him"
+// 0f: 1 => 9 выплатили долг Оаки
+
+VAR|0x23C|1
+
+VAR|0x23D|1|null|Celsius [-65----0]|EBytesBlockType.BAD
+// 23d[6] 0 => 64 открылась дверь в бар; 11: 64 => 0 - закрылась
+// 23d[0] в начале второй главы 11: 0 => 1 - просмотр сферы с Вегнаганом
+// 23d[5] 11: 1 => 33 попытка выйти с мостика к сфере сохранения, Братец рассказывает про автостопщиков-музыкантов
+
+VAR|0x23E|2
+
+VAR|0x240|1
+// 240[5] 0 => 32 ch2, карта, хотспот в гуадосаламе
+// 240[3] 32 => 40 ch2, карта, хотспот в Calm Lands (Класко)
+// 240[3] 40 => 32 ch2, карта, исчез хотспот в Calm Lands (Класко)
+// 240[0] 32 => 33 ch2, карта, 2 хотсплта: гуадосалам и джозе
+
+VAR|0x241|1|null|ride lift [0<->1]|EBytesBlockType.Flag
+// 241: 15 - флаг езды на лифте Цельсия
+
+VAR|0x242|2
+
+VAR|0x244|1|null|Celcius`s current Location|EBytesBlockType.Flag
+
+VAR|0x245|5
+
+VAR|0x24A|1
+// 24a: 0 => 1 закончена миссия в Люке - летит кораблик
+// 24a: 1 => 2 закончена миссия в Занарканде - летит кораблик
+// 24a: 2 => 0 закончена миссия в Бесайде 
+// 24a: 0 => 1 ch2, закончена миссия в Бесайде - летит кораблик
+// 24a: 1 => 2 ch2, закончена миссия в Миихен - летит кораблик
+// 24a: 2 => 3 ch2, закончена миссия в Макалании - летит кораблик
+
+VAR|0x24B|10
+// 24b: 0 => 2 закончена глава 1
+
+VAR|0x255|1|null|CHESTS Mushroom Rock [--543-10]|EBytesBlockType.BAD
+// 255[0] 8 => 9 сундук с Restless Sleep GG
+// 255[1] 57 => 59 ch2, Mythril Bangle
+// 255[2] ?
+// 255[3] 0 => 8 сундук с 1000 gil
+// 255[4] 9 => 25 ch2, Gil x1500
+// 255[5] 25 => 57 ch2, Hi-Potion
+// 255[6] ?
+// 255[7] ?
+
+VAR|0x256|1|null|CHESTS Mushroom Rock [-654321-]|EBytesBlockType.BAD
+// 256[0] ? 
+// 256[1] 0 => 2 сундук с Turbo Ether
+// 256[2] 2 => 6 сундук с Phoenix Down
+// 256[3] 6 => 14 сундук с Hi-Potion
+// 256[4] 14 => 30 ch2, Turbo Ether
+// 256[5] 30 => 62 ch2, Phoenix Down
+// 256[6] 62 => 126 ch2, Ether
+// 256[7] ?
+
+VAR|0x257|1|null|CHESTS Mushroom Rock [----32--]|EBytesBlockType.BAD
+// 257[0] ?
+// 257[1] ?
+// 257[2] 0 => 4 сундук с Favorite Outfit
+// 257[3] 4 => 12 ch2, Shining Bracer
+// 257[4] ?
+// 257[5] ?
+// 257[6] ?
+// 257[7] ?
+
+VAR|0x258|1
+
+VAR|0x259|1|null|CHESTS Macalania Lake [------10]|EBytesBlockType.BAD
+// 259[0] 0 => 1 Hi-Potion
+// 259[1] 1 => 3 ch2,  Hi-Potion x2
+// 259[2] ?
+// 259[3] ?
+// 259[4] ?
+// 259[5] ?
+// 259[6] ?
+// 259[7] ?
+
+VAR|0x25A|1|null|CHESTS Celsius - Engine Room [76543210]|EBytesBlockType.StoryPoint
+// 25a[0] 14 => 15 Potion x4
+// 25a[1] 12 => 14 Phoenix Down x4
+// 25a[2] 0 => 4 сундук с Remedy x2
+// 25a[3] 4 => 12 Ether
+// 25a[4] 207 => 223 ch2, Potion x8
+// 25a[5] 223 => 255 ch2, Phoenix Down x5
+// 25a[6] 143 => 207 ch2, Remedy x4
+// 25a[7] 15 => 143 ch2, Ether x2
+
+VAR|0x25B|4
+
+VAR|0x25F|1|null|SPReq - Yuna Flags 1 [----3210]|EBytesBlockType.BAD
+// 25f[0] 4 => 5 - Юна присоединилась к отряду
+// 25f[1] 5 => 7 - Юна танцует
+// 25f[2] 0 => 4 - "talked with Yuna-the-Moogle on dock in the Prologue"
+// 25f[3] 7 => 15 - миссия в люке: Юна выпрыгивает 
+// 25f[4] ?
+// 25f[5] ?
+// 25f[6] ?
+// 25f[7] ?
+
+VAR|0x260|1|null|TreasureSpheres menu selected sphere|EBytesBlockType.Cursor
+
+VAR|0x261|7
+
+VAR|0x268|1|null|SPReq - Slept in airship cabin by acts [---43210]|EBytesBlockType.BAD
+
+VAR|0x269|3
+
+VAR|0x26C|1
+// 26c: 0 => 1 первый вход в Занарканд
+// 26c: 1 => 2 диалог с Исаару на входе в Занарканд
+// 26c: 2 => 3 вошли в Dome
+// 26c: 3 => 4 увидели детишек|узнали пароль
+// 26c: 4 => 5 вошли в Dome Interior
+// 26c: 5 => 6 диалог с Пасе
+// 26c: 6 => 7 сценка в Dome - Cloister of Trials
+// 26c: 7 => 8 разговор с Сидом
+// 26c: 8 => 9 разговор с толстяком Dome - Cloister of Trials
+// 26c: 9 => 10 вошли в Dome - The Beyond
+// 26c: 10 => 11 ????: Muahahahaha!
+// 26c: 11 => 12 закончили миссию
+
+VAR|0x26D|1
+
+VAR|0x26E|1
+// 26e: 0 => 1 диалог с Исаару на входе в Занарканд
+
+VAR|0x26F|1
+
+VAR|0x270|1
+// 270: 0 => 1 закончился диалог с Пасе
+// 270: 1 => 2 сценка со вторым гуном
+// 270: 2 => 3 сценка с третьм гуном
+
+VAR|0x271|1
+
+VAR|0x272|15
+
+// 277: 0 => 1 поговорили с гидом Dome - Chamber of the Fayth
+
+// 27c: 0 => 1 закончили диалог с Исаару в The Beyond
+// 27c: 1 => 0 закончили миссию
+
+VAR|0x281|4|null|Glossary NAV flags|EBytesBlockType.Cursor
+
+VAR|0x285|1|null|CHESTS Zararkand f1 [-------0]|EBytesBlockType.BAD
+// 285: 0 => 1 Mega-Phoenix
+
+VAR|0x286|1|null|CHESTS Zararkand f2 [-------0]|EBytesBlockType.BAD
+// 286: 0 => 1 Phoenix Down
+
+VAR|0x287|1 
+// 287: 0 => 1 вошли в Dome - Corridor
+
+VAR|0x288|9
+
+VAR|0x291|1|null|CHESTS Zararkand f3 [-------0]|EBytesBlockType.BAD
+// 291: 0 => 1 Remedy x2
+
+VAR|0x292|1|null|CHESTS Zararkand f4 [-------0]|EBytesBlockType.BAD
+// 292: 0 => 1 Hi-Potion
+
+VAR|0x293|1|null|CHESTS Zararkand f5 [-------0]|EBytesBlockType.BAD
+// 293: 0 => 1 Phoenix Down
+
+VAR|0x294|1|null|CHESTS Zararkand f6 [-------0]|EBytesBlockType.BAD
+// 294: 0 => 1 Remedy
+
+VAR|0x295|1|null|CHESTS Zararkand f7 [-------0]|EBytesBlockType.BAD
+// 295: 0 => 1 Ether
+
+VAR|0x296|1|null|CHESTS Zararkand f8 [-------0]|EBytesBlockType.BAD
+// 296: 0 => 1 Elixir
+
+VAR|0x297|21
+
+VAR|0x2AC|2|QUEST__Timer|Floating Ruins Mission Timer|EBytesBlockType.Timer
+
+VAR|0x2AE|13
+
+// 2b4: 0 => 1 вошли на Moonflow
+// 2b4: 1 => 3 разговор с Тобли
+// 2b4: 1 => 5 начали миссию по сопровождению гипелло 
+// 2b4: 5 => 7 довели гипелло без потерь
+// 2b4: 3 => 11 ch2, начали миссию 
+
+// 2b8: 0 => 17 довели гипелло без потерь
+// 2b8: 0 => 20 довели гипелло без потерь без предварительного разговора с Тобли...
+
+VAR|0x2BB|1|null|SPReq - Guadosalam f1 [---43210]|EBytesBlockType.BAD
+// 2bb[0] 0 => 1 intro Гуадосалам
+// 2bb[1] 1 => 3 intro Farplane в Гуадосаламе
+// 2bb[2] 3 => 7 ch2, купили подсказку в Гуадосаламе
+// 2bb[3] 23 => 31 ch2, закончили мини-игру по продаже "секретных данных"
+// 2bb[4] 7 => 23 ch2, сценка с охраной Шато Леблан
+
+VAR|0x2BC|5
+
+VAR|0x2C1|2|null|Data Traiding: customers flags|EBytesBlockType.Flag
+VAR|0x2C3|1|null|SPReq - Gagazet Ch.1 f1 [-----21-]|EBytesBlockType.BAD
+// 2c3[1] 0 => 2 прилетели в Гагазет|после мультика с речью Юны
+// 2c3[2] 2 => 6 Гагазет|глава 1|закончили диалог с Гариком
+
+VAR|0x2C4|1
+
+VAR|0x2C5|1|null|SPReq - Floating Ruins Mission f1 [-6543210]|EBytesBlockType.BAD
+// 2c5[0] 0 => 1 получили управление
+// 2c5[1] 1 => 3 Let`s find another way
+// 2c5[2] 3 => 7 does this machina still works?
+// 2c5[3] 7 => 15 how about me?
+// 2c5[4] 79 => 95 побили Leblanc и придурков
+// 2c5[5] 95 => 127 началась гонка
+// 2c5[6] 15 => 79 laught while you can
+// 2c5[7] ?
+VAR|0x2C6|1|null|SPReq - Floating Ruins Mission f2 [---43-10]|EBytesBlockType.BAD
+// 2c6[0] 0 => 1 you know how i hate the damp!
+// 2c6[1] 1 => 3 побили Орми
+// 2c6[2] ?
+// 2c6[3] 3 => 11 таймер остановился
+// 2c6[4] 11 => 27 it comes
+// 2c6[5] ?
+// 2c6[6] ?
+// 2c6[7] ?
+VAR|0x2C7|1|null|SPReq - Floating Ruins Mission f3 [-----2-0]|EBytesBlockType.BAD
+// 2c7: 0 => 1 таймер остановился
+// 2c7: 1 => 5 whould you stop staring
+
+VAR|0x2C8|2
+
+VAR|0x2CA|1|null|Dialog: Gagazet,ch1 - Garik|EBytesBlockType.Flag
+VAR|0x2CB|1|null|Dialog: Gagazet,ch1 - Garik answer|EBytesBlockType.Cursor
+// 2cb[1] 0 => 2 - 1-й пункт
+// 2cb[2] 0 => 4 - 2-й пункт
+// 2cb[3] 0 => 8 - 3-й пункт
+VAR|0x2CC|1|null|Dialog: Gagazet,ch1 - Ronso1|EBytesBlockType.Flag
+VAR|0x2CD|1|null|Dialog: Gagazet,ch1 - Ronso1 answer|EBytesBlockType.Cursor
+// 2cd[1] 0 => 2 - 1-й пункт
+// 2cd[2] 0 => 4 - 2-й пункт
+// 2cd[3] 0 => 8 - 3-й пункт
+VAR|0x2CE|1|null|Dialog: Gagazet,ch1 - She-Ronso1|EBytesBlockType.Flag
+VAR|0x2CF|1|null|Dialog: Gagazet,ch1 - She-Ronso1 answer|EBytesBlockType.Cursor
+// 2cf[1] 0 => 2 - 1-й пункт
+// 2cf[2] 0 => 4 - 2-й пункт
+// 2cf[3] 0 => 8 - 3-й пункт
+VAR|0x2D0|1|null|Dialog: Gagazet,ch1 - Ronso2|EBytesBlockType.Flag
+VAR|0x2D1|1|null|Dialog: Gagazet,ch1 - Ronso2 answer|EBytesBlockType.Cursor
+// 2d1[1] 0 => 2 - 1-й пункт
+// 2d1[2] 0 => 4 - 2-й пункт
+// 2d1[3] 0 => 8 - 3-й пункт
+VAR|0x2D2|1|null|Dialog: Gagazet,ch1 - Ronso3|EBytesBlockType.Flag
+VAR|0x2D3|1|null|Dialog: Gagazet,ch1 - Ronso3 answer|EBytesBlockType.Cursor
+// 2d3[1] 0 => 2 - 1-й пункт
+// 2d3[2] 0 => 4 - 2-й пункт
+// 2d3[3] 0 => 8 - 3-й пункт
+VAR|0x2D4|1|null|Dialog: Gagazet,ch1 - Ronso4|EBytesBlockType.Flag
+VAR|0x2D5|1|null|Dialog: Gagazet,ch1 - Ronso4 answer|EBytesBlockType.Cursor
+// 2d5[1] 0 => 2 - 1-й пункт
+// 2d5[2] 0 => 4 - 2-й пункт
+// 2d5[3] 0 => 8 - 3-й пункт
+VAR|0x2D6|1|null|Dialog: Gagazet,ch1 - Cave Ronso1|EBytesBlockType.Flag
+VAR|0x2D7|1|null|Dialog: Gagazet,ch1 - Cave Ronso1 answer|EBytesBlockType.Cursor
+// 2d7[1] 0 => 2 - 1-й пункт
+// 2d7[2] 0 => 4 - 2-й пункт
+// 2d7[3] 0 => 8 - 3-й пункт
+
+VAR|0x2D8|14
+
+VAR|0x2E6|1|null|CHESTS Floating Ruins [-6543210]|EBytesBlockType.BAD
+// 2e6[0] сундук с Yellow Ring
+// 2e6[1] сундук с Muscle Belt // if time`s up will be EMPTY!!!
+// 2e6[2] сундук с Red Ring
+// 2e6[3] сундук с Star Pendant
+// 2e6[4] сундук с Mega-Phoenix
+// 2e6[5] сундук с Elixir
+// 2e6[6] сундук с White Ring
+// 2e6[7] ? 
+
+VAR|0x2E7|5
+
+VAR|0x2EC|4|PR__OpenAirCredits|OpenAir credits
+VAR|0x2F0|4|PR__ArgentCredits|Argent credits
+
+VAR|0x2F4|4
+
+VAR|0x2F8|1
+// 2f8: 0 => 2 ch2, Mi`ihen road mission, попросили помощи у женщины у ховера
+// 2f8: 2 => 3 ch2, Mi`ihen road mission, прибежал мужик, говорит, что Калли в беде
+// 2f8: 3 => 0 ch2, Mi`ihen road mission, вернули управление
+// 2f8: 0 => 150 ch2, Mi`ihen road mission, вернули управление после сценки с Класко
+// 2f8: 150 => 136 перешли в след.зону
+// 2f8: 136 => 68 перешли в nord end
+// 2f8: 68 => 37 перешли в след.зону - ЯВНО ТАЙМЕР - осталось 37 секунд
+
+VAR|0x2F9|1|null|SPReq - Djose f1 [76543210]|EBytesBlockType.StoryPoint
+// 2f9[0] 0 => 1 первый вход в Джозе
+// 2f9[1] 1 => 3 после интро
+// 2f9[2] 35 => 39 очередь==4, можно войти в регистратуру
+// 2f9[3] 135 => 143 поговорили с регистратором
+// 2f9[4] 47 => 63 охрана храма расступилась
+// 2f9[5] 3 => 35 поговорили с парнем в желтой рубашке слева перед входом в храм
+// 2f9[6] 159 => 223 поговорили с женщиной возле сферы сохранения
+// 2f9[7] 3 => 131 поговорили с толстяком справа от входа в храм
+VAR|0x2FA|1|null|SPReq - Djose f2 [-----210]|EBytesBlockType.BAD
+// 2fa[0] 0 => 1 // поговорили с женщиной в красном жилете справа перед входом в храм
+// 2fa[1] 0 => 2 // Гиппал позвал на мост
+// 2fa[2] 2 => 6 // "we`re sure" на вопрос Гиппала
+// 2fa[3] ?
+// 2fa[4] ?
+// 2fa[5] ?
+// 2fa[6] ?
+// 2fa[7] ?
+VAR|0x2FB|1|null|Djose: Registation Queue|EBytesBlockType.Flag
+
+VAR|0x2FC|27
+
+// 2ff: 0 => 64 intro Thunder Plains
+// 2ff: 64 => 66 поговорили с первым Аль-Бедом у сферы сохранения
+
+// 300: 0 => 1 ch2, Thunder Plains, разговор с Сидом
+
+VAR|0x317|1|null|SPReq - Shinra placing comm spheres f2 [----3--0]|EBytesBlockType.BAD
+// 317[0] "Shinra spotted installing sphere on Mi`ihen Highroad"
+// 317[1] ?
+// 317[2] ?
+// 317[3] "Shinra seen placing a comm sphere at Calm Land Agency"
+// 317[4] ?
+// 317[5] ?
+// 317[6] ?
+// 317[7] ?
+VAR|0x318|1|null|SPReq - Shinra placing comm spheres f3 [7-5-----]|EBytesBlockType.BAD
+// 318[0] ?
+// 318[1] ?
+// 318[2] ?
+// 318[3] ?
+// 318[4] ?
+// 318[5] "Shinra dropped a comm sphere on Mi`ihen Highroad"
+// 318[6] ?
+// 318[7] "Shinra seen placing a comm sphere in chocobo ranch"
+
+VAR|0x319|5
+
+VAR|0x31E|1|null|SPReq - Calm Lands f1 [76-43210]|EBytesBlockType.BAD
+// 31e[0] 0 => 1 // после интро в Calm Lands
+// 31e[1] 1 => 3 // подписались на PR OpenAir
+// 31e[2] 1 => 5 // подписались на PR Argent
+// 31e[3] 3 => 11 // диалог со сватом
+// 31e[4] 11 => 27 подписались в сваты
+// 31e[5] ?
+// 31e[6] 155 => 219 ch2, Calm Lands, диалог с Класко, где он просит очистить ферму
+// 31e[7] 27 => 155 ch2, Calm Lands, Класко пожаловался на монстров на своем будущем ранчо
+VAR|0x31F|1|null|SPReq - Calm Lands f2 [-6-4--10]|EBytesBlockType.BAD
+// 31f[0] 0 => 1 ch2, Calm Lands, началась миссии по очистке ранчо
+// 31f[1] 17 => 19 ch2, Calm Lands, закончили миссию, разблокировали ловлю чокобо
+// 31f[2] ?
+// 31f[3] ?
+// 31f[4] 1 => 17 ch2, Calm Lands, перебили 5 монстров, сценка с элементалем
+// 31f[5] ?
+// 31f[6] 19 => 83 ch2, Calm Lands, прошли обучение по ловле чокобо
+// 31f[7] ?
+VAR|0x320|1|null|Chocobo Ranch Cleanup: killed monsters count
+
+VAR|0x321|16
+
+// 324: 0 => 4 (04) обучение сферы сохранения
+
+// 32c: 0 => 1 // вошли в Килику
+// 32c: 1 => 3 // Килика, баловство перед миссией|Residental Area - перед воротами
+
+// 32d: 0 => 1 // сценка в Килике перед домом Доны
+// 32d: 1 => 2 // охрана открыла ворота в лес
+
+// 32e: 0 => 1 миссия, сценка в толпой в лесу прямо -> hand over the sphere!
+// 32e: 1 => 2 миссия, сценка с тропинкой сверху
+// 32e: 2 => 3 сценка с подглядыванием
+// 32e: 3 => 4 назвали 1-й пароль `craven`
+
+VAR|0x331|1|null|Bikanel(ch1) Mission progress|EBytesBlockType.BAD
+// 331: 0 => 1 нас притащили в лагерь на Биканель
+// 331: 1 => 3 поговорили еще раз с мужиком слева от ховера - Надала приехала
+// 331: 3 => 4 показали письмо Надале
+// 331: 4 => 5 миссия по перым раскопкам завершена
+// 331: 5 => 6 Надала попрощалась
+VAR|0x332|1|null|Bikanel: Nhadala waiting progress flag 1|EBytesBlockType.Flag
+// 332: 0 => 1 подошли в мужику справа от ховера;
+// 332: 1 => 0 Надала приехала
+VAR|0x333|1|null|Bikanel: Nhadala waiting progress flag 2|EBytesBlockType.Flag
+// 333: 0 => 1 пилот отправил нас к Надале;
+// 333: 1 => 0 Надала приехала
+VAR|0x334|1|null|Bikanel: Nhadala waiting progress flag 3|EBytesBlockType.Flag
+// 334: 0 => 1 поговорили с мужиком слева от ховера;
+// 334: 1 => 0 Надала приехала
+
+VAR|0x335|1
+
+VAR|0x336|1|null|Digging: target item captured|EBytesBlockType.Flag
+VAR|0x337|1|null|Digging: isOver flag|EBytesBlockType.Flag
+
+VAR|0x338|1
+VAR|0x339|1
+VAR|0x33A|1
+VAR|0x33B|1
+
+VAR|0x33C|4|DIGGING__Total|Digging: total count
+VAR|0x340|4|DIGGING__Successful|Digging: successful count
+VAR|0x344|4|DIGGING__Failed|Digging: failed count
+
+VAR|0x348|14
+
+// 354: 0 => 1 Dona: Well|look who we have here.
+
+VAR|0x356|4|null|SBMatch: Entry Coins
+
+VAR|0x35A|10
+
+// 361: 0 => 1 Килика ch2, intro сценка
+
+// 362: 0 => 1 назвали 3-й пароль
+// 362: 1 => 2 назвали 4-й пароль
+
+VAR|0x364|1|null|CHESTS Kilika f1 [------1-]|EBytesBlockType.BAD
+// 364[0] ?
+// 364[1] 0 => 2 ch2??? Turbo Ether
+// 364[2] ?
+// 364[3] ?
+// 364[4] ?
+// 364[5] ?
+// 364[6] ?
+// 364[7] ?
+VAR|0x365|1|null|CHESTS Kilika f2 [-6--3--0]|EBytesBlockType.BAD
+// 365[0] 0 => 1 сундук с Antidote x2
+// 365[1] ?
+// 365[2] ?
+// 365[3] 1 => 9 сундук с Eye Drops x2
+// 365[4] ?
+// 365[5] ?
+// 365[6] 9 => 73 сундук с Phoenix Down
+// 365[7] ?
+VAR|0x366|1|null|CHESTS Kilika f3 [7--4--1-]|EBytesBlockType.BAD
+// 366[0] ?
+// 366[1] 128 => 130 сундук с Star Curtain
+// 366[2] ?
+// 366[3] ?
+// 366[4] 130 => 146 сундук с Holy Water x2
+// 366[5] ?
+// 366[6] ?
+// 366[7] 0 => 128 сундук с Lunar Curtain
+VAR|0x367|1|null|CHESTS Kilika f4 [--5--2--]|EBytesBlockType.BAD
+// 367[0] ?
+// 367[1] ?
+// 367[2] 0 => 4 сундук с Light Curtain
+// 367[3] ?
+// 367[4] ?
+// 367[5] 4 => 36 Megalixir
+// 367[6] ?
+// 367[7] ?
+VAR|0x368|1|null|CHESTS Kilika f5 [-------0]|EBytesBlockType.BAD
+// 368[0] 0 => 1 сундук с 1500 gil
+// 368[1] ?
+// 368[2] ?
+// 368[3] ?
+// 368[4] ?
+// 368[5] ?
+// 368[6] ?
+// 368[7] ?
+
+VAR|0x369|15
+
+// 36c: 0 => 1 поговорили с Троммелем второй раз
+// 36c: 1 => 2 поговорили с Троммелем третий раз
+// 36c: 2 => 100 поговорили с Троммелем четвертый раз|он отдал сцец.сферу Пэйн
+
+// 370: 0 => 1 ch2, завербовали Pukutak
+// 370: 1 => 2 ch2, завербовали Donga
+
+VAR|0x378|1|VIAINFINITO__FLOOR|Via Infinito Floor
+
+VAR|0x379|13
+
+VAR|0x386|1
+// 386: 0 => 2 // Macalania ch2, разговор с гипелло
+// 386: 2 => 6 // Macalania ch2, согласились поискать музыкантов
+
+VAR|0x387|1|null|Macalania Woods f1 [--54-210]|EBytesBlockType.BAD
+// 387[0] 0 => 1 ch2, нашли ближайшего музыканта
+// 387[1] 1 => 3 ch2, нашли еще одного музыканта тут-же
+// 387[2] 19 => 23 еще один "левый" музыкант
+// 387[3] ?
+// 387[4] 3 => 19 ch2, нашли Pukutak
+// 387[5] 23 => 55 ch2, нашли Donga
+// 387[6] ?
+// 387[7] ?
+VAR|0x388|1|null|SPReq - O`aka f1 [7-5-3210]|EBytesBlockType.BAD
+// 388[0] Начата миссия по поимке О`аки
+// 388[1] Нашли за деревом в Macalania Woods - North
+// 388[2] Нашли в Macalania Woods - Central
+// 388[3] Нашли в Macalania Woods - South
+// 388[4] ?
+// 388[5] Поймали в Macalania Woods - Campsite
+// 388[6] ?
+// 388[7] "Allowed O`aka to lay low on your ship"
+VAR|0x389|1|null|SPReq - Macalania f1 [----3210]|EBytesBlockType.BAD
+// 389[0] 0 => 1 intro Macalania
+// 389[1] 1 => 3 Bayra жалуется
+// 389[2] 3 => 7 Pukutak жалуется
+// 389[3] 7 => 15 Donga жалуется
+VAR|0x38A|1|null|SPReq - Macalania f2 [----32--]|EBytesBlockType.BAD
+// 38a: 0 => 4 поговорили с Троммелем первый раз
+// 38a: 4 => 12 Троммель устал, Троммель уходит-))
+VAR|0x38B|1|null|SPReq - Bevelle f1 [---43--0]|EBytesBlockType.BAD
+// 38b[0] 0 => 1 получили управление после интро Бевеля
+// 38b[3] 1 => 9 intro Bevelle - Central
+// 38b[4] 9 => 25 Баралай ушел
+
+VAR|0x38C|5
+
+VAR|0x391|1|null|SPReq - Luca Mission [-65-321-]|EBytesBlockType.BAD
+// 391[1] 0 => 2 начало миссии в Люке
+// 391[2] 2 => 6 получили управление
+// 391[3] 6 => 14 получили управление на площади - ща будем шарики раздавать
+// 391[5] 14 => 46 получили шарики
+// 391[6] 46 => 110 it`s starting!
+
+VAR|0x392|13
+// 392: 0 => 128 ch2, закончились сценки|вернули управление
+
+// 399: 0 => 32 ch2, Luca - Shelinda подарила Covetous GG после интервью
+
+// 39a: 0 => 64 Баралай подарил Circlet
+
+VAR|0x39F|1|null|CHESTS Macalania f1 [--54--10]|EBytesBlockType.BAD
+// 39f[0] 16 => 17 Turbo Ether
+// 39f[1] 17 => 19 ch2, Silver Bracer
+// 39f[4] 0 => 16 сундук с White Ring
+// 39f[5] 19 => 51 ch2, Icy Gleam
+
+VAR|0x3A0|12
+
+VAR|0x3AC|2|DOGHUNT__TimerFrames|Dog Hunt: Timer (in frames)|EBytesBlockType.Timer
+
+VAR|0x3AE|2
+
+VAR|0x3B0|2|DOGHUNT__Score|Dog Hunt: Score // MAX = 9999
+VAR|0x3B2|2|BESAIDCAVE__Code1|BesaidCavePuzzle1Code
+VAR|0x3B4|2|BESAIDCAVE__Code2|BesaidCavePuzzle2Code
+VAR|0x3B6|2|DOGHUNT__YunaHP|Dog Hunt: Yuna`s HP // MAX = 9999
+VAR|0x3B8|2|DOGHUNT__AmmoCount|Dog Hunt: Ammo // MAX = 9999
+VAR|0x3BA|1|null|CHESTS Besaid f1 [7-5-3-10]|EBytesBlockType.BAD
+// 3ba[0] 0 => 1 Potion x2
+// 3ba[1] 33 => 35 ch2, Potion x3
+// 3ba[2] ?
+// 3ba[3] 129 => 137 сундук с Mega-Potion
+// 3ba[4] ?
+// 3ba[5] 1 => 33 ch2, Ether x2
+// 3ba[6] ?
+// 3ba[7] 1 => 129 сундук с Ether x4
+VAR|0x3BB|1|null|CHESTS Besaid f2 [-------0]|EBytesBlockType.BAD
+// 3bb[0] 0 => 1 сундук с Raging Giang GG
+// 3bb[1] ?
+// 3bb[2] ?
+// 3bb[3] ?
+// 3bb[4] ?
+// 3bb[5] ?
+// 3bb[6] ?
+// 3bb[7] ?
+
+VAR|0x3BC|1
+
+VAR|0x3BD|1|null|CHESTS Besaid f3 [----32--]|EBytesBlockType.BAD
+// 3bd[0] ?
+// 3bd[1] ?
+// 3bd[2] 0 => 4 Chocobo Wing x2
+// 3bd[3] 4 => 12 ch2, Wall Ring - под водопадом
+// 3bd[4] ?
+// 3bd[5] ?
+// 3bd[6] ?
+// 3bd[7] ?
+VAR|0x3BE|1|null|SPReq - Besaid f1 [-654-210]|EBytesBlockType.BAD
+// 3be[0] флаг, что у нас есть сфера поиска
+// 3be[1] парень-ткач в бандане
+// 3be[2] бегающий мальчишка в Great Hall 
+// 3be[3] ?
+// 3be[4] началась мини-игра по отстрелу собак; в 0 когда игра закончилась
+// 3be[5] открыли дверь в пещеру
+// 3be[6] кто-то из Auroch, или флаг сценки во 2-й главе, где они жалуются на Беклема...
+// 3be[7] ?
+
+VAR|0x3BF|1
+// 3bf: 0 => 128 ch2, продавщица говорит, что нашла и продала ключ бисайда
+
+VAR|0x3C0|1
+
+VAR|0x3C1|1|null|SPReq - Besaid f2 [-?5?3210]|EBytesBlockType.BAD
+// 3c1[0] 60 => 61 раскопали сферу в деревне
+// 3c1[1] 61 => 63 раскопали сферу перед деревней
+// 3c1[2] 48 => 52 раскопали сферу на водопадах
+// 3c1[3] 52 => 60 раскопали сферу в лагуне
+// 3c1[4] 32 => 48 достали сферу поиска из сундука в храме Бисайда
+// 3c1[4] 0 => 16 сундук закрыт
+// 3c1[5] 16 => 48 зашли в магазин
+// 3c1[6] 48 => 112 => 48 сценка с Лулу на уступе над деревней <=> вернулись в деревню // Лулу в зоне видимости 
+// 3c1[6] 48 => 112 ch2, разговор с Ваккой после просмотра сферы
+// 3c1[6] 48 => 112 ch2, разговор с Aurochs перед сферой сохранения во 2-й главе
+// 3c1[6] 112 => 48 ch2, закончена миссия 
+VAR|0x3C2|1|null|SPReq - Besaid f3 [--5----0]|EBytesBlockType.BAD
+// 3c2[0] 104 => 105 // открыли замок в пещере
+// 3c2[5] 0 => 32 // Brother: Any trouble?
+VAR|0x3C3|1|null|NPC - Besaid f1 [------10]|EBytesBlockType.BAD // флаги НПС в зоне видимости
+// 3c3[0] 0 => 1 // 1 = пацан в шапочке в Great Hall; 0 - в магазине; 1 = в деревне
+// 3c3[1] 1 => 3
+VAR|0x3C4|1|null|Missions - Besaid progress
+// 3c4: 0 => 1 intro Бисайда
+// 3c4: 1 => 2 Lulu: welcome back
+// 3c4: 2 => 3 сценка с Лулу на уступе над деревней
+// 3c4: 3 => 4 вернулись в деревню
+// 3c4: 4 => 5 Лулу зашла в палатку
+// 3c4: 5 => 8 проснулись
+// 3c4: 8 => 9 разговор с Лулу поутру
+// 3c4: 9 => 10 начата миссия
+// 3c4: 10 => 20 диалог с Ваккой
+// 3c4: 20 => 21 Brother: This is Brother. You alright|Yuna?
+// 3c4: 21 => 22 взяли сферу
+// 3c4: 22 => 23 второй диалог с Ваккой
+// 3c4: 23 => 24 просмотр сферы Бесайд
+// 3c4: 24 => 25 закончена миссия
+
+VAR|0x3C5|1
+// 3c5: 0 => 1 ch2, начата миссия на Бисайде
+// 3c5: 1 => 3 ch2, закончена миссия на Бисайде
+
+VAR|0x3C6|16
+
+VAR|0x3D6|1|BESAIDCAVE__DigitsOpenedMask|Besaid Cave1 Puzzle Flags
+VAR|0x3D7|1|DOGHUNT__DualShotAmmoCount|Dog Hunt: Dual Shot Ammo
+VAR|0x3D8|1|DOGHUNT__VolleyAmmoCount|Dog Hunt: Volley Ammo
+VAR|0x3D9|1|DOGHUNT__DeathAmmoCount|Dog Hunt: Death Ammo
+VAR|0x3DA|1|null|Dog Hunt: selected ammo
+
+VAR|0x3DB|1 // 0 => 1 ch2, началась миссия/мини-игра на Бисайде
+VAR|0x3DC|1 // 0 => 1 ch2, началась миссия/мини-игра на Бисайде
+VAR|0x3DD|1 // 0 => 1 ch2, началась миссия/мини-игра на Бисайде
+VAR|0x3DE|1 // 0 => 1 ch2, началась миссия/мини-игра на Бисайде или подняли Yuna HP до 9999
+
+VAR|0x3DF|4
+
+VAR|0x3E3|1|null|Dog Hunt: the Defender is alive|EBytesBlockType.Flag 
+
+VAR|0x3E4|4
+
+VAR|0x3E8|1|DOGHUNT__TotalKilled|Dog Hunt: Total Killed
+
+VAR|0x3E9|3
+
+VAR|0x3EC|1 // 3ec: 0 => 1 TicketSell: Pitched
+
+VAR|0x3ED|3 
+
+VAR|0x3F0|1 // 3f0: 0 => 1 TicketSell: Sold
+
+VAR|0x3F1|3 
+
+VAR|0x3F4|2 // 3f4 TicketSell: Profit
+
+VAR|0x3F6|2 
+
+VAR|0x3F8|4|UNK__ROOM__Gagazet1 // ЯВНО МИНИМУМ 2 БАЙТА
+// 3f8: 215 => 120 - меняются при переходах внутри пещеры во floating ruins
+// 3f8: 0 => 79 вошли в проход в миссии гагазет
+// 3f8: 79 => 65 перешли в след.комнату
+// 3f8: 65 => 45 вышли из прохода
+
+// 3f9: 0 => 1 вошли в проход в миссии гагазет
+
+VAR|0x3FC|4|UNK__ROOM__Gagazet2
+// 3fc: 4 => 26 - меняются при переходах внутри пещеры во floating ruins
+// 3fc: 0 => 68 вошли в проход в миссии гагазет
+// 3fc: 68 => 3 перешли в след.комнату
+// 3fc: 3 => 13 вышли из прохода
+
+VAR|0x400|4
+
+VAR|0x404|4|DATATRAIDING__FinalPrice|Data Traiding: final price
+VAR|0x408|4|DATATRAIDING__Price|Data Traiding: data price
+VAR|0x40C|1|DATATRAIDING__Customer|Data Traiding: customer idx|EBytesBlockType.Cursor
+
+VAR|0x40D|6 
+// 40d: 0 => 1 Tobli рад, что мы продали все 10 билетов
+
+VAR|0x413|1|null|Data Traiding: wrong try count
+VAR|0x414|1|null|Data Traiding: second hint used flag|EBytesBlockType.Flag
+
+VAR|0x415|1|null // ??? |Data Traiding: progress flags [------10]|EBytesBlockType.BAD
+// 415: 0 => 2 ch2, Гуадосалам, проиграли в мини-игру !!! НЕ НАШЛИ !!! покупателя
+// 415: 2 => 3 ch2, Гуадосалам, мини-игра завершена
+
+VAR|0x416|14|null|Ticket Sell: customers flags|EBytesBlockType.Flag
+// 416: 0 => 1 1000
+// 417: 0 => 1 1500
+// 418: 0 => 1 200
+// 419: 0 => 1 1500
+// 41a: 0 => 1 1000
+// 41b: 0 => 1 1500
+// 41c: 0 => 1 2000
+// 41d: 0 => 1 1500
+// 41e: 0 => 1 2000
+// 41f: 0 => 1 2000
+// 420: 0 => 1 500
+// 421: 0 => 1 2000
+// 422: 0 => 1 1500
+// 423: 0 => 1 2000
+
+VAR|0x424|1
+// 424: 0 => 1 ch2, начали миссию по продаже билетов на Moonflow
+// 424: 1 => 0 ch2, прервали/закончили миссию по продаже билетов на Moonflow
+
+VAR|0x425|19
+
+// 42d: 0 => 2 вошли на Миихен-Роуд
+// 42d: 2 => 6 ch2, в агенстве увидели девчонку
+// 42d: 6 => 14 ch2, Mi`ihen road mission, девченка ушла на уступ
+// 42d: 14 => 222 ch2, Mi`ihen road mission, начали миссию по поимке чокобо
+// 42d: 222 => 158 ch2, Mi`ihen road mission, отказались продолжать ловить чокобо
+// 42d: 222 => 190 ch2, Mi`ihen road mission, прибежал мужик сообщить, что Калли в беде, вернули управление
+
+// 42e: 0 => 4 ch2, Mi`ihen road mission, прибежал мужик сообщить, что Калли в беде
+// 42e: 0 => 2 ch2, Mi`ihen road mission, попросили помощи у женщины у ховера
+// 42e: 2 => 11 ch2, Mi`ihen road mission, прибежал мужик сообщить, что Калли в беде, вернули управление
+// 42e: 11 => 59 ch2, Mi`ihen road mission, вернули управление после сценки с Класко
+// 42e: 59 => 187 ch2, Mi`ihen road mission, успели добежать до Eater`а
+// 42e: 187 => 147 ch2, Mi`ihen road mission закончена
+
+// 42f: 0 => 4 ch2, Mi`ihen road mission, перешли в North End
+// 42f: 4 => 5 ch2, Mi`ihen road mission, побили Eater`а
+// 42f: 5 => 6 ch2, Mi`ihen road mission закончена
+// 42f: 6 => 14 ch2, после миссии, спугнули гунов в North End
+// 42f: 14 => 30 ch2, Mi`ihen road, взяли Класко, Калли и чокобо на корабль
+
+// 430: 0 => 2 ch2, Mi`ihen road mission, прибежал мужик сообщить, что Калли в беде, вернули управление
+// 430: 2 => 4 ch2, Mi`ihen road mission, сразу после предыдущего прошло сохранение
+
+// 437: 0 => 1 ch2, Mi`ihen road mission, количество провальных попыток поймать чокобо в пределах миссии // сбрасывается в 0 при начале миссии заново // при 10 начинается следующий этап с Калли
+
+VAR|0x438|1|null|SPReq - Mi`ihen Road Mission f1 [7-5--210]|EBytesBlockType.BAD
+// 438[0] 128 => 129 Рикку свалилась на робота
+// 438[1] 133 => 135 ch2, Mi`ihen road mission закончена
+// 438[2] 129 => 133 ch2, Mi`ihen road mission, успели добежать до Eater`а
+// 438[3] ?
+// 438[4] ?
+// 438[5] "Destroyed a machina on the ledge off the road"
+// 438[6] ?
+// 438[7] увидели мини-eater на нижней дороге Mi`ihen
+VAR|0x439|1|null|SPReq - Mi`ihen Road f2 [-----2-0]|EBytesBlockType.BAD
+// 439[0] поговорили с тренером макин в Highroad - Central
+// 439[2] "Machina destroying mission complete"
+
+VAR|0x43A|27
+
+// 446: 0 => 1 Mi`ihen Road, миссия, сундук с Chocobo Feather x2
+// 446: 1 => 3 Mi`ihen Road, миссия, сундук Chocobo Feather x3?
+
+VAR|0x455|1|null|CHESTS Mi`ihen Highroad f1 [--54--10]|EBytesBlockType.BAD
+// 455[0] 0 => 1 сундук с Phoenix Down x2
+// 455[1] 17 => 19 ch2, Phoenix Down x2
+// 455[2] ?
+// 455[3] ?
+// 455[4] 1 => 17 сундук с 500 gil
+// 455[5] 19 => 51 ch2, Gil x1000
+// 455[6] ?
+// 455[7] ?
+VAR|0x456|1|null|CHESTS Mi`ihen Highroad f2 [--54---0]|EBytesBlockType.BAD
+// 456[0] 0 => 1 сундук с Circlet
+// 456[4] 1 => 17 сундук с Antidote x2
+// 456[5] 17 => 49 Antidote x3
+VAR|0x457|1|null|CHESTS Mi`ihen Highroad f3 [---4---0]|EBytesBlockType.BAD
+// 457[0] 0 => 1 сундук с Holy Water x2
+// 457[4] 1 => 17 сундук с Iron Bangle
+VAR|0x458|1|null|CHESTS Mi`iher Highroad f4 [--54---0]|EBytesBlockType.BAD
+// 458[0] 0 => 1 сундук с Potion x2
+// 458[4] 1 => 17 сундук с Eye Drops x2
+// 458[5] 17 => 49 Eye Drops x3
+VAR|0x459|1|null|CHESTS Mi`iher Highroad f5 [---4---0]|EBytesBlockType.BAD
+// 459[0] 0 => 1 сундук с Potion
+// 459[4] 1 => 17 сундук с Echo Screen x2
+VAR|0x45A|1|null|CHESTS Mi`ihen Highroad f6 [--54---0]|EBytesBlockType.BAD
+// 45a[0] 16 => 17 сундук с Soft x2
+// 45a[4] 0 => 16 сундук с Phoenix Down x2
+// 45a[5] 17 => 49 Phoenix Down x3
+VAR|0x45B|1|null|CHESTS Mi`iher Highroad f7 [--54--10]|EBytesBlockType.BAD
+// 45b[0] 16 => 17 сундук с Mana Spring
+// 45b[1] 49 => 51 Ether
+// 45b[4] 0 => 16 сундук с Budget Grenate x2
+// 45b[5] 17 => 49 Grenate x2
+VAR|0x45C|1|null|CHESTS Djose Temple f1 [---4----]|EBytesBlockType.BAD
+// 45c[0] 16 => 17 сундук с Potion x2 
+// 45c[4] 0 => 16 сундук с Phoenix Down 
+VAR|0x45D|1|null|CHESTS Djose Temple f2 [-------0]|EBytesBlockType.BAD
+// 45d[0] 0 => 1 сундук с Echo Screen // Djose, Temple - left room
+VAR|0x45E|1|null|CHESTS Thunder Plains f1 [7---32--]|EBytesBlockType.BAD
+// 45e[2] 0 => 4 сундук с Echo Screen 
+// 45e[3] ch2, 132 => 140 Echo Screen x4
+// 45e[7] 4 => 132 Potion x2
+VAR|0x45F|1|null|CHESTS Thunder Plains f2 [--54---0]|EBytesBlockType.BAD
+// 45f[0] ch2, 48 => 49 Potion x3
+// 45f[4] 0 => 16 Black Chocker
+// 45f[5] ch2, 16 => 48 Pearl Necklace
+VAR|0x460|1|null|CHESTS Thunder Plains f3 [76---21-]|EBytesBlockType.BAD
+// 460[1] 0 => 2 Phoenix Down
+// 460[2] ch2, 194 => 198 Phoenix Down x2
+// 460[6] 2 => 66 Grenade x2
+// 460[7] ch2, 66 => 194 Silent Grenade x2
+VAR|0x461|1|null|CHESTS Thunder Plains f4 [---43---]|EBytesBlockType.BAD
+// 461[3] 0 => 8 Ether
+// 461[4] 8 => 24 ch2, Ether x2
+VAR|0x462|1|null|CHESTS Calm Lands f1 [-65-----]|EBytesBlockType.BAD
+// 462[5] 0 => 32 сундук с Ether
+// 462[6] 32 => 96 ch2, Ether x2
+VAR|0x463|1|null|CHESTS Calm Lands f2 [-65--21-]|EBytesBlockType.BAD
+// 463[5] 0 => 32 сундук с Chocobo feather x2 
+// 463[1] 0 => 2 сундук с Phoenix Down
+// 463[2] 0 => 4 ch2, Phoenix Down
+// 463[6] 4 => 68 ch2, Chocobo Wing x2 
+VAR|0x464|1|null|CHESTS Calm Lands f3 [-65--21-]|EBytesBlockType.BAD
+// 464[1] 0 => 2 Potion x2
+// 464[2] 34 => 38 ch2, Phoenix Down x2
+// 464[5] 2 => 34 Phoenix Down
+// 464[6] 38 => 102 ch2, Phoenix Down
+
+VAR|0x465|8
+
+VAR|0x46D|1|null|Digging: RANK UP get in this chapter
+VAR|0x46E|1|DIGGING__Rank|Digging: Rank
+
+VAR|0x46F|5
+
+// 470: 0 => 32 Килика женщина в синем что-то нашла
+
+VAR|0x474|1|SBMatch__CoinIdx__1|SBMatch: EntryCoins Indexes
+VAR|0x475|1|SBMatch__CoinIdx__2|SBMatch: EntryCoins Indexes
+VAR|0x476|1|SBMatch__CoinIdx__3|SBMatch: EntryCoins Indexes
+VAR|0x477|1|SBMatch__CoinIdx__4|SBMatch: EntryCoins Indexes
+
+VAR|0x478|1
+
+VAR|0x479|1|null|SPReq - SB f1 [-----2-0]|EBytesBlockType.BAD
+// 479[0] 0 => 1 // повторное посещение Люки - вошли в раздевалки с Рином
+// 479[1] 1 => 3 // поговорили с птенцом в раздевалках с Рином
+// 479[2] 1 => 5 // получили монетки от птенца для обучения SB
+
+VAR|0x47A|4
+
+VAR|0x47E|1|null|SPReq - SB f2 [-----2--]|EBytesBlockType.BAD
+// 47e[2] 0 => 4 // после первой практики SB // мигает туда-сюда - в матче == 0, вне матча 4
+
+VAR|0x47F|2
+
+VAR|0x481|1|null|SBMatch: Opponent idx
+// 481: 0 => 25 // обучение SB - открыта доска
+// 481: 25 => 23 // практика в SB
+// 481: 23 => 0 => 23 => 0 ... // после первой практики SB
+// 481: 10 => 11 => 0 ch5 1st матч с чуваком в очках (15/60/20)
+
+VAR|0x482|7
+
+VAR|0x489|1|null|SPReq - Kilika f1 [-65-3---]|EBytesBlockType.BAD
+// 489[3] "Barthello: Dona!"
+// 489[5] "Saw HQ form Kilika man`s camera, Ch.1"
+// 489[6] "Saw HQ form Kilika man`s camera, Ch.3"
+
+VAR|0x48A|3
+
+// 48c: 0 => 2 подошли в мужику справа от ховера|Биканель
+
+ARRAY10|0x48D|1|FIENDARENA__TournamentsWinned[]|Tournaments winning count
+
+VAR|0x497|48
+
+// 4c2: 0 => 1 вошли в Calm Lands
+
+ARRAY5|0x4C7|1|$CHOCOBORUNNERS__SuccessfulRunsByLvl[]|Chocobo Ranch: successful runs
+
+VAR|0x4CC|3
+
+VAR|0x4CF|1|null|Sphere Theatre: play flag 1 (0<->1)|EBytesBlockType.Flag
+VAR|0x4D0|1|null|Sphere Theatre: play flag 2 (0<->1)|EBytesBlockType.Flag
+
+VAR|0x4D1|31
+
+VAR|0x4F0|1|null|SPReq - Shinra present CC [----3---]|EBytesBlockType.BAD
+// 0 => 8 - Shinra: I`ve complete my latest invention
+
+VAR|0x4F1|1|null|CC menu: sub-menu idx|EBytesBlockType.Cursor
+VAR|0x4F2|1|null|CC menu: cursor|EBytesBlockType.Cursor
+VAR|0x4F3|1|null|Trap Creature: last region|EBytesBlockType.Cursor
+VAR|0x4F4|1|TRAPCREATURE__TrapSetted|setted traps count
+
+VAR|0x4F5|55|UNK__0x4F5 // SPReq 0x2C9 - 0x2FF - UNKNOWN (54 bytes) - 00 ..
+
+ARRAY15|0x52C|&CREATUREID4.map|TRAPCREATURE__CreatureId[]|trapped creatures
+
+VAR|0x568|4|FIENDARENA__BSimFlags1|Battle Simulator: flags // UNKNOWN
+VAR|0x56C|16|FIENDARENA__BSimTeamsMask|Battle Simulator: Teams flags
+VAR|0x57C|3|FIENDARENA__BSimFlags2|Battle Simulator: flags // UNKNOWN
+VAR|0x57F|1|null|Tournaments: intro setting|EBytesBlockType.Settings
+
+VAR|0x580|4
+// 580: 1 => 3 выиграли Farplane Cup
+
+VAR|0x584|2 //|null|Battle Simulator: OUR TEAM 1st MEMBER`s creatureId
+
+VAR|0x586|4
+// 586: 0 => 1 выиграли Farplane Cup
+
+VAR|0x58A|1|null|Battle Simulator: show team flag|EBytesBlockType.Flag
+VAR|0x58B|1|null|Battle Simulator: change page flag2|EBytesBlockType.Flag
+// меняется при смене страниц bsim на 1 и сразу 0 
+// ПОХОЖЕ, ТОЛЬКО КОГДА НА СТРАНИЦЕ ЕСТЬ НОВЫЕ КОММАНДЫ // НЕ ТОЛЬКО!!!
+VAR|0x58C|1|null|Battle Simulator: change page flag|EBytesBlockType.Flag
+
+VAR|0x58D|1695
+
+VAR|0xC2C|2|GENERAL__StoryProgress|Hidden Story Progress
+
+VAR|0xC2E|5
+
+VAR|0xC33|1|null|Missions - Besaid f1 [----3210]|EBytesBlockType.BAD
+// c33[0] 0 => 1 начата миссия на Бисайде
+// c33[1] 1 => 2 закончена миссия -1+2
+// c33[2] 2 => 6 ch2, начата миссия на Бисайде
+// c33[3] 6 => 10 ch2, закончена миссия на Бисайде !{-4+8}
+VAR|0xC34|1|null|Missions - Besaid f2 [--------]|EBytesBlockType.BAD
+VAR|0xC35|1|null|Missions - Kilika f1 [------1-]|EBytesBlockType.BAD
+// c35[1] 0 => 2 закончена миссия в Килике
+VAR|0xC36|1|null|Missions - Kilika f2 [--------]|EBytesBlockType.BAD
+VAR|0xC37|1|null|Missions - Luca f1 [7-------]|EBytesBlockType.BAD
+// c37[7] 0 => 128 // закончена миссия в Люке
+VAR|0xC38|1|null|Missions - Luca f2 [--------]|EBytesBlockType.BAD
+VAR|0xC39|1|null|Missions - Mi`ihen Road f1 [------10]|EBytesBlockType.BAD
+// c39[0] 0 => 1 // начата миссия по поимке чокобо
+// c39[0] 1 => 0 // НЕ начата миссия по поимке чокобо
+// c39[1] 1 => 2 // миссия закончена !{-1+2}
+VAR|0xC3A|1|null|Missions - Mi`ihen Road f2 [--------]|EBytesBlockType.BAD
+VAR|0xC3B|1|null|Missions - Mushroom Rock f1 [-----21-]|EBytesBlockType.BAD
+// c3b[1] 0 => 2 Закончили миссию в Mushroom Rock
+// c3b[2] 2 => 6 ch2, начата миссия по поиску сферы и одежки в Джозе
+VAR|0xC3C|1|null|Missions - Mushroom Rock f2 [--------]|EBytesBlockType.BAD
+VAR|0xC3D|1|null|Missions - Djose Temple f1 [--------]|EBytesBlockType.BAD
+VAR|0xC3E|1|null|Missions - Djose Temple f2 [--------]|EBytesBlockType.BAD
+VAR|0xC3F|1|null|Missions - Moonflow f1 [----3210]|EBytesBlockType.BAD
+// c3f[0] 0 => 1 разговор в гипелло в moonflow south road
+// c3f[1] 1 => 3 довели гипелло без потерь
+// c3f[2] 3 => 7 ch2, начали миссию по продаже билетов на Moonflow
+// c3f[3] 7 => 15 закончили миссию по продаже билетов на Moonflow
+VAR|0xC40|1|null|Missions - Moonflow f2 [-------0]|EBytesBlockType.BAD
+// c40: 0 => 1 вошли на Moonflow
+VAR|0xC41|1|null|Missions - Guadosalam f1 [--------]|EBytesBlockType.BAD
+VAR|0xC42|1|null|Missions - Guadosalam f2 [--------]|EBytesBlockType.BAD
+VAR|0xC43|1|null|Missions - Thunder Plains f1 [--------]|EBytesBlockType.BAD
+VAR|0xC44|1|null|Missions - Thunder Plains f2 [--------]|EBytesBlockType.BAD
+VAR|0xC45|1|null|Missions - Macalania Woods f1 [-----210]|EBytesBlockType.BAD
+// c45[0] 0 => 1 О`ака выбежал из-за спины на озере Макалания
+// c45[1] 1 => 3 взяли О`аку на корабль 
+// c45[2] 3 => 7 ch2, начата миссия по поиску музыкантов
+// c45[3] 7 => 11 ch2, закончили миссию по поиску музыкантов !{-4+8}
+VAR|0xC46|1|null|Missions - Macalania Woods f2 [--------]|EBytesBlockType.BAD
+VAR|0xC47|1|null|Missions - Bikanel Desert f1 [------10]|EBytesBlockType.BAD
+// c47: 0 => 1 // хотим копать!
+// c47: 1 => 2 // миссия по перым раскопкам завершена // скорее всего !{-1+2}
+VAR|0xC48|1|null|Missions - Bikanel Desert f2 [--------]|EBytesBlockType.BAD
+VAR|0xC49|1|null|Missions - Bevelle f1 [--------]|EBytesBlockType.BAD
+VAR|0xC4A|1|null|Missions - Bevelle f2 [--------]|EBytesBlockType.BAD
+VAR|0xC4B|1|null|Missions - Calm Lands f1 [-----2--]|EBytesBlockType.BAD
+// c4b[2] 0 => 4 ch2, Calm Lands, началась миссии по очистке ранчо
+// c4b[3] 4 => 12 ch2, Calm Lands, закончили миссию, разблокировали ловлю чокобо
+VAR|0xC4C|1|null|Missions - Calm Lands f2 [--------]|EBytesBlockType.BAD
+VAR|0xC4D|1|null|Missions - Mt. Gagazet f1 [------10]|EBytesBlockType.BAD
+// c4d[0] 0 => 1 - подлетаем к миссии Гагазет
+// c4d[1] 1 => 3 - убили Бориса, зашли в комнату со сферой
+VAR|0xC4E|1|null|Missions - Mt. Gagazet f2 [--------]|EBytesBlockType.BAD
+VAR|0xC4F|1|null|Missions - Zanarkand f1 [------1-]|EBytesBlockType.BAD
+// c4f[1]: 0 => 2 закончили миссию в Занарканде
+VAR|0xC50|1|null|Missions - Zanarkand f2 [--------]|EBytesBlockType.BAD
+
+VAR|0xC51|4
+
+VAR|0xC55|1|GENERAL__FRACTION|SPReq - Fraction choose: 1=Youth League, 2=New Yewon|EBytesBlockType.SPReq
+
+VAR|0xC56|2
+
+VAR|0xC58|1|null|Cutscene flag 1|EBytesBlockType.Flag // переменный флаг
+
+VAR|0xC59|3
+
+VAR|0xC5C|1|null|Treasure Sphere video flag|EBytesBlockType.Flag
+
+VAR|0xC5D|3
+
+VAR|0xC60|1|null|SPReq - Cid: [------10]|EBytesBlockType.BAD
+// c60[0] 0 => 1 Told Cid `You bet I do!`
+// c60[1] 1 => 3 ch2, Thunder Plains, разговор с Сидом
+
+VAR|0xC61|3
+
+VAR|0xC64|1|null|SPReq - DIGGING: 1=хотим копать!, 3=showed letter to Nhadala|EBytesBlockType.SPReq
+// c64[0] 0 => 1 // хотим копать!
+// c64[1] 1 => 3 // показали письмо Надале
+
+VAR|0xC65|3
+
+VAR|0xC68|1|null|SPReq - Clasko1 [---43--0]|EBytesBlockType.BAD
+// c68[0] 0 => 1 Mushroom Road, взяли Класко на корабль // ! 1 = КЛАСКО НА КОРАБЛЕ, 0 = не на корабле
+// c68[4] 1 => 16 ch2, Класко отвлекает eater`а от Калли !{-1+16}
+// c68[4] 16 => 1 ch2, Mi`ihen Road, взяли Класко, Калли и чокобо на корабль
+// c68[2] 1 => 4 ch2, пришли за Класко на бывшую арену монстров
+// c68[3] 4 => 8 ch2, Calm Lands, перебили 5 монстров, сценка с элементалем
+VAR|0xC69|1|null|SPReq - Clasko2: [1]wants to be chocobo farmer|EBytesBlockType.SPReq 
+// с69: 0 => 1 Mushroom Road, Класко жалуется, что хочет Чокобо
+
+VAR|0xC6A|1
+// c6a: 0 => 2 ch2, Mi`ihen Road, взяли Класко, Калли и чокобо на корабль
+
+VAR|0xC6B|1|null|Cutscene flag 2|EBytesBlockType.Flag
+// c6b: пропускаемая сценка с речью // диалог с обучением сферы сохранения  // СОХРАНЯЕТСЯ В ФАЙЛ!!! 
+// c6b: 2 => 6 карта с hotspot gagazet
+
+VAR|0xC6C|2|DIGGING__Chapter1__Count|Digging: Count by Chapters
+VAR|0xC6E|2|DIGGING__Chapter2__Count|Digging: Count by Chapters
+VAR|0xC70|2|DIGGING__Chapter3__Count|Digging: Count by Chapters
+VAR|0xC72|2|DIGGING__Chapter4__Count|Digging: Count by Chapters
+VAR|0xC74|2|DIGGING__Chapter5__Count|Digging: Count by Chapters
+
+VAR|0xC76|10
+// c76: 0 => 10 // ответили на 6 вопросов
+
+VAR|0xC80|2|DIGGING__Chapter1__Wages|Digging: Salaries
+VAR|0xC82|2|DIGGING__Chapter2__Wages|Digging: Salaries
+VAR|0xC84|2|DIGGING__Chapter3__Wages|Digging: Salaries
+VAR|0xC86|2|DIGGING__Chapter4__Wages|Digging: Salaries
+VAR|0xC88|2|DIGGING__Chapter5__Wages|Digging: Salaries
+VAR|0xC8A|2|DIGGING__Chapter1__MaxWages|Digging: Salaries
+VAR|0xC8C|2|DIGGING__Chapter2__MaxWages|Digging: Salaries
+VAR|0xC8E|2|DIGGING__Chapter3__MaxWages|Digging: Salaries
+VAR|0xC90|2|DIGGING__Chapter4__MaxWages|Digging: Salaries
+VAR|0xC92|2|DIGGING__Chapter5__MaxWages|Digging: Salaries
+
+VAR|0xC94|1
+
+VAR|0xC95|1|null|SPReq - Maechen: [0]ends the loooong monologue|EBytesBlockType.SPReq
+// c95: 0 => 1 закончился монолог деда Maechen
+VAR|0xC96|1|null|SPReq - O`aka1: [0]get to the Airship|EBytesBlockType.SPReq
+// c96: 0 => 1 взяли О`аку на корабль
+VAR|0xC97|1|null|SPReq - Tobli: [0]talked in ch1|EBytesBlockType.SPReq
+// c97: 0 => 1 разговор с Тобли
+
+VAR|0xC98|1
+
+VAR|0xC99|1|null|Cutscene flag 3|EBytesBlockType.Flag
+// пропускаемая сценка с речью 
+// сцены с братцем после гагазет
+VAR|0xC9A|1|null|Cutscene flag 4|EBytesBlockType.Flag
+// 0 => 2 => 0 сценка с Юной в мугле в начале миссии в Люке, типа от первого лица
+// 0 => 1 => 0 сценка с YRP, потом с мугглом в Люке на площади // в Макалании тоже
+VAR|0xC9B|1|null|Cutscene flag 41|EBytesBlockType.Flag
+// сценки в Джозе 
+// и в Calm Lands
+VAR|0xC9C|1|null|Cutscene flag Besaid|EBytesBlockType.Flag
+VAR|0xC9D|1|null|Cutscene flag 5|EBytesBlockType.Flag // пропускаемая сценка с речью
+
+VAR|0xC9E|1
+
+VAR|0xC9F|1|null|Cutscene flag 6|EBytesBlockType.Flag 
+// 0 => 1 повторное посещение Люки - вошли в раздевалки с Рином 
+// 0 => 1 Биканель - интро в Биканеле
+
+VAR|0xCA0|1
+
+VAR|0xCA1|1|null|SPReq - Shinra placing comm spheres f4 [765---10]|EBytesBlockType.BAD
+// [0] "Shinra scene placing a comm sphere in Besaid"
+// [1] "Shinra seen placing a comm sphere in Kilika"
+// [5] "Shinra seen placing a comm sphere in Djose Temple"
+// [6] "Shinra seen placing a comm sphere at Moonflow"
+// [7] "Shinra seen placing a comm sphere at Guadosalam"
+VAR|0xCA2|1|null|SPReq - Shinra placing comm spheres f5 [765--210]|EBytesBlockType.BAD
+// [0] "Shinra seen placing a comm sphere at Thunder Plains"
+// [1] "Shinra seen placing a comm sphere at Macalania"
+// [2] "Shinra seen placing a comm sphere at Bevelle"
+// [5] "Shinra seen placing a comm sphere in Gagazet"
+// [6] "Shinra seen placing a comm sphere in Zanarkand"
+// [7] "Shinra seen placing a comm sphere at Macalania Agency"
+VAR|0xCA3|1|null|SPReq - Automatic install comm spheres f1 [------10]|EBytesBlockType.BAD
+// [0] "Automatic install when visiting bridge to Gagazet"
+// [1] "Automatic install on scene of hover driving to cactuar nation"
+
+VAR|0xCA4|1
+
+VAR|0xCA5|1|null|SPReq - Djose Temple, ch1: [1]just after intro|EBytesBlockType.SPReq
+// ca5: 0 => 1 // Джозе после интро
+
+VAR|0xCA6|2
+
+VAR|0xCA8|4|null|GREENS__CurrBattle_Nutritive
+VAR|0xCAC|4|GREENS__LastReplenishBattleCounter_Nutritive
+VAR|0xCB0|4|null|GREENS__CurrBattlePayed_Junk
+VAR|0xCB4|4|GREENS__LastReplenishBattleCounter_Junk
+
+ARRAY4|0xCB8|4|CHOCOBORANCH__ChocoboRunner[]__RunStartBattleCount|Chocobo Ranch: Run Start BattleCount
+ARRAY14|0xCC8|4|CHOCOBORANCH__Chocobo[]__FeedGreens|Chocobo Ranch: Feeded Greens
+
+VAR|0xD00|4
+
+VAR|0xD04|1|CHOCOBORANCH__IsEating|Chocobo is eating in current battle
+// d04: 0 => 1 // накормили чокобо 
+// d04: 1 => 0 // вышли из боя
+
+VAR|0xD05|3
+
+VAR|0xD08|1|CHOCOBORANCH__InBattle|Chocobo Nature in current battle
+// d08: 0 => 2  чокобо в бою!!! цифра, видимо, означает уровень/вид чокобо, после боя сбрасывается в 0
+// d08: 0 => 1  другой бой
+
+VAR|0xD09|3
+
+ARRAY4|0xD0C|4|CHOCOBORANCH__Greens[]__InStash|Greens: fresh counts
+
+VAR|0xD1C|9
+
+VAR|0xD25|1|CHOCOBORANCH__RunnedMask|Chocobo Ranch: Runned Flags
+
+VAR|0xD26|1
+
+VAR|0xD27|1|CHOCOBORANCH__Chocobo__Count|Chocobo Ranch: total count
+ARRAY14|0xD28|1|CHOCOBORANCH__Chocobo[]__Levels|Chocobo Ranch: Levels
+ARRAY14|0xD36|1|CHOCOBORANCH__Chocobo[]__MaxLevels|Chocobo Ranch: MaxLvls
+ARRAY4|0xD44|1|CHOCOBORANCH__ChocoboRunner[]__Suitable|Chocobo Ranch: Runner Suitables
+ARRAY4|0xD48|1|CHOCOBORANCH__ChocoboRunner[]__Destination|Chocobo Ranch: Runer Destinations
+ARRAY14|0xD4C|1|CHOCOBORANCH__Chocobo[]__Natures|Chocobo Ranch: Natures
+ARRAY14|0xD5A|1|CHOCOBORANCH__Chocobo[]__Hearts|Chocobo Ranch: Hearts
+
+VAR|0xD68|28 // 0xD68 - 0xD83
+// отправили первого чокобо (normal) в Занарканд (average)
+// отправили первого чокобо (normal) в Бисайд (well)
+// d68: 19 // 15
+// d76: 61 // 78
+// отправили второго чокобо (normal) в Занарканд (average)
+// отправили второго чокобо (normal) в Килику (unsuit)
+// d69: 19 // 30
+// d77: 61 // 42
+// отправили третьего чокобо (bold) в Занарканд (average)
+// отправили третьего чокобо (normal) в Миихен (average)
+// d6a: 19 // 20
+// d78: 61 // 60
+// отправили четвертого чокобо (normal) в Гагазет (average)
+// d6b: 0 => 19
+// d79: 0 => 61
+// отправили первого чокобо на Бисайд
+// d68: 0 => 30 // потерянные hearts
+// d76: 0 => 42 
+// отправили второго чокобо на Миихен
+// d69: 0 => 20
+// d77: 0 => 60
+// отправили третьего чокобо на Джозе
+// d6a: 0 => 15  // потерянные hearts
+// d78: 0 => 78
+
+VAR|0xD84|1|GREENS__GrowPercent_Pahsana|Greens: nutritive grow proportions
+VAR|0xD85|1|GREENS__GrowPercent_Mimett|Greens: nutritive grow proportions
+VAR|0xD86|1|GREENS__GrowPercent_Sylkis|Greens: nutritive grow proportions
+
+VAR|0xD87|1
+// d87: 0 => 1 ch2, Calm Lands, закончили миссию, разблокировали ловлю чокобо
+
+VAR|0xD88|1
+// d88: 0 => 1 ch2, закончили миссию в Макалании по поиску музыкантов
+
+VAR|0xD89|1
+
+VAR|0xD8A|1|null|SPReq - Ronso children: [------10]|EBytesBlockType.SPReq
+// d8a: 0 => 1 Гагазет, глава 1, закончили диалог с Гариком
+// d8a: 1 => 3 ch2, Calm Lands, разговор с детишками-ронсо
+
+VAR|0xD8B|2
+
+VAR|0xD8D|1
+// d8d: 0 => 2 просмотр 1-й сферы;  
+// d8d: 2 => 0 выход из меню сфер 
+// d8d: 0 => 2 просмотр crimson report 1;  
+// d8d: 2 => 0 выход из меню сфер 
+// d8d: 0 => 2 просмотр crimson record 7  
+// d8d: 2 => 0 выход из меню сфер 
+
+VAR|0xD8E|42
+// d8e: 0 => 2 ch2, закончена миссия на Бисайде
+
+VAR|0xDB8|1|null|SPReq - Floating Ruins [4]mission started|EBytesBlockType.SPReq
+// db8: 0 => 4 спрыгиваем с Цельсия в миссию гагазет
+
+VAR|0xDB9|3
+
+VAR|0xDBC|4 // типа, отношения с Ронсо?
+// Гагазет, глава 1, Гарик
+// dbc: 0 => 1 выбрали 2-й пункт
+// dbc: 0 => 255 выбрали 3-й пункт
+// dbd: 0 => 255 выбрали 3-й пункт
+// dbe: 0 => 255 выбрали 3-й пункт
+// dbf: 0 => 255 выбрали 3-й пункт
+
+// Гагазет, глава 1, ронсо в пещере
+// dbc: 1 => 2 a change for the better, i hope
+// dbc: 1 => 0 i...see
+
+// Гагазет, глава 1, женщина-ронсо возле Кимари
+// dbc: 1 => 2 выбрали 1-й пункт
+// dbc: 255 => 254 выбрали 3-й пункт
+
+// Гагазет, глава 1, параноик справа от Кимари
+// dbc: 2 => 1 выбрали 1-й пункт
+// dbc: 2 => 3 выбрали 2-й пункт
+
+VAR|0xDC0|4
+
+VAR|0xDC4|2|EXPERIMENTASSEMBLY__A__Attack
+VAR|0xDC6|2|EXPERIMENTASSEMBLY__S__Attack
+VAR|0xDC8|2|EXPERIMENTASSEMBLY__Z__Attack
+VAR|0xDCA|2|EXPERIMENTASSEMBLY__A__Defense
+VAR|0xDCC|2|EXPERIMENTASSEMBLY__S__Defense
+VAR|0xDCE|2|EXPERIMENTASSEMBLY__Z__Defense
+VAR|0xDD0|2|EXPERIMENTASSEMBLY__A__Special
+VAR|0xDD2|2|EXPERIMENTASSEMBLY__S__Special
+VAR|0xDD4|2|EXPERIMENTASSEMBLY__Z__Special
+
+VAR|0xDD6|14
+
+// dd8: 0 => 11 выбрали "rest" в cabin|ch1;
+// dd8: 0 => 15 то-же самое действие в другой игре...
+// dd8: 15 => 23 выбрали "rest" в cabin|ch2;
+
+VAR|0xDE4|4|PR__OpenAirRate|PR: OpenAir rate
+VAR|0xDE8|4|PR__ArgentRate|PR: Argent rate
+VAR|0xDEC|4|PR__BrideHuntRate|BrideHunt: rate
+
+VAR|0xDF0|4
+
+VAR|0xDF4|10|PR__OpenAirPitchedMask|PR: OpenAir pitched NPC (mask)
+VAR|0xDFE|10|PR__ArgentPitchedMask|PR: Argent pitched NPC (mask)
+
+VAR|0xE08|1
+// e08: 0 => 1 открыт диалог PR&BH: moonflow - south bank road|женщина в красном 
+// e08: 0 => 2 открыт диалог PR&BH - подписаны только на PR!!!
+
+VAR|0xE09|1
+// e09: 0 => 1 подписались на PR OpenAir
+// e09: 0 => 2 подписались на PR Argent
+
+VAR|0xE0A|1
+// e0a: 0 => 1 подписались на PR OpenAir
+// e0a: 0 => 1 подписались на PR Argent
+// e0a: 1 => 3 подписались в сваты
+
+VAR|0xE0B|1
+
+VAR|0xE0C|4
+
+VAR|0xE10|10|PR__BrideHuntPitchedMask|BrideHunt: pitched NPC (mask)
+
+VAR|0xE1A|6
+
+VAR|0xE20|1|null|actor view animation flag|EBytesBlockType.Flag // e20 - просмотр истории монстра
+
+VAR|0xE21|23
+
+VAR|0xE38|4|GENERAL__FleeCount|Total FLEE
+
+VAR|0xE3C|309
+
+VAR|0xF71|8|null|1st time dress change flags // флаги анимаций переодеваний
+
+VAR|0xF79|11
+
+VAR|0xF84|2|null|animation CreatureId???|EBytesBlockType.BAD 
+// если f85 == 0 - МЕНЯЕТСЯ ПРИ ПРОСМОТРАХ ВИДЕО!!!
+// f84: 0 => 10 (0A) первый мультик новой игры
+// f84: 10 => 0 (00) песня кончилась - перед битвой
+
+VAR|0xF86|2
+
+VAR|0xF88|1|null|SPReq - Farplane, Ch.3 [------1-]|EBytesBlockType.BAD
+// f88[1] "Four whistles heard in Farplane, Ch.3"
+
+VAR|0xF89|1
+
+VAR|0xF8A|1|null|CHESTS Luca [-----210]|EBytesBlockType.BAD
+// f8a[0] 0 => 1 // сундук с Thunder Spawn GG
+// f8a[1] 1 => 3 // сундук с Lunar Curtain x2 // флаг скидывается при выходе из игры...
+// f8a[2] 2 => 6 // тот-же сундук в ch2!!!
+
+VAR|0xF8B|7
+
+VAR|0xF92|2|null|PR/BH: current NPC points|EBytesBlockType.Flag
+// f92: 0 => 128 вариант на 1 балл 0x80
+// f93: 0 => 63 вариант на 1 балл 0x3F
+// f92: 0 => 0 вариант на 2 балла 0x00
+// f93: 0 => 64 вариант на 2 балла 0x40
+// f92: 0 => 64 вариант на 3 балла 0x40
+// f93: 0 => 64 вариант на 3 балла 0x40
+// f92: 0 => 160 вариант на 5 баллов 0xA0
+// f93: 0 => 64 вариант на 5 баллов 0x40
+
+VAR|0xF94|1|null|PR/BH menu: selected option|EBytesBlockType.Cursor // номер выбранного пункта меню PR&BH: 1 - PR, 2 - BH; 1 => n в меню вариантов рекламы выбран n-й вариант
+VAR|0xF95|1|null|PR/BH menu: 1st time opened|EBytesBlockType.Flag // 0 => 10 открыт диалог PR&BH, 10 => 0 второй раз отрыт этот диалог
+
+VAR|0xF96|26
+
+// faf: 0 => 1 ch2, Mi`ihen Road|взяли Класко, Калли и чокобо на корабль
+
+VAR|0xFB0|1|null|Via Infinito Floor (readonly)
+
+VAR|0xFB1|1
+
+VAR|0xFB2|2|GENERAL__LocationProgress|Current Location progress
+VAR|0xFB4|4|GENERAL__BesaidProgress|Besaid Progress
+// fb4: 0 => 1 intro Бисайда
+// fb4: 1 => 2 Lulu: welcome back
+// fb4: 2 => 3 сценка с Лулу на уступе над деревней
+// fb4: 3 => 4 вернулись в деревню
+// fb4: 4 => 5 Лулу зашла в палатку
+// fb4: 5 => 8 проснулись
+// fb4: 8 => 9 разговор с Лулу поутру
+// fb4: 9 => 10 начата миссия
+// fb4: 10 => 20 диалог с Ваккой
+// fb4: 20 => 21 Brother: This is Brother. You alright|Yuna?
+// fb4: 21 => 22 взяли сферу
+// fb4: 22 => 23 второй диалог с Ваккой
+// fb4: 23 => 24 просмотр сферы Бесайд
+// fb4: 24 => 25 закончена миссия
+// fb4: 25 => 0 закончена глава 1
+
+VAR|0xFB8|4|GENERAL__KilikaProgress|Kilika Progress
+// fb8: 0 => 1 вошли в Килику
+// fb8: 1 => 2 "Barthello: Dona!"
+// fb8: 2 => 0 закончена глава 1
+
+VAR|0xFBC|4|GENERAL__LucaProgress|Luca progress
+// fbc: 0 => 1 // закончена миссия в Люке
+// fbc: 1 => 2 // повторное посещение Люки - вошли в раздевалки с Рином
+// fbc: 2 => 0 закончена глава 1
+
+VAR|0xFC0|4|GENERAL__MiihenRoadProgress|Mi`ihen Road progress
+// fc0: 0 => 1 вошли на Миихен-Роуд
+// fc0: 1 => 0 закончена глава 1
+
+VAR|0xFC4|4|GENERAL__MushroomRockProgress|Mushroom Rock progress
+// fc4: 0 => 1 Mushroom Road|после сценки Яйбала и Класко
+// fc4: 1 => 2 Закончили миссию в Mushroom Rock
+// fc4: 2 => 0 закончена глава 1
+
+VAR|0xFC8|4|GENERAL__DjoseTempleProgress|Djose Temple progress
+// fc8: 0 => 1 // Джозе после интро
+// fc8: 1 => 3 // Джозе|хотим копать!
+// fc8: 3 => 0 закончена глава 1
+
+VAR|0xFCC|4|GENERAL__MoonflowProgress|Moonflow progress
+// fcc: 3 => 0 закончена глава 1
+// fcc: 0 => 1 Moonflow|первое посещение|вернули управление
+// fcc: 1 => 2 разговор с Тобли
+// fcc: 1 => 3 довели гипелло без потерь
+
+VAR|0xFD0|4|GENERAL__GuadosalamProgress|Guadosalam progress
+// fd0: 0 => 1 вход в Гуадосалам
+// fd0: 1 => 0 закончена глава 1
+
+VAR|0xFD4|4|GENERAL__ThunderPlainsProgress|Thunder Plains progress
+// fd4: 0 => 1 intro Thunder Plains
+// fd0: 1 => 0 закончена глава 1
+
+VAR|0xFD8|4|GENERAL__???Progress|??? progress
+// fd8: 1 => 2 ch2, начали миссию по поиску музыкантов в Макалании
+// fd8: 2 => 3 ch2, закончили миссию по поиску музыкантов в Макалании
+
+VAR|0xFDC|4|GENERAL__MacalaniaWoodsProgress|Macalania Woods progress
+// fdc: 0 => 1 взяли О`аку на корабль
+// fdc: 1 => 0 закончена глава 1
+
+VAR|0xFE0|4|GENERAL__BikanelDesertProgress|Bikanel Desert progress
+// fe0: 0 => 1 // поговорили с Pilot в Биканеле  // НЕ СМОГ ВОСПРОИЗВЕСТИ|возможно|если говорить без письма от Гиппала // после Надалы|оказывается...
+// fe0: 0 => 2 // показали письмо Надале
+// fe0: 3 => 0 закончена глава 1
+
+VAR|0xFE4|4|GENERAL__BevelleProgress|Bevelle progress
+// fe4: 0 => 1 // Бевель|ch1|Баралай ушел
+// fe4: 1 => 0 закончена глава 1
+
+VAR|0xFE8|4|GENERAL__CalmLandsProgress|Calm Lands progress
+// fe8: 0 => 1 Calm Lands|сценка с бегами койотов
+// fe8: 1 => 2 подписались на PR OpenAir
+// fe8: 0 => 2 подписались на PR Argent
+// fe8: 2 => 0 закончена глава 1
+
+VAR|0xFEC|4|GENERAL__MtGagasetProgress|Mt. Gagaset progress
+// fec: 0 => 1 Гагазет|глава 1|закончили диалог с Гариком
+// fec: 1 => 0 закончена глава 1
+
+VAR|0xFF0|4|GENERAL__ZanarkandProgress|Zanarkand progress
+// ff0: 0 => 1 первый вход в Занарканд
+// ff0: 1 => 2 диалог с Исаару на входе в Занарканд
+// ff0: 2 => 3 сценка с первым гуном
+// ff0: 3 => 4 разговор с Сидом
+// ff0: 4 => 5 ????: Muahahahaha!
+// ff0: 5 => 6 закончили миссию в Занарканде
+// ff0: 6 => 0 закончена глава 1
+
+VAR|0xFF4|1|null|SPReq - O`aka2: [1]Get on the Airship
+// ff4: 0 => 1 взяли О`аку на корабль
+
+VAR|0xFF5|9
+
+// ff8: 0 => 1 ch2, пришли за Класко на бывшую арену монстров
+// ff8: 1 => 3 сразу за предудущим
+// ff8: 3 => 4 ch2, Calm Lands|началась миссии по очистке ранчо
+// ff8: 4 => 5 ch2, Calm Lands|перебили 5 монстров|сценка с элементалем
+// ff8: 5 => 6 ch2, Calm Lands|закончили миссию|разблокировали ловлю чокобо
+
+// ffc: 0 => 4 ch2, Guadosalam|поговорили с гипелло|он проболтался про she-goon на дороге в Джозе
+
+// ffd: 0 => 64 просмотрели Crimson Record 7
+
+VAR|0xFFE|1|null|SPReq - Crimson Report 1: [1]viewed // ffe: 0 => 1 просмотр crimson report 1
+
+VAR|0xFFF|1
+
+ARRAY64|0x1000|2|SB__EntryCoin[]__Value|EntryCoins Values
+ARRAY64|0x1080|1|SB__EntryCoin[]__Count|EntryCoins Counts
+ARRAY64|0x10C0|1|SB__EntryCoin[]__Number|EntryCoins Numbers
+ARRAY4|0x1100|2|SBMATCH__Coin[]__Value|SBMatch: EntryCoins Values
+ARRAY4|0x1108|1|SBMATCH__Coin[]__Count|SBMatch: EntryCoins Counts
+
+VAR|0x110C|4
+
+VAR|0x1110|1|null|SB: Selected Coin Trait
+VAR|0x1111|4|null|SBMatch: Traits of selected coins
+VAR|0x1115|8|SB__KnownCoinsMask|Known Coins flags
+
+VAR|0x111D|25
+
+// 1130: 0 => 132 // первый раз встретили Ангра-Майню
+// 1131: 0 => 22 // первый раз встретили Ангра-Майню
+// 1132: 0 => 5 // первый раз встретили Ангра-Майню
+// 1134: 0 => 1 // первый раз встретили Ангра-Майню
+// 1135: 0 => 80 // первый раз встретили Ангра-Майню
+
+VAR|0x1136|1|null|SPReq - Trommel: [1]goes from Macalania out|EBytesBlockType.SPReq
+// F0A: 0 => 1 Троммель устал|Троммель уходит-))
+
+VAR|0x1137|5
+
+VAR|0x113C|1|TRAPCREATURE__PodCount|Pods count
+VAR|0x113D|8|TRAPCREATURE__PodTypes|PODS
+ARRAY8|0x1145|1|CC__CREATURE[]__StartLevel|creatures start lvls
+ARRAY8|0x114D|1|CC__CREATURE[]__FiendStoryLevel|creatures tale lvls // !!! ОБНОВЛЯЮТСЯ ТОЛЬКО ПРИ ВОЗВРАТЕ В ПЕРВОЕ МЕНЮ CREATURE CREATOR! 
+VAR|0x1155|1|null|`release` progress flag|EBytesBlockType.Flag // 1 - подтвердили, 5 - сценка, 4 - сценка закончилась
+VAR|0x1156|1|null|Unk_f2a|EBytesBlockType.Flag // creature ending animation flags|MENU // f2a - f2b - флаги анимации эндинга монстра 
+VAR|0x1157|1|null|Unk2_f2b|EBytesBlockType.Flag // f2b: 0 => 18 // dialog про Empty Heart добавленный в bsim; f2b: 26 => 0 - не диалог(
+VAR|0x1158|1|null|bestiary page|EBytesBlockType.Cursor // 0xF2C - текущая открытая страница в бестиарии
+
+VAR|0x1159|51|UNK__0x1159
+
+VAR|0x118C|1
+// 118c: 0 => 1 Братец зовет на мостик после посещения cabin
+// 118c: 1 => 2 закончена глава 1
+
+VAR|0x118D|3
+
+VAR|0x1190|1|null|Story competion on MAP SCREEN // story completion ON MAP SCREEN 
+
+VAR|0x1191|3
+
+VAR|0x1194|4|QUEST__OakasDebt|O`aka`s debt // 0xF68 - 0xF6B // !!!!НЕ 4 байта...
+
+VAR|0x1198|1 
+// 1198: 0 => 1 после интро
+// 1198: 0 => 1 (01) // начало игры
+
+VAR|0x1199|3
+
+VAR|0x119C|1|null|SPReq - DIFFERENT FLAGS Ch.1 f1 [7654321-]|EBytesBlockType.BAD
+// f70: 0 => 2 - первая сценка на Цельсии
+// f70: 186 => 190 диалог с Исаару на входе в Занарканд
+// f70: 2 => 10 началась гонка в гагазет
+// f70: 10 => 26 закончили миссию в Mushroom Rock
+// f70: 26 => 58 началась сценка осады агенства Рина/О`аки коллекторами 
+// f70: 190 => 254 Бисайд|зашли в палатку крестоносцев
+// f70: 10 => 138 Гагазет|глава 1|закончили диалог с Гариком
+
+VAR|0x119D|1|null|SPReq - DIFFERENT FLAGS Ch.1 f2 [7--432-0]|EBytesBlockType.BAD
+// f71: 20 => 21 Джозе|сразу после интро // Yuna: ... but now...
+// f71: 16 => 20 Гагазет|глава 1|закончили диалог с Гариком
+// f71: 16 => 24 Mushroom Road|после сценки Яйбала и Класко
+// f71: 0 => 16 началась гонка в гагазет
+// f71: 29 => 157 ch2, сценка с репортажем Шелинды в Люке
+
+VAR|0x119E|1|null|SPReq - DIFFERENT FLAGS Ch.1 f3 [-6543-10]|EBytesBlockType.BAD
+// f72: 110 => 111 разговор с Сидом в Занарканде
+// f72: 12 => 14 - просмотр 1-й сферы 
+// f72: [3]+[2] 0 => 12 - первая сценка на Цельсии; 
+// f72: 78 => 110 разговор с Тобли
+// f72: 14 => 78 Dona: Well|look who we have here.
+
+VAR|0x119F|1|null|SPReq - DIFFERENT FLAGS Ch.1 f4 [76543210]|EBytesBlockType.SPReq
+// f73: 72 => 73 Троммель просит прощения
+// f73: 8 => 10 Биканель|поговорили еще раз с мужиком слева от ховера - Надала приехала
+// f73: 123 => 127 сценка с охраной перед воротами перед миссией
+// f73: 0 => 8 - первая сценка на Цельсии
+// f73: 107 => 123 диалог с Пасе
+// f73: 75 => 107 Баралай здоровается в Бевеле
+// f73: 8 => 72 Килика|Barthello: Dona!"
+// f73: 127 => 255 Calli: It`s me|Calli!
+
+
+VAR|0x11A0|1|null|SPReq - DIFFERENT FLAGS Ch.1 f5 [76543-1-]|EBytesBlockType.BAD
+// f74: 248 => 250 сценка во 2-й главе|где Aurochs жалуются на Беклема...
+// f74: [7]+[3] 0 => 136 - первая сценка на Цельсии
+// f74: 200 => 216 нашли crimson sphere 9|уроненную толстым и тощим у пещеры
+// f74: 216 => 248 начали разговор с дедом Maechen
+// f74: 136 => 200 Mushroom Road|после сценки Яйбала и Класко (возможно|как-то связано с охотой за толстым и тощим)
+
+VAR|0x11A1|1|null|SPReq - DIFFERENT FLAGS Ch.1 f6 [7-543210]|EBytesBlockType.BAD
+// f75: 190 => 191 ch2, Calm Lands|разговор с детишками-ронсо
+// f75: 0 => 2 - первая сценка на Цельсии
+// f75: 34 => 38 // повторное посещение Люки - вошли в раздевалки с Рином
+// f75: 182 => 190 зашли в палатку к Лулу
+// f75: 34 => 50 Люсиль не пускает нас в YL HQ
+// f75: 2 => 34 началась гонка в гагазет
+// f75: 54 => 182 intro Бисайда
+
+VAR|0x11A2|4
+
+VAR|0x11A6|1|null|Al Bhed Dictionary count
+
+VAR|0x11A7|1
+
+VAR|0x11A8|2|DOGHUNT__Record|Dog Hunt: Record
+
+VAR|0x11AA|2
+
+VAR|0x11AC|1|null|SPReq - Yuna Flags 2 [---43210]|EBytesBlockType.BAD
+// f80: 0 => 1 - самое начало - после песни
+// f80: 1 => 3 - Юна присоединилась
+// f80: 3 => 7 Юна танцует
+// f80: 23 => 31 сон закончился
+// f80: 7 => 23 ch2 посмотрели сферу с Вегнаганом
+
+VAR|0x11AD|1 // SPReq 0xF81
+
+VAR|0x11AE|2|null|Theatre VIDEO SPHERES (mask)
+
+VAR|0x11B0|1 // f84: 0 => 255 // вошли в театр сфер
+VAR|0x11B1|1 // f85: 0 => 3// // вошли в театр сфер
+
+VAR|0x11B2|8 //0xF86
+
+VAR|0x11BA|7|null|Theatre MUSIC SPHERES (mask)
+
+VAR|0x11C1|4
+
+VAR|0x11C5|1|DOGHUNT__Level|Dog Hunt: Level
+
+VAR|0x11C6|2
+
+ARRAY8|0x11C8|&CREATUREID4.map|CC__CREATURE[]__ID|creatures in party
+
+ARRAY8|0x11E8|1|CC__CREATURE[]__UnknownByte // 11e8: 0 => 2 (02) дали Братца
+
+VAR|0x11F0|1|UNK__0x11F0
+// .fc4: 0 => 1 и 1 -> 0 пойман Shantak in miihen|после приема опять в 1
+// .fc4: 1 => 2 и 2 => 1  пойман divebeak in miihen|после приема опять в 2; 2=>1=>2 открытие меню СС после загрузки 
+// .fc4: 0 => 1 пойман первый монстр за ход
+// .fc4: 1 => 2 пойман второй монстр за ход
+
+// !!! fc4: 35 => 1 // при выходе из меню ловли!!!
+// загрузка
+// 0:Shantak - 1:Behemoth - 2:Anole - 3:Coeurl
+// fc4 = 01
+
+// fc4: 1 => 0 // отпускаем Shantak
+
+VAR|0x11F1|1|null|creatures captured (can be more than 8!) // если в отряде уже 8 монстров, тут будет 9 до выхода из меню замены
+
+VAR|0x11F2|2
+// !!! fc6: 26 => 0 // при выходе из меню ловли!!!
+// fc6: 0 => 1 пойман Iron Giant in miihen
+// fc6: 1 => 2 пойман Shantak in miihen
+
+// fc6: 2 => 3  поймали behemoth in zanarkand
+// fc6: 3 => 2 => 3 вышли из bsim в меню СС... кстати|тут обновляются tale lvl
+// fc6: 3 => 2 отпустили Iron Giant 
+// ничего не изменилось|когда поймали Sallet
+
+// fc6: 02
+// fc7: 00
+
+// fc6: 2 => 1 // отпустили Shantak
+// fc6: 1 => 0 // отпустили Behemoth
+
+VAR|0x11F4|25|CREATURES__ReleasedSpeciesMask|Fiend released flags // флаги отпущенных creatures
+// Detonator ловится и в 3-й главе!!
+// Dinichtus ловится после кого-то-))
+// 120a: 0 => 1 (01) СС|дали Братца
+
+VAR|0x120D|1|CC__ReleasedCount // КОЛИЧЕСТВО ОТПУЩЕННЫХ!!! //RELEASED COUNT или нет
+// 120d: 0 => 1 (01) СС|дали Братца
+
+VAR|0x120E|1|UNK__0x120E|SPReq - CC Flags 2 [-----210]|EBytesBlockType.BAD
+// 120e: 0 => 4 диалог "показать помощь по Creature Creator?"
+// 120e: 4 => 5 отказались от обучения по CC (братец присоединился)
+// 120e: 5 => 7 добавлен podS
+
+VAR|0x120F|36|UNK__0x120F
+
+VAR|0x1233|1
+
+VAR|0x1234|4088
+
+VAR|0x222C|0x4000|SP__Bytes|STORY POINTS|EBytesBlockType.StoryPoint
+
+VAR|0x622C|4
+
+VAR|0x6230|2048|null|GG slots filled
+VAR|0x6A30|1472|null|active slot in GG // выбранный слот в наряде (x64 GG) (x23 characters) // 23 * 64
+
+VAR|0x6FF0|2080
+
+VAR|0x7810|2|null|Config (2 bytes bitmap)|EBytesBlockType.Settings
+
+VAR|0x7812|2
+// 7812: 0 => 1 (01) при незагруженной игре
+
+VAR|0x7814|4|null|Learned Al Bhed Letters
+VAR|0x7818|4|GENERAL__Gil|Gil
+VAR|0x781C|4|GENERAL__Unk75F0
+VAR|0x7820|4|GENERAL__Unk75F4
+VAR|0x7824|4|GENERAL__BattleCount|Battle Count
+VAR|0x7828|1|PARTY__ORDER1|Party order // ЯВНО-ЖЕ СОСТАВ ОТРЯДА YRP|НО ПОЧЕМУ НУЛИ ПОСЛЕ ЗАГРУЗКИ?
+VAR|0x7829|1|PARTY__ORDER2|Party order // ЯВНО-ЖЕ СОСТАВ ОТРЯДА YRP|НО ПОЧЕМУ НУЛИ ПОСЛЕ ЗАГРУЗКИ?
+VAR|0x782A|1|PARTY__ORDER3|Party order // ЯВНО-ЖЕ СОСТАВ ОТРЯДА YRP|НО ПОЧЕМУ НУЛИ ПОСЛЕ ЗАГРУЗКИ?
+
+VAR|0x782B|25
+// при незагруженной игре
+// 782b: 0 => 1 (01)
+// 782d: 0 => 32 (20)
+// 782e: 0 => 6 (06)
+// 782f: 0 => 32 (20)
+// 783c: 0 => 10 (0A)
+// 783d: 0 => 3 (03)
+
+VAR|0x7844|8|GARMENTGRID__AvailableMask|Garment List (bitmaps)
+
+VAR|0x784C|1
+
+VAR|0x784D|29|DRESSES__Available?|???Dress List
+
+VAR|0x786A|278
+
+ARRAY68|0x7980|2|ITEMSLOT[]__Idx|Items
+
+VAR|0x7A08|376 // !!!ОДНИ НУЛИ!!! скорее всего предметы до количества 0x200
+
+ARRAY68|0x7B80|1|ITEMSLOT[]__Qty|Items
+
+VAR|0x7BC4|188
+
+VAR|0x7C80|9|null|1st time Item count increased // флаги 1-го получения
+
+VAR|0x7C89|23
+
+VAR|0x7CA0|9|null|1st time Item count decreased // флаги 1-й продажи
+
+VAR|0x7CA9|23
+
+ARRAY128|0x7CC0|2|ACCESSORYSLOT[]__Idx|Accessories
+ARRAY128|0x7DC0|1|ACCESSORYSLOT[]__Qty|Accessories
+ARRAY16|0x7E40|1|ACCESSORY[]__INC1stTime|1st time Accessory count increased
+ARRAY16|0x7E50|1|ACCESSORY[]__DEC1stTime|1st time Accessory count decreased
+
+VAR|0x7E60|512
+
+VAR|0x8060|64|CREATURES__EncounterMask|Creature Encounter/Kill flags
+VAR|0x80A0|64|CREATURES__KillMask|Creature Encounter/Kill flags
+VAR|0x80E0|64|CREATURES__OversoulEncounterMask|Creature Encounter/Kill flags
+VAR|0x8120|64|CREATURES__OversoulKillMask|Creature Encounter/Kill flags
+
+VAR|0x8160|9|ITEMS__KeyItemsMask|Key Items Flags
+// 8164: 0 => 16 (10) НАЧАЛО ИГРЫ
+
+VAR|0x8169|7
+
+ARRAY60|0x8170|2|SPECIES[]__KillsCounter|Species kill counters
+
+VAR|0x81E8|8
+
+ARRAY23|0x81F0|&CHARACTERINFO.map|CHAR[]|CHARACTER [] data
+
+ARRAY9*0x350|0x8D70|2|CHAR[]__ABILITY[]__Progress|Girls abilities [[]] // 9 blocks by blocksize = 0x6a0 bytes // 0x250(WORD) commands + 0x100(WORD) auto-abilities
+ARRAY9*30|0xC910|2|CHAR[]__DRESS[]__LearningAbility|Girls [[]] Learning Ability
+ARRAY23|0xCB2C|&NAMEINFO.map|CHAR[]__NAME|Names [[]]
+
+VAR|0xCEC4|600
+
+ARRAY8|0xD11C|&NAMEINFO.map|CC__CREATURE[]__NAME|Original names of creatures [[]]
+
+VAR|0xD25C|1
+
+ARRAY3|0xD25D|&DRESSCHANGE.map|CHAR[]__DRESS|Dress takeoff counts [{i}]
+VAR|0xD36B|1|CHAR#2__DRESS#30__PUTON|Dress takeoff counts [{i}]
+
+VAR|0xD36C|540
+
+VAR|0xD588|3|PARTY__ACTIVE|Battle Party
+// d588: 0 => 255 (FF) ПЕРЕД ПЕРВОЙ БИТВОЙ на сцене - Юна отсутствует
+VAR|0xD58B|11|PARTY__RESERVED|Reserved Party
+
+VAR|0xD596|26
+
+ARRAY8|0xD5B0|&CREATUREABILITIES.map|CC__CREATURE[]|CREATURES [[]] ENTRY
+
+VAR|0x14770|6904
+
+VAR|0x16268|2|null|CRC sum|EBytesBlockType.Flag
+
+VAR|0x1626A|34
+
+VAR|0x1628C|4|GENERAL__TreasureCollected|Treasures collected
+
+VAR|0x16290|8
+
+VAR|0x16298|1
+// 1606c: 0 => 1 после первой практики SB;
+// 1606c: 7 => 8 количество матчей SB?
+
+VAR|0x16299

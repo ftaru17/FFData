@@ -1,0 +1,7 @@
+SIZE|3640
+ARRAY4|0|2|LearnedCommand[]
+ARRAY4|8|2|LearnedAutoAbility[]
+VAR|16|180|LearnedAbilitiesMask
+ARRAY8|196|&CREATUREABILITYINFO.map|COMMAND[]
+VAR|3268|371|KilledEnemyMask
+VAR|3639|1|Unk3639
