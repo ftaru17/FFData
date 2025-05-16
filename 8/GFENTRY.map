@@ -1,0 +1,13 @@
+SIZE|68
+
+VAR|0|12|NAME
+VAR|12|4|EXP
+VAR|16|1|unk_b16
+VAR|17|1|AVAILABLE
+VAR|18|2|HP
+VAR|20|16|ABILITYMask               // 15th byte has 3 bits only, 16th is 0
+ARRAY24|36|1|ABILITYPROGRESS[]		// GF, Magic, Item == 1/1, Draw - not presents at all
+VAR|60|2|Kills
+VAR|62|2|Deaths
+VAR|64|1|ABILITYLEARNING
+VAR|65|3|ErasedStartedAbilityMask
