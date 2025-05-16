@@ -14,6 +14,9 @@ links:
 
 **[NFFXSS - Final Fantasy {xxx} Spoiler Server](https://www.moddb.com/mods/nffxss-final-fantasy-xx-2-spoiler-server)** - my own tool for monitoring game process memory, viewing game data (and cheating some values) - in fact, these files are collected on its basis
 
+(the source code will be published after the beta version is completed.)
+
+
 https://wiki.ffrtt.ru/index.php/FF7/Savemap
 
 https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat
