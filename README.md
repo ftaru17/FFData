@@ -1,4 +1,4 @@
-# FFData - a DATA-MINING project for save file formats and gameplay data for Final Fantasy games
+# FFData - another DATA-MINING project for save file formats and gameplay data for Final Fantasy games
 
 [*.map]: savefile (and memory) format\
 -- just write the simplest parser for your programming language (ignore the parts from 3rd "|")
