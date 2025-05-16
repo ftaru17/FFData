@@ -1,0 +1,14 @@
+SIZE|16
+
+VAR|0|2|Sprint // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|2|2|MaxSprint // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|4|2|Run // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|6|2|MaxRun // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|8|1|STAT8 // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|9|1|Coop // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|10|1|Int // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|11|1|STAT11 // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|12|1|STAT12 // (https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|13|1|Win
+VAR|14|1|Gender
+VAR|15|1|Color

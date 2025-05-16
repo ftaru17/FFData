@@ -1,0 +1,43 @@
+SIZE|132
+
+VAR|0|1|Enemy
+VAR|1|1|Level
+VAR|2|1|STR
+VAR|3|1|VIT
+VAR|4|1|MAG
+VAR|5|1|SPR
+VAR|6|1|DEX
+VAR|7|1|LCK
+VAR|8|1|STRBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|9|1|VITBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|10|1|MAGBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|11|1|SPRBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|12|1|DEXBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|13|1|LCKBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|14|1|LimitLevel
+VAR|15|1|LimitGauge
+VAR|16|12|NameBytes
+VAR|28|1|Weapon
+VAR|29|1|Armor
+VAR|30|1|Accessory
+VAR|31|1|Status // 0x20 = €рость
+VAR|32|1|Row
+VAR|33|1|ExpProgressX64th
+VAR|34|2|LearnedLimitsMask // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|36|2|KillCounter
+VAR|38|2|LimitLevel1Counter
+VAR|40|2|LimitLevel2Counter
+VAR|42|2|LimitLevel3Counter
+VAR|44|2|CurrentHP
+VAR|46|2|MaxHP
+VAR|48|2|CurrentMP
+VAR|50|2|MaxMP
+
+VAR|52|4|Unk52
+
+VAR|56|2|TotalMaxHP
+VAR|58|2|TotalMaxMP
+VAR|60|4|EXP
+ARRAY8|64|&MATERIASLOT.map|WeaponMateria[]
+ARRAY8|96|&MATERIASLOT.map|ArmorMateria[]
+VAR|128|4|NextLevelLeftEXP
