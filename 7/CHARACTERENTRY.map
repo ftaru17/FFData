@@ -8,22 +8,22 @@ VAR|4|1|MAG
 VAR|5|1|SPR
 VAR|6|1|DEX
 VAR|7|1|LCK
-VAR|8|1|STRBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
-VAR|9|1|VITBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
-VAR|10|1|MAGBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
-VAR|11|1|SPRBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
-VAR|12|1|DEXBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
-VAR|13|1|LCKBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|8|1|STRBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|9|1|VITBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|10|1|MAGBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|11|1|SPRBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|12|1|DEXBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap )
+VAR|13|1|LCKBonus // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap )
 VAR|14|1|LimitLevel
 VAR|15|1|LimitGauge
 VAR|16|12|NameBytes
 VAR|28|1|Weapon
 VAR|29|1|Armor
 VAR|30|1|Accessory
-VAR|31|1|Status // 0x20 = ˇÓÒÚ¸
+VAR|31|1|Status // 0x20 = —è—Ä–æ—Å—Ç—å
 VAR|32|1|Row
 VAR|33|1|ExpProgressX64th
-VAR|34|2|LearnedLimitsMask // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap|Save_Memory_Bank_1.2F2 )
+VAR|34|2|LearnedLimitsMask // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap )
 VAR|36|2|KillCounter
 VAR|38|2|LimitLevel1Counter
 VAR|40|2|LimitLevel2Counter
