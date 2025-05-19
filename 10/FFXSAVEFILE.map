@@ -1,0 +1,35 @@
+SIZE|0x6900
+
+VAR|0x00|252 // 0x00 - 0xFB
+
+VAR|0xFC|4|GENERAL__PlayTime|PlayTime|EBytesBlockType.Timer // 0xFC - 0xFF
+
+VAR|0x100|8492 // 0x100 - 0x222B
+
+ARRAY856|0x222C|&FFXSPHEREGRIDNODE.map|SG__Node[]|Sphere Grid: Nodes
+
+VAR|0x28DC|5292 // 0x28DC - 0x3D87
+
+// 3144: 1 => 0 (00) после очистки ноды на сетке...
+// 312c: 167 => 125 (7D) судя по всему - текущая нода для Тидуса
+
+
+VAR|0x3D88|4|GENERAL__Gil|Gil // 0x3D88 - 
+
+VAR|0x3D8C|384 // 0x3D8C - 0x3F0B
+
+ARRAY112|0x3F0C|2|ITEMSLOT[]__Idx|Items Counts
+
+VAR|0x3FEC|288 // 0x3FEC - 0x410B
+
+ARRAY112|0x410C|1|ITEMSLOT[]__Qty|Items Counts
+
+VAR|0x417C|208 // 0x417C - 0x424B
+
+ARRAY139|0x424C|1|MONSTERARENA__Captured[]|Monster Arena: Captured
+            
+VAR|0x42D7|4919 // 0x42D7 - 0x560D
+
+ARRAY7|0x560E|&FFXCHARACTERINFO.map|CHAR[]|CHAR [[]] data;
+
+VAR|0x5A1A|0 // 0x5A1A - ...
