@@ -1,0 +1,157 @@
+SIZE|0x1E80
+
+VAR|0x00|2 // Checksum ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x02|2 // Always 0x08FF ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x04|2 // Preview: Location ID ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x06|2 // Preview: 1st character's current HP ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x08|2 // Preview: 1st character's max HP ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x0A|2 // Preview: save count ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x0C|4 // Preview: Amount of Gil ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x10|4 // Preview: Total number of seconds played ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x14|1 // Preview: 1st character's level ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x15|1 // Preview: 1st character's portrait ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x16|1 // Preview: 2nd character's portrait ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x17|1 // Preview: 3rd character's portrait ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x18|12 // Preview: Squall's name (0x00 terminated) ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x24|12 // Preview: Rinoa's name (0x00 terminated) ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x30|12 // Preview: Angelo's name (0x00 terminated) ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x3C|12 // Preview: Boko's name (0x00 terminated) ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x48|4 // Preview: Current Disk(0 based) ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0x4C|4 // Preview: Current save(last saved game) ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+
+ARRAY16|0x50|&FFVIIIGFENTRY.map|GF[]|GF [[]] data
+ARRAY8|0x490|&FFVIIICHARACTERENTRY.map|CHAR[]|CHARACTER [[]] data
+
+VAR|0x950|400 // 0x950 - 0xADF Shops ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xAE0|20 // 0xAE0 - 0xAF3 Configuration ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xAF4|3 // 0xAF4 - 0xAF6 Party  ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xAF7|1 // 0xAF7 (alignment) ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xAF8|4 // 0xAF8 - 0xAFB Known weapons ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xAFC|12 // 0xAFC - 0xB07 Griever name ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB08|4 // 0xB08 - 0xB0B Unknown (always 7966?) + Unknown ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+
+VAR|0xB0C|4|GENERAL__Gil|Gil
+
+VAR|0xB10|4 // 0xB10 - 0xB13 Amount of Gil (Laguna) ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB14|2 // 0xB14 - 0xB15 Limit Break Quistis ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB16|2 // 0xB16 - 0xB17 Limit Break Zell ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB18|1 // 0xB18 Limit Break Irvine ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB19|1 // 0xB19 Limit Break Selphie ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB1A|1 // 0xB1A Limit Break Angelo completed ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB1B|1 // 0xB1B Limit Break Angelo known ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB1C|8 // 0xB1C - 0xB23 Limit Break Angelo points ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+VAR|0xB24|32 // 0xB24 - 0xB43 Items battle order ( https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat )
+
+ARRAY198|0xB44|2|ITEMSLOT[]|Item List
+VAR|0xCD0|4|GENERAL__PlayTime|PlayTime|EBytesBlockType.Timer
+VAR|0xCD4|4|QUEST__Timer|Mini-Games Timer|EBytesBlockType.Timer
+
+VAR|0xCD8|4 // 0xCD8 - 0xCDB
+
+VAR|0xCDC|4|GENERAL__BattleCount|Battle Count
+
+VAR|0xCE0|2 // 0xCE0 - 0xCE1
+
+VAR|0xCE2|2|GENERAL__FleeCount|Flee Count
+
+VAR|0xCE4|4 // 0xCE4 - 0xCE7
+
+VAR|0xCE8|124 // 0xCE4 - 0xD63
+// https://wiki.ffrtt.ru/index.php/FF8/GameSaveFormat
+//		VAR|0xCE8|4 // 0x0CF8 Battle: Tonberry killed count
+//		VAR|0xCEC|4 // 0x0CFC  4 bytes Battle: Tonberry Sr killed(yeah, this is a boolean)
+//		VAR|0xCF0|4 // 0x0D00  4 bytes Unknown
+//		VAR|0xCF4|4 // 0x0D04  4 bytes Battle: First "Bug" battle(R1 tip)
+//		VAR|0xCF8|4 // 0x0D08  4 bytes Battle: First "Bomb" battle(Elemental tip)
+//		VAR|0xCFC|4 // 0x0D0C  4 bytes Battle: First "T-Rex" battle(Mental tip)
+//		VAR|0xD00|4 // 0x0D10  4 bytes Battle: First "Irvine" battle(Irvine's limit break tip)
+//		VAR|0xD04|8 // 0x0D14  8 bytes Battle: Magic drawn once
+//		VAR|0xD0C|20 // 0x0D1C  20 bytes    Battle: Ennemy scanned once
+//		VAR|0xD20|1 // 0x0D30  1 byte  Battle: Renzokuken auto
+//		VAR|0xD21|1 // 0x0D31  1 byte  Battle: Renzokuken indicator
+//		VAR|0xD22|1 // 0x0D32  1 byte  Battle: dream / Odin / Phoenix / Gilgamesh / Angelo disabled / Angel Wing enabled /???/???
+//		VAR|0xD23|16 // 0x0D33  16 bytes    Tutorial infos
+//		VAR|0xD33|1 // 0x0D43  1 byte  SeeD test level
+//		VAR|0xD34|4 // 0x0D44  4 bytes Unknown
+//		VAR|0xD38|4 // 0x0D48  4 bytes Party(last byte always = 255)
+//		VAR|0xD3C|4 // 0x0D4C  4 bytes Unknown
+//		VAR|0xD40|2 // 0x0D50  2 bytes Module(1 = field|2 = worldmap|3 = battle)
+//		VAR|0xD42|2 // 0x0D52  2 bytes Current field
+//		VAR|0xD44|2 // 0x0D54  2 bytes Previous field
+//		VAR|0xD46|6 // 0x0D56  3 * 2 bytes(signed)  Coord X(party1, party2, party3)
+//		VAR|0xD4C|6 // 0x0D5C  3 * 2 bytes(signed)  Coord Y(party1, party2, party3)
+//		VAR|0xD52|6 // 0x0D62  3 * 2 bytes   Triangle ID(party1, party2, party3)
+//		VAR|0xD58|3 // 0x0D68  3 * 1 bytes   Direction(party1, party2, party3)
+//		VAR|0xD6B|1 // 0x0D6B  1 byte  Padding
+//		VAR|0xD5C|4 // 0x0D6C  4 bytes Unknown
+
+//		VAR|0xCE4|124 // 0x1270  128 bytes   Worldmap(TODO)
+//		VAR|0xCE4|124 // 0x12F0  128 bytes   Triple Triad(TODO)
+//		VAR|0xCE4|124 // 0x1370  64 bytes    Chocobo World(TODO)
+
+VAR|0xD64|4|GENERAL__Walked|Total steps Walked|EBytesBlockType.Timer
+VAR|0xD68|4|GENERAL__Walked2|2 Total steps Walked
+VAR|0xD6C|4|GENERAL__Walked3|3 Total steps Walked
+
+VAR|0xD70|64 // 0xD70 - 0xDAF
+
+VAR|0xDB0|4|GENERAL__CGITimer|CGI Timer // тоже таймер, считает только в мультах?
+VAR|0xDB4|2|GENERAL__ROOM|Room
+
+VAR|0xDB6|2 // 0xDB6 - 0xDB7
+VAR|0xDB8|92 // 0xDB6 - 0xE13
+
+
+VAR|0xE14|2|UNK__STEPS_1|UNK__STEPS_1
+
+VAR|0xE16|62 // 0xE16 - 0xE53
+
+// e32: 0 => 1(01) вопрос Кадоваки, диалог выбора ответа
+// e32: 1 => 0 (00) "ok, i guess..." 
+// e32: 1 => 0 (00) "my forehead hurts."
+
+// e33: 0 => 1(01) вопрос Кадоваки, диалог выбора ответа
+
+VAR|0xE54|2|UNK__STEPS_2|UNK__STEPS_2 // сбрасывается в 0 в районе 575
+
+VAR|0xE56|785 // 0xE56 - 0x1166
+
+// 1160: 0 => 1 (01) "my forehead hurts."
+// 1162: 1 => 2 (02) "ok, i guess..."
+// 1163: 1 => 2(02) вопрос Кадоваки, диалог выбора ответа
+
+VAR|0x1167|1|null|1st scene (Kadovaki), curtain moves 1 // 1167: 0 <...> 2 флаг... первая сценка с Кадоваки - ничего не происходит, только шторы колышутся, похоже, так и есть - шторка - как сильно отклонится
+VAR|0x1168|1|null|1st scene (Kadovaki), curtain moves 2 // 1168 :0 <...> 5 флаг ... первая сценка с Кадоваки - ничего не происходит, только шторы колышутся, похоже, так и есть - шторка - кадр анимации
+
+VAR|0x1169|375 // 0x1169 - 0x12DF
+
+ARRAY110|0x12E0|1|CARDS__CARD[]|Cards
+VAR|0x134E|4|CARDS__UNIQUEKnownMask
+
+VAR|0x1352 // 0x1352 - ...
+
+// открыли меню
+// 199a: 130 => 135 (87)
+// 199c: 135 => 130 (82)
+// 199e: 4 => 57 (39)
+// 19a0: 4 => 57 (39)
+// 19a4: 208 => 22 (16)
+// 19a5: 252 => 246 (F6)
+// 19a6: 31 => 170 (AA)
+// 19a7: 251 => 246 (F6)
+// 19aa: 9 => 17 (11)
+// 19ac: 4 => 17 (11)
+// 19b0: 128 => 0 (00)
+// 19b1: 128 => 0 (00)
+
+// 1a6c: 243 => 7 (07)
+// 1a6d: 2 => 3(03)
+
+// 1a6c: 162 => 182 координаты на глобальной карте
+// 1aac: 157 => 177 координаты на глобальной карте
+// 1aac: 224 => 8 (08)
+// 1aad: 1 => 2(02)
+
+// 1db9: 6 => 0 флаг точки маршрута гуляющего мужика в B-Garden Front Gate 
+
+// 1dc6: 1 => 2 флаг открытия двери в сцене выхода S и Q из лазарета
