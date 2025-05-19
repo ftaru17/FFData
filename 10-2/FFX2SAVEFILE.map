@@ -280,7 +280,7 @@ VAR|0x234|1|null|SPReq - Shinra placing comm spheres f1 [---43---]|EBytesBlockTy
 // 234[0] ?
 // 234[1] ?
 // 234[2] ?
-// 234[3] "Shinra seen placing a comm sphere at Mushroom Rock Road, but then he moves it"
+// 234[3] `Shinra seen placing a comm sphere at Mushroom Rock Road, but then he moves it`
 // 234[4] закончилась сценка с расспросами Пейн о Нудже, получили CS7
 // 234[5] ?
 // 234[6] ?
@@ -318,7 +318,7 @@ VAR|0x239|1|null|SPReq - Character intros [--543210]|EBytesBlockType.BAD
 VAR|0x23A|1
 
 VAR|0x23B|1
-// 0f: 0 => 1 после сценки "comfort him"
+// 0f: 0 => 1 после сценки `comfort him`
 // 0f: 1 => 9 выплатили долг Оаки
 
 VAR|0x23C|1
@@ -413,7 +413,7 @@ VAR|0x25B|4
 VAR|0x25F|1|null|SPReq - Yuna Flags 1 [----3210]|EBytesBlockType.BAD
 // 25f[0] 4 => 5 - Юна присоединилась к отряду
 // 25f[1] 5 => 7 - Юна танцует
-// 25f[2] 0 => 4 - "talked with Yuna-the-Moogle on dock in the Prologue"
+// 25f[2] 0 => 4 - `talked with Yuna-the-Moogle on dock in the Prologue`
 // 25f[3] 7 => 15 - миссия в люке: Юна выпрыгивает 
 // 25f[4] ?
 // 25f[5] ?
@@ -513,7 +513,7 @@ VAR|0x2BB|1|null|SPReq - Guadosalam f1 [---43210]|EBytesBlockType.BAD
 // 2bb[0] 0 => 1 intro Гуадосалам
 // 2bb[1] 1 => 3 intro Farplane в Гуадосаламе
 // 2bb[2] 3 => 7 ch2, купили подсказку в Гуадосаламе
-// 2bb[3] 23 => 31 ch2, закончили мини-игру по продаже "секретных данных"
+// 2bb[3] 23 => 31 ch2, закончили мини-игру по продаже `секретных данных`
 // 2bb[4] 7 => 23 ch2, сценка с охраной Шато Леблан
 
 VAR|0x2BC|5
@@ -625,7 +625,7 @@ VAR|0x2F9|1|null|SPReq - Djose f1 [76543210]|EBytesBlockType.StoryPoint
 VAR|0x2FA|1|null|SPReq - Djose f2 [-----210]|EBytesBlockType.BAD
 // 2fa[0] 0 => 1 // поговорили с женщиной в красном жилете справа перед входом в храм
 // 2fa[1] 0 => 2 // Гиппал позвал на мост
-// 2fa[2] 2 => 6 // "we`re sure" на вопрос Гиппала
+// 2fa[2] 2 => 6 // `we`re sure` на вопрос Гиппала
 // 2fa[3] ?
 // 2fa[4] ?
 // 2fa[5] ?
@@ -641,10 +641,10 @@ VAR|0x2FC|27
 // 300: 0 => 1 ch2, Thunder Plains, разговор с Сидом
 
 VAR|0x317|1|null|SPReq - Shinra placing comm spheres f2 [----3--0]|EBytesBlockType.BAD
-// 317[0] "Shinra spotted installing sphere on Mi`ihen Highroad"
+// 317[0] `Shinra spotted installing sphere on Mi`ihen Highroad`
 // 317[1] ?
 // 317[2] ?
-// 317[3] "Shinra seen placing a comm sphere at Calm Land Agency"
+// 317[3] `Shinra seen placing a comm sphere at Calm Land Agency`
 // 317[4] ?
 // 317[5] ?
 // 317[6] ?
@@ -655,9 +655,9 @@ VAR|0x318|1|null|SPReq - Shinra placing comm spheres f3 [7-5-----]|EBytesBlockTy
 // 318[2] ?
 // 318[3] ?
 // 318[4] ?
-// 318[5] "Shinra dropped a comm sphere on Mi`ihen Highroad"
+// 318[5] `Shinra dropped a comm sphere on Mi`ihen Highroad`
 // 318[6] ?
-// 318[7] "Shinra seen placing a comm sphere in chocobo ranch"
+// 318[7] `Shinra seen placing a comm sphere in chocobo ranch`
 
 VAR|0x319|5
 
@@ -805,7 +805,7 @@ VAR|0x386|1
 VAR|0x387|1|null|Macalania Woods f1 [--54-210]|EBytesBlockType.BAD
 // 387[0] 0 => 1 ch2, нашли ближайшего музыканта
 // 387[1] 1 => 3 ch2, нашли еще одного музыканта тут-же
-// 387[2] 19 => 23 еще один "левый" музыкант
+// 387[2] 19 => 23 еще один `левый` музыкант
 // 387[3] ?
 // 387[4] 3 => 19 ch2, нашли Pukutak
 // 387[5] 23 => 55 ch2, нашли Donga
@@ -819,7 +819,7 @@ VAR|0x388|1|null|SPReq - O`aka f1 [7-5-3210]|EBytesBlockType.BAD
 // 388[4] ?
 // 388[5] Поймали в Macalania Woods - Campsite
 // 388[6] ?
-// 388[7] "Allowed O`aka to lay low on your ship"
+// 388[7] `Allowed O`aka to lay low on your ship`
 VAR|0x389|1|null|SPReq - Macalania f1 [----3210]|EBytesBlockType.BAD
 // 389[0] 0 => 1 intro Macalania
 // 389[1] 1 => 3 Bayra жалуется
@@ -1067,12 +1067,12 @@ VAR|0x438|1|null|SPReq - Mi`ihen Road Mission f1 [7-5--210]|EBytesBlockType.BAD
 // 438[2] 129 => 133 ch2, Mi`ihen road mission, успели добежать до Eater`а
 // 438[3] ?
 // 438[4] ?
-// 438[5] "Destroyed a machina on the ledge off the road"
+// 438[5] `Destroyed a machina on the ledge off the road`
 // 438[6] ?
 // 438[7] увидели мини-eater на нижней дороге Mi`ihen
 VAR|0x439|1|null|SPReq - Mi`ihen Road f2 [-----2-0]|EBytesBlockType.BAD
 // 439[0] поговорили с тренером макин в Highroad - Central
-// 439[2] "Machina destroying mission complete"
+// 439[2] `Machina destroying mission complete`
 
 VAR|0x43A|27
 
@@ -1183,9 +1183,9 @@ VAR|0x481|1|null|SBMatch: Opponent idx
 VAR|0x482|7
 
 VAR|0x489|1|null|SPReq - Kilika f1 [-65-3---]|EBytesBlockType.BAD
-// 489[3] "Barthello: Dona!"
-// 489[5] "Saw HQ form Kilika man`s camera, Ch.1"
-// 489[6] "Saw HQ form Kilika man`s camera, Ch.3"
+// 489[3] `Barthello: Dona!`
+// 489[5] `Saw HQ form Kilika man`s camera, Ch.1`
+// 489[6] `Saw HQ form Kilika man`s camera, Ch.3`
 
 VAR|0x48A|3
 
@@ -1216,7 +1216,7 @@ VAR|0x4F4|1|TRAPCREATURE__TrapSetted|setted traps count
 
 VAR|0x4F5|55|UNK__0x4F5 // SPReq 0x2C9 - 0x2FF - UNKNOWN (54 bytes) - 00 ..
 
-ARRAY15|0x52C|&CREATUREID4.map|TRAPCREATURE__CreatureId[]|trapped creatures
+ARRAY15|0x52C|&FFX2CREATUREID4.map|TRAPCREATURE__CreatureId[]|trapped creatures
 
 VAR|0x568|4|FIENDARENA__BSimFlags1|Battle Simulator: flags // UNKNOWN
 VAR|0x56C|16|FIENDARENA__BSimTeamsMask|Battle Simulator: Teams flags
@@ -1395,21 +1395,21 @@ VAR|0xC9F|1|null|Cutscene flag 6|EBytesBlockType.Flag
 VAR|0xCA0|1
 
 VAR|0xCA1|1|null|SPReq - Shinra placing comm spheres f4 [765---10]|EBytesBlockType.BAD
-// [0] "Shinra scene placing a comm sphere in Besaid"
-// [1] "Shinra seen placing a comm sphere in Kilika"
-// [5] "Shinra seen placing a comm sphere in Djose Temple"
-// [6] "Shinra seen placing a comm sphere at Moonflow"
-// [7] "Shinra seen placing a comm sphere at Guadosalam"
+// [0] `Shinra scene placing a comm sphere in Besaid`
+// [1] `Shinra seen placing a comm sphere in Kilika`
+// [5] `Shinra seen placing a comm sphere in Djose Temple`
+// [6] `Shinra seen placing a comm sphere at Moonflow`
+// [7] `Shinra seen placing a comm sphere at Guadosalam`
 VAR|0xCA2|1|null|SPReq - Shinra placing comm spheres f5 [765--210]|EBytesBlockType.BAD
-// [0] "Shinra seen placing a comm sphere at Thunder Plains"
-// [1] "Shinra seen placing a comm sphere at Macalania"
-// [2] "Shinra seen placing a comm sphere at Bevelle"
-// [5] "Shinra seen placing a comm sphere in Gagazet"
-// [6] "Shinra seen placing a comm sphere in Zanarkand"
-// [7] "Shinra seen placing a comm sphere at Macalania Agency"
+// [0] `Shinra seen placing a comm sphere at Thunder Plains`
+// [1] `Shinra seen placing a comm sphere at Macalania`
+// [2] `Shinra seen placing a comm sphere at Bevelle`
+// [5] `Shinra seen placing a comm sphere in Gagazet`
+// [6] `Shinra seen placing a comm sphere in Zanarkand`
+// [7] `Shinra seen placing a comm sphere at Macalania Agency`
 VAR|0xCA3|1|null|SPReq - Automatic install comm spheres f1 [------10]|EBytesBlockType.BAD
-// [0] "Automatic install when visiting bridge to Gagazet"
-// [1] "Automatic install on scene of hover driving to cactuar nation"
+// [0] `Automatic install when visiting bridge to Gagazet`
+// [1] `Automatic install on scene of hover driving to cactuar nation`
 
 VAR|0xCA4|1
 
@@ -1550,9 +1550,9 @@ VAR|0xDD4|2|EXPERIMENTASSEMBLY__Z__Special
 
 VAR|0xDD6|14
 
-// dd8: 0 => 11 выбрали "rest" в cabin|ch1;
+// dd8: 0 => 11 выбрали `rest` в cabin|ch1;
 // dd8: 0 => 15 то-же самое действие в другой игре...
-// dd8: 15 => 23 выбрали "rest" в cabin|ch2;
+// dd8: 15 => 23 выбрали `rest` в cabin|ch2;
 
 VAR|0xDE4|4|PR__OpenAirRate|PR: OpenAir rate
 VAR|0xDE8|4|PR__ArgentRate|PR: Argent rate
@@ -1604,7 +1604,7 @@ VAR|0xF84|2|null|animation CreatureId???|EBytesBlockType.BAD
 VAR|0xF86|2
 
 VAR|0xF88|1|null|SPReq - Farplane, Ch.3 [------1-]|EBytesBlockType.BAD
-// f88[1] "Four whistles heard in Farplane, Ch.3"
+// f88[1] `Four whistles heard in Farplane, Ch.3`
 
 VAR|0xF89|1
 
@@ -1656,7 +1656,7 @@ VAR|0xFB4|4|GENERAL__BesaidProgress|Besaid Progress
 
 VAR|0xFB8|4|GENERAL__KilikaProgress|Kilika Progress
 // fb8: 0 => 1 вошли в Килику
-// fb8: 1 => 2 "Barthello: Dona!"
+// fb8: 1 => 2 `Barthello: Dona!`
 // fb8: 2 => 0 закончена глава 1
 
 VAR|0xFBC|4|GENERAL__LucaProgress|Luca progress
@@ -1831,7 +1831,7 @@ VAR|0x119F|1|null|SPReq - DIFFERENT FLAGS Ch.1 f4 [76543210]|EBytesBlockType.SPR
 // f73: 0 => 8 - первая сценка на Цельсии
 // f73: 107 => 123 диалог с Пасе
 // f73: 75 => 107 Баралай здоровается в Бевеле
-// f73: 8 => 72 Килика|Barthello: Dona!"
+// f73: 8 => 72 Килика|Barthello: Dona!`
 // f73: 127 => 255 Calli: It`s me|Calli!
 
 
@@ -1885,7 +1885,7 @@ VAR|0x11C5|1|DOGHUNT__Level|Dog Hunt: Level
 
 VAR|0x11C6|2
 
-ARRAY8|0x11C8|&CREATUREID4.map|CC__CREATURE[]__ID|creatures in party
+ARRAY8|0x11C8|&FFX2CREATUREID4.map|CC__CREATURE[]__ID|creatures in party
 
 ARRAY8|0x11E8|1|CC__CREATURE[]__UnknownByte // 11e8: 0 => 2 (02) дали Братца
 
@@ -1929,7 +1929,7 @@ VAR|0x120D|1|CC__ReleasedCount // КОЛИЧЕСТВО ОТПУЩЕННЫХ!!! /
 // 120d: 0 => 1 (01) СС|дали Братца
 
 VAR|0x120E|1|UNK__0x120E|SPReq - CC Flags 2 [-----210]|EBytesBlockType.BAD
-// 120e: 0 => 4 диалог "показать помощь по Creature Creator?"
+// 120e: 0 => 4 диалог `показать помощь по Creature Creator?`
 // 120e: 4 => 5 отказались от обучения по CC (братец присоединился)
 // 120e: 5 => 7 добавлен podS
 
@@ -2016,19 +2016,19 @@ ARRAY60|0x8170|2|SPECIES[]__KillsCounter|Species kill counters
 
 VAR|0x81E8|8
 
-ARRAY23|0x81F0|&CHARACTERINFO.map|CHAR[]|CHARACTER [] data
+ARRAY23|0x81F0|&FFX2CHARACTERINFO.map|CHAR[]|CHARACTER [] data
 
 ARRAY9*0x350|0x8D70|2|CHAR[]__ABILITY[]__Progress|Girls abilities [[]] // 9 blocks by blocksize = 0x6a0 bytes // 0x250(WORD) commands + 0x100(WORD) auto-abilities
 ARRAY9*30|0xC910|2|CHAR[]__DRESS[]__LearningAbility|Girls [[]] Learning Ability
-ARRAY23|0xCB2C|&NAMEINFO.map|CHAR[]__NAME|Names [[]]
+ARRAY23|0xCB2C|&FFX2NAMEINFO.map|CHAR[]__NAME|Names [[]]
 
 VAR|0xCEC4|600
 
-ARRAY8|0xD11C|&NAMEINFO.map|CC__CREATURE[]__NAME|Original names of creatures [[]]
+ARRAY8|0xD11C|&FFX2NAMEINFO.map|CC__CREATURE[]__NAME|Original names of creatures [[]]
 
 VAR|0xD25C|1
 
-ARRAY3|0xD25D|&DRESSCHANGE.map|CHAR[]__DRESS|Dress takeoff counts [{i}]
+ARRAY3|0xD25D|&FFX2DRESSCHANGE.map|CHAR[]__DRESS|Dress takeoff counts [{i}]
 VAR|0xD36B|1|CHAR#2__DRESS#30__PUTON|Dress takeoff counts [{i}]
 
 VAR|0xD36C|540
@@ -2039,7 +2039,7 @@ VAR|0xD58B|11|PARTY__RESERVED|Reserved Party
 
 VAR|0xD596|26
 
-ARRAY8|0xD5B0|&CREATUREABILITIES.map|CC__CREATURE[]|CREATURES [[]] ENTRY
+ARRAY8|0xD5B0|&FFX2CREATUREABILITIES.map|CC__CREATURE[]|CREATURES [[]] ENTRY
 
 VAR|0x14770|6904
 
