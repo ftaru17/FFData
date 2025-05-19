@@ -18,14 +18,14 @@ VAR|0x24|4|null|LastSavePlayTime|EBytesBlockType.Settings
 VAR|0x28|24|GENERAL__LastSaveLocationTitle|LastSaveLocationTitle
 VAR|0x40|8 // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap утверждает, что это продолжение имени локации...)
 VAR|0x48|12|null|Saved RGB colors of interface windows corners // ( https://wiki.ffrtt.ru/index.php/FF7/Savemap RGB bytes x4 ) 
-ARRAY9|0x54|&CHARACTERENTRY.map|CHAR[]|CHAR [[]] data
+ARRAY9|0x54|&FFVIICHARACTERENTRY.map|CHAR[]|CHAR [[]] data
 VAR|0x4F8|3|null|party members order
 
 VAR|0x4FB|1
 // 4fb: 0 => 255 (FF) сразу при запуске игры
 
 ARRAY320|0x4FC|2|ITEMSLOT[]|Item List
-ARRAY200|0x77C|&MATERIASLOT.map|MATERIASLOT[]|Materias List
+ARRAY200|0x77C|&FFVIIMATERIASLOT.map|MATERIASLOT[]|Materias List
 VAR|0xA9C|192|null|Materia stolen by Yuffie // ( 4bytes x48 согласно https://wiki.ffrtt.ru/index.php/FF7/Savemap ) 
 
 VAR|0xB5C|32 // 0xB5C - 0xB7B
@@ -1456,7 +1456,7 @@ VAR|0xDC0|1|QUEST__ChocoboRacePrize|Chocobo Race: Current Prize // ( https://wik
 
 VAR|0xDC1|3 // 0xDC1 - 0xDC3
 
-ARRAY4|0xDC4|&CHOCOBOINSTABLE.map|CHOCOBOINSTABLE[]|Breeding: Chocobo [[]] STATS // 0xDC4 - 0xE03
+ARRAY4|0xDC4|&FFVIICHOCOBOINSTABLE.map|CHOCOBOINSTABLE[]|Breeding: Chocobo [[]] STATS // 0xDC4 - 0xE03
 
 VAR|0xE04|10 // 0xE04 - 0xE0D
 
@@ -2229,7 +2229,7 @@ VAR|0x1057|1
 
 VAR|0x1058|44 // 0x1058 - 0x1083
 
-ARRAY2SHIFT4|0x1084|&CHOCOBOINSTABLE.map|CHOCOBOINSTABLE[]|Breeding: Chocobo [[]] STATS // 0x1084 - 0x10A3
+ARRAY2SHIFT4|0x1084|&FFVIICHOCOBOINSTABLE.map|CHOCOBOINSTABLE[]|Breeding: Chocobo [[]] STATS // 0x1084 - 0x10A3
 
 VAR|0x10A4|2|null|PHS: Locked (bitmap)|EBytesBlockType.Flag // ( https://github.com/sithlord48/ff7tk/blob/master/src/data/FF7Save_Types.h )  { 0 - Cloud, 1 - Barret, 2 - Tifa, 3 - Aerith, 4 - Red XIII, 5 - Yuffie, 6 - Cait Sith, 7 - Vincent, 8 - Cid }
 VAR|0x10A6|2|null|PHS: Visible (bitmap)|EBytesBlockType.Flag // { 0 - Cloud, 1 - Barret, 2 - Tifa, 3 - Aerith, 4 - Red XIII, 5 - Yuffie, 6 - Cait Sith, 7 - Vincent, 8 - Cid }
