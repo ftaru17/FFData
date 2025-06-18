@@ -1,0 +1,195 @@
+SIZE|3984
+
+VAR|0|4|pointer1
+VAR|4|4|ActorIdx // 8%8
+VAR|8|4|SpecieIdx
+VAR|12|2|EntityIndex // 0-17 - party, 18-19 - empty, 20-27 - enemy
+VAR|14|2|ActorIdx2
+
+VAR|16|29|unk_16 // 16%8
+VAR|45|1|unk_45 // 1 = персонаж на поле, враг жив, 0 - наоборот
+VAR|46|26|unk_46
+
+VAR|72|4|pointer2 // 72%8
+VAR|76|4|pointer3 // 80%8
+VAR|80|64|text_name // 144%8
+VAR|144|256|text_help // 400%8
+VAR|400|512|text_scan // 912%8
+
+VAR|912|4|unk_i912
+VAR|916|4|unk_i916 // 920%8
+VAR|920|4|unk_i920
+VAR|924|4|unk_i924
+VAR|928|72|unk_928_bb72 // 928%8 1000%8
+VAR|1000|1|unknown9
+VAR|1001|1|unknown10
+
+VAR|1002|1|animation_start|UNWANTED
+VAR|1003|1|animation_unknownb1|UNWANTED // freezes animation when != 0
+VAR|1004|4|animation_unknowni2|UNWANTED // 1008%8
+VAR|1008|1|next_animation_index|UNWANTED
+VAR|1009|1|animation_unknownb7|UNWANTED
+VAR|1010|1|animation_unknownb8|UNWANTED
+VAR|1011|1|animation_unknownb9|UNWANTED
+VAR|1012|1|animation_unknownb10|UNWANTED // 1 = enemy is temporary disabled of field
+VAR|1013|1|animation_speed|UNWANTED
+VAR|1014|26|animation_unknownbb26|UNWANTED // 1016%8 1040%8
+VAR|1040|1|animation_unknownb11|UNWANTED // 1 or 2 - moving direction of enemy?
+VAR|1041|29|unk_1041_bb29 // 1048%8 1176%8
+VAR|1070|1|UNWANTED_byChangeTurn_1070|UNWANTED
+VAR|1071|3|unk_1071_bb3 // 1048%8 1176%8
+VAR|1074|1|UNWANTED_byChangeTurn_1074|UNWANTED
+VAR|1075|1|UNWANTED_byChangeTurn_1075|UNWANTED
+VAR|1076|1|UNWANTED_byChangeTurn_1076|UNWANTED
+VAR|1077|3|unk_1077_bb3 // 1048%8 1176%8
+VAR|1080|1|targetEntityIndex|target|EBytesBlockType.Cursor // 255 - self
+VAR|1081|15|unk_1081_bb15 // 1048%8 1176%8
+VAR|1096|1|UNWANTED_byChangeTurn_1096|UNWANTED
+VAR|1097|6|unk_1097_bb6 // 1048%8 1176%8
+VAR|1103|1|UNWANTED_byChangeTurn_1103|UNWANTED
+VAR|1104|76|unk_1104_bb76 // 1048%8 1176%8
+VAR|1180|4|animation_cursor|UNWANTED // 1184%8
+VAR|1184|94|unk_1184 // 1424%8
+VAR|1278|4|unk_1278
+VAR|1282|4|unk_1282
+VAR|1286|5|unk_1286
+VAR|1291|1|unk_1291
+VAR|1292|136|unk_1292
+
+VAR|1428|4|hp_curMAX // 1432%8
+VAR|1432|4|mp_curMAX
+VAR|1436|4|hp_base // 1440%8
+VAR|1440|4|mp_base
+VAR|1444|4|overkill // 1448%8
+VAR|1448|1|STR
+VAR|1449|1|DEF
+VAR|1450|1|MAG
+VAR|1451|1|MDF
+VAR|1452|1|AGI
+VAR|1453|1|LCK
+VAR|1454|1|EVA
+VAR|1455|1|ACC
+
+VAR|1456|4|unk_i1456
+VAR|1460|4|unk_i1460 // 1464%8
+VAR|1464|4|unk_i1464
+
+VAR|1468|1|overdrive_current
+VAR|1469|1|overdrive_max
+
+VAR|1470|10|unknown4 // 1472%8 1480%8
+
+VAR|1480|1|timer_doom
+
+VAR|1481|7|unknown14 // 1488%8
+
+VAR|1488|4|hp_current
+VAR|1492|4|mp_current // 1496%8
+
+VAR|1496|40|unknown5 // 1504%8 1536%8
+VAR|1536|6|unknown6
+
+VAR|1542|2|status_flags_negative
+// [0] dead
+// [8] confusion
+VAR|1544|1|status_turns_sleep
+VAR|1545|1|status_turns_silence
+VAR|1546|1|status_turns_darkness
+VAR|1547|1|status_shell
+VAR|1548|1|status_protect
+VAR|1549|1|status_reflect
+VAR|1550|1|status_nultide
+VAR|1551|1|status_nulblaze // 1552%8
+VAR|1552|1|status_nulshock
+VAR|1553|1|status_nulfrost
+VAR|1554|1|status_regen
+VAR|1555|1|status_haste
+VAR|1556|1|status_slow
+VAR|1557|1|status_unknown
+VAR|1558|2|status_flags_positive
+
+VAR|1560|68|unk_1560_bb68 // 1624%8
+VAR|1628|1|UNWANTED_randomoneverycharturn|UNWANTED
+VAR|1629|107|unk_1629_bb107 // 1736%8
+VAR|1736|2|action_defend
+VAR|1738|2|unk_s1738
+VAR|1740|4|unk_i1740 // 1744%8
+VAR|1744|2|unk_s1744
+VAR|1746|1|UNWANTED_byChangeTurn_b1746|UNWANTED // растет при любых действиях ДЛЯ ВСЕХ ОДИНАКОВО!!!, но неравномерно 
+VAR|1747|12|unk_1747_bb12 // 1760%8 r2
+
+VAR|1759|1|turnsCount //max 255 // растет даже при смене отряда
+
+VAR|1760|4|unk_1760_bb4 // 1760%8 r4
+VAR|1764|1|unk_b1764
+VAR|1765|1|unk_b1765
+VAR|1766|6|unk_1766_bb6 // 1768%8 r4
+
+VAR|1772|1|UNWANTED_becomeequaltounkrandomwhencursored|UNWANTED
+
+VAR|1773|19|unk_1773_bb19 // 1792%8
+VAR|1792|4|unk_i1792
+
+VAR|1796|4|bribedgil // 1800%8 
+
+VAR|1800|10|unk_1800_bb10 // 1808%8 r2
+
+VAR|1810|1|chancetostealgil // every success gil steal chance reduced to half: ff -> 7f -> 3f - 1f - 0f - 07
+
+VAR|1811|5|unk_1811_bb5 // 1816%8
+VAR|1816|1|unk_b1816
+VAR|1817|1|UNWANTED_byChangeTurn_1817|UNWANTED
+VAR|1818|21|unk_1818_bb21
+VAR|1839|1|UNWANTED_byChangeTurn_1839|UNWANTED
+VAR|1840|1|UNWANTED_byChangeTurn_1840|UNWANTED
+VAR|1841|3|unk_1841_bb3
+VAR|1844|1|UNWANTED_byChangeTurn_1844|UNWANTED
+VAR|1845|1|UNWANTED_byChangeTurn_1845|UNWANTED
+VAR|1846|1|UNWANTED_byChangeTurn_1846|UNWANTED
+VAR|1847|4|unk_1847_bb4
+VAR|1851|1|battle_row // 1848%8 r4
+VAR|1852|4|unk_1852_bb4 // 1856%8
+VAR|1856|4|unk_i1856
+VAR|1860|2|UNWANTED_byChangeTurn_s1860|UNWANTED
+VAR|1862|2|UNWANTED_byChangeTurn_s1862|UNWANTED
+VAR|1864|12|unk_1864_bb12
+VAR|1876|2|UNWANTED_byChangeTurn_s1876|UNWANTED
+VAR|1878|2|UNWANTED_byChangeTurn_s1878|UNWANTED
+VAR|1880|28|unk_1880_bb28
+VAR|1908|1|UNWANTED_byChangeTurn_b1908|UNWANTED
+VAR|1909|1|unk_b1909
+VAR|1910|1|UNWANTED_byChangeTurn_b1910|UNWANTED
+VAR|1911|1|unk_b1911
+VAR|1912|1|unk_b1912
+VAR|1913|1|UNWANTED_byChangeTurn_b1913|UNWANTED
+VAR|1914|142|unk_1914_bb142
+VAR|2056|200|unk_2056
+VAR|2256|200|unk_2256
+VAR|2456|200|unk_2456
+VAR|2656|200|unk_2656
+VAR|2856|200|unk_2856
+VAR|3056|200|unk_3056
+VAR|3256|200|unk_3256
+VAR|3456|72|unk_3456_bb72
+VAR|3528|1|unk_3528 // 1 = персонаж на поле, 0 - в запасе
+VAR|3529|27|unk_3529_bb27
+VAR|3556|1|UNWANTED_byChangeTurn_b3556|UNWANTED
+VAR|3557|1|UNWANTED_byChangeTurn_b3557|UNWANTED
+VAR|3558|1|UNWANTED_byChangeTurn_b3558|UNWANTED
+VAR|3559|1|UNWANTED_byChangeTurn_b3559|UNWANTED
+VAR|3560|1|UNWANTED_byChangeTurn_b3560|UNWANTED
+VAR|3561|1|UNWANTED_byChangeTurn_b3561|UNWANTED
+VAR|3562|6|unk_3562_bb6
+VAR|3568|1|UNWANTED_byChangeTurn_b3568|UNWANTED
+VAR|3569|47|unk_3569_bb47
+VAR|3616|1|UNWANTED_byChangeTurn_b3616_everyTurn|UNWANTED
+VAR|3617|39|unk_3617_bb39
+VAR|3656|200|unk_3656_bb200
+VAR|3856|36|unk_3856_bb36 // 3892%8 
+VAR|3892|2|RANDOMCHANGED_s3892|UNWANTED
+VAR|3894|2|unk_s3894 // 3896%8
+VAR|3896|4|RANDOMCHANGED_i3896|UNWANTED
+VAR|3900|4|RANDOMCHANGED_i3900|UNWANTED
+VAR|3904|4|RANDOMCHANGED_i3904|UNWANTED
+VAR|3908|74|unk_3908_bb74 // 3912%8 3976%8 r4
+VAR|3982|2|unk_s3982 // 3983 3984%8 

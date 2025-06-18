@@ -1,0 +1,17 @@
+SIZE|22
+
+VAR|0|2|Name
+VAR|2|1|UNK2 // always 0x01
+VAR|3|1|UNK3
+VAR|4|1|Character
+VAR|5|1|Type
+VAR|6|2|EquippedBy
+VAR|8|1|DamageFormula
+VAR|9|1|UNK9 // always 0x10
+VAR|10|1|CriticalHit
+VAR|11|1|SlotCount
+VAR|12|2|Appearance
+VAR|14|2|Ability0
+VAR|16|2|Ability1
+VAR|18|2|Ability2
+VAR|20|2|Ability3
