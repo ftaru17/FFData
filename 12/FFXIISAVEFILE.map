@@ -1,1 +1,2282 @@
+SIZE|0x56690 // according savefiles
+
+VAR|0x0|4|SAVE__HASH|save file hash|EBytesBlockType.Timer
+VAR|0x4|4|UNWANTEDFLAG__4|save flag 4|EBytesBlockType.Flag // 04: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 в процессе сохранения прыгает в 0, затем возвращается в 1
+VAR|0x08|4|GENERAL__Gil|Gil|EBytesBlockType.Timer
+VAR|0x0C|4|GENERAL__Walked|Total steps Walked|EBytesBlockType.Timer
+VAR|0x10|4|UNWANTED__PlaySeconds||EBytesBlockType.Timer
+VAR|0x14|4|UNK__14 // 00 в начале игры
+VAR|0x18|4|GENERAL__PlayTime|PlayTime|EBytesBlockType.Timer
+VAR|0x1C|4|UNK__1C // 00 в начале игры
+ARRAY7|0x20|4|SAVE__PARTY[]|Save: party info|EBytesBlockType.Timer //: 7x 4byte [0] - idx, [1] - lvl, [2] - mist (4bit - qty, 4bit - full), [3] - isLeader (1 or 0)
+VAR|0x3C|4|UNK__3C|UNK__3C // 00 в начале игры
+VAR|0x40|4|SAVE__CLANPOINTS|Save: Clan Points|EBytesBlockType.Timer
+
+VAR|0x44|4
+
+VAR|0x48|4|SAVE__AREA
+// 0 диалог со слотами сохранения после 10 уровня в Trial Mode
+// 1 Rabanastre
+// 2 Garamsythe Waterway
+// 3 Nalbina Dungeons/Town
+// 4 Barheim Passage
+// 5 Dalmasca Estersand
+// 6 Dalmasca Westersand
+// 7 Giza Plains
+// 8 Mosphoran Highwaste
+// 9 The Salikawood
+// 10 Nabreus Deadlands
+
+// 12 Old Archades
+
+// 14 Phon Coast
+// 15 Tchita Uplands
+// 16 Sochen Cave Palace
+// 17 Ozmone Plain
+// 18 Jahara
+// 19 Henne Mines
+// 20 Bhujerba
+
+// 22 Ogir-Yensa Sandsea
+// 23 Nam-Yensa Sandsea
+// 24 The Tomb of Raithwall
+// 25 Zertinan Caverns
+// 26 Golmore Jungle
+// 27 Eruyt Village
+
+// 30 Mt Bur-Omisace
+// 31 Paramina Rift
+// 32 Stilshrine of Miriam
+
+// 37 Dreadnought Leviathan
+
+VAR|0x4C|4|SAVE__ROOM|Save: room
+VAR|0x50|4|SAVE__SavesTotalCount|Save: total saves count from 1st launch of the game
+VAR|0x54|1|SAVE__SlotNumber|Save: slot number // last saved slot number
+VAR|0x55|427
+// 57: 0 => 1 (01); (UInt16)8960 => 8961; (UInt32)84026112 => 84026113 диалог со слотами сохранения после 10 уровня в Trial Mode
+
+
+// 58: 0 => 35 (23); (UInt16)0 => 547; (UInt32)0 => 537199139 новая игра
+// 59: 0 => 2 (02); (UInt16)0 => 1282; (UInt32)0 => 941622530 новая игра
+// 5a: 0 => 5 (05); (UInt16)0 => 8197; (UInt32)0 => 355999749 новая игра
+// 5b: 0 => 32 (20); (UInt16)0 => 14368; (UInt32)0 => 1390624 новая игра
+// 5c: 0 => 56 (38); (UInt16)0 => 5432; (UInt32)0 => 5432 новая игра
+// 5d: 0 => 21 (15); (UInt16)0 => 21; (UInt32)0 => 16777237 новая игра
+// 60: 0 => 1 (01); (UInt16)0 => 6401; (UInt32)0 => 84351233 новая игра
+// 61: 0 => 25 (19); (UInt16)0 => 1817; (UInt32)0 => 268764953 новая игра
+// 62: 0 => 7 (07); (UInt16)0 => 1287; (UInt32)0 => 1947206919 новая игра
+// 63: 0 => 5 (05); (UInt16)0 => 4101; (UInt32)0 => 7606277 новая игра
+// 64: 0 => 16 (10); (UInt16)0 => 29712; (UInt32)0 => 29712 новая игра
+// 65: 0 => 116 (74); (UInt16)0 => 116; (UInt32)0 => 3925868660 новая игра
+// 68: 0 => 234 (EA); (UInt16)0 => 62442; (UInt32)0 => 20050922 новая игра
+// 69: 0 => 243 (F3); (UInt16)0 => 12787; (UInt32)0 => 402731507 новая игра
+// 6a: 0 => 49 (31); (UInt16)0 => 305; (UInt32)0 => 1209532721; (float)155652,77 новая игра
+// 6b: 0 => 1 (01); (UInt16)0 => 6145; (UInt32)0 => 4724737 новая игра
+// 6c: 0 => 24 (18); (UInt16)0 => 18456; (UInt32)0 => 18456 новая игра
+// 6d: 0 => 72 (48); (UInt16)0 => 72; (UInt32)0 => 72 новая игра
+
+//  вошли в Trial Mode
+// 70: 0 => 6 (06); (UInt16)0 => 52486; (UInt32)0 => 9948422 вошли в Trial Mode
+// 71: 0 => 205 (CD); (UInt16)0 => 38861; (UInt32)0 => 38861 вошли в Trial Mode
+// 72: 0 => 151 (97); (UInt16)0 => 151; (UInt32)0 => 151 вошли в Trial Mode
+// 78: 0 => 46 (2E); (UInt16)0 => 46; (UInt32)0 => 453181486 вошли в Trial Mode
+// 7a: 0 => 3 (03); (UInt16)0 => 6915; (UInt32)0 => 2387352323 вошли в Trial Mode
+// 7b: 0 => 27 (1B); (UInt16)0 => 19483; (UInt32)0 => 93211675 вошли в Trial Mode
+// 7c: 0 => 76 (4C); (UInt16)0 => 36428; (UInt32)0 => 364108 вошли в Trial Mode
+// 7d: 0 => 142 (8E); (UInt16)0 => 1422; (UInt32)0 => 385877390 вошли в Trial Mode
+// 7e: 0 => 5 (05); (UInt16)0 => 5; (UInt32)0 => 68616197 вошли в Trial Mode
+// 80: 0 => 23 (17); (UInt16)0 => 1047; (UInt32)0 => 1047 вошли в Trial Mode
+// 81: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4261412868 вошли в Trial Mode
+// 84: 0 => 254 (FE); (UInt16)0 => 65534; (UInt32)0 => 4294967294 вошли в Trial Mode
+// 85: 0 => 255 (FF); (UInt16)0 => 65535; (UInt32)0 => 738197503 вошли в Trial Mode
+// 86: 0 => 255 (FF); (UInt16)0 => 65535; (UInt32)0 => 69992447 вошли в Trial Mode
+// 87: 0 => 255 (FF); (UInt16)0 => 11263; (UInt32)0 => 273407 вошли в Trial Mode
+// 88: 0 => 43 (2B); (UInt16)0 => 1067; (UInt32)0 => 1067 вошли в Trial Mode
+// 89: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 268435460 вошли в Trial Mode
+// 8c: 0 => 16 (10); (UInt16)0 => 16; (UInt32)0 => 16 вошли в Trial Mode
+
+VAR|0x200|4|GENERAL__StoryProgress|Story Progress|EBytesBlockType.StoryPoint
+VAR|0x204|1|GENERAL__VESSEL|rided vessel??
+// 204: 0 => 15 (0F); (UInt16)0 => 15; (UInt32)262144 => 262159 отдали Dawn Shard
+// 204: 15 => 0 (00); (UInt16)15 => 0; (UInt32)262159 => 262144 убили Vossler
+// 204: 0 => 4 (04); (UInt16)0 => 4; (UIt32)458752 => 458756 пилотка из Nalbina в Rabanastre
+// 204: 4 => 0 (00); (UInt16)4 => 0; (UInt32)458756 => 458752 сценка парковки самолета
+// 0x204: 0 => 3 (0x03) пилотка из Rabanastre в Nalbina 
+
+
+VAR|0x205|529
+// 206: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Vaan вылез в Rabanastre из канализации
+// 206: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 сценка просыпания в Nalbina Dungeons/Stockade
+// 206: 2 => 3 (03); (UInt16)2 => 3; (UInt32)2 => 3 вошли на Southern Plaza после разделения с Fran и Balthier
+// 206: 3 => 4 (04); (UInt16)3 => 4; (UInt32)3 => 4 вошли в Ogir-Yensa Sandsea/Platform 1 - East Tanks
+// 206: 4 => 5 (05); (UInt16)4 => 5; (UInt32)4 => 5 сценка с Ashe после сценки с Императором и сенатом
+// 206: 5 => 6 (06); (UInt16)5 => 6; (UInt32)5 => 6 сценка с паломниками и Larsa, затем с императором и Vayne
+// 206: 6 => 7 (07); (UInt16)6 => 7; (UInt32)6 => 7 вышли в Temple Approach после убийства Judge Bergan
+
+VAR|0x416|1|QUEST__ESTERSAND_BOAT_Position|Quest: ESTERSAND_BOAT_Position { 0 - South Bank Village, 1 - North Bank Village }
+
+VAR|0x417|501
+
+// 421: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 начало игры, дали управление Рексом
+// 421: 20 => 26 (1A); (UInt16)20 => 26; (UInt32)20 => 26 обучение, линии
+// 421: 26 => 27 (1B); (UInt16)2586 => 2587; (UInt32)2586 => 2587 обучение, убили босса
+// 421: 27 => 28 (1C); (UInt16)2587 => 2588; (UInt32)2587 => 2588 обучение, дали управление после брифинга по мини-карте
+// 421: 28 => 30 (1E); (UInt16)2588 => 2590; (UInt32)2588 => 2590 обучение, следующая комната за брифингом по мини-карте, сценка
+// 421: 30 => 35 (23); (UInt16)2590 => 2595; (UInt32)2590 => 2595 обучение, побеги
+// 421: 35 => 40 (28); (UInt16)2595 => 2600; (UInt32)2595 => 2600 обучение, Upper Apartments
+// 421: 40 => 45 (2D); (UInt16)2600 => 2605; (UInt32)2600 => 2605 обучение, брифинг по save crystal
+// 421: 45 => 50 (32); (UInt16)2605 => 2610; (UInt32)2605 => 2610 обучение, вошли в Nalbina Fortress/The Highhall, мульт
+
+// 422: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 убили болванчика в обучении линиям
+
+// 424: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 коснулись Timewarn Device в Barheim Passage/The Lightworks
+// 424: 10 => 20 (14); (UInt16)10 => 20; (UInt32)10 => 20 получили Tube Fuse от Burrogh
+
+
+// 502: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 дали управление в Royal Palace/Lower Halls
+// 503: 0 => 1 (01); (UInt16)256 => 257; (UInt32)65792 => 131329 открыли секретный проход
+// 504: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 257 засветили Lion Signet
+// 505: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 засветили Lion Signet
+// 505: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 открыли секретный проход
+
+// 509: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Imperial не пустил выбраться из подвала во дворец
+// 509: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 Зфдфсу Servant зовет пошептаться
+// 509: 2 => 3 (03); (UInt16)2 => 3; (UInt32)2 => 3 отозвали Imperial
+// 509: 3 => 4 (04); (UInt16)3 => 4; (UInt32)3 => 4 забежали на лестницу
+
+// 50a: 0 => 1 (01); (UInt16)0 => 1; (UInt32)16842752 => 16842753 дали Potion Имперцу
+
+// 50c: 0 => 1 (0x01); (UInt16)256 => 257; (UInt32)16777472 => 16777473 вышли из Golmore Jungle в Ozmone Plain/Sunlit Path после квестов в Eruyt Village
+
+// 50d: 0 => 1 (0x01); (UInt16)0 => 1; (UInt32)65536 => 65537 вернулись на Чокобо после сценки с судьями в Archades
+
+// 50f: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Garif Elder в деревне Гарифов
+
+// 510: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 получили Jaya Stick
+// 511: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 отдали  Jaya Stick?
+
+// 512: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 сели на Chocobo в Jahara
+
+// 602: 0 => 1 => 0 (01); (UInt16)0 => 1; (UInt32)554041344 => 554041345 анимация телепортации между муглами
+
+// 604: 0 => 2 (02); (UInt16)256 => 258; (UInt32)256 => 258 Kytes открыл ворота в Garamsythe Waterway
+
+// 605[0]: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вышли из Dalan's House и решили идти на юг в Giza
+// 605[4]: 0 => 16 (10); (UInt16)0 => 16; (UInt32)0 => 16 поговорили с Мигело
+// 605[4]: 16 => 0 (00); (UInt16)16 => 0; (UInt32)16 => 0 вышли из Panamis`s Protectives с покупками
+// 605[1]: 33 => 35 (23); (UInt16)33 => 35; (UInt32)65569 => 65571 поговорили с Gastly на базаре, открылся Forgotten Grimoire
+
+// 607: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вернулись в Rabanastre после побега из тюрьмы, Fran и Balthier ушли
+
+// 60a: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 новая игра
+// 60a: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 сценка после Vayne
+
+// 60b: 0 => 1 (01); сказали Ktjn "Yes, you should be ashamed."
+// 60b: 0 => 1 (01); сказали "No..."
+// 60b: 1 => 3 (03); сказали Ktjn "You should've thought it through"
+// 60b: 1 => 3 (03); сказали Ktjn "Things will get better"
+
+VAR|0x60C|1|QUEST__VIERADOUBT_Balance
+// 60c: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 сказали Ktjn "Yes, you should be ashamed."
+// 60c: 0 => 255 (FF); (UInt16)0 => 255; (UInt32)0 => 255 сказали "No..."
+// 60c: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 сказали Ktjn "You should've thought it through"
+// 60c: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 сказали Ktjn "Things will get better"
+VAR|0x60D|11
+// 610: 0 => 1 (01); (UInt16)256 => 257; (UInt32)10944768 => 10944769 первый раз поговорили с Ktjn
+// 610: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 сценка на Muthru Bazaar после сценки с решением идти к Гарифам
+
+// 611: 0 => 1 (01); (UInt16)42752 => 42753; (UInt32)42752 => 42753 диалог с Horne (мугл-телепортатор в Southgate)
+
+// 614: 0 => 3 (03); (UInt16)0 => 3; (UInt32)0 => 3 первый раз поговорили с Ktjn
+// 614: 3 => 5 (05); (UInt16)3 => 5; (UInt32)3 => 5 сказали Ktjn "You should've thought it through"
+// 614: 3 => 5 (05); (UInt16)3 => 5; (UInt32)3 => 5 сказали Ktjn "Things will get better"
+// 614: 0 => 7 (07); (UInt16)0 => 7; (UInt32)0 => 7 поговорили с Ktjn
+
+
+VAR|0x618|1|CLAN__RANK|Clan: Rank
+// 1 получили награду за первую охоту
+// 2 Hedge Knight
+// 3 Rear Guard
+// 4 Vanguard
+// 5 Headhunter
+// 6 Ward of Justice
+// 7 Brave Companion
+// 8 Riskbreaker
+
+VAR|0x619|621
+// 619[0]: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 награда за Pack of Flans
+// 619[1]: 1 => 3 (03); (UInt16)1 => 3; (UInt32)1 => 3 награда за Firemane
+// 619[3]: 3 => 11 (0B); (UInt16)3 => 11; (UInt32)3 => 11 Mimic Queen
+// 619[4]: 11 => 27 (1B); (UInt16)11 => 27; (UInt32)11 => 27 награда за ранг
+// 619[5]: 27 => 59 (3B); (UInt16)27 => 59; (UInt32)27 => 59 награда за обязательную Demon Wall
+// 619[6]: 59 => 123 (7B); (UInt16)59 => 123; (UInt32)59 => 123 награда за Elder Wyrm
+// 619[7]: 123 => 251 (FB); (UInt16)123 => 251; (UInt32)123 => 251 награда за Tiamat
+
+// 61a[0]: 0 => 1 (01); (UInt16)0 => 1; (UInt32)419430400 => 419430401 награда за Vinuskar
+// 61a[1]: 1 => 3 (03); (UInt16)1 => 3; (UInt32)419430401 => 419430403 награда за King Bomb
+
+// 61c: 0 => 1 (01); (UInt16)6400 => 6401; (UInt32)2103552 => 2103553 награда за Эспера
+
+// 61d[0]: 24 => 25 (19); (UInt16)24 => 25; (UInt32)24 => 25 закончился диалог с Montblanc
+// 61d[2]: 121 => 125 (7D); (UInt16)11385 => 15485; (UInt32)11385 => 15485 Montblanc поговорил с Krjn
+// 61d[3]: 0 => 8 (08); (UInt16)0 => 8; (UInt32)0 => 8 мульт при входе в Дом Клана
+// 61d[4]: 8 => 24 (18); (UInt16)8 => 24; (UInt32)8 => 24 мульт при входе в Дом Клана
+// 61d[5]: 89 => 121 (79); (UInt16)10329 => 11385; (UInt32)10329 => 11385 Montblanc поговорил с Bangaa о Thrickster
+// 61d[6]: 25 => 89 (59); (UInt16)8217 => 10329; (UInt32)8217 => 10329 Montblanc поговорил с Seeq о Gil Snapper
+
+// 61e[2]: 40 => 44 (2C); (UInt16)40 => 44; (UInt32)40 => 44 Montblanc поговорил с Bangaa о Thrickster
+// 61e[3]: 32 => 40 (28); (UInt16)32 => 40; (UInt32)32 => 40 Montblanc поговорил с Seeq о Gil Snapper
+// 61e[4]: 44 => 60 (3C); (UInt16)44 => 60; (UInt32)44 => 60 Montblanc поговорил с Krjn
+// 61e[5]: 0 => 32 (20); (UInt16)0 => 32; (UInt32)0 => 32 первый диалог с Clan Provisioner 
+
+// 624: 0 => 8 (08); (UInt16)0 => 22792; (UInt32)0 => 22792 первый вопрос Ktjn
+// 624: 0 => 17 (11); (UInt16)0 => 22801; (UInt32)0 => 22801 первый вопрос Ktjn, после перегрузки...
+// 624: 0 => 11 (0B); (UInt16)0 => 10507; (UInt32)0 => 141579 сказали Ktjn "Yes, you should be ashamed."
+// 624: 17 => 220 (DC); (UInt16)22801 => 55260; (UInt32)22801 => 55260 второй диалог с Ktjn
+// 624: 17 => 182 (B6); (UInt16)22801 => 55222; (UInt32)22801 => 55222 второй диалог с Ktjn, после перегрузки...
+// 624: 17 => 186 (BA); (UInt16)22801 => 55226; (UInt32)22801 => 55226 второй диалог с Ktjn, после еще одной перегрузки...
+// 624: 17 => 3 (0x03); (UInt16)22801 => 55043; (UInt32)22801 => 55043 второй диалог с Ktjn
+
+// 625: 0 => 89 (59); (UInt16)0 => 89; (UInt32)0 => 89 первый вопрос Ktjn
+// 625: 0 => 41 (29); (UInt16)0 => 553; (UInt32)0 => 553 сказали Ktjn "Yes, you should be ashamed."
+// 625: 89 => 215 (0xD7); (UInt16)89 => 215; (UInt32)89 => 215 второй диалог с Ktjn
+
+// 626: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 сказали Ktjn "Yes, you should be ashamed."
+
+
+// 630: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 первый раз поговорили с Ktjn
+// 630: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 сказали Ktjn "You should've thought it through"
+// 630: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 сказали Ktjn "Things will get better"
+
+// 680: 0 => 14 (0E); (UInt16)0 => 14; (UInt32)0 => 14 сценка с Jinn после заряда Sunstone
+
+// 68e: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 257 диалог с муглом-торговцем в Dreadnout Leviathan/Brig No. 1
+// 68f: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 диалог с муглом-торговцем в Dreadnout Leviathan/Brig No. 1
+
+
+// 690: 0 => 1 (01); (UInt16)256 => 257; (UInt32)256 => 257 вышли из диалога с мугл-торгаш Tetran в Eruyt Village
+// 691: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 мугл-картограф Lulucce в Eruyt Villige/Road of Verdant Praise
+
+// 6a5: 0 => 1 (01); (UInt16)0 => 1; (UInt32)65536 => 65537 вошли в Dalmasca Westersand/Wyrm's Nest
+// 6a6: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 Penelo дала ... на выходе из Nomad Village
+// 6a7: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с раненым имперцем в Henne Mines/Pithead Junction A
+
+// 6ab: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 закончили охоту на Cluckatrice
+
+// 6b4: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 сценка у трупов имперцев
+
+// 7a1: 0 => 1 (01); (UInt16)0 => 1; (UInt32)65536 => 65537 вошли в Sky Saloon в полете Nalbina-Rabanastre
+// 7a1: 1 => 2 (0x02); (UInt16)1 => 2; (UInt32)65537 => 65538 вошли в Sky Saloon в полете Rabanastre-Nalbina
+
+// 7a3: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 дали управление после сценки в самолете
+
+// 7a6: 0 => 1 (01); (UInt16)256 => 257; (UInt32)256 => 257 закончился диалог с главной стюардессой
+// 7af: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 закончился диалог с главной стюардессой
+
+// 7a7: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 сценки в самолете
+
+// 7b8: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 закончили охоту на Carrot, что-то там вякал Jovi
+// 7b8: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 закончили охоту на Atomos, что-то там вякал Jovi
+
+// 882: 0 => 1 (01); (UInt16)0 => 1; (UInt32)16777216 => 16777217 сценка у входа в Lhusu Mines
+
+// 884: 0 => 1 (01); (UInt16)256 => 257; (UInt32)33554688 => 33554689 взяли охоту на ???, получили ключ от пещеры
+// 885: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 первый раз побили помидору по охоте
+
+VAR|0x886|1|QUEST__CACTOIDSTERROR_Progress|Quest: Cactoid's terror progress
+// 2 сценка с Thcigri и прочими у воды
+// 3 сценка с кактусами и плывем обратно
+// 4 поговорили с женой Dantro
+// 5 Dran откопался
+// 6 диалог с Tchigri и плывем на север
+// 7 вернули мелкого кактуса мамке
+
+VAR|0x887|4
+// 887: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 вошли в Necrohol of Nabudis
+
+VAR|0x88B|1|QUEST__BARHEIMKEY_Progress|Quest: Barheim Key progress
+// 1 поговорили с Dantro еще раз, он попросил передать жене цветок
+// 2 пришли в Dalmasca Estersand/South Bank Village
+// 3 поговорили с женой Dantro
+// 4 начался субквест по сбору лекарства
+// 5 отправили искать Nebralim
+// 6 принесли 2 Nebralim
+// 7 принесли 3 Valeblossom Dew и Great Serpentskin
+// 8 жена Dantro говорит, что больной отлеживается
+// 9 перезашли в деревню
+// 10 жена Dantro говорит, что больной выздоровел
+// 11 закончили
+
+VAR|0x88C|37
+
+// 88e: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 зашли в Dalmasca Estersand/North Bank Village
+
+// 891: 0 => 1 (01); Mysterious Glint в Dalmasca Estersand/Outpost
+// 894: 0 => 1 (01); Mysterious Glint в Dalmasca Estersand/Outpost
+// 895: 0 => 1 (01); Mysterious Glint в Dalmasca Estersand/Outpost
+
+// 8aa: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 сценка у входа в Lhusu Mines
+// 8aa: 2 => 3 (03); (UInt16)2 => 3; (UInt32)2 => 3 вышли обратно, Lamont сказал, что будет ждать здесь
+// 8aa: 3 => 4 (04); (UInt16)3 => 4; (UInt32)3 => 4 сценка с Lamont, Penelo и прочими на выходе из Lhusu Mines
+// 8aa: 4 => 5 (05); (UInt16)4 => 5; (UInt32)4 => 5 дали управление после сценки, начинающей квест Notoriety по привлечению внимания к Basch
+// 8aa: 5 => 30 (1E); (UInt16)5 => 30; (UInt32)5 => 30 набрали 100%
+// 8aa: 30 => 32 (20); (UInt16)30 => 32; (UInt32)30 => 32 дали управление после сценок
+
+
+VAR|0x8B1|1|QUEST__NOTORIETY_Percents
+VAR|0x8B2|1|QUEST__BARHEIMKEY_HealScore
+// 8b2: 0 => 5 (05); собрали 5 Semclam Shells
+// 8b2: 5 => 7 (07); принесли 2 Nebralim
+// 8b2: 7 => 10 (0A); 3 Valeblossom Dew
+// 8b2: 10 => 13 (0D); Great Serpentskin
+VAR|0x8B3|1|QUEST__MOOGLEWORKERS_LeftToFind
+ARRAY5|0x8B4|1|QUEST__MOOGLEWORKERS_ProgressFlags[]
+// 8b4: 0 => 1 (01); Moogle Boss жалуется на пропавших работников
+// 8b5: 0 => 1 (01); осталось 4 потерянных муглов
+// 8b6: 0 => 1 (01); осталось 7 потерянных муглов
+// 8b7: 0 => 1 (01); сценка с муглами и воротами
+// 8b8: 0 => 1 (01); 2 потерянных муглов
+
+VAR|0x8B9|38
+
+ARRAY10|0x8DF|1|QUEST__BARHEIMKEY_HealProgressFlags[]
+// 8df: 0 => 1 (01); Mysterious Glint в Dalmasca Estersand/Dalmasca Estersand/Blanks of the Nebra
+// 8e0: 0 => 1 (01); Mysterious Glint в Dalmasca Estersand/Dalmasca Estersand/Blanks of the Nebra
+// 8e1: 0 => 1 (01); Mysterious Glint в Dalmasca Estersand/Dalmasca Estersand/Blanks of the Nebra
+// 8e2: 0 => 1 (01); Mysterious Glint в Dalmasca Estersand/South Bank Village
+// 8e3: 0 => 1 (01); Mysterious Glint в Dalmasca Estersand/South Bank Village
+// 8e4: 0 => 1 (01); Nebralim в Dalmasca Estersand/Outpost
+// 8e5: 0 => 1 (01); Nebralim в Dalmasca Estersand/Outpost
+// 8e6: 0 => 1 (01); Valeblossom Dew
+// 8e7: 0 => 1 (01); Valeblossom Dew
+// 8e8: 0 => 1 (01); Valeblossom Dew
+
+VAR|0x8E9|37
+
+VAR|0x90E|1|QUEST__90e
+// 90e: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вошли в Archades/Molberry, собрали все Chops в Nilbasse
+// 90e: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 вошли в Archades/Trant, собрали все Chops в Molberry
+
+VAR|0x90F|25
+
+// 91a: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 закрыли магазин торговца Dyce в закутке на юге Ogir-Yensa Sandsea
+
+// 91b: 0 => 1 (01); (UInt16)256 => 257; (UInt32)16843008 => 16843009 вошли в Draklor Laboratory/66th Floor
+// 91b: 1 => 7 (07); (UInt16)257 => 263; (UInt32)16843009 => 16843015 получили Lab Access Card
+
+// 91c: 0 => 1 (01); поговорили с Lucky Man
+// 91d: 0 => 1 (01); рассказали Jules слухи
+// 91e: 0 => 1 (01); поговорили с Beasley
+// 91f: 0 => 1 (01); заплатили Jules первый раз
+// 920: 0 => 1 (01); заплатили Jules первый раз
+// 921: 0 => 2 (02); начался квест по сбору Chops
+
+// 927: 0 => 1 (01); (UInt16)65024 => 65025; (UInt32)392704 => 392705 Cab Guide после получения Sandalwood Chop
+
+VAR|0x928|23
+// 928[1]: 8 => 10 (0A); рассказали историю Tutor
+// 928[2]: 250 => 254 (FE); рассказали историю Traveling Gentleman
+// 928[3]: 0 => 8 (08); рассказали историю Poor Wife
+// 928[4]: 10 => 26 (1A); рассказали историю Ardent Man
+// 928[5]: 218 => 250 (FA); рассказали историю Look-alike
+// 928[6]: 26 => 90 (5A); рассказали историю Akademician
+// 928[7]: 90 => 218 (DA); рассказали историю Man from Giza
+
+// 929[0]: 0 => 1 (01); рассказали историю Judge's Wife
+// 929[2]: 1 => 5 (05); рассказали историю Family-minded Girl
+
+// 92c[2]: 224 => 228 (E4); рассказали историю Moneyed Gentleman
+// 92c[5]: 0 => 32 (20); рассказали историю Smitten Woman
+// 92c[6]: 32 => 96 (60); рассказали историю Perceptive Man
+// 92c[7]: 96 => 224 (E0); рассказали историю Lutenist
+
+// 92d[0]: 0 => 1 (01); рассказали историю Artisan Architect
+// 92d[1]: 1 => 3 (03); рассказали историю Girl on an Errand
+
+// 930[1]: 124 => 126 (7E); рассказали историю Ex-Researcher
+// 930[2]: 120 => 124 (7C); рассказали историю Faded Star
+// 930[3]: 0 => 8 (08); рассказали историю Failed Researcher
+// 930[4]: 8 => 24 (18); рассказали историю Materialistic Woman
+// 930[5]: 88 => 120 (78); рассказали историю Avid Reader
+// 930[6]: 24 => 88 (58); рассказали историю Eager Crier
+
+// 934[1]: 124 => 126 (7E); рассказали историю Bhujerbian Lady
+// 934[2]: 8 => 12 (0C); рассказали историю Researcher's Wife
+// 934[3]: 0 => 8 (08); рассказали историю Waiting Woman
+// 934[4]: 44 => 60 (3C); рассказали историю Vegetable Seller
+// 934[5]: 12 => 44 (2C); рассказали историю Dangerous Chef
+// 934[6]: 60 => 124 (7C); рассказали историю Happy Novelist
+
+// 935[0]: 0 => 1 (01); рассказали историю Romantic Lady
+
+VAR|0x93F|1|QUEST__CHOPS_Total
+
+VAR|0x940|4
+
+VAR|0x944|1|QUEST__CHOPS_Count_Molberry
+VAR|0x945|1|QUEST__CHOPS_Count_Trant
+VAR|0x946|1|QUEST__CHOPS_Count_Nilbesse
+VAR|0x947|1|QUEST__CHOPS_Count_Rienna
+
+VAR|0x948|440
+
+// 94a: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с торговцем Dyce в закутке на юге Ogir-Yensa Sandsea
+
+// 94b: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 купили Sandalwood Chop
+
+// a82: 0 => 1 (01); правильно повернули Stone Brave в Stilshrine of Miriam/Walk of Prescience
+// a83: 0 => 1 (01); правильно повернули Stone Brave в Stilshrine of Miriam/Walk of Reason
+// a84: 0 => 1 (01); правильно повернули Stone Brave в Stilshrine of Miriam/Ward of Steel
+// a85: 0 => 1 (01); видимо, флаг, что все 3 статуи повернуты правильно
+// a86: 0 => 1 (01); статуя подняла меч
+// a87: 0 => 1 (01); коснулись замка в Stilshrine of Miriam/Walk of Torn Illusion
+// a88: 0 => 1 (01); коснулись замка в Stilshrine of Miriam/Ward of Measure
+// a89: 0 => 1 (0x01); зашли в Stilshrine of Miriam/Ward of Measure из Stilshrine of Miriam/Cold Distance
+
+// ac8: 0 => 1 (0x01); сбили камень в Zertinan Caverns/Hourglass Basin
+// ac9: 0 => 1 (0x01); сбили камень в Zertinan Caverns/Sandfalls
+// aca: 0 => 1 (0x01); сбили второй камень в Zertinan Caverns/Sandfalls
+// acb: 0 => 1 (01); столкнули третий камень в Zertinan Caverns/Sandfalls
+// acc: 0 => 1 (0x01); сбили камень в Zertinan Caverns/Canopy of Clay
+
+VAR|0xB00|4|UNWANTED__MicroStepsByEnterExitInnerRoom|Microsteps by enter/exit inner room|EBytesBlockType.Timer
+VAR|0xB04|12|UNK__CAMERA_b04|Camera (b04)
+VAR|0xB10|4|UNWANTED__MicroStepsInInnerRooms|Microsteps in inner room|EBytesBlockType.Timer
+
+VAR|0xB14|44
+// b16: 0 => 2 (02); (UInt16)768 => 770; (UInt32)768 => 770 сбили камень в Dalmasca Estersand/Broken Sands
+
+// b17[0]: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 сценка с оживающей Demon Wall в Гробнице
+// b17[1]: 1 => 3 (03); (UInt16)1 => 3; (UInt32)1 => 3 вторая Demon Wall
+// b17[2]: 3 => 7 (07); (UInt16)3 => 7; (UInt32)3 => 7 коснулись центрального Way Stone в The Tomb of Raithwall/Royal Passage
+
+// b18[1]: 16 => 18 (12); (UInt16)16 => 18; (UInt32)16 => 18 разблокировали водопадную дверь в Sochen Cave Palace
+// b18[3]: 146 => 154 (9A); (UInt16)146 => 154; (UInt32)146 => 154  активировали лифт в Sochen Cave
+// b18[4]: 0 => 16 (10); (UInt16)0 => 16; (UInt32)0 => 16 использовали ключ и вошли в пещеру к Mandragoras
+// b18[7]: 18 => 146 (92); (UInt16)18 => 146; (UInt32)18 => 146 вошли в водопадную дверь в Sochen Cave Palace
+
+// b1e[2]: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4 мульт при входе в Дом Клана
+// b1e[3]: 4 => 12 (0C); (UInt16)4 => 12; (UInt32)4 => 12 мульт при входе в Дом Клана
+
+// b2c: 0 => 6 (06); (UInt16)0 => 6; (UInt32)0 => 6 сценка со 2-й Demon Wall
+// b2c[4]: 0 => 16 (10); (UInt16)0 => 16; (UInt32)0 => 16 коснулись Hidden Jewel, ничего не произошло
+
+VAR|0xB40|1|UNKNOWNFLAG__b40|Flag b40|EBytesBlockType.Bad
+// b40: 0 => 1 (01) обучение, вернулись в Nalbina Fortress/Aerial Gardens (Reks)
+// b40: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 обучение, следующая комната за брифингом по мини-карте, сценка
+// b40: 3 => 1 (01); (UInt16)7683 => 7681; (UInt32)7683 => 7681 вернулись с первой охоты в город
+// b40: 1 => 2 (02); (UInt16)7681 => 7682; (UInt32)73217 => 73218 вошли в The Tomb of Raithwall/Northfall Passage
+// b40: 2 => 3 (03); (UInt16)7682 => 7683; (UInt32)73218 => 73219 вошли в The Tomb of Raithwall/Royal Passage
+// b40: 3 => 2 (02); (UInt16)7683 => 7682; (UInt32)73219 => 73218 зашли в The Tomb of Raithwall/Southfall Passage
+// b40: 2 => 1 (01); (UInt16)7682 => 7681; (UInt32)73218 => 73217 телепортировались из Chamber of First Light
+// b40: 1 => 2 (02); (UInt16)7681 => 7682; (UInt32)100670977 => 100670978 вошли в Paramina Rift/Fading Vale
+// b40: 1 => 2 (02); (UInt16)7681 => 7682; (UInt32)100670977 => 100670978 вошли в Paramina Rift/Icebound Flow
+// b40: 2 => 1 (01); (UInt16)7682 => 7681; (UInt32)100670978 => 100670977 вошли в Mt Bur-Omisace
+// b40: 1 => 2 (02); (UInt16)7681 => 7682; (UInt32)100670977 => 100670978 вышли в Paramina Rift из Stilshrine of Miriam
+// b40: 1 => 3 (03); (UInt16)7681 => 7683; (UInt32)100670977 => 100670979 вошли в горящий Mt Bur-Omisace
+// b40: 1 => 3 (03) Eastgate -> The Stepping
+// b40: 3 => 1 (01) The Stepping -> Eastgate
+// b40: 1 => 2 (02) вторая зона от кристалла сохранения
+// b40: 2 => 1 (01) первая зона от кристалла сохранения
+// b40: 1 => 3 (03) Westgate - Dalmasca Westersand/Galtea Downs первый раз
+// b40: 3 => 1 (01) Westgate - Southern Plaza
+// b40: 1 => 2 (02) зашли в Bhujerba/Clio's Technicks
+// b40: 2 => 1 (01) зашли в Lhusu Mines/Transitway 1
+// b40: 1 => 2 (02) зашли в Lhusu Mines/Shunia Twinspan
+// b40: 2 => 1 (01) зашли в Lhusu Mines/Site 2
+// b40: 1 => 2 (02) Lhusu Mines/Site 2 - Lhusu Mines/Shunia Twinspan
+
+VAR|0xB41|1
+// b41: 0 => 30 (1E); (UInt16)0 => 30; (UInt32)0 => 30 вошли в бар Sandsea
+// b41: 0 => 30 (1E) вошли в Panamis`s Protectives
+// b41: 30 => 10 (0A); (UInt16)30 => 10; (UInt32)393246 => 393226 вошли в Stilshrine of Miriam/Ward of Measure
+// b41: 10 => 30 (1E); (UInt16)10 => 30; (UInt32)393226 => 393246 вошли в Stilshrine of Miriam/Cold Distance
+// b41: 30 => 10 (0A); (UInt16)30 => 10; (UInt32)393246 => 393226 Mateus
+// b41: 10 => 30 (1E); (UInt16)10 => 30; (UInt32)393226 => 393246 зашли в Stilshrine of Miriam/Vault of the Champion
+// b41: 30 => 10 (0A); (UInt16)30 => 10; (UInt32)393246 => 393226 зашли в Nalbina Town/West Ward
+// b41: 30 => 0 (00); (UInt16)30 => 0; (UInt32)458782 => 458752
+// b41: 30 => 0 (00) сценка с Jinn после заряда Sunstone
+// b41: 0 => 30 (1E) Southgate - Southern Plaza
+// b41: 30 => 10 (0A) вошли в Dreadnout Leviathan/Brig No. 1
+// b41: 10 => 30 (1E) вернулись с Ashe в Dreadnought Leviathan/Central Brig Access
+// b41: 10 => 30 (0x1E) сценка с мандрагорами
+
+VAR|0xB42|42
+// b42: 0 => 1 (01); (UInt16)1536 => 1537; (UInt32)1536 => 1537 зашли в Dalmasca Estersand/The Yoma
+// b42: 1 => 0 (00); (UInt16)1793 => 1792; (UInt32)1793 => 1792 перешли в Golmore Jungle/The Branchway после убийства Elder Wyrm
+// b42: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 зашли в Nam-Yensa Sandsea/Trail of Fading Warmth
+
+// b43: 0 => 6 (06); (UInt16)0 => 6; (UInt32)0 => 6 коснулись сухого дерева в Giza Plains/Gizas North Bank (Rains)
+// b43: 6 => 18 (0x12); (UInt16)6 => 18; (UInt32)6 => 18 сбили камень в Zertinan Caverns/Sandfalls
+// b43: 18 => 7 (07); (UInt16)18 => 7; (UInt32)18 => 7 сбили камень в Dalmasca Estersand/Broken Sands
+
+VAR|0xB6C|1|UNWANTEDFLAG__b6c|Flag: b6c {0 => x => 0}|EBytesBlockType.Flag
+// b6c: 0 => 4 (04); (UInt16)0 => 1284; (UInt32)0 => 1284 телепортировались из Chamber of First Light
+// b6c: 4 => 0 (00); (UInt16)1284 => 0; (UInt32)1284 => 0 телепортировались из Chamber of First Light
+// b6c: 0 => 7 (07); (UInt16)0 => 1031; (UInt32)0 => 1031 телепортировались из Stilshrine of Miriam/Ward of the Sword-King
+// b6c: 7 => 0 (00); (UInt16)1031 => 0; (UInt32)1031 => 0 телепортировались из Stilshrine of Miriam/Ward of the Sword-King
+// b6c: 0 => 3 (03); (UInt16)0 => 771; (UInt32)0 => 771 телепортировались в Stilshrine of Miriam/Ward of the Sword-King
+// b6c: 3 => 0 (00); (UInt16)771 => 0; (UInt32)771 => 0 телепортировались в Stilshrine of Miriam/Ward of the Sword-King
+// b6c: 0 => 7 (07); (UInt16)0 => 1031; (UInt32)0 => 1031
+// b6c: 7 => 0 (00); (UInt16)1031 => 0; (UInt32)1031 => 0
+VAR|0xB6D|1|UNWANTEDFLAG__b6d|Flag: b6d {0 => x => 0}|EBytesBlockType.Flag
+// b6d: 0 => 5 (05); (UInt16)0 => 5; (UInt32)0 => 5 телепортировались из Chamber of First Light
+// b6d: 5 => 0 (00); (UInt16)5 => 0; (UInt32)5 => 0 телепортировались из Chamber of First Light
+// b6d: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 телепортировались из Гробницы
+// b6d: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 телепортировались из Гробницы
+// b6d: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4 телепортировались из Stilshrine of Miriam/Ward of the Sword-King
+// b6d: 4 => 0 (00); (UInt16)4 => 0; (UInt32)4 => 0 телепортировались из Stilshrine of Miriam/Ward of the Sword-King
+// b6d: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 телепортация по Ancient Devices снаружи-внутрь
+// b6d: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 телепортация по Ancient Devices снаружи-внутрь
+// b6d: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 телепортация по Ancient Devices изнутри-наружу
+// b6d: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 телепортация по Ancient Devices изнутри-наружу
+// b6d: 0 => 3 (03); (UInt16)0 => 3; (UInt32)0 => 3 телепортировались в Stilshrine of Miriam/Ward of the Sword-King
+// b6d: 3 => 0 (00); (UInt16)3 => 0; (UInt32)3 => 0 телепортировались в Stilshrine of Miriam/Ward of the Sword-King
+// b6d: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4
+// b6d: 4 => 0 (00); (UInt16)4 => 0; (UInt32)4 => 0
+
+VAR|0xB6E|42
+
+// b81: 0 => 1 (0x01); (UInt16)0 => 1; (UInt32)0 => 1 срубили все 6 Withered Trees
+
+// b84: 0 => 1 (01); (UInt16)256 => 257; (UInt32)2228480 => 2228481 вошли в Giza Plains/Gizas South Bank (Rains)
+// b85: 0 => 2 (0x02); (UInt16)4608 => 5122; (UInt32)4608 => 5122 телепортировались из Mt Bur-Omisace в Rabanastre
+
+// b86: 0 => 33 (21); (UInt16)0 => 33; (UInt32)16777216 => 16777249 телепортировась в Rabanastre
+// b86: 0 => 18 (0x12); (UInt16)0 => 18; (UInt32)0 => 18 телепортировась в Rabanastre из Eruyt Village
+// b86: 18 => 20 (0x14); (UInt16)18 => 20; (UInt32)18 => 20 телепортировались из Mt Bur-Omisace в Rabanastre
+
+// b88: 1 => 0 (00); (UInt16)257 => 256; (UInt32)257 => 256 вышли в Rabanastre/Southgate
+// b88: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 South Sprawl -> Southgate
+// b88: 1 => 0 (0x00); (UInt16)1 => 0; (UInt32)1 => 0 на фоне дожди
+
+
+// b96: 0 => 1 (01); (UInt16)256 => 257; (UInt32)256 => 257 нажали кнопку в The Tomb of Raithwall/Southfall Passage
+// b97: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 мульт при нажатии кнопки в The Tomb of Raithwall/Northfall Passage
+
+VAR|0xB98|1|QUEST__GIZAHIDDENBRIDGE_ChoppedTreesCount
+ARRAY6|0xB99|1|QUEST__GIZAHIDDENBRIDGE_TreesState[]
+// b99: 0 => 1 (0x01); срубили сухое дерево в Giza Plains/Throne Road (Rains)
+// b9a: 0 => 1 (0x01); срубили сухое дерево в Giza Plains/Nomad Villige (Rains)
+// b9b: 0 => 1 (01); срубили сухое дерево в Giza Plains/Gizas North Bank (Rains)
+// b9c: 0 => 1 (0x01); срубили сухое дерево в Giza Plains/Toam Hills (Rains)
+// b9d: 0 => 1 (01); срубили сухое дерево в Giza Plains/Starfall Field (Rains)
+// b9e: 0 => 1 (0x01) срубили сухое дерево в Giza Plains/Starfall Field (Rains)
+VAR|0xB9F|1|QUEST__SHADESTONE_GAUGE|Quest: Shadestone - gauge|EBytesBlockType.Timer // {0-100}
+VAR|0xBA0|1|QUEST__SHADESTONE_ACTIVE|Quest: Shadestone - active
+VAR|0xBA1|1
+VAR|0xBA2|1|QUEST__SHADESTONE_ABSORBED1|Quest: Shadestone - absorbed stone in Gizas North Bank
+VAR|0xBA3|1|QUEST__SHADESTONE_ABSORBED2|Quest: Shadestone - absorbed stone in Starfall Field
+VAR|0xBA4|1|QUEST__SHADESTONE_ABSORBED3|Quest: Shadestone - absorbed stone in Gizas South Bank
+VAR|0xBA5|1 // ba5: 0 => 1 (01); поглотили Sunstone в Gizas South Bank, 90%, Penelo что-то сказала
+
+VAR|0xBA6|11
+// baa: 8 => 29 (1D); (UInt16)8 => 29; (UInt32)65544 => 65565 ??? есть вероятность, что погода в Giza
+// baa: 29 => 57 (39); (UInt16)29 => 313; (UInt32)65565 => 131385 вошли в Giza ???
+// baa: 57 => 40 (28); (UInt16)313 => 296; (UInt32)131385 => 131368 вошли в Giza ???
+
+// bab: 0 => 1 (01); (UInt16)256 => 513; (UInt32)256 => 513 вошли в Giza ???
+// bac: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 вошли в Giza ???
+
+// bb0: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 просмотр подсказки у застрявшего дерева в Giza Plains/Gizas South Bank (Rains)
+
+VAR|0xBB1|1|QUEST__MIRIAMSTATUE1_Rotation|Quest Miriam Statue 1
+VAR|0xBB2|1|QUEST__MIRIAMSTATUE1_Active|Quest Miriam Statue 1 // bb2: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вошли в Stilshrine of Miriam/Walk of Prescience
+VAR|0xBB3|1|QUEST__MIRIAMSTATUE2_Rotation|Quest Miriam Statue 2
+VAR|0xBB4|1|QUEST__MIRIAMSTATUE2_Active|Quest Miriam Statue 2 // bb4: 0 => 1 (01); (UInt16)0 => 1; (UInt32)16777216 => 16777217 вошли в Stilshrine of Miriam/Walk of Reason
+VAR|0xBB5|1|QUEST__MIRIAMSTATUE3_Rotation|Quest Miriam Statue 3
+VAR|0xBB6|1|QUEST__MIRIAMSTATUE3_Active|Quest Miriam Statue 3 // bb6: 0 => 1 (01); (UInt16)256 => 257; (UInt32)256 => 257
+VAR|0xBB7|1 // bb7: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили со статуей меча, открылись двери сзади
+
+VAR|0xBB8|9
+
+VAR|0xBC1|1|QUEST__BARHAIMESCAPE_Progress|Quest BarheimEscape progress
+// bc1: 0 => 3 (03); (UInt16)0 => 3; (UInt32)0 => 3 коснулись Timewarn Device в Barheim Passage/The Lightworks
+// bc1: 3 => 5 (05); (UInt16)25603 => 25605; (UInt32)25603 => 25605 вставили Tube Fuse в Power Relay
+// bc1: 5 => 10 (0A); (UInt16)17925 => 17930; (UInt32)17925 => 17930 открыли ворота
+// bc1: 10 => 15 (0F); (UInt16)17930 => 7695; (UInt32)17930 => 7695 дали управление в Barheim Passage/Op Sector 29
+// bc1: 15 => 20 (14); (UInt16)271 => 20; (UInt32)16843023 => 16842772 открыли ворота
+VAR|0xBC2|1|QUEST__BARHAIMESCAPE_Charge|Quest BarheimEscape charge
+ARRAY16|0xBC3|1|QUEST__BARHAIMESCAPE_BatteryMimic[]_KillState|Quest BarheimEscape mimics state// { 0 - live, 1 - killed }
+VAR|0xBD3|1|QUEST__BARHAIMESCAPE_MimicKilledCount|Quest BarheimEscape killed mimics count
+VAR|0xBD4|1|QUEST__BARHAIMESCAPE_MimicKilledCount2|Quest BarheimEscape killed mimics count 2
+
+VAR|0xBD5|43
+// bd7: 0 => 1 (01); (UInt16)0 => 1; (UInt32)989855744 => 989855745; (float)0,0019531252 переключили Bulkhead Release в Dreadnought Leviathan/Starboard Section
+// bd7: 1 => 2 (02); (UInt16)1 => 2; (UInt32)989855745 => 989855746; (float)0,0019531255 переключили Bulkhead Release в Dreadnought Leviathan/Sub-control Room
+// bd7: 2 => 3 (03); (UInt16)52738 => 52995; (UInt32)989908482 => 989908739; (float)0,0019654639 открыли С-202, прсоединилась Ashe
+
+// bd8: 0 => 64 (40); (UInt16)0 => 64; (UInt32)20643840 => 20643904 вошли в Dreadnout Leviathan/Brig No. 1
+// bd8: 64 => 192 (C0); (UInt16)64 => 192; (UInt32)20643904 => 20644032 вошли в Dreadnout Leviathan/Brig No. 1
+// bd8: 192 => 200 (C8); (UInt16)192 => 200; (UInt32)20644032 => 20644040 открыли С-204
+// bd8: 200 => 204 (CC); (UInt16)200 => 204; (UInt32)20644040 => 20644044 открыли С-203
+// bd8: 204 => 206 (CE); (UInt16)204 => 206; (UInt32)20644044 => 20644046 открыли С-201
+// bd8: 206 => 207 (CF); (UInt16)206 => 207; (UInt32)20644046 => 20644047 открыли С-202, прсоединилась Ashe
+
+// bd9: 0 => 255 (FF); (UInt16)15104 => 15359; (UInt32)4278270720 => 4278270975 вернулись в Dreadnought Leviathan/Port Section с Ashe
+
+
+// bda: 0 => 1 (01); (UInt16)0 => 1; (UInt32)251658240 => 251658241 бежим по Dreadnought Leviathan/Starboard Section, убили Imperial и Mastif
+// bda: 1 => 3 (03); (UInt16)1 => 3; (UInt32)251658241 => 251658243 бежим по Dreadnought Leviathan/Starboard Section, активировали тревогу
+// bda: 3 => 11 (0B); (UInt16)3 => 11; (UInt32)251658243 => 251658251 бежим по Dreadnought Leviathan/Starboard Section, активировали тревогу
+// bda: 11 => 27 (1B); (UInt16)11 => 27; (UInt32)251658251 => 251658267 бежим по Dreadnought Leviathan/Starboard Section, активировали тревогу
+// bda: 27 => 59 (3B); (UInt16)27 => 59; (UInt32)251658267 => 251658299 бежим по Dreadnought Leviathan/Starboard Section, активировали тревогу
+
+// bdb: 0 => 1 (01); (UInt16)0 => 1; (UInt32)983040 => 983041 бежим по Dreadnought Leviathan/Sub-control Room
+
+// bdc: 0 => 1 (01); (UInt16)3840 => 3841; (UInt32)3840 => 3841 бежим по Dreadnought Leviathan/Airship Berth Access, активировали тревогу
+// bdc: 1 => 3 (03); (UInt16)3841 => 3843; (UInt32)3841 => 3843 бежим по Dreadnought Leviathan/Airship Berth Access, активировали тревогу
+// bdc: 3 => 255 (FF); (UInt16)3843 => 4095; (UInt32)3843 => 4095 вернулись в Dreadnought Leviathan/Airship Berth Access с Ashe
+
+// bdd: 5 => 10 (0A); (UInt16)5 => 10; (UInt32)5 => 10 обучение, убили босса
+// bdd: 10 => 15 (0F); (UInt16)10 => 15; (UInt32)10 => 15 обучение, убили стражу перед императором
+
+// bde: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 переключили 1-й Gate Switchboard в Красный в Henne Mines
+// bde: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 переключили Switchboard в Синий в Henne Mines
+
+// bdf: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вошли в Garamsythe Waterway/Overflow Cloaca
+
+// be6: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 переключили 1-й Gate Switchboard в Henne Mines/North Entrance
+
+// bea: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 вошли в лифт на 70-й этаж
+
+// bf3: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 открыли Blue Bulkhead
+// bf3: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 открыли Red Bulkhead
+// bf4: 0 => 255 (FF); (UInt16)0 => 1023; (UInt32)0 => 1023 вошли в лифт на 70-й этаж
+// bf5: 0 => 3 (03); (UInt16)0 => 3; (UInt32)0 => 3 вошли в лифт на 70-й этаж
+
+VAR|0xC00|1//|QUEST__VAYNE_Progress|Quest: Vayne progress
+// c00: 0 => 1 (01); сценка после Vayne
+// C00: 1 => 2 (02) вошли на Southern Plaza после разделения с Fran и Balthier
+// C00: 2 => 3 (03) вошли в Ogir-Yensa Sandsea/Platform 1 - East Tanks
+// c00: 3 => 4 (04); сценка с Ashe после сценки с Императором и сенатом
+// c00: 4 => 5 (05); сценка с паломниками и Larsa, затем с Императором и Vayne
+// c00: 5 => 6 (06); вышли в Temple Approach после убийства Judge Bergan
+
+VAR|0xC01|66
+// c01: 0 => 2 (02); (UInt16)0 => 2; (UInt32)16777216 => 16777218 дали управление в Royal Palace/The Garden Stairs
+// c01: 2 => 3 (03); (UInt16)2 => 3; (UInt32)16777218 => 16777219 вышли в Garamsythe Waterway/Southern Sluiceway
+// c01: 3 => 2 (02); (UInt16)3 => 2; (UInt32)16777219 => 16777218 сценка просыпания в Nalbina Dungeons/Stockade
+
+// c04: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c04: 1 => 2 (02); (UInt16)513 => 514; (UInt32)16908801 => 16908802 убили Mimic Queen
+// c05: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c05: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16843009 => 16843010 побили 4xFlan
+// c06: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c06: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16843009 => 16843010 убили Firemane
+//c07: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c08: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c08: 1 => 2 (0x02); (UInt16)257 => 258; (UInt32)16843009 => 16843010 убили Tiamat
+//c09: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+//c0a: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c0b: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c0b: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16843009 => 16843010 убили Vinuskar
+// c0c: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c0c: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16908545 => 16908546 побили Ahriman
+//c0d: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c0e: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c0e: 1 => 2 (02); (UInt16)257 => 258; (UInt32)33620225 => 33620226 побили Mandragoras
+//c0f: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 65793 новая игра
+//c10: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 257 новая игра
+// c11: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 16777217 новая игра
+// c11: 1 => 2 (02); (UInt16)1 => 2; (UInt32)33554433 => 33554434 убили Elder Wyrm
+// c14: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 65793 новая игра
+// c14: 1 => 2 (02); (UInt16)257 => 258; (UInt32)65793 => 65794 победили Demon Wall
+// c15: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16777473 новая игра
+// c15: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16777473 => 16777474 победили вторую Demon Wall
+// c16: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 16842753 новая игра
+// c16: 1 => 2 (02); (UInt16)1 => 2; (UInt32)33619969 => 33619970 убили Bomb King
+//c18: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c19: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c19: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16843009 => 16843010 побили Belias
+//c1a: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+//c1b: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 65793 новая игра
+//c1c: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16777473 новая игра
+//c1d: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 16842753 новая игра
+//c1f: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+//c20: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c21: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c21: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16843009 => 16843010 побили Mateus
+//c22: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+//c23: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+//c24: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c25: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 65793 новая игра
+// c25: 1 => 2 (02); (UInt16)257 => 258; (UInt32)33685761 => 33685762 побили Adrammelech
+// c26: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16777473 новая игра
+// c26: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16777473 => 16777474 Ba'Gamnan в Lhusu Mines/Site 2
+// c27: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 65537 новая игра
+// c27: 1 => 2 (02); (UInt16)1 => 2; (UInt32)65537 => 65538 Imperial Judge в Dreadnought Leviathan/Central Brig Access
+// c28: 0 => 1 (01); (UInt16)256 => 257; (UInt32)256 => 257 сценка перед боем с Judge Gis
+// c28: 1 => 2 (02); (UInt16)257 => 258; (UInt32)257 => 258 сценка в Bhujerba/Aerodrome, после того как побили Judge Gis
+//c29: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 16777217 новая игра
+//c2c: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 65537 новая игра
+//c2e: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 16842753 новая игра
+//c30: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c31: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c31: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16843009 => 16843010 crystalbug в Stilshrine of Miriam/Walk of Revelation
+// c32: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c32: 1 => 2 (02); (UInt16)513 => 514; (UInt32)16843265 => 16843266 crystalbug в Sochen Cave Palace
+// c33: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+// c33: 1 => 2 (02); (UInt16)257 => 258; (UInt32)16843009 => 16843010 crystalbug в Nabreus Deadlands/Succor Midst Sorrow
+//c34: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 16843009 новая игра
+//c35: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 65793 новая игра
+//c36: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 257 новая игра
+//c37: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 16777217 новая игра
+// c3a: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 65793 новая игра
+// c3a: 1 => 2 (02); (UInt16)257 => 258; (UInt32)65793 => 65794 дали управление после того, как отбили Ashe от имперцев
+// c3b: 0 => 1 (01); (UInt16)0 => 257; (UInt32)0 => 257 новая игра
+// c3b: 1 => 2 (02); (UInt16)257 => 258; (UInt32)257 => 258 убили Vossler
+// c3c: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 новая игра
+// c3c: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили судью Bergan
+
+// c41: 0 => 1 (01); (UInt16)256 => 257; (UInt32)256 => 257 начало игры, дали управление Рексом
+// c41: 1 => 2 (02); (UInt16)257 => 258; (UInt32)257 => 258 обучение, убили босса
+
+// c42: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 новая игра
+// c42: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 Vaan вылез в Rabanastre из канализации
+
+VAR|0xC43|215
+// c43: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 приняли первую охоту
+// c43: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили помидора по охоте
+// c44: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с охотодателем по Thextera
+// c44: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Thextera
+// c45: 0 => 1 (01); (UInt16)512 => 513; (UInt32)512 => 513 поговорили с охотодателем по Flowering Cactoid
+// c45: 1 => 2 (02); (UInt16)513 => 514; (UInt32)513 => 514 убили Flowering Cactoid
+// c46: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с охотодателем по Wraith
+// c46: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Wraith
+// c47: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с охотодателем (Nidhogg)
+// c47: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Nidhogg
+// c48: 0 => 1 (01); (UInt16)256 => 257; (UInt32)16908544 => 16908545 White Mousse
+// c49: 0 => 1 (01); (UInt16)512 => 513; (UInt32)33554944 => 33554945 Ring Wyrm
+// c49: 1 => 2 (02); (UInt16)513 => 514; (UInt32)33620481 => 33620482 убили Ring Wyrm
+// c4a: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с охотодателем (Wywern Lord)
+// c4a: 1 => 2 (02); (UInt16)1 => 2; (UInt32)131073 => 131074 убили Wyvern Lord
+// c4b: 0 => 1 (01); (UInt16)512 => 513; (UInt32)33686016 => 33686017 Marilith
+// c4b: 1 => 2 (02); (UInt16)513 => 514; (UInt32)33686017 => 33686018 убили Marilith
+// c4c: 0 => 1 (01); (UInt16)0 => 1; (UInt32)65536 => 65537 поговорили с охотодателем (Encelados)
+// c4c: 1 => 2 (02); (UInt16)1 => 2; (UInt32)65537 => 65538 убили Encelados, получили Errmonea Leaf
+// c4d: 0 => 1 (01); (UInt16)512 => 513; (UInt32)512 => 513 поговорили с охотодателем (Croakadile)
+// c4d: 1 => 2 (02); (UInt16)513 => 514; (UInt32)513 => 514 убили Croakadile, получили The Ring of the Toad
+// c4e: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с охотодателем (Ixtab)
+// c4e: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Ixtab
+// c4f: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Feral Retriever
+// c4f: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Feral Retriever
+// c50: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Vorpal Bunny
+// c50: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Vorpal Bunny
+
+// c52: 0 => 1 (01); (UInt16)256 => 257; (UInt32)65792 => 65793 Bloodwing
+// c53: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Atomos
+// c53: 1 => 2 (02); (UInt16)257 => 258; (UInt32)65793 => 65794 убили Atomos
+// c54: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с охотодателем Roblon
+// c55: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Braegh
+// c55: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Braegh 
+
+// c62: 0 => 1 (01); (UInt16)0 => 257; (UInt32)131072 => 131329 поговорили с охотодателем (Cluckatrice)
+// c62: 1 => 2 (02); (UInt16)257 => 514; (UInt32)131329 => 131586 убили Cluckatrice
+// c63: 0 => 1 (01); (UInt16)512 => 513; (UInt32)512 => 513 поговорили с охотодателем (Cluckatrice)
+// c63: 1 => 2 (02); (UInt16)513 => 514; (UInt32)513 => 514 убили Cluckatrice
+// c64: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 поговорили с охотодателем (Rocktoise)
+// c64: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Rocktoise
+// c65: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Orthros
+
+// c67: 0 => 1 (01); (UInt16)0 => 1; (UInt32)33554432 => 33554433 Trickster
+// c67: 1 => 2 (02); (UInt16)1 => 2; (UInt32)33554433 => 33554434 убили Trickster
+// c68: 0 => 1 (01); (UInt16)0 => 1; (UInt32)33685504 => 33685505 Carrot
+// c68: 1 => 2 (02); (UInt16)1 => 2; (UInt32)33685505 => 33685506 убили Carrot
+
+// c6a: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 зашли в Nam-Yensa Sandsea/Withering Shores, увидели Urutan Eater
+// c6a: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 убили Urutan Eater
+
+// c6b: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 запрос на сохранение перед входом в The Tomb of Raithwall/Valley of the Dead
+// c6b: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 The ancient device stirs
+
+// c72: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 перешли в Chamber of First Light
+// c72: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 зашли в Stilshrine of Miriam/Vault of the Champion
+// c72: 1 => 2 (0x02); (UInt16)1 => 2; (UInt32)1 => 2 вошли в Zertinan Caverns/Hourglass Basin из Zertinan Caverns/Athroza Quicksands
+// c72: 2 => 3 (0x03); (UInt16)2 => 3; (UInt32)2 => 3 сценка в Stilshrine of Miriam/Vault of the Champion
+
+// d18: 0 => 2 (02); (UInt16)0 => 2; (UInt32)65536 => 65538 Gurdy в Phon Coast/Hunters' Camp
+// d18: 0 => 2 (0x02); (UInt16)0 => 2 первый раз наняли Chocobo в Jahara
+// d18: 2 => 3 (03); (UInt16)2 => 3 сели на Chocobo в Jahara
+
+VAR|0xD1A|1|HUNTS__KILLS_Count|Hunts kills (without ???)|EBytesBlockType.Timer
+
+VAR|0xD1B|1 // d1b: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 убили Carrot
+
+VAR|0xD1C|86
+
+VAR|0xD72|2
+// d72: 180 => 1 (0x01); (UInt16)180 => 1 мульт с названием территории Ozmone Plain
+// d72: 50 => 10 (0A); (UInt16)50 => 10; (UInt32)50 => 10 мульт с названием территории Henne Mines
+// d72: 1 => 20 (14); (UInt16)1 => 20; (UInt32)1 => 20 мульт с названием территории Golmore Jungle
+// d72: 40 => 30 (1E); (UInt16)40 => 30; (UInt32)40 => 30 мульт с названием территории The Feywood
+// d72: 10 => 40 (28); (UInt16)10 => 40; (UInt32)10 => 40 вошли в Paramina Rift/Fading Vale
+// d72: 30 => 42 (0x2A); (UInt16)30 => 42 мульт с названием территории Paramina Rift; вошли из The Feywood
+// d72: 161 => 50 (0x32); (UInt16)161 => 50 мульт с названием территории Jahara
+// d72: 30 => 95 (5F); (UInt16)30 => 95; (UInt32)30 => 95 мульт с названием территории Stilshrine of Miriam
+// d72: 150 => 110 (6E); (UInt16)150 => 110 мульт с названием территории Garamsythe Waterway
+// d72: 0 => 130 (82); (UInt16)0 => 130 мульт с названием территории Dalmasca Estersand; The Stepping 
+// d72: 110 => 140 (8C); (UInt16)110 => 140 мульт с названием территории Dalmasca Westersand
+// d72: 130 => 150 (96); (UInt16)130 => 150 мульт с названием территории Giza Plains
+// d72: 1 => 161 (0xA1); (UInt16)1 => 161 мульт с названием территории Zertinan Caverns
+// d72: 140 => 180 (B4); (UInt16)140 => 180 мульт с названием территории Nam-Yensa Sandsea
+// d72: 95 => 240 (F0); (UInt16)95 => 240; (UInt32)95 => 240 мульт с названием территории Mosphoran Highwaste/Southern Skirts
+// d72: 240 => 250 (FA); (UInt16)240 => 250; (UInt32)240 => 250 мульт с названием территории Salikawood
+// d72: 250 => 4 (04); (UInt16)250 => 260; (UInt32)250 => 260 вошли в Nabreus Deadlands
+// d72: 250 => 5 (0x05); (UInt16)250 => 261 вошли в Nabreus Deadlands/Field of the Fallen Lord из Necrohol of Nabudis/Hall of Slumbering Might
+// d73: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вошли в Nabreus Deadlands
+// d72: 4 => 24 (18); (UInt16)260 => 280; (UInt32)260 => 280 вошли в Phon Coast/Kaukula Pass из The Salikawood/Living Chasm
+// d72: 24 => 36 (24); (UInt16)280 => 292; (UInt32)280 => 292 вошли в Tchita Uplands/Realm of the Elder Dream из Phon Coast/Rava's Pass
+
+VAR|0xD74|264
+
+// d76: 0 => 1 (01); (UInt16)0 => 1; (UInt32)131072 => 1 прилетели в Rabanastre из Nalbina
+
+// d78: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 выбрали Leisure Craft
+// d78: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 сценки с взлетом самолета
+// d78: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 прилетели
+
+// df2: 0 => 64 (40); (UInt16)0 => 32832; (UInt32)0 => 32832 обучение, Upper Apartments, есть кристалл!! (0x8040 - Rabanastre!!!)
+// df3: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 обучение, Upper Apartments, есть кристалл!!
+// df4: 0 => 74 (4A); (UInt16)0 => 32842; (UInt32)0 => 32842 коснулись кристалла в Bhujerba
+// df5: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Bhujerba
+// df6: 0 => 88 (58); (UInt16)0 => 32856; (UInt32)0 => 32856 коснулись кристалла в Dalmasca Westersand
+// df7: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Dalmasca Westersand
+// df8: 0 => 90 (5A); (UInt16)0 => 32858; (UInt32)0 => 32858 коснулись кристалла в Ogir-Yensa Sandsea
+// df9: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Ogir-Yensa Sandsea
+// dfa: 0 => 90 (5A); (UInt16)0 => 32858; (UInt32)0 => 32858 коснулись кристалла в Nam-Yensa Sandsea
+// dfb: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Nam-Yensa Sandsea
+// dfa: 0 => 76 (4C); (UInt16)0 => 32844; (UInt32)0 => 32844 коснулись кристалла в The Tomb of Raithwall
+// dfb: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в The Tomb of Raithwall
+// dfc: 0 => 84 (0x54); (UInt16)0 => 32852; (UInt32)0 => 32852 другая игра, коснулись кристалла в Jahara
+// dfd: 0 => 128 (0x80); (UInt16)0 => 128; (UInt32)0 => 128 другая игра, коснулись кристалла в Jahara
+// dfe: 0 => 85 (0x55); (UInt16)0 => 32853; (UInt32)0 => 32853 другая игра, коснулись кристалла в Eruyt Village
+// dff: 0 => 128 (0x80); (UInt16)0 => 128; (UInt32)0 => 128 другая игра, коснулись кристалла в Eruyt Village
+// e00: 0 => 73 (0x49); (UInt16)0 => 32841; (UInt32)0 => 32841 другая игра, коснулись кристалла в Henne Mines
+// e01: 0 => 128 (0x80); (UInt16)0 => 128; (UInt32)0 => 128 другая игра, коснулись кристалла в Henne Mines
+// e02: 0 => 73 (49); (UInt16)0 => 32841; (UInt32)0 => 32841 коснулись кристалла Henne Mines/Staging Shaft
+// e03: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла Henne Mines/Staging Shaft
+// e04: 0 => 78 (4E); (UInt16)0 => 32846; (UInt32)0 => 32846 коснулись кристалла Golmore Jungle/The Parting Glade
+// e05: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла Golmore Jungle/The Parting Glade
+// e06: 0 => 86 (56); (UInt16)0 => 32854; (UInt32)0 => 32854 коснулись кристалла в Mt Bur-Omisace/Sand-strewn Pass
+// e07: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Mt Bur-Omisace/Sand-strewn Pass
+// e08: 0 => 81 (51); (UInt16)0 => 32849; (UInt32)0 => 32849 коснулись кристалла в Stilshrine of Miriam/Walk of Mind
+// e09: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Stilshrine of Miriam/Walk of Mind
+// e0a: 0 => 89 (0x59); (UInt16)0 => 32857; (UInt32)0 => 32857
+// e0b: 0 => 128 (0x80); (UInt16)0 => 128; (UInt32)0 => 128
+// e0c: 0 => 92 (5C); (UInt16)0 => 32860; (UInt32)0 => 32860 коснулись кристалла в Tchita Uplands/The Chosen Path
+// e0d: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Tchita Uplands/The Chosen Path
+// e0e: 0 => 91 (5B); (UInt16)0 => 32859; (UInt32)0 => 32859 коснулись кристалла в Phon Coast/Hunters' Camp
+// e0f: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Phon Coast/Hunters' Camp
+// e10: 0 => 87 (57); (UInt16)0 => 32855; (UInt32)0 => 32855 коснулись кристалла в Estersand
+// e11: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Estersand
+// e12: 0 => 89 (59); (UInt16)0 => 32857; (UInt32)0 => 32857 коснулись кристалла в Mosphoran Highwaste
+// e13: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Mosphoran Highwaste
+// e14: 0 => 69 (45); (UInt16)0 => 32837; (UInt32)0 => 32837 коснулись кристалла в Nabreus Deadlands
+// e15: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 коснулись кристалла в Nabreus Deadlands
+// e16: 0 => 72 (48); (UInt16)0 => 32840; (UInt32)0 => 32840 кристалл в Sochen Cave
+// e17: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 кристалл в Sochen Cave
+// e18: 0 => 71 (47); (UInt16)0 => 32839; (UInt32)0 => 32839 кристалл в Archades
+// e19: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 кристалл в Archades
+
+// e72: 0 => 128 (80); (UInt16)0 => 128; (UInt32)213909504 => 213909632 убили Elder Wyrm
+// e72: 128 => 130 (0x82); (UInt16)128 => 130; (UInt32)180355200 => 180355202 вошли в Nalbina Town/West Barbarican из Dalmasca Estersand/Yardang Labirinth
+
+
+// e74[6]: 0 => 64 (40); (UInt16)0 => 64; (UInt32)0 => 64 открыли ворота в Barheim Passage/The Lightworks
+// e74[7]: 64 => 192 (C0); (UInt16)64 => 192; (UInt32)64 => 192 открыли ворота в Barheim Passage/Op Sector 37
+// e74[5]: 192 => 224 (E0); (UInt16)3264 => 3296; (UInt32)3264 => 3296 убили Bomb King
+
+
+// e75[1]: 8 => 10 (0x0A); (UInt16)8 => 10; (UInt32)8 => 10 срубили все 6 Withered Trees
+// e75[2]: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4 победили Demon Wall
+// e75[3]: 4 => 12 (0C); (UInt16)4 => 12; (UInt32)4 => 12 победили вторую Demon Wall
+
+VAR|0xE7C|12|CAM__POS_OR_ANGLE|Cam??? // Camera angle or position // have to try to change-)
+
+VAR|0xE88|4 // ВИДИМО подсвеченный предмет в сообщении
+// e88: 0 => 57 (39); (UInt16)0 => 57; (UInt32)0 => 57 World Map has been added to the Party Menu
+// e88: 57 => 113 (71); (UInt16)57 => 32881; (UInt32)57 => 32881 You obtained a Clan Primer (0x8071)
+// e89: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 889192576 You obtained a Clan Primer
+// e88: 113 => 60 (3C); (UInt16)32881 => 60; (UInt32)32881 => 60 Licenses has been added to the Party Menu
+// e89: 128 => 0 (00); (UInt16)128 => 0; (UInt32)889192576 => 889192448 Licenses has been added to the Party Menu
+// e88: 60 => 112 (70); (UInt16)60 => 32880; (UInt32)60 => 32880 You obtain a Writ of Transit (0x8070)
+// e89: 0 => 128 (80); (UInt16)0 => 128; (UInt32)889192448 => 889192576 Tomaj дал Writ of Transit
+// e88: 112 => 52 (34); (UInt16)32880 => 52; (UInt32)32880 => 52 You are now free to enter Lowtown and leave Rabanastre
+// e89: 128 => 0 (00); (UInt16)128 => 0 You are now free to enter Lowtown and leave Rabanastre
+// e88: 52 => 10 (0A); (UInt16)52 => 32778; (UInt32)52 => 32778 You obtain a map of Giza Plains
+// e89: 0 => 128 (80); (UInt16)0 => 128 You obtain a map of Giza Plains
+// e88: 10 => 122 (7A); (UInt16)32778 => 32890; (UInt32)32778 => 32890 You obtain a Sunstone
+// e88: 52 => 142 (8E); (UInt16)52 => 142; (UInt32)52 => 142 You are now a member of Clan Centurio
+// e88: 142 => 38 (26); (UInt16)142 => 32806; (UInt32)142 => 32806 You obtain a map of the Royal Palace of Rabanastre
+// e89: 0 => 128 (80); (UInt16)0 => 128 You obtain a map of the Royal Palace of Rabanastre
+// e88: 38 => 24 (18); (UInt16)32806 => 32792; (UInt32)32806 => 32792 You obtain a map of the Garamsythe Waterway of Rabanastre
+// e88: 24 => 116 (74); (UInt16)32792 => 32884; (UInt32)32792 => 32884 You obtain a Tube Fuse
+// e88: 116 => 25 (19); (UInt16)32884 => 32793; (UInt32)32884 => 32793 You obtain a map of Barheim Passage
+// e88: 25 => 118 (76); (UInt16)32793 => 32886; (UInt32)32793 => 32886 You obtain a No. 1 Brig Key
+// e88: 118 => 119 (77); (UInt16)32886 => 32887; (UInt32)32886 => 32887 You obtain a Systems Access Key
+// e88: 119 => 11 (0B); (UInt16)32887 => 32779; (UInt32)32887 => 32779 You obtain a map of the Ogir-Yensa Sandsea
+// e88: 11 => 12 (0C); (UInt16)32779 => 32780; (UInt32)32779 => 32780 You obtain a map of the Nam-Yensa Sandsea
+// e88: 12 => 130 (82); (UInt16)32780 => 130; (UInt32)32780 => 130 The Urutan Eater has fallen
+// e89: 128 => 0 (00); (UInt16)128 => 0; (UInt32)1526726784 => 1526726656 The Urutan Eater has fallen
+// e88: 130 => 131 (83); (UInt16)130 => 131; (UInt32)130 => 131 The ancient device stirs
+// e88: 131 => 28 (1C); (UInt16)131 => 32796; (UInt32)131 => 32796 You obtain a map of the The Tomb of Raithwall (0x801C)
+// e89: 0 => 128 (80); (UInt16)0 => 128; (UInt32)1526726656 => 1795162240 You obtain a map of the The Tomb of Raithwall
+// e88: 17 => 3 (03); (UInt16)32785 => 32771; (UInt32)32785 => 32771 You obtain a map of Jahara (0x8003)
+// e88: 3 => 16 (10); (UInt16)32771 => 32784; (UInt32)32771 => 32784 You obtain a map of Ozmone Plain (0x8010)
+// e88: 28 => 17 (11); (UInt16)32796 => 32785; (UInt32)32796 => 32785 You obtain a map of Golmore Jungle (0x8011)
+// e88: 16 => 4 (04); (UInt16)32784 => 32772; (UInt32)32784 => 32772 You obtain a map of Eruyt Village (0x8004)
+// e88: 4 => 132 (84); (UInt16)32772 => 132; (UInt32)32772 => 132 You hand a potion to the Imperial
+// e89: 128 => 0 (00); (UInt16)128 => 0; (UInt32)1392509056 => 1392508928 You hand a potion to the Imperial
+// e88: 134 => 30 (1E); (UInt16)32902 => 32798 You obtain a map of the Henne Mines
+// e89: 0 => 128 (80); (UInt16)0 => 128; (UInt32)1526726656 => 1795162240 You obtain a map of the Henne Mines
+// e88: 132 => 5 (05); (UInt16)132 => 32773; (UInt32)132 => 32773 You obtain a map of the Mt Bur-Omisace (0x8005)
+// e89: 0 => 128 (80); (UInt16)0 => 128; (UInt32)1392508928 => 1409286272 You obtain a map of the Mt Bur-Omisace
+// e88: 5 => 19 (13); (UInt16)32773 => 32787; (UInt32)32773 => 32787 You obtain a map of the Paramina Rift (0x8013)
+// e88: 19 => 129 (81); (UInt16)32787 => 129; (UInt32)32787 => 129 A crystal appears! везде
+// e89: 128 => 0 (00); (UInt16)128 => 0; (UInt32)1644167296 => 1644167168 A crystal appears! везде
+// e88: 32 => 138 (8A); (UInt16)32800 => 138; (UInt32)32800 => 138 The way past the colossus is open
+// e89: 128 => 0 (00); (UInt16)128 => 0; (UInt32)1862271104 => 1862270976 The way past the colossus is open
+// e88: 129 => 32 (20); (UInt16)129 => 32800; (UInt32)129 => 32800 You obtain a map of the Stilshrine of Miriam
+// e89: 0 => 128 (80); (UInt16)0 => 128; (UInt32)1644167168 => 1862271104 You obtain a map of the Stilshrine of Miriam
+// e88: 147 => 136 (88); (UInt16)32915 => 32904; (UInt32)32915 => 32904 You obtain Ann's Letter
+// e88: 138 => 13 (0D); (UInt16)138 => 32781; (UInt32)138 => 32781 You obtain a map of Mosphoran Highwaste
+// e89: 0 => 128 (80); (UInt16)0 => 128; (UInt32)1862270976 => 1543504000 You obtain a map of Mosphoran Highwaste
+// e88: 13 => 14 (0E); (UInt16)32781 => 32782; (UInt32)32781 => 32782 You obtain a map of The Salikawood
+// e88: 136 => 129 (81); (UInt16)32904 => 129; (UInt32)32904 => 129 A crystal appears! в Nabreus Deadlands/Succor Midst Sorrow
+// e89: 128 => 0 (00); (UInt16)128 => 0 A crystal appears! в Nabreus Deadlands/Succor Midst Sorrow
+// e88: 129 => 15 (0x0F); (UInt16)129 => 32783; (UInt32)129 => 32783 You obtain a map of Nabreus Deadlands
+// e89: 0 => 128 (0x80); (UInt16)0 => 128 You obtain a map of Nabreus Deadlands
+// e88: 14 => 140 (8C); (UInt16)32782 => 140; (UInt32)32782 => 140 You found all of the moogles!
+// e89: 128 => 0 (00); (UInt16)128 => 0; (UInt32)1560281216 => 1560281088 You found all of the moogles!
+// e88: 140 => 182 (B6); (UInt16)140 => 32950; (UInt32)140 => 32950 You obtain the Soul Ward Key
+// e89: 0 => 128 (80); (UInt16)0 => 128; (UInt32)1560281088 => 1560281216 You obtain the Soul Ward Key
+// e88: 129 => 33 (21); (UInt16)129 => 32801; (UInt32)129 => 32801 You obtain a map of Sochen Cave Palace
+// e89: 0 => 128 (80); (UInt16)0 => 128 You obtain a map of Sochen Cave Palace
+
+// e88: 182 => 115 (73); (UInt16)32950 => 32883; (UInt32)32950 => 32883 убили Flowering Cactoid, получили Cactus Flow
+// e88: 115 => 134 (86); (UInt16)32883 => 32902 убили Encelados, получили Errmonea Leaf
+// e88: 30 => 124 (7C); (UInt16)32798 => 32892 убили Croakadile, получили The Ring of the Toad
+// e88: 124 => 135 (87); (UInt16)32892 => 32903; (UInt32)32892 => 32903 получили Rabbit's Tail
+// e88: 135 => 142 (8E); (UInt16)32903 => 32910; (UInt32)32903 => 32910 получили Cask of Serpentwyne Must
+// e88: 142 => 8 (08); (UInt16)32910 => 32776; (UInt32)32910 => 32776 купили карту Dalmasca Estersand
+// e88: 8 => 147 (93); (UInt16)32776 => 32915; (UInt32)32776 => 32915 дали Barheim Key
+// e88: 33 => 139 (8B); (UInt16)32801 => 139; (UInt32)32801 => 139 You are now free to ride the cab
+// e89: 128 => 0 (00); (UInt16)128 => 0 You are now free to ride the cab
+// e88: 139 => 21 (15); (UInt16)139 => 32789; (UInt32)139 => 32789 купили карту Tchita Uplands
+// e89: 0 => 128 (80); (UInt16)0 => 128 купили карту Tchita Uplands
+// e88: 21 => 6 (06); (UInt16)32789 => 32774; (UInt32)32789 => 32774 You obtain a map of Archades
+
+
+
+//VAR|0xE8A|2
+
+VAR|0xE8C|68
+// e8c: 0 => 53 (35); (UInt16)0 => 53; (UInt32)0 => 53 You obtained a Clan Primer
+// e8c: 53 => 89 (59); (UInt16)53 => 89; (UInt32)53 => 89 You obtain a map of Giza Plains
+// e8c: 89 => 117 (75); (UInt16)89 => 117; (UInt32)89 => 117 You obtain a map of the Royal Palace of Rabanastre
+// e8c: 103 => 104 (68); (UInt16)103 => 104; (UInt32)103 => 104 You obtain a map of Barheim Passage
+// e8c: 104 => 90 (5A); (UInt16)104 => 90; (UInt32)104 => 90 You obtain a map of the Ogir-Yensa Sandsea
+// e8c: 90 => 91 (5B); (UInt16)90 => 91; (UInt32)90 => 91 You obtain a map of the Nam-Yensa Sandsea
+// e8c: 91 => 107 (6B); (UInt16)91 => 107; (UInt32)91 => 107 You obtain a map of the The Tomb of Raithwall
+// e8c: 96 => 82 (52); (UInt16)96 => 82; (UInt32)96 => 82  You obtain a map of Jahara
+// e8c: 82 => 95 (5F); (UInt16)82 => 95; (UInt32)82 => 95 You obtain a map of Ozmone Plain
+// e8c: 107 => 96 (60); (UInt16)107 => 96; (UInt32)107 => 96 You obtain a map of Golmore Jungle
+// e8c: 95 => 83 (53); (UInt16)95 => 83; (UInt32)95 => 83 You obtain a map of Eruyt Village
+// e8c: 93 => 109 (6D); (UInt16)93 => 109; (UInt32)93 => 109 You obtain a map of the Henne Mines
+// e8c: 83 => 84 (54); (UInt16)83 => 84; (UInt32)83 => 84 You obtain a map of the Mt Bur-Omisace
+// e8c: 84 => 98 (62); (UInt16)84 => 98; (UInt32)84 => 98 You obtain a map of the Paramina Rift
+// e8c: 98 => 111 (6F); (UInt16)98 => 111; (UInt32)98 => 111 You obtain a map of the Stilshrine of Miriam
+// e8c: 111 => 92 (5C); (UInt16)111 => 92; (UInt32)111 => 92 You obtain a map of Mosphoran Highwaste
+// e8c: 92 => 93 (5D); (UInt16)92 => 93; (UInt32)92 => 93 You obtain a map of The Salikawood
+// e8c: 93 => 94 (0x5E); (UInt16)93 => 94; (UInt32)93 => 94 You obtain a map of Nabreus Deadlands
+// e8c: 87 => 112 (70); (UInt16)87 => 112; (UInt32)87 => 112  You obtain a map of Sochen Cave Palace
+
+// e8c: 109 => 87 (57); (UInt16)109 => 87; (UInt32)109 => 87 купили карту Dalmasca Estersand
+// e8c: 112 => 100 (64); (UInt16)112 => 100; (UInt32)112 => 100 купили карту Tchita Uplands
+// e8c: 100 => 85 (55); (UInt16)100 => 85; (UInt32)100 => 85 You obtain a map of Archades
+// e8c: 117 => 103 (67); (UInt16)117 => 103; (UInt32)117 => 103 You obtain a map of the Garamsythe Waterway of Rabanastre
+
+// eb0: 0 => 1 (0x01); перешли в Ozmone Plain/Field of Fallen Wings из Giza
+// eb1: 0 => 1 (01); вошли в Henne Mines/North Entrance из Ozmone Plain/The Shred
+// eb2: 0 => 1 (0x01); вошли в Golmore Jungle/Paths of Chained Light
+// eb3: 0 => 1 (01); мульт с названием территории The Feywood; вошли в The Feywood/Walk of Flitting Rifts
+// eb4: 0 => 1 (01); мульт с названием территории Paramina Rift
+// eb5: 0 => 1 (01); вошли в Garamsythe Waterway/Central Spur Stairs
+
+// eb7: 0 => 1 (01); мульт с названием территории Dalmasca Estersand
+// eb8: 0 => 1 (01); мульт с названием территории Dalmasca Westersand
+// eb9: 0 => 1 (01); мульт с названием территории Giza Plains
+// eba: 0 => 1 (0x01); мульт с названием территории Zertinan Caverns
+// ebb: 0 => 1 (01); вошли в Ogir-Yensa Sandsea/Platform 1 - East Tanks
+// ebc: 0 => 1 (01); мульт с названием территории Nam-Yensa Sandsea
+// ebd: 0 => 1 (0x01); мульт с названием территории Nalbina Town
+// ebe: 0 => 1 (01); мульт с названием территории Mosphoran Highwaste
+// ebf: 0 => 1 (01); мульт с названием территории Salikawood
+// ec0: 0 => 1 (0x01); мульт с названием территории Nabreus Deadlands
+// ec1: 0 => 1 (01); мульт с названием территории Necrohol of Nabudis
+// ec2: 0 => 1 (01); мульт с названием территории Phon Coast
+// ec3: 0 => 1 (01); мульт с названием территории Tchita Uplands
+
+VAR|0xED0|1|BAZAAR__ShoppingCount_Total|Bazaar: visit count of shops total|EBytesBlockType.Timer
+VAR|0xED1|1|BAZAAR__ShoppingCount_Weapon|Bazaar: visit count of Weapon Shops
+VAR|0xED2|1|BAZAAR__ShoppingCount_Magic|Bazaar: visit count of Magic Shops
+VAR|0xED3|1|BAZAAR__ShoppingCount_Armor|Bazaar: visit count of Armor Shops
+VAR|0xED4|1|BAZAAR__ShoppingCount_NoticeBoard|Bazaar: visit count of Notice Board
+
+VAR|0xED5|11
+
+// eda[0]: 0 => 1 (01); появился Forgotten Grimoire за 40 посещений любых магазинов 
+// eda[1]: 61 => 63 (3F); появился Forgotten Grimoire за посещения магазинов оружия
+// eda[2]: 57 => 61 (3D); появился Forgotten Grimoire за посещения магазинов магии
+// eda[3]: 1 => 9 (09); появился Forgotten Grimoire за посещения магазинов Брони
+// eda[4]: 9 => 25 (19); появился Forgotten Grimoire за 20 посещений досок охот
+// eda[5]: 25 => 57 (39); появился Forgotten Grimoire за 40 посещений досок охот
+
+VAR|0xEE0|1|QUEST__THEREISTRICKSTER
+// ee0: 0 => 6 (06); (UInt16)0 => 6; (UInt32)0 => 6 Trickster'а нет в комнате
+// ee0: 6 => 7 (07); (UInt16)6 => 7; (UInt32)6 => 7 Trickster появился
+
+
+VAR|0xEE1|815
+// ee1: 0 => 6 (06); (UInt16)0 => 6; (UInt32)0 => 6 Krjn присоединилась в The Salikawood/Sun-dappled Path
+// ee1: 6 => 7 (07); (UInt16)6 => 7; (UInt32)6 => 7 Krjn говорит, что Carrot появился
+
+// ee8: 0 => 1 (01); (UInt16)256 => 257; (UInt32)65792 => 65793 началась драка с Adrammelech
+
+// ee9: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 мультик с Гарудой
+
+// eea: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вошли в The Salikawood/Grand Bower, мульт с King Bomb
+
+// VAR|0xEF4|2 // ROOM в Trial Mode???
+// ef4: 0 => 131 (83); (UInt16)0 => 1155; (UInt32)0 => 1155 вошли в Trial Mode
+// ef5: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4 вошли в Trial Mode
+// ef4: 131 => 147 (93); (UInt16)1155 => 1171; (UInt32)1155 => 1171 подготовка сохранения после 10 уровня в Trial Mode
+
+// 1200: 64 => 0 (00); (UInt16)64 => 0; (UInt32)64 => 0 закончили охоту на Ring Wyrm
+// 1200: 0 => 64 (40); (UInt16)0 => 64; (UInt32)0 => 64 дали управление в Barheim Passage/Op Sector 29
+
+VAR|0x1210|16|HUNTS__ACTIVE_MASK|Hunts: active (mask)
+VAR|0x1220|16
+// 1220: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 помидор по охоте, вторая победа
+VAR|0x1230|16|HUNTS__DONE_MASK|Hunts: done (mask)
+VAR|0x1240|4|HUNTS__DONE_Count|Hunts: done count (+1)
+VAR|0x1244|4|UNKNOW__ROOMTO|another room?|EBytesBlockType.Timer
+VAR|0x1248|4|UNKNOW__ENTERTO|number of enter in the room?|EBytesBlockType.Timer
+VAR|0x124C|4|UNKNOW__ROOMFROM|room from which we come?|EBytesBlockType.Timer
+VAR|0x1250|4|UNKNOW__ENTERFROM|number of enter in the previous room?|EBytesBlockType.Timer
+VAR|0x1254|4|UNKNOWFLAG__1254|flag 1254 {0=>1}|EBytesBlockType.Flag
+// 1254: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 обучение, следующая комната за брифингом по мини-карте, сценка
+// 1254: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 закончилось обучение
+// 1254: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 перешли в Rabanastre/Southern Plaza
+// 1254: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вышли в Rabanastre/Eastgate
+VAR|0x1258|4|GENERAL__AREA|Area
+VAR|0x125C|4|UNKNOW__ROOM3|third repeat room?|EBytesBlockType.Timer
+
+VAR|0x1260|1|UNKNOWNFLAG__1260|Flag 1260|EBytesBlockType.Bad
+// 1260: 1 => 0 (00); новая игра
+// 1260: 0 => 1 (01) перешли в The Tomb of Raithwall/Royal Passage
+// 1260: 1 => 2 (02) зашли в The Tomb of Raithwall/Northfall Passage
+// 1260: 2 => 1 (01) зашли в The Tomb of Raithwall/Royal Passage
+// 1260: 1 => 2 (02) зашли в The Tomb of Raithwall/Southfall Passage
+// 1260: 1 => 0 (00) перешли в Chamber of First Light
+// 1260: 0 => 1 (01) перешли в Bhujerba/Miners' End
+// 1260: 0 => 1 (01) вошли в Paramina Rift/Fading Vale
+// 1260: 0 => 1 (01) вошли в Paramina Rift/Icebound Flow
+// 1260: 1 => 0 (00) сценка с паломниками и Larsa
+// 1260: 0 => 1 (01) следующая сценка  закончилась
+// 1260: 1 => 0 (00) вошли в Mt Bur-Omisace
+// 1260: 0 => 1 (01) вышли в Paramina Rift из Stilshrine of Miriam
+// 1260: 1 => 2 (02) убили судью Bergan
+// 1260: 0 => 1 (01) вошли в Royal Palace/Cellars
+// 1260: 1 => 2 (02) дали управление в Royal Palace/The Garden Stairs
+// 1260: 2 => 0 (00)
+// 1260: 0 => 2 (02) первый раз вошли в Dalmasca Westersand/Galtea Downs
+// 1260: 2 => 0 (00) вернулись в город после охоты на Thextera
+// 1260: 0 => 1 (01) вошли в Bhujerba/Miners' End
+// 1260: 1 => 0 (00) зашли в Bhujerba/Clio's Technicks
+// 1260: 1 => 0 (00) зашли в Lhusu Mines/Oltam Span
+// 1260: 0 => 1 (01) зашли в Lhusu Mines/Transitway 1
+// 1260: 1 => 0 (00) зашли в Lhusu Mines/Shunia Twinspan
+// 1260: 0 => 1 (01) зашли в Lhusu Mines/Site 2
+// 1260: 1 => 0 (00) Lhusu Mines/Site 2 - Lhusu Mines/Shunia Twinspan
+// 1260: 1 => 0 (00) сценка перед боем с Judge Gis
+// 1260: 0 => 1 (01) мульт с прибытием Gabranth в Arcadia
+
+
+
+
+VAR|0x1261|1|UNWANTEDFLAG__1261|Flag 1261 { 0 => 1 => 0 }|EBytesBlockType.Flag
+VAR|0x1262|1|UNWANTEDFLAG__ROOMEnterCutscene1|Room enter cutscene 1 {0=>36=>4}|EBytesBlockType.Flag
+//1262: 0 => 36 (24); (UInt16)0 => 36; (UInt32)0 => 36 новая игра
+//1262: 36 => 4 (04); (UInt16)36 => 4; (UInt32)36 => 4 обучение, мульт в Highhall
+// 1262: 4 => 0 (00); (UInt16)4 => 0; (UInt32)4 => 0 закончилось обучение
+//1262: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4 закончилось обучение
+//1262: 4 => 0 (00); (UInt16)16388 => 0; (UInt32)16388 => 0 Vaan вылез в Rabanastre из канализации
+//1262: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4 Vaan вылез в Rabanastre из канализации
+//1262: 36 => 4 (04); (UInt16)36 => 4; (UInt32)655396 => 655364 перешли в Rabanastre/Southern Plaza
+//1262: 4 => 0 (00); (UInt16)4 => 0; (UInt32)4587524 => 4587520 вернулись в город после пустыни
+//1262: 0 => 4 (04); (UInt16)0 => 4; (UInt32)4587520 => 4587524 вернулись в город после пустыни
+
+VAR|0x1263|1|UNWANTEDFLAG__ROOMEnterCutscene2|Room enter cutscene 2 {0=>64=>0|EBytesBlockType.Flag
+// НЕ ТОЛЬКО! мульт с оживающей стеной демонов в Гробнице - тоже
+// 1263: 64 => 0 (00); (UInt16)17984 => 17920; (UInt32)17984 => 17920 убили Garuda
+// 1263: 0 => 64 (40); (UInt16)17920 => 17984; (UInt32)17920 => 17984 мультик с подъемом на лестницу гробницы
+// 1263: 0 => 64 (40); (UInt16)0 => 64; (UInt32)0 => 64 дали управление Рэксом
+// 1263: 0 => 64 (40); (UInt16)0 => 64; (UInt32)0 => 64 обучение, босс
+// 1263: 64 => 0 (00); (UInt16)64 => 0; (UInt32)64 => 0 обучение, следующая комната за брифингом по мини-карте, сценка
+//1263: 0 => 64 (40); (UInt16)0 => 64; (UInt32)0 => 64 закончилось обучение
+//1263: 64 => 0 (00); (UInt16)64 => 0; (UInt32)64 => 0 Vaan вылез в Rabanastre из канализации
+
+VAR|0x1264|848
+// 1264: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 приняли первую охоту (Tomato Rogue)
+// 1264: 10 => 50 (32); (UInt16)10 => 50; (UInt32)10 => 50 первый раз побили помидору по охоте
+// 1264: 50 => 70 (46); (UInt16)50 => 70; (UInt32)50 => 70 помидор по охоте, вторая победа
+
+// 1267: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 диалог после мульта в Dalan's House
+// 1267: 10 => 20 (14); (UInt16)10 => 20; (UInt32)10 => 20 вторая часть диалога с Masyua
+// 1267: 20 => 30 (1E); (UInt16)20 => 30; (UInt32)20 => 30 сценка с Penelo в Nomad Village
+// 1267: 30 => 70 (46); (UInt16)30 => 70; (UInt32)30 => 70 дали управление после диалогов с Penelo на выходе из Nomad Village
+// 1267: 70 => 90 (5A); (UInt16)70 => 90; (UInt32)70 => 90 дали управление после диалога с Jinn
+// 1267: 90 => 100 (64); (UInt16)90 => 100; (UInt32)90 => 100 переместились в Nomad Village после заряда Sunstone
+// 1267: 100 => 110 (6E); (UInt16)100 => 110; (UInt32)100 => 110 закончился квест по заряду Sunstone
+// 1267: 110 => 120 (78); (UInt16)110 => 120; (UInt32)110 => 120 сдали Sunstone, получили Crescent Stone
+
+// 1268: 0 => 30 (1E); (UInt16)0 => 30; (UInt32)0 => 30 диалог "войти во дворец из канализации?"
+// 1268: 30 => 35 (23); (UInt16)30 => 35; (UInt32)30 => 35 дали управление в Royal Palace
+// 1268: 35 => 40 (28); (UInt16)35 => 40; (UInt32)35 => 40 дали управление в Royal Palace/Lower Halls
+// 1268: 40 => 70 (46); (UInt16)40 => 70; (UInt32)40 => 70 открыли секретный проход
+
+// 1269: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 дали управление после присоединения Balthier и Fran
+// 1269: 10 => 20 (14); (UInt16)10 => 20; (UInt32)10 => 20 дали управление после того, как отбили Ashe от имперцев
+// 1269: 20 => 30 (1E); (UInt16)20 => 30; (UInt32)20 => 30 присоединилась Ashe
+// 1269: 30 => 40 (28); (UInt16)30 => 40; (UInt32)30 => 40 убили 4xFlan
+// 1269: 40 => 100 (64); (UInt16)40 => 100; (UInt32)40 => 100 сценка с Reks в кресле-каталке
+
+// 126a: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 дали управление в Barheim Passage/Op Sector 29
+// 126a: 10 => 50 (32); (UInt16)10 => 50; (UInt32)10 => 50 дали управление после флэшбэка Basch
+// 126a: 50 => 100 (64); (UInt16)50 => 100; (UInt32)50 => 100 дали управление в Dalmasca Estersand/Passage Entrance
+
+// 126c: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 зашли в Lhusu Mines
+// 126c: 10 => 20 (14); (UInt16)10 => 20; (UInt32)10 => 20 сценка с Маркизом и Судьей в Lhusu Mines/Shaft Entry
+// 126c: 20 => 40 (28); (UInt16)20 => 40; (UInt32)20 => 40 побег от Ba'Gamnan
+// 126c: 40 => 50 (32); (UInt16)40 => 50; (UInt32)40 => 50 выбежали в Lhusu Mines/Shunia Twinspan
+// 126c: 50 => 60 (3C); (UInt16)50 => 60; (UInt32)50 => 60 выбежали в Lhusu Mines/Transitway 1
+// 126c: 60 => 70 (46); (UInt16)60 => 70; (UInt32)60 => 70 выбежали в Lhusu Mines/Oltam Span
+// 126c: 70 => 100 (64); (UInt16)70 => 100; (UInt32)70 => 100 сценка с Lamont, Penelo и прочими
+
+// 126e: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10  дали управление после сценки, начинающей квест по привлечению внимания к Basch
+// 126e: 10 => 70 (46); (UInt16)10 => 70; (UInt32)10 => 70 дали управление после кучи очередных сценок 
+
+// 126f: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 дали управление в Dreadnought Leviathan/Port Launch
+// 126f: 10 => 20 (14); (UInt16)10 => 20; (UInt32)10 => 20 Vossler рассказывает о лазерных решетках
+// 126f: 20 => 100 (64); (UInt16)20 => 100; (UInt32)20 => 100 дали управление после присоединения Ashe
+
+// 1270: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 дали управление в Dreadnought Leviathan/Central Brig Access
+// 1270: 10 => 20 (14); (UInt16)10 => 20; (UInt32)10 => 20 дали управление после сценки и присоединения Penelo
+
+// 1271: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 высадились с корабля в Dalmasca Westersand/The Western Divide
+// 1271: 10 => 20 (14); (UInt16)10 => 20; (UInt32)10 => 20 мульт с названием территории Ogir-Yensa Sandsea и пара сценок
+// 1271: 20 => 30 (1E); (UInt16)20 => 30; (UInt32)20 => 30 присоединился Vossler
+// 1271: 30 => 50 (32); (UInt16)30 => 50; (UInt32)30 => 50 поговорили с муглом про страх урутан-енса 
+// 1271: 50 => 60 (3C); (UInt16)50 => 60; (UInt32)50 => 60 убили Urutan Eater
+// 1271: 60 => 70 (46); (UInt16)60 => 70; (UInt32)60 => 70 снова поговорили с муглом
+// 1271: 70 => 140 (8C); (UInt16)70 => 140; (UInt32)70 => 140 сценка в Ogir-Yensa Sandsea/Platform 2 - Refinery
+// 1271: 140 => 150 (96); (UInt16)140 => 150; (UInt32)140 => 150 сценка с казнью Urutan
+// 1271: 150 => 160 (A0); (UInt16)150 => 160; (UInt32)150 => 160 снова поговорили с муглом
+
+// 1273: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 дали управление после сценки на Базаре
+// 1273: 10 => 100 (64); (UInt16)10 => 100; (UInt32)10 => 100 диалог с Гарифами на входе в деревню
+
+// 129d: 0 => 50 (32); (UInt16)0 => 50; (UInt32)0 => 50 Ma'kleou в Nabreus Deadlands/The Muted Scarp
+
+// 12e4: 0 => 30 (1E); (UInt16)0 => 30; (UInt32)0 => 30 приняли первую охоту (Tomato Rogue)
+// 12e4: 30 => 50 (32); (UInt16)30 => 50; (UInt32)30 => 50 помидор по охоте, вторая победа
+// 12e4: 50 => 70 (46); (UInt16)17970 => 17990; (UInt32)168445490 => 168445510 закончили охоту
+// 12e5: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 карта с расположением Gastly по охоте на Thextera
+// 12e5: 10 => 30 (1E); (UInt16)10 => 30; (UInt32)10 => 30 приняли вторую охоту (Thextera)
+// 12e5: 30 => 50 (32); (UInt16)30 => 50; (UInt32)30 => 50 убили Thextera
+// 12e5: 50 => 70 (46); (UInt16)2610 => 2630; (UInt32)174328370 => 174328390 закончили охоту на Thextera
+// 12e6: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 взяли третью охоту (Flowering Cactoid)
+// 12e6: 10 => 50 (32); (UInt16)25610 => 25650; (UInt32)680970 => 681010 поговорили с охотодателем по Flowering Cactoid
+// 12e6: 50 => 70 (46); (UInt16)25650 => 25670; (UInt32)681010 => 681030 убили Flowering Cactoid
+// 12e6: 70 => 90 (5A); (UInt16)25670 => 25690; (UInt32)681030 => 681050 закончили охоту на Flowering Cactoid
+// 12e7: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 взяли четветрую охоту (Wraith)
+// 12e7: 10 => 30 (1E); (UInt16)2570 => 2590; (UInt32)2570 => 2590 поговорили с охотодателем по Wraith
+// 12e7: 30 => 50 (32); (UInt16)2590 => 2610; (UInt32)2590 => 2610 убили Wraith
+// 12e7: 50 => 100 (64); (UInt16)2610 => 2660; (UInt32)2610 => 2660 закончили охоту на Wraith
+// 12e8: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 взяли пятую охоту (Nidhogg)
+// 12e8: 10 => 50 (32); (UInt16)10 => 50; (UInt32)10 => 50 поговорили с охотодателем (Nidhogg)
+// 12e8: 50 => 70 (46); (UInt16)50 => 70; (UInt32)50 => 70 убили Nidhogg
+// 12e8: 70 => 90 (5A); (UInt16)70 => 90; (UInt32)70 => 90 закончили
+// 12e9: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)6553600 => 6553610 приняли охоту на White Mousse
+// 12e9: 10 => 30 (1E); (UInt16)7690 => 7710; (UInt32)509877770 => 509877790 White Mousse
+// 12ea: 0 => 10 (0A); (UInt16)25600 => 25610; (UInt32)1677747200 => 1677747210 приняли охоту на Ring Wyrm
+// 12ea: 10 => 30 (1E); (UInt16)25610 => 25630; (UInt32)1678402570 => 1678402590 Ring Wyrm
+// 12ea: 30 => 70 (46); (UInt16)25630 => 25670; (UInt32)1679713310 => 1679713350 убили Ring Wyrm
+// 12ea: 70 => 100 (64); (UInt16)25670 => 25700; (UInt32)1684300870 => 1684300900 закончили охоту на Ring Wyrm
+// 12eb: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 взяли охоту на Wyvern Lord
+// 12eb: 10 => 30 (1E); (UInt16)10 => 30; (UInt32)168427530 => 168427550 поговорили с охотодателем (Wyvern Lord)
+// 12eb: 30 => 70 (46); (UInt16)30 => 70; (UInt32)174325790 => 174325830 убили Wyvern Lord
+// 12eb: 70 => 100 (64); (UInt16)70 => 100; (UInt32)1684275270 => 1684275300 закончили охоту (Wyvern Lord)
+// 12ec: 0 => 10 (0A); (UInt16)25600 => 25610; (UInt32)1684300800 => 1684300810 приняли охоту на Marilith
+// 12ec: 10 => 30 (1E); (UInt16)25610 => 25630; (UInt32)1684300810 => 1684300830 Marilith
+// 12ec: 30 => 70 (46); (UInt16)25630 => 25670; (UInt32)1684300830 => 1684300870 убили Marilith
+// 12ec: 70 => 100 (64); (UInt16)25670 => 25700; (UInt32)1684300870 => 1684300900 закончили
+// 12ed: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 взяли охоту на Enkelados
+// 12ed: 10 => 30 (1E); (UInt16)2570 => 2590; (UInt32)3279370 => 3279390 поговорили с охотодателем (Enkelados)
+// 12ed: 30 => 50 (32); (UInt16)2590 => 2610; (UInt32)3279390 => 3279410 убили Enkelados, получили Errmonea Leaf
+// 12ed: 50 => 100 (64); (UInt16)2610 => 2660; (UInt32)3279410 => 3279460 закончили охоту (Enkelados)
+// 12ee: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 взяли охоту на Croakadile
+// 12ee: 10 => 30 (1E); (UInt16)25610 => 25630; (UInt32)25610 => 25630 поговорили с охотодателем (Croakadile)
+// 12ee: 30 => 50 (32); (UInt16)25630 => 25650; (UInt32)25630 => 25650 убили Croakadile, получили The Ring of the Toad
+// 12ee: 50 => 100 (64); (UInt16)25650 => 25700; (UInt32)25650 => 25700 закончили охоту (Croakadile)
+// 12ef: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 взяли охоту на Ixtab
+// 12ef: 10 => 50 (32); (UInt16)10 => 50; (UInt32)10 => 50 поговорили с охотодателем (Ixtab)
+// 12ef: 50 => 70 (46); (UInt16)50 => 70; (UInt32)50 => 70 убили Ixtab
+// 12ef: 70 => 100 (64); (UInt16)70 => 100; (UInt32)70 => 100 закончили охоту Ixtab
+// 12f0: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 взяли охоту на Feral Retriever
+// 12f0: 10 => 50 (32); (UInt16)2570 => 2610; (UInt32)657930 => 657970 Feral Retriever
+// 12f0: 50 => 70 (46); (UInt16)2610 => 2630; (UInt32)657970 => 657990 убили Feral Retriever
+// 12f0: 70 => 90 (5A); (UInt16)2630 => 2650; (UInt32)657990 => 658010 закончили охоту
+// 12f1: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 Vorpal Bunny
+// 12f1: 10 => 30 (1E); (UInt16)2570 => 2590; (UInt32)167774730 => 167774750 Vorpal Bunny
+// 12f1: 30 => 50 (32); (UInt16)2590 => 2610; (UInt32)167774750 => 167774770 убили Vorpal Bunny
+// 12f1: 50 => 100 (64); (UInt16)2610 => 2660; (UInt32)167774770 => 167774820 закончили
+// 12f2: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 Mindflayer
+// 12f3: 0 => 10 (0A); (UInt16)2560 => 2570; (UInt32)167774720 => 167774730 приняли охоту на Bloodwing
+// 12f3: 10 => 50 (32); (UInt16)5130 => 5170; (UInt32)169088010 => 169088050 Bloodwing
+// 12f4: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 Atomos
+// 12f4: 10 => 20 (14); (UInt16)2570 => 2580; (UInt32)657930 => 657940 Atomos
+// 12f4: 20 => 30 (1E); (UInt16)5140 => 5150; (UInt32)1971220 => 1971230 Atomos
+// 12f4: 30 => 50 (32); (UInt16)5150 => 5170; (UInt32)6558750 => 6558770 закончили
+// 12f5: 0 => 10 (0A); (UInt16)2560 => 2570; (UInt32)2560 => 2570 Roblon
+// 12f5: 10 => 20 (14); (UInt16)2570 => 2580; (UInt32)2570 => 2580 поговорили с охотодателем Roblon
+// 12f6: 10 => 30 (1E); (UInt16)10 => 30; (UInt32)10 => 30 Braegh
+// 12f6: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 Braegh
+// 12f6: 30 => 50 (32); (UInt16)30 => 50; (UInt32)30 => 50 убили Braegh
+// 12f6: 50 => 100 (64); (UInt16)50 => 100; (UInt32)50 => 100 закончили
+
+
+// 1304: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 приняли охоту (Cluckatrice)
+// 1304: 10 => 30 (1E); (UInt16)23050 => 23070; (UInt32)23050 => 23070 поговорили с охотодателем (Cluckatrice)
+// 1304: 30 => 50 (32); (UInt16)23070 => 23090; (UInt32)23070 => 23090 убили Cluckatrice
+// 1304: 50 => 100 (64); (UInt16)23090 => 23140; (UInt32)23090 => 23140 закончили охоту на Cluckatrice
+// 1305: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 приняли охоту (Rocktoise)
+// 1305: 10 => 50 (32); (UInt16)10 => 50; (UInt32)10 => 50 поговорили с охотодателем
+// 1305: 50 => 70 (46); (UInt16)50 => 70; (UInt32)50 => 70 убили Rocktoise
+// 1305: 70 => 90 (5A); (UInt16)70 => 90; (UInt32)70 => 90 закончили
+// 1306: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 Orthros
+// 1306: 10 => 30 (1E); (UInt16)2570 => 2590; (UInt32)168430090 => 168430110 Orthros
+// 1307: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 Gil Snapper
+// 1308: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 Trickster
+// 1308: 10 => 50 (32); (UInt16)2570 => 2610; (UInt32)2570 => 2610 Trickster
+// 1308: 50 => 70 (46); (UInt16)2610 => 2630; (UInt32)2610 => 2630 убили Trickster
+// 1308: 70 => 90 (5A); (UInt16)2630 => 2650; (UInt32)2630 => 2650 закончили
+// 1309: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 Antlion
+// 130a: 0 => 10 (0A); (UInt16)0 => 10; (UInt32)0 => 10 приняли охоту на Carrot
+// 130a: 10 => 20 (14); (UInt16)10 => 20; (UInt32)10 => 20
+// 130a: 20 => 30 (1E); (UInt16)20 => 30; (UInt32)20 => 30 убили Carrot
+// 130a: 30 => 50 (32); (UInt16)30 => 50; (UInt32)30 => 50 закончили
+
+// 1370: 0 => 58 (3A); (UInt16)0 => 58; (UInt32)0 => 58 дали управление в Barheim Passage/Op Sector 29
+
+// 1464: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 приняли первую охоту (Tomato Rogue)
+// 1465: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 приняли первую охоту (Tomato Rogue)
+// 1466: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 карта с расположением Gastly по охоте на Thextera
+// 1467: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 карта с расположением Gastly по охоте на Thextera
+// 1468: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 взяли третью охоту (Flowering Cactoid)
+// 1469: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 взяли третью охоту (Flowering Cactoid)
+// 146a: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 взяли четветрую охоту (Wraith)
+// 146b: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 взяли четветрую охоту (Wraith)
+// 146c: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 взяли пятую охоту (Nidhogg)
+// 146d: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 взяли пятую охоту (Nidhogg)
+// 146e: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 приняли охоту на White Mousse
+// 146f: 0 => 1 (01); (UInt16)0 => 1; (UInt32)805306368 => 805306369 приняли охоту на White Mousse
+
+// 1470: 0 => 48 (30); (UInt16)0 => 304; (UInt32)19922944 => 19923248 приняли охоту на Ring Wyrm
+// 1471: 0 => 1 (01); (UInt16)12288 => 12289; (UInt32)77824 => 77825 приняли охоту на Ring Wyrm
+// 1472: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 взяли охоту на Wywern Lord
+// 1473: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 взяли охоту на Wywern Lord
+// 1474: 0 => 48 (30); (UInt16)0 => 304; (UInt32)19922944 => 19923248 приняли охоту на Marilith
+// 1475: 0 => 1 (01); (UInt16)12288 => 12289; (UInt32)805384192 => 805384193 приняли охоту на Marilith
+// 1476: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 взяли охоту на Enkelados
+// 1477: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 взяли охоту на Enkelados
+// 1478: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 взяли охоту на Croakadile
+// 1479: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 взяли охоту на Croakadile
+// 147a: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 взяли охоту на Ixtab
+// 147b: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 взяли охоту на Ixtab
+// 147c: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 взяли охоту на Feral Retriever
+// 147d: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 взяли охоту на Feral Retriever
+// 147e: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 Vorpal Bunny
+// 147f: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Vorpal Bunny
+// 1480: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 Mindflayer
+// 1481: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Mindflayer
+// 1482: 0 => 48 (30); (UInt16)0 => 304; (UInt32)19922944 => 19923248 приняли охоту на Bloodwing
+// 1483: 0 => 1 (01); (UInt16)12288 => 12289; (UInt32)77824 => 77825 приняли охоту на Bloodwing
+// 1484: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 Atomos
+// 1485: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Atomos
+// 1486: 0 => 48 (30); (UInt16)0 => 304; (UInt32)19922944 => 19923248 Roblon
+// 1487: 0 => 1 (01); (UInt16)12288 => 12289; (UInt32)77824 => 77825 Roblon
+// 1488: 0 => 48 (30); (UInt16)0 => 304; (UInt32)0 => 304 Braegh
+// 1489: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Braegh
+
+
+// 14a4: 0 => 46 (2E); (UInt16)0 => 302; (UInt32)0 => 302 приняли охоту (Cluckatrice)
+// 14a5: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 приняли охоту (Cluckatrice)
+// 14a6: 0 => 46 (2E); (UInt16)0 => 302; (UInt32)0 => 302 приняли охоту (Rocktoise)
+// 14a7: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 приняли охоту (Rocktoise)
+// 14a8: 0 => 46 (2E); (UInt16)0 => 302; (UInt32)0 => 302 Orthros
+// 14a9: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Orthros
+// 14aa: 0 => 46 (2E); (UInt16)0 => 302; (UInt32)0 => 302 Gil Snapper
+// 14ab: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Gil Snapper
+// 14ac: 0 => 46 (2E); (UInt16)0 => 302; (UInt32)0 => 302 Trickster
+// 14ad: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Trickster
+// 14ae: 0 => 46 (2E); (UInt16)0 => 302; (UInt32)0 => 302 Antlion
+// 14af: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Antlion
+// 14b0: 0 => 46 (2E); (UInt16)0 => 302; (UInt32)0 => 302 приняли охоту на Carrot
+// 14b1: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 приняли охоту на Carrot
+
+
+
+VAR|0x15B4|256|NPC__FLAGS[]
+VAR|0x16B4|64|PERMANENTCHESTS__FLAGS[]
+
+VAR|0x16F4|13
+
+// 16f7[3]: 128 => 136 (88); (UInt16)128 => 136; (UInt32)128 => 136 мульт с названием территории Dalmasca Estersand
+// 16f7[4]: 136 => 152 (98); (UInt16)136 => 152; (UInt32)136 => 152 мульт с названием территории Giza Plains
+// 16f7[5]: 216 => 248 (F8); (UInt16)216 => 248; (UInt32)8388824 => 8388856 мульт с названием территории Dalmasca Westersand
+// 16f7[6]: 152 => 216 (D8); (UInt16)152 => 216; (UInt32)152 => 216 мульт с названием территории Garamsythe Waterway
+// 16f7[7]: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 закончилось обучение
+// 16f8[0]: 130 => 131 (0x83); (UInt16)33154 => 33155; (UInt32)4291264898 => 4291264899 вошли в Nalbina Town/West Barbarican из Dalmasca Estersand/Yardang Labirinth
+// 16f8[1]: 0 => 2 (0x02); вошли из Giza в Dalmasca Estersand
+
+// 16f8[3]: 179 => 187 (BB); вошли в Dalmasca Westersand/Wyrm's Nest
+// 16f8[4]: 163 => 179 (B3); вошли в Dalmasca Estersand/Broken Sands из Mosphoran Highwaste/Summit Path
+// 16f8[5]: 131 => 163 (A3); мульт с названием территории Mosphoran Highwaste; вошли в Mosphoran Highwaste/Southern Skirts из Nalbina Town/West Barbarican
+// 16f8[6]: 187 => 251 (FB); мульт с названием территории Salikawood
+// 16f8[7]: 3 => 131 (83); мульт с названием территории The Feywood; вошли в The Feywood/Walk of Flitting Rifts из Golmore Jungle/The Rustling Chapel
+// 16f9[0]: 128 => 129 (81); вошли в Paramina Rift/Icebound Flow из The Feywood/Walk of Flitting Rifts
+
+// 16f9[3]: 129 => 137 (0x89); запрос на сохранение при входе в Sochen Cave Palace
+// 16f9[4]: 137 => 153 (99); вошли в Old Archades/Alley of Low Whispers из Sochen Cave Palace/Skybent Chamber
+
+// 16f9[7]: 0 => 128 (80); дали управление в Royal Palace
+// 16fa[0]: 4 => 5 (0x05); вошли в Dalmasca Westersand/Shimmering Horizons из Giza
+// 16fa[1]: 5 => 7 (07); перешли в Ozmone Plain/Field of Fallen Wings из Giza
+// 16fa[2]: 0 => 4 (04); зашли в Lhusu Mines
+// 16fa[3]: 247 => 255 (FF); вошли в Phon Coast/Kaukula Pass
+// 16fa[4]: 199 => 215 (D7); вошли в Nabreus Deadlands
+// 16fa[4]: 231 => 247 (0xF7); вошли в The Salikawood/Piebald Path из Nabreus Deadlands/Greencrag
+// 16fa[5]: 215 => 247 (F7); вошли в Necrohol of Nabudis/Hall of Effulgent Light
+// 16fa[6]: 135 => 199 (C7); вошли в Stilshrine of Miriam/Walk of Sky из Paramina Rift/Silverflow's End
+// 16fa[7]: 7 => 135 (87); мульт с названием территории Mt Bur-Omisace; вошли в Mt Bur-Omisace/Sand-strewn Pass из Paramina Rift/Freezing Gorge
+// 16fb[0]: 220 => 221 (DD); вошли в Paramina Rift/Fading Vale из Golmore Jungle/The Greenswathe
+// 16fb[1]: 12 => 14 (0x0E); вошли в Dalmasca Westersand/Shimmering Horizons из Zertinan Caverns/Invitation to Heresy
+// 16fb[2]: 0 => 4 (04); вошли в Ogir-Yensa Sandsea/Platform 1 - East Tanks
+// 16fb[4]: 14 => 30 (0x1E); вошли в Ogir-Yensa Sandsea/East Junction из Zertinan Caverns/The Balamka Fault
+// 16fb[5]: 30 => 62 (0x3E); вошли в Nam-Yensa Sandsea/Yellow Sands из Zertinan Caverns/Darkened Wharf
+// 16fb[6]: 62 => 126 (0x7E); вошли в Zertinan Caverns/Canopy of Clay из Ogir-Yensa Sandsea/Central Junction
+// 16fb[7]: 126 => 254 (0xFE); вошли в Nam-Yensa Sandsea/Withering Shores из Zertinan Caverns/Canopy of Clay
+
+// 16fc[1]: 252 => 254 (0xFE); зашли в Nabreus Deadlands/Field of the Fallen Lord
+// 16fc[2]: 200 => 204 (CC); зашли в Jahara/Banks of the Sogoht из Ozmone Plain/Haulo Green
+// 16fc[3]: 192 => 200 (C8); зашли в Golmore Jungle/Paths of Chained Light из Ozmone Plain/Sunlit Path
+// 16fc[4]: 204 => 220 (DC); зашли в Eruyt Villige/Road of Verdant Praise из Golmore Jungle/The Needlebrake
+// 16fc[5]: 220 => 252 (FC); вошли в Henne Mines/North Entrance из Ozmone Plain/The Shred
+// 16fc[6]: 0 => 64 (40); мульт с названием территории Nam-Yensa Sandsea
+// 16fc[7]: 64 => 192 (C0); Nam-Yensa Sandsea/Augur Hill - Ogir-Yensa Sandsea/Yensa Border Tunnel
+// 16fd[0]: 32 => 33 (21); запрос на сохранение перед входом в The Tomb of Raithwall/Valley of the Dead
+// 16fd[1]: 33 => 35 (23); вошли в Tchita Uplands/Realm of the Elder Dream из Phon Coast/Rava's Pass
+
+// 16fd[5]: 0 => 32 (20); Vaan вылез в Rabanastre из канализации
+
+// 16fe[6]: 0 => 64 (40); новая игра
+// 16fe[1]: 108 => 110 (0x6E); (UInt16)108 => 110 вошли в Nalbina Town/West Barbarican из Dalmasca Estersand/Yardang Labirinth
+// 16fe[2]: 104 => 108 (6C); (UInt16)104 => 108 сценка просыпания в Nalbina Dungeons/Stockade
+// 16fe[4]: 64 => 80 => 64; обучение, линии атаки, дали управление
+// 16fe[5]: 64 => 96 (60); поговорили с Мигело
+// 16fe[3]: 96 => 104 (68); (UInt16)96 => 104 дали управление в Royal Palace
+
+// 16ff: 0 => 64 (40); (UInt16)58368 => 58432; (UInt32)285271040 => 285271104 отдали Dawn Shard
+// 16ff: 64 => 0 (00); (UInt16)58432 => 58368; (UInt32)285271104 => 285271040 убили Vossler, сценка с книгой
+// 16ff: 4 => 0 (00); (UInt16)58372 => 58368; (UInt32)285271044 => 285271040 вошли в Giza, тут сухо, убили Giza Rabbit
+// 16ff: 0 => 64 (40); (UInt16)58368 => 58432; (UInt32)285271040 => 285271104 сценки в самолете
+// 16ff: 64 => 0 (00); (UInt16)58432 => 58368; (UInt32)285271104 => 285271040 сценка парковки самолета
+// 16ff: 0 => 4 (04); (UInt16)24576 => 24580 дали управление после диалога с Jinn (дали Shadestone)
+// 16ff: 4 => 0 (00); (UInt16)24580 => 24576 закончился квест по заряду Sunstone (забрали Shadestone)
+// 16ff: 0 => 2 (02); (UInt16)24576 => 24578 сдали Sunstone, получили Crescent Stone (дали Crescent Stone)
+// 16ff: 2 => 0 (00); (UInt16)24578 => 24576 вошли в Garamsythe Waterway/Central Spur Stairs (забрали Crescent Stone - НЕТ, НЕ ЗАБРАЛИ)
+// 16ff: 0 => 1 (01); (UInt16)24576 => 24577 Dalan дал Sword of the Order
+// 16ff: 1 => 0 (00); (UInt16)24577 => 24576 присоединился Basch, отобрали Sword of the Order
+
+// 1700[_____56_]: 0 => 96 (60); новая игра
+// 1700[2]: 96 => 100 (64) вошли в Dreadnout Leviathan/Brig No. 1
+// 1700[7]: 100 => 228 (E4); закончился мульт с историей Райтвола у гробницы
+
+VAR|0x1701|1|UNWANTEDFLAG__1701|Flag 1701 { 0 => 128 => 0 }|EBytesBlockType.Flag
+// 1701: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 вступительный мульт
+// 1701: 128 => 0 (00); (UInt16)128 => 0; (UInt32)128 => 0 вступительный мульт, сразу-же в 0
+// 1701: 0 => 128 (80); (UInt16)20736 => 20864; (UInt32)8868096 => 8868224 рассказали историю Failed Researcher
+// 1701: 128 => 0 (00); (UInt16)20864 => 20736; (UInt32)8868224 => 8868096 рассказали историю Failed Researcher
+
+VAR|0x1702|2814
+// 1702[0]: 0 => 1 (01); новая игра
+// 1702[0]: 17 => 16 (10); зашли в Stilshrine of Miriam/Walk of Sky
+// 1702[0]: 16 => 17 (11); вошли в Stilshrine of Miriam/Walk of Sky
+// 1702[0]: 17 => 16 (10); вышли в Paramina Rift из Stilshrine of Miriam
+// 1702[0]: 16 => 17 (11); вышли в Paramina Rift из Stilshrine of Miriam
+// 1702[3]: 17 => 25 (19); сели на Чокобо
+// 1702[3]: 25 => 17 (11); слезли
+// 1702[6]: 17 => 81 (51); вошли в Archades/Trant
+// 1702[4]: 1 => 17 (11); Southern Plaza - Westgate по дороге спасать Penelo
+
+// 1703[_12_____]: 0 => 6 (06); новая игра
+// 1703[0]: 6 => 7 (07); North End - Muthru Bazaar
+// 1703[1]: 7 => 5 => 7; запрос на сохранение перед входом в The Tomb of Raithwall/Valley of the Dead
+// 1703[2]: 7 => 3 => 7; началась сценка выхода из Mt Bur-Omisace/Temple Approach; мульт с панорамой храма Mt Bur-Omisace
+// 1703[7]: 7 => 135 (87); crystalbug в Stilshrine of Miriam/Walk of Revelation
+// 1703[2]: 135 => 131 => 135; мульт перехода Mt Bur-Omisace/Temple Approach - Mt Bur-Omisace/Temple Ground
+
+// 1704: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 новая игра
+// 1704: 1 => 0 (00); (UInt16)1 => 0; (UInt32)2179989505 => 2179989504 crystalbug в Stilshrine of Miriam/Walk of Revelation
+// 1704: 1 => 31 (1F); (UInt16)1 => 31; (UInt32)1 => 31 вошли в Barheim Passage/Great Eastern Passage
+// 1704: 31 => 29 (1D); (UInt16)31 => 29; (UInt32)31 => 29 убили Battery Mimic в Barheim Passage/Great Eastern Passage
+// 1704: 29 => 25 (19); (UInt16)29 => 25; (UInt32)29 => 25 убили 2-го Battery Mimic в Barheim Passage/Great Eastern Passage
+// 1704: 25 => 17 (11); (UInt16)25 => 17; (UInt32)25 => 17 убили 3-го Battery Mimic в Barheim Passage/Great Eastern Passage
+// 1704: 17 => 1 (01); (UInt16)17 => 1; (UInt32)17 => 1 убили 4-го Battery Mimic в Barheim Passage/Great Eastern Passage
+// 1704: 1 => 97 (61); (UInt16)1 => 97; (UInt32)1 => 97 вошли в Barheim Passage/Op Sector 36
+// 1704: 97 => 65 (41); (UInt16)97 => 65; (UInt32)97 => 65 убили Battery Mimic в Barheim Passage/Op Sector 36
+// 1704: 65 => 1 (01); (UInt16)65 => 1; (UInt32)65 => 1 убили 2-го Battery Mimic в Barheim Passage/Op Sector 36
+// 1704: 1 => 129 (81); (UInt16)1 => 385; (UInt32)1 => 385 Barheim Passage/Great Eastern Passage - Barheim Passage/Special Op Sector 3
+// 1704: 129 => 1 (01); (UInt16)129 => 1; (UInt32)129 => 1 убили 2-го Battery Mimic в Barheim Passage/Special Op Sector 3
+// 1704: 1 => 129 (81); (UInt16)513 => 897; (UInt32)513 => 897 Barheim Passage/Op Sector 37 - Barheim Passage/Special Op Sector 3
+// 1704: 129 => 1 (01); (UInt16)897 => 513; (UInt32)897 => 513 Barheim Passage/Op Sector 37 - Barheim Passage/Special Op Sector 3
+
+// 1705: 0 => 24 (18); (UInt16)0 => 24; (UInt32)0 => 24 сценка с Battery Mimic
+// 1705: 24 => 16 (10); (UInt16)24 => 16; (UInt32)24 => 16 убили Battery Mimic в Barheim Passage/Op Sector 29
+// 1705: 16 => 0 (00); (UInt16)16 => 0; (UInt32)16 => 0 убили 2-го Battery Mimic в Barheim Passage/Op Sector 29
+// 1705: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Barheim Passage/Great Eastern Passage - Barheim Passage/Special Op Sector 3
+// 1705: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 убили Battery Mimic в Barheim Passage/Special Op Sector 3
+// 1705: 0 => 6 (06); (UInt16)0 => 6; (UInt32)0 => 6 Barheim Passage/Special Op Sector 3 - Barheim Passage/Op Sector 37
+// 1705: 6 => 2 (02); (UInt16)6 => 2; (UInt32)6 => 2 убили Battery Mimic в Barheim Passage/Op Sector 37
+// 1705: 2 => 3 (03); (UInt16)2 => 3; (UInt32)2 => 3 Barheim Passage/Op Sector 37 - Barheim Passage/Special Op Sector 3
+// 1705: 3 => 2 (02); (UInt16)3 => 2; (UInt32)3 => 2 Barheim Passage/Op Sector 37 - Barheim Passage/Special Op Sector 3
+// 1705: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 Barheim Passage/Special Op Sector 3 - Barheim Passage/Op Sector 37
+// 1705: 0 => 6 (06); (UInt16)0 => 6; (UInt32)0 => 6 Barheim Passage/Special Op Sector 3 - Barheim Passage/Op Sector 37
+// 1705: 6 => 2 (02); (UInt16)6 => 2; (UInt32)6 => 2 Barheim Passage/Special Op Sector 3 - Barheim Passage/Op Sector 37
+// 1705: 2 => 34 (22); (UInt16)2 => 34; (UInt32)2 => 34 Barheim Passage/North-South Junction - Barheim Passage/Great Central Passage
+// 1705: 34 => 2 (02); (UInt16)34 => 2; (UInt32)34 => 2 убили Battery Mimic в Barheim Passage/Great Central Passage
+// 1705: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 убили 2-го Battery Mimic в Barheim Passage/Op Sector 37
+// 1705: 0 => 192 (C0); (UInt16)0 => 448; (UInt32)0 => 448 Barheim Passage/Great Central Passage - Barheim Passage/The Zeviah Subterrane
+// 1705: 192 => 128 (80); (UInt16)448 => 384; (UInt32)448 => 384 убили Battery Mimic в Barheim Passage/The Zeviah Subterrane
+// 1705: 128 => 0 (00); (UInt16)384 => 256; (UInt32)384 => 256 убили 2-го Battery Mimic в Barheim Passage/The Zeviah Subterrane
+
+// 1706[0]: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 Barheim Passage/Great Central Passage - Barheim Passage/The Zeviah Subterrane
+// 1706[0]: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 убили 3-го Battery Mimic в Barheim Passage/The Zeviah Subterrane
+// 1706[1]: 248 => 246 (F6); вошли в Giza, тут сухо, убили Giza Rabbit
+// 1706[1]: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 поглотили Sunstone в Gizas North Bank
+// 1706[--23-----]: 0 => 14 (0E); (UInt16)0 => 14; (UInt32)0 => 14 дали управление после диалога с Jinn
+// 1706[2]: 14 => 10 (0A); (UInt16)14 => 10; (UInt32)14 => 10 // поглотили 1 Sunstone
+// 1706[3]: 10 => 2 (02); (UInt16)10 => 2; (UInt32)10 => 2
+// 1706[-----56-]: 0 => 96 (60); (UInt16)0 => 96; (UInt32)0 => 96 вернулись в Dreadnought Leviathan/Large Freight Stores с Ashe
+// 1706[7]: 96 => 224 (E0); (UInt16)96 => 480; (UInt32)96 => 480 диалог после первой телепортации
+// 1706[7]: 112 => 240 (F0); после телепорта в Гробницу
+
+
+// 1707[0]: 0 => 1 (01); диалог после первой телепортации
+// 1707[1]: 1 => 3 (03); коснулись первого телепорта в The Tomb of Raithwall/Hall of the Destroyer
+// 1707[2]: 3 => 7 (07); коснулись центрального Way Stone в The Tomb of Raithwall/Royal Passage
+// 1707[5]: 71 => 103 (67); коснулись Way Stone в The Tomb of Raithwall/Southfall Passage
+// 1707[6]: 7 => 71 (47); (UInt16)7 => 71; (UInt32)7 => 71 коснулись Way Stone в The Tomb of Raithwall/Northfall Passage
+// 1707[7]: 1 => 129 (81); коснулись The Tomb of Raithwall/Way Stone в Chamber of First Light
+
+
+// 1708[0]: 0 => 1 (01); коснулись Northfall Pedestal в The Tomb of Raithwall/Northfall Passage
+// 1708[0]: 1 => 0 (00); нажали Northfall Pedestal в The Tomb of Raithwall/Northfall Passage
+// 1708[1]: 0 => 2 (02); коснулись Southfall Pedestal в The Tomb of Raithwall/Southfall Passage
+// 1708[1]: 2 => 0 (00); нажали Southfall Pedestal в The Tomb of Raithwall/Southfall Passage
+// 1708[2]: 0 => 4 (0x04); на карте зажегся значек барьера из Golmore Jungle/Paths of Chained Light в Golmore Jungle/Paths of Chained Light
+// 1708[3]: 4 => 12 (0x0C); на карте зажегся значек барьера из Golmore Jungle/The Needlebrake в Golmore Jungle/Whisperleaf Way
+// 1708[4]: 12 => 28 (0x1C); на карте зажегся значек барьера посредине Golmore Jungle/The Needlebrake
+// 1708[--234---]: 252 => 224 (E0); вышли из Eruyt Village с Lente's Tear, на карте Golmore Jungle погасли значки барьеров
+// 1708[5]: 28 => 60 (3C); вошли в Henne Mines/North Entrance из Ozmone Plain/The Shred, там есть значек переключателя на карте!
+// 1708[6]: 60 => 124 (7C); вошли в Henne Mines/Pithead Junction A, там есть значек переключателя на карте!
+// 1708[7]: 124 => 252 (FC); вошли в Henne Mines/Pithead Junction B из Henne Mines/Crossover A, там есть значек переключателя на карте!
+
+// 1709[2]: 0 => 4 (04); коснулись дальнего Way Stone в Stilshrine of Miriam/Ward of Measure
+// 1709[3]: 4 => 12 (0C); коснулись Way Stone в Stilshrine of Miriam/Ward of the Sword-King
+
+// 1709[5]: 12 => 44 (0x2C); Stone Brave в Stilshrine of Miriam/Walk of Prescience повернут на NORTH
+// 1709[6]: 44 => 76 (4C); Stone Brave в Stilshrine of Miriam/Walk of Prescience повернут на EAST
+// 1709[7]: 12 => 140 (0x8C); Stone Brave в Stilshrine of Miriam/Walk of Prescience повернут на SOUTH
+// 170a[0]: 0 => 1 (0x01); Stone Brave в Stilshrine of Miriam/Walk of Prescience повернут на WEST
+// 170a[1]: 2 => 4 (04); Stone Brave в Stilshrine of Miriam/Walk of Reason повернут на NORTH
+// 170a[2]: 4 => 8 (08); Stone Brave в Stilshrine of Miriam/Walk of Reason повернут на EAST
+// 170a[3]: 0 => 16 (10); Stone Brave в Stilshrine of Miriam/Walk of Reason повернут на SOUTH
+// 170a[4]: 16 => 2 (0x02); Stone Brave в Stilshrine of Miriam/Walk of Reason повернут на WEST
+// 170a[5]: 2 => 34 (0x22); Stone Brave в Stilshrine of Miriam/Ward of Steel повернут на NORTH
+// 170a[6]: 34 => 66 (0x42); Stone Brave в Stilshrine of Miriam/Ward of Steel повернут на EAST
+// 170a[7]: 66 => 130 (0x82); Stone Brave в Stilshrine of Miriam/Ward of Steel повернут на SOUTH
+// 170b[0]: 0 => 1 (0x01); Stone Brave в Stilshrine of Miriam/Ward of Steel повернут на WEST
+
+// 170b[1]: 0 => 2 (02); вошли в Stilshrine of Miriam/Ward of Measure
+// 170b[1]: 2 => 0 (00); коснулись к замку в Stilshrine of Miriam/Ward of Measure
+// 170b[2]: 0 => 4 (04); вошли в Stilshrine of Miriam/Walk of Torn Illusion; на карте значек механизма
+// 170b[2]: 4 => 0 (00); коснулись замка в Stilshrine of Miriam/Walk of Torn Illusion, опустились лестницы; значек механизма исчез с карты
+// 170b[___3456_]: 1 => 121 (79); Moogle Boss жалуется на пропавших работников, на карте загорелись значки муглов
+// 170b[3]: 9 => 1 (01); нашли муглов в The Salikawood/Garden of Decay, значек погас
+// 170b[4]: 25 => 9 (09); нашли вторую группу муглов в The Salikawood/Garden of Decay, значек погас
+// 170b[5]: 57 => 25 (19); нашли муглов в The Salikawood/Path of Hours, значек погас
+// 170b[6]: 121 => 57 (39); нашли муглов в The Salikawood/Trunkwall Road, значек погас
+// 170b[7]: 1 => 129 (81); Archadian Wayfarer в Tchita Uplands/The Chosen Path; взяли охоту на ???, получили ключ от пещеры
+
+// 170c[0]: 0 => 1 (01); коснулись Gate of the Soul Ward в Sochen Cave Palace/Doubt Abandoned
+// 170c[0]: 1 => 0 (00); использовали ключ и вошли в пещеру к Mandragoras
+// 170c[1]: 0 => 2 (02); активировали лифт в Sochen Cave
+// 170c[3]: 2 => 10 (0A); начался квест по сбору Chops
+// 170c[2]: 10 => 14 (0E); переехали в Tsenoble
+
+
+// 1713: 0 => 16 (10); (UInt16)0 => 16; (UInt32)0 => 1638416 новая игра, дали управление в обучении линиям
+// 1713: 16 => 0 (00); (UInt16)16 => 0; (UInt32)1638416 => 1638400 обучение, босс
+// 1713: 0 => 16 (10); (UInt16)0 => 16; (UInt32)1638400 => 1638416 обучение, убили босса
+
+// 1714: 0 => 128 (80); (UInt16)6912 => 6784; (UInt32)268442368 => 268442240 телепортировались в Rabanastre, в пустыне дожди
+
+// 1715[0__34___]: 0 => 25 (19); новая игра
+// 1715[0]: 27 => 26 (1A); телепортировались в Rabanastre, в пустыне дожди
+// 1715[1]: 25 => 27 (1B); вышли в дождливую южную пустыню
+// 1715[2]: 27 => 31 (1F); дали управление после получения Lab Access Card
+// 1715[4]: 27 => 11 (0B); сценка с Fran и Vaan на входе в деревню Виер, Tetran и Lulucce
+// 1715[4]: 11 => 27 (1B); сценка с Fran и Vaan на входе в деревню Виер, Tetran и Lulucce
+
+// 1717[4]: 0 => 16 (10); новая игра
+// 1717[3]: 16 => 24 (18); прикоснулись к Disused Pedestal в Sochen Cave
+// 1717[5]: 216 => 248 (F8); Draklor Laboratory/Rm 6811 West
+// 1717[6]: 152 => 216 (D8); Draklor Laboratory/Rm 6804 West
+// 1717[7]: 24 => 152 (98); вошли в Draklor Laboratory/Rm 6803 East
+
+// 1718[0]: 134 => 135 (87); вошли в Draklor Laboratory/Rm 6801 East
+// 1718[3]: 128 => 134 (86); вошли в Draklor Laboratory/68th Floor
+// 1718[7]: 0 => 128 (80); вошли в Draklor Laboratory/66th Floor
+
+// 1719[____4567]: 0 => 240 (F0); новая игра
+// 1719[0]: 80 => 81 (51); Draklor Laboratory/67th Floor
+// 1719[1]: 93 => 95 (5F); вошли в лифт на 70-й этаж
+// 1719[2]: 89 => 93 (5D); Draklor Laboratory/Rm 6703 West
+// 1719[3]: 81 => 89 (59); Draklor Laboratory/Rm 6703 East
+// 1719[5]: 240 => 208 (0xD0); зашли в Mosphoran Highwaste/Rays of Ashen Light из Mosphoran Highwaste/Babbling Vale
+// 1719[6]: 240 => 176 (0xB0); зашли в Ozmone Plain/The Shred по тропе Чокобо из Ozmone Plain/Haulo Green
+// 1719[6]: 176 => 240 (0xF0); зашли в Ozmone Plain/The Shred по тропе Чокобо из Ozmone Plain/The Greensnake
+// 1719[7]: 240 => 112 (70); зашли в Dalmasca Estersand/The Yoma
+
+
+// 171a[01234_67]: 0 => 223 (DF); новая игра
+// 171a[0]: 221 => 220 (DC); вошли в The Salikawood/Quietened Trace
+// 171a[0]: 220 => 221 (0xDD); вошли в The Salikawood/Quietened Trace из The Salikawood/Grand Bower
+// 171a[1]: 223 => 221 (DD); зашли в Nam-Yensa Sandsea/Trail of Fading Warmth
+// 171a[2]: 221 => 217 (D9); вошли Golmore Jungle/The Parting Glade
+// 171a[2]: 217 => 221 (0xDD); перешли в Golmore Jungle/The Branchway после убийства Elder Wyrm
+// 171a[4]: 221 => 205 (CD); мульт с названием территории Mosphoran Highwaste; вошли в Mosphoran Highwaste/Southern Skirts из Nalbina Town/West Barbarican
+// 171a[4]: 205 => 221 (DD); мульт с названием территории Mosphoran Highwaste; вошли в Mosphoran Highwaste/Southern Skirts из Nalbina Town/West Barbarican
+// 171a[5]: 223 => 255 (FF); вошли в Archades/Trant
+// 171a[7]: 223 => 95 (5F); переплыли реку с Tchigri
+// 171a[7]: 95 => 223 (DF); сценка с кактусами и плывем обратно
+// 171a[7]: 223 => 95 (5F); диалог с Tchigri и плывем на север
+// 171a[7]: 95 => 223 (DF); вернули мелкого кактуса мамке
+
+
+// 171b[__234567]: 0 => 252 (FC); новая игра
+// 171b[1]: 252 => 254 (FE); мульт при входе в Дом Клана
+// 171b[2]: 254 => 250 (0xFA); вошли в Necrohol of Nabudis/Cloister of Distant Song
+// 171b[3]: 250 => 242 (0xF2); вошли в Necrohol of Nabudis/Cloister of the Highborn
+// 171b[4]: 242 => 226 (0xE2); вошли в Necrohol of Nabudis/Hall of the Ivory Covenant
+// 171b[6]: 254 => 190 (BE); вошли в Dalmasca Estersand/Murmuring Defile
+// 171b[7]: 254 => 126 (7E); зашли в Jahara/Banks of the Sogoht
+// 171b[7]: 126 => 254 (FE); диалог с Гарифами на входе в деревню
+
+// 171c[01234567]: 0 => 255 (FF); новая игра
+// 171c[0]: 207 => 206 (CE); диалог с Гарифами на входе в деревню
+// 171c[0]: 206 => 207 (CF); открыли проход к самому большому вождю
+// 171c[__23____]: 207 => 195 (C3); вошли в Stilshrine of Miriam/Ward of Measure
+// 171c[2]: 195 => 199 (C7); телепортировались из Stilshrine of Miriam/Ward of the Sword-King в Stilshrine of Miriam/Ward of Measure
+// 171c[3]: 247 => 255 (0xFF); зашли в Stilshrine of Miriam/Ward of Measure из Stilshrine of Miriam/Cold Distance
+// 171c[4]: 199 => 215 (D7); телепортировались в Nalbina Fortress
+// 171c[5]: 215 => 247 (F7); вошли в Nalbina Town/West Ward
+
+// 171d[01234567]: 0 => 255 (FF); новая игра
+// 171d[2]: 255 => 251 (FB); Vaan вылез в Rabanastre из канализации, начало второго мульта
+// 171d[2]: 251 => 255 (FF); поговорили с Мигело
+// 171d[4]: 127 => 111 (0x6F); запрос на сохранение при входе в Sochen Cave Palace
+// 171d[4]: 239 => 255 (FF); использовали ключ и вошли в пещеру к Mandragoras
+// 171d[_____56_]: 255 => 159 (9F); вошли в Sochen Cave Palace/Destiny's March
+// 171d[7]: 111 => 239 (EF); закончили охоту на Wraith
+// 171d[7]: 255 => 127 (7F); (UInt16)16383 => 32383; (UInt32)81919 => 97919 другая игра, North End - North Sprawl
+
+
+
+// 171e[012345__]: 0 => 63 (3F); новая игра
+// 171e: 63 => 126 (7E); (UInt16)319 => 382; (UInt32)319 => 382 другая игра, North End - North Sprawl
+// 171e: 126 => 127 (7F); (UInt16)382 => 383; (UInt32)382 => 383 South Sprawl - North Sprawl // по дороге к Dalan я брал тут 1 сундук!
+// 171e: 127 => 63 (3F); (UInt16)383 => 319; (UInt32)383 => 319 East End - North Sprawl
+
+
+// 171f[0]: 0 => 1 (01); новая игра
+// 171f[0]: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 мульт с названием локации Bhujerba
+// 171f[0]: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вышли в Bhujerba/Miners' End по квесту Notoriety
+// 171f[1]: 1 => 3 (0x03); сбили камень в Zertinan Caverns/Canopy of Clay
+// 171f[3]: 1 => 9 (09); поговорили с Mjrn, отдали Manufactured Nethicite
+// 171f[6]: 9 => 73 (49); вошли в Old Archades/Alley of Muted Sighs из Old Archades/Alley of Low Whispers 
+// 171f[6]: 73 => 9 (09); 
+// 171f[7]: 9 => 137 (89); вошли в Old Archades/Alley of Low Whispers из Sochen Cave Palace/Skybent Chamber
+// 171f[7]: 137 => 9 (09); вошли в Old Archades/Alley of Muted Sighs из Old Archades/Alley of Low Whispers 
+// 1720[0]: 66 => 67 (0x43); вошли в Necrohol of Nabudis/Hall of Slumbering Might
+// 1720[1]: 64 => 66 (42); вошли в The Salikawood/Corridor of Ages 
+// 1720[1]: 66 => 64 => 66 вошли в Necrohol of Nabudis/Hall of Effulgent Light из The Salikawood/Corridor of Ages
+// 1720[1]: 64 => 66 (42); вошли в Necrohol of Nabudis
+// 1720[4]: 98 => 114 (72); вошли в Sochen Cave Palace/The Acolyte's Burden
+// 1720[4]: 114 => 98 (62); crystalbug в Sochen Cave Palace
+// 1720[4]: 98 => 114 (72); возник кристалл
+// 1720[5]: 66 => 98 (62); вошли в Nabreus Deadlands/Succor Midst Sorrow
+// 1720[5]: 98 => 66 (42); вошли в Nabreus Deadlands/Succor Midst Sorrow
+// 1720[5]: 66 => 98 (62); коснулись кристалла в Nabreus Deadlands
+// 1720[5]: 67 => 99 (0x63); вошли в Nabreus Deadlands/Lifeless Strand
+// 1720[5]: 99 => 67 (0x43); коснулись кристалла, там Crystalbug
+// 1720[5]: 67 => 99 (0x63); возник кристалл
+// 1720[6]: 0 => 64 (40); вошли в The Salikawood/Diverging Way из The Salikawood/Trunkwall Road
+// 1720[6]: 99 => 35 (0x23); вошли в The Salikawood/Living Chasm из The Salikawood/Diverging Way
+// 1720[6]: 35 => 99 (0x63); где-то при переходе между The Salikawood/Living Chasm - Diverging Way - Trunkwall Road
+
+
+// 1734: 0 => 34 (22); (UInt16)256 => 290; (UInt32)256 => 290 дали управление Рэксом
+// 1734: 0 => 36 (24); (UInt16)256 => 292; (UInt32)256 => 292 обучение, босс
+// 1734: 36 => 34 (22); (UInt16)292 => 290; (UInt32)292 => 290 обучение, убили босса
+// 1734: 34 => 0 (00); (UInt16)290 => 256; (UInt32)290 => 256 обучение, следующая комната за брифингом по мини-карте, сценка
+// 1734: 0 => 113 (71); (UInt16)256 => 369; (UInt32)256 => 369 закончилось обучение
+// 1734: 113 => 0 (00); (UInt16)369 => 256; (UInt32)369 => 256 Vaan вылез в Rabanastre из канализации
+// 1734: 0 => 52 (34); (UInt16)256 => 308; (UInt32)256 => 308 первый раз зашли в Dalan's House
+// 1734: 52 => 0 (00); (UInt16)308 => 256; (UInt32)308 => 256 вышли из Dalan's House
+// 1734: 0 => 32 (20); (UInt16)256 => 288; (UInt32)256 => 288 сценка с Penelo в Nomad Village
+// 1734: 32 => 0 (00); (UInt16)288 => 256; (UInt32)288 => 256 диалог с Penelo на выходе из Nomad Village
+// МОЖЕТ БЫТЬ РАВНО <Room enter cutscene 1 {0=>36=>4}: 0x0> [UNWANTEDFLAG__ROOMEnterCutscene1: +0x1262 +0x0]: 32 => 0 (00)
+// 1734: 0 => 86 (56); (UInt16)256 => 342; (UInt32)256 => 342 вошли в Royal Palace/Cellers
+// 1734: 86 => 0 (00); (UInt16)342 => 256; (UInt32)342 => 256 вошли в Royal Palace/Cellers
+// 1734: 0 => 74 (4A); (UInt16)256 => 330; (UInt32)256 => 330 дали управление в Royal Palace/The Garden Stairs
+// 1734: 74 => 0 (00); (UInt16)330 => 256; (UInt32)330 => 256 мульт с попыткой побега
+// 1734: 0 => 85 (55); (UInt16)256 => 341; (UInt32)256 => 341 сценка с Ashe в канализации
+// 1734: 85 => 0 (00); (UInt16)341 => 256; (UInt32)341 => 256 после того, как отбили Ashe от имперцев
+// 1734: 101 => 0 (00); (UInt16)357 => 256; (UInt32)357 => 256 убили Firemane
+// 1734: 0 => 15 (0F); (UInt16)256 => 271; (UInt32)256 => 271 дали управление в Nalbina Dungeons/Stockade
+// 1734: 15 => 0 (00); (UInt16)271 => 256; (UInt32)271 => 256 сценка в Nalbina Dungeons/Arena
+// 1734: 0 => 35 (23); (UInt16)256 => 291; (UInt32)256 => 291 сценка в Nalbina Dungeons/Arena
+// 1734: 35 => 0 (00); (UInt16)291 => 256; (UInt32)291 => 256 сценка после драки в Nalbina Dungeons/Arena
+// 1734: 0 => 36 (24); (UInt16)256 => 292; (UInt32)256 => 292 сценка на входе в Barheim Passage/Terminus No. 4
+// 1734: 36 => 0 (00); (UInt16)292 => 256; (UInt32)292 => 256 убили Mimic Queen
+// 1734: 0 => 20 (14); (UInt16)256 => 276; (UInt32)256 => 276 присоединились Fran и Balthier
+// 1734: 20 => 0 (00); (UInt16)276 => 256; (UInt32)276 => 256 вышли из The Sandsea
+// 1734: 0 => 22 (16); (UInt16)256 => 278; (UInt32)256 => 278 побили Ba'Gamnan
+// 1734: 22 => 0 (00); (UInt16)278 => 256; (UInt32)278 => 256 Lhusu Mines/Site 2 - Lhusu Mines/Shunia Twinspan
+// 1734: 0 => 22 (16); (UInt16)256 => 278; (UInt32)256 => 278 сценка с судьями и арестом сената после сценки Mt Bur-Omisace/Hall of the Light
+// 1734: 22 => 0 (00); (UInt16)278 => 256; (UInt32)278 => 256 сценка с судьями и арестом сената после сценки Mt Bur-Omisace/Hall of the Light
+// 1734: 0 => 36 (24); (UInt16)256 => 292; (UInt32)256 => 292 сценка в Dreadnought Leviathan/Central Brig Access
+// 1734: 36 => 0 (00); (UInt16)292 => 256; (UInt32)292 => 256 убили Judge в Dreadnought Leviathan/Central Brig Access
+// 1734: 0 => 22 (16); (UInt16)256 => 278; (UInt32)256 => 278 мульт с панорамой гробницы
+// 1734: 0 => 58 (3A); (UInt16)256 => 314; (UInt32)256 => 314 мультик с подъемом на лестницу гробницы
+// 1734: 58 => 0 (00); (UInt16)314 => 256; (UInt32)314 => 256 диалог после первой телепортации
+// 1734: 0 => 51 (33); (UInt16)256 => 307; (UInt32)256 => 307 сценка с оживающей Demon Wall в Гробнице
+// 1734: 51 => 0 (00); (UInt16)307 => 256; (UInt32)307 => 256 перешли в The Tomb of Raithwall/Hall of the Sentinel
+// 1734: 0 => 33 (21); (UInt16)256 => 289; (UInt32)256 => 289 ожила вторая Demon Wall
+// 1734: 33 => 0 (00); (UInt16)289 => 256; (UInt32)289 => 256 умерла вторая Demon Wall
+
+
+// 1734: 0 => 39 (27); (UInt16)256 => 295; (UInt32)256 => 295 вошли в Mt Bur-Omisace/Temple Approach
+// 1734: 39 => 0 (00); (UInt16)295 => 256; (UInt32)295 => 256 сценка входа в Mt Bur-Omisace/Temple Ground
+// 1734: 0 => 39 (27); (UInt16)256 => 295; (UInt32)256 => 295 дали управление после сценок в Mt Bur-Omisace/Hall of the Light
+// 1734: 39 => 0 (0x00); (UInt16)295 => 256; (UInt32)295 => 256 вышли из Mt Bur-Omisace/Hall of the Light
+// 1734: 0 => 39 (27); (UInt16)256 => 295; (UInt32)256 => 295 мультики про Вэйна и судей, дали управление, ушел Larsa
+
+
+// 1734: 0 => 69 (45); (UInt16)256 => 325; (UInt32)256 => 325 сценка перед боем с Judge Gis
+// 1734: 69 => 0 (00); (UInt16)325 => 256; (UInt32)325 => 256 убили Judge Gis
+// 1734: 0 => 69 (0x45); (UInt16)256 => 325; (UInt32)256 => 325 убили Judge Bergan
+// 1734: 69 => 0 (0x00); (UInt16)325 => 256; (UInt32)325 => 256 убили Judge Bergan
+
+
+// 1734: 0 => 71 (47); (UInt16)256 => 327; (UInt32)256 => 327 сценка с Belias
+// 1734: 71 => 0 (00); (UInt16)327 => 256; (UInt32)327 => 256 убили Belias
+// 1734: 0 => 71 (47); (UInt16)256 => 327; (UInt32)256 => 327 Mateus
+// 1734: 71 => 0 (00); (UInt16)327 => 256; (UInt32)327 => 256 побили Mateus
+// 1734: 0 => 71 (47); (UInt16)256 => 327; (UInt32)256 => 327 началась драка с Adrammelech
+// 1734: 71 => 0 (00); (UInt16)327 => 256; (UInt32)327 => 256 убили Adrammelech
+
+
+// 1734: 0 => 81 (51); (UInt16)256 => 337; (UInt32)256 => 337 сценка с муглами и воротами
+// 1734: 81 => 0 (00); (UInt16)337 => 256; (UInt32)337 => 256 вошли в Phon Coast
+// 1734: 0 => 81 (0x51); (UInt16)256 => 337; (UInt32)256 => 337 диалог с Moogle Boss после сбора всех работников
+// 1734: 81 => 0 (0x00); (UInt16)337 => 256; (UInt32)337 => 256 дали управление после диалога
+
+
+// 1734: 101 => 95 (5F); (UInt16)357 => 351; (UInt32)357 => 351 началась драка с 4xFlan
+// 1734: 95 => 0 (00); (UInt16)351 => 256; (UInt32)351 => 256 убили 4xFlan
+// 1734: 0 => 95 (5F); (UInt16)256 => 351; (UInt32)256 => 351 драка с Bomb King
+// 1734: 0 => 95 (5F); (UInt16)256 => 351; (UInt32)256 => 351 вошли в The Salikawood/Grand Bower
+// 1734: 95 => 0 (00); (UInt16)351 => 256; (UInt32)351 => 256 убили Bomb King
+// 1734: 0 => 95 (5F); (UInt16)256 => 351; (UInt32)256 => 351 использовали ключ и вошли в пещеру к Mandragoras
+// 1734: 95 => 0 (00); (UInt16)351 => 256; (UInt32)351 => 256 побили Mandragoras
+
+
+// 1734: 0 => 98 (62); (UInt16)256 => 354; (UInt32)256 => 354 Jules просит денег
+// 1734: 98 => 62 (3E); (UInt16)354 => 318; (UInt32)354 => 318 заплатили Jules, дали управление
+// 1734: 98 => 0 (00); (UInt16)354 => 256; (UInt32)354 => 256 вошли в Archades/Trant
+// 1734: 0 => 98 (62); (UInt16)256 => 354; (UInt32)256 => 354 Jules требует деньги за информацию о Chops
+
+
+// 1734: 0 => 101 (65); (UInt16)256 => 357; (UInt32)256 => 357 сценка с Tiamat
+// 1734: 101 => 0 (00); (UInt16)357 => 256; (UInt32)357 => 256 убили Tiamat
+// 1734: 0 => 101 (65); (UInt16)256 => 357; (UInt32)256 => 357 побили Ahriman
+// 1734: 101 => 0 (00); (UInt16)357 => 256; (UInt32)357 => 256 побили Ahriman
+// 1734: 0 => 101 (65); (UInt16)256 => 357; (UInt32)256 => 357 сценка с 4xFlan
+// 1734: 0 => 101 (65); (UInt16)256 => 357; (UInt32)256 => 357 сценка открывания ворот в Garamsythe Waterway/Central Waterway Control
+
+
+// 1734: 22 => 205 (CD); (UInt16)278 => 461; (UInt32)278 => 461 мультик с Гарудой
+// 1734: 205 => 0 (00); (UInt16)461 => 256; (UInt32)461 => 256 убили Garuda
+// 1734: 0 => 205 (CD); (UInt16)256 => 461; (UInt32)256 => 461 Vinuskar
+// 1734: 205 => 0 (00); (UInt16)461 => 256; (UInt32)461 => 256 Vinuskar все
+
+
+// 1734: 0 => 70 (46); (UInt16)256 => 326; (UInt32)256 => 326 отдали Dawn Shard
+// 1734: 70 => 0 (00); (UInt16)326 => 256; (UInt32)326 => 256 убили Vossler
+// 1734: 0 => 207 (CF); (UInt16)256 => 463; (UInt32)256 => 463 Elder Wyrm
+// 1734: 207 => 0 (00); (UInt16)463 => 256; (UInt32)463 => 256 убили Elder Wyrm
+// 1734: 0 => 22 (16); (UInt16)256 => 278; (UInt32)256 => 278 мультики про Вэйна и судей
+// 1734: 22 => 0 (00); (UInt16)278 => 256; (UInt32)278 => 256 мультики про Вэйна и судей
+// 1734: 0 => 75 (4B); (UInt16)256 => 331; (UInt32)256 => 331 мульт с флотом и горящим Bur-Omisace
+// 1734: 75 => 0 (0x00); (UInt16)331 => 256; (UInt32)331 => 256 телепортировались в Mt Bur-Omisace
+// 1734: 0 => 57 (39); (UInt16)256 => 313; (UInt32)256 => 313 вошли в лифт на 70-й этаж
+
+// 1734: 57 => 0 (00); (UInt16)313 => 256; (UInt32)313 => 256 вошли в Trial Mode
+// 1734: 0 => 20 (14); (UInt16)256 => 276; (UInt32)256 => 276 вошли в Trial Mode
+// 1734: 20 => 0 (00); (UInt16)276 => 256; (UInt32)276 => 256 второй уровень Trial Mode
+// 1734: 0 => 35 (23); (UInt16)256 => 291; (UInt32)256 => 291 11 уровень Trial Mode
+// 1734: 35 => 0 (00); (UInt16)291 => 256; (UInt32)291 => 256 12 уровень Trial Mode
+// 1734: 0 => 16 (10); (UInt16)256 => 272; (UInt32)256 => 272 мульт с названием территории Ogir-Yensa Sandsea и пара сценок
+
+
+// 1735: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 новая игра
+
+VAR|0x2200|4
+// !!! 0x2200 - КОПИЯ ДАННЫХ ДЛЯ SAVE - 
+// 2200: 0 => 1 (01); (UInt16)0 => 6401; (UInt32)0 => 84351233
+// 2201: 0 => 25 (19); (UInt16)0 => 1817; (UInt32)0 => 117770009
+// 2202: 0 => 7 (07); (UInt16)0 => 1287; (UInt32)0 => 460039
+// 2203: 0 => 5 (05); (UInt16)0 => 1797; (UInt32)0 => 1797
+
+VAR|0x2204|1|SAVEFILE__COMMANDMENU_VISIBILITY|SAVESLOT:: command menu options visibility|EBytesBlockType.Timer // копия 0x4e690
+VAR|0x2205|3
+// 2205: 0 => 1 (01); (UInt16)0 => 1 перешли в The Tomb of Raithwall/Chamber of First Light после Belias
+// 2205: 1 => 17 (11); (UInt16)1 => 17 второй уровень Trial Mode
+
+ARRAY40|0x2208|&FFXIICHARACTERINFO.map|SAVEFILE__CHAR[]|SAVESLOT:: CHAR data|EBytesBlockType.Timer // 0x4740 bytes
+ARRAY64|0x6948|2|SAVEFILE__ITEM[]__Count|SAVESLOT:: Items Counts|EBytesBlockType.Timer
+ARRAY200|0x69C8|2|SAVEFILE__WEAPON[]__Count|SAVESLOT:: Weapons Counts|EBytesBlockType.Timer
+ARRAY20|0x6B58|2|SAVEFILE__SHIELD[]__Count|SAVESLOT:: Armor - Shields Counts|EBytesBlockType.Timer 
+ARRAY60|0x6B80|2|SAVEFILE__HELM[]__Count|SAVESLOT:: Armor - Helms Counts|EBytesBlockType.Timer 
+ARRAY60|0x6BF8|2|SAVEFILE__ARMOR[]__Count|SAVESLOT:: Armor - Chests Counts|EBytesBlockType.Timer 
+ARRAY48|0x6C70|2|SAVEFILE__ACCESSORY[]__Count|SAVESLOT:: Accessories Counts|EBytesBlockType.Timer 
+ARRAY32|0x6CD0|2|SAVEFILE__AMMUNITION[]__Count|SAVESLOT:: Ammunition Counts|EBytesBlockType.Timer
+ARRAY512|0x6D10|2|SAVEFILE__LOOT[]__Count|SAVESLOT:: Loot Counts|EBytesBlockType.Timer
+VAR|0x7110|12|SAVEFILE__MASK__MAGICKS|SAVESLOT:: Mask of owned Magicks|EBytesBlockType.Timer
+VAR|0x711C|4|SAVEFILE__MASK__TECHNICKS|SAVESLOT:: Mask of owned Technicks|EBytesBlockType.Timer
+VAR|0x7120|32|SAVEFILE__MASK__GAMBITS|SAVESLOT:: Mask of owned Gambits|EBytesBlockType.Timer
+VAR|0x7140|32|SAVEFILE__MASK__KEYITEM|SAVESLOT:: Mask of owned KeyItems|EBytesBlockType.Timer
+VAR|0x7160|34
+VAR|0x7182|1
+// 7182: 0 => 4 (04); (UInt16)0 => 32772 перешли в The Tomb of Raithwall/Chamber of First Light после Belias
+// 7182: 4 => 20 (0x14) вошли в Zertinan Caverns/Hourglass Basin из Zertinan Caverns/Athroza Quicksands
+VAR|0x7183|1
+// 7183: 0 => 128 (80) перешли в The Tomb of Raithwall/Chamber of First Light после Belias
+ARRAY64|0x7184|2|SAVEFILE__ARRESTED__ITEMS[]_Counts|SAVESLOT:: Arrested: Items|EBytesBlockType.Timer // KnotOfRust hasn't been confiscated
+ARRAY200|0x7204|2|SAVEFILE__ARRESTED__WEAPON[]_Counts|SAVESLOT:: Arrested: Weapon|EBytesBlockType.Timer
+ARRAY140|0x7394|2|SAVEFILE__ARRESTED__ARMOR[]_Counts|SAVESLOT:: Arrested: Armor|EBytesBlockType.Timer
+ARRAY48|0x74AC|2|SAVEFILE__ARRESTED__ACCESSORY[]_Counts|SAVESLOT:: Arrested: Accessory|EBytesBlockType.Timer
+ARRAY32|0x750C|2|SAVEFILE__ARRESTED__AMMUNITION[]_Counts|SAVESLOT:: Arrested: Ammunition|EBytesBlockType.Timer
+VAR|0x754C|1140
+VAR|0x79C0|8|SAVEFILE__MASK__ITEM|SAVESLOT:: Mask of owned Items|EBytesBlockType.Timer
+ARRAY512|0x79C8|1|SAVEFILE__BAZAAR__LOOTSOLD[]__Count|SAVESLOT:: Bazaar sells|EBytesBlockType.Timer
+ARRAY128|0x7BC8|1|SAVEFILE__BAZAAR__GOODS[]|SAVESLOT:: Bazaar - Goods|EBytesBlockType.Timer
+ARRAY9|0x7C48|2|SAVEFILE__PARTY__CHAR[]|SAVESLOT:: Party|EBytesBlockType.Timer
+ARRAY9|0x7C5A|2|SAVEFILE__PARTY__CHAR[]__2|SAVESLOT:: Party2|EBytesBlockType.Timer
+ARRAY9|0x7C6C|2|SAVEFILE__PARTY__CHAR[]__3|SAVESLOT:: Party3|EBytesBlockType.Timer
+ARRAY9|0x7C7E|2|SAVEFILE__PARTY__CHAR[]__4|SAVESLOT:: Party4|EBytesBlockType.Timer
+ARRAY9|0x7C90|2|SAVEFILE__PARTY__CHAR[]__5|SAVESLOT:: Party5|EBytesBlockType.Timer
+VAR|0x7CA2|2
+VAR|0x7CA4|1|SAVEFILE__PARTY__LEADER|SAVESLOT:: Party leader|EBytesBlockType.Timer
+VAR|0x7CA5|35
+VAR|0x7CC8|4|SAVEFILE__UNWANTED__MicroSteps2|SAVESLOT:: Microsteps|EBytesBlockType.Timer
+VAR|0x7CCC|4|SAVEFILE__UNWANTED__Steps2|SAVESLOT:: Steps2 (rounded to 10)|EBytesBlockType.Timer
+VAR|0x7CD0|16
+VAR|0x7CE0|1 // 7ce0: 0 => 12 (0x0C)
+VAR|0x7CE1|3
+VAR|0x7CE4|4|SAVEFILE__CHOCOBORIDETIMER|SAVESLOT:: Chocobo ride time // float seconds
+VAR|0x7CE8|4|SAVEFILE__CHOCOBOSPRINTTIMER|SAVESLOT:: Chocobo sprint time // float seconds
+VAR|0x7CEC|1|SAVEFILE__CHOCOBOSPRINT|SAVESLOT:: Chocobo sprint active // 1 - active, 0 - none
+VAR|0x7CED|27
+// 7d00: 94 => 0 (00); (UInt16)862 => 0; (UInt32)862 => 0 второй уровень Trial Mode
+// 7d01: 3 => 0 (00); (UInt16)3 => 0; (UInt32)3 => 0 второй уровень Trial Mode
+VAR|0x7D08|1|SAVEFILE__UNWANTEDFLAG__7D08|SAVESLOT:: Flag 7d08 {0=>3=>0}|EBytesBlockType.Flag
+VAR|0x7D09|7
+// 7d0e: 1 => 0 (00); (UInt16)1 => 0 второй уровень Trial Mode
+ARRAY24|0x7D10|&GAMBITSETINFO.map|SAVEFILE__CHAR[]__GAMBITSET[]|SAVESLOT:: Gambits
+VAR|0x81F0|24
+// 81f0: 1 => 9 (09); (UInt16)24577 => 24585; (UInt32)9854977 => 9854985 сохранились в Barheim Passage/The Lightworks после включения света
+VAR|0x8208|15|SETTINGS|Settings|EBytesBlockType.Settings
+// 8208: 101 => 109 (6D); (UInt16)57445 => 57453; (UInt32)122981 => 122989 Config - Battle Mode Active
+// 8208: 109 => 101 (65); (UInt16)57453 => 57445; (UInt32)122989 => 122981 Config - Battle Mode Wait
+// 8208: 85 => 101 (65); (UInt16)57429 => 57445; (UInt32)122965 => 122981 Battle Speed 6
+// 8208: 101 => 85 (55); (UInt16)57445 => 57429; (UInt32)122981 => 122965 Battle Speed 5
+// 8208: 85 => 69 (45); (UInt16)57429 => 57413; (UInt32)122965 => 122949 Battle Speed 4
+// 8208: 85 => 53 (35); (UInt16)57429 => 57397; (UInt32)122965 => 122933 Battle Speed 3
+// 8208: 53 => 37 (25); (UInt16)57397 => 57381; (UInt32)122933 => 122917 Battle Speed 2
+// 8208: 37 => 21 (15); (UInt16)57381 => 57365; (UInt32)122917 => 122901 Battle Speed 1
+// 8209: 224 => 96 (60); (UInt16)480 => 96; (UInt32)480 => 96 Cursor position default
+// 820a: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0  Cursor position default
+// 8209: 96 => 224 (E0); (UInt16)96 => 480; (UInt32)96 => 480 Cursor position Last Selection
+// 8209: 224 => 192 (C0); (UInt16)480 => 448; (UInt32)480 => 448 Vibration off
+// 8209: 192 => 224 (E0); (UInt16)448 => 480; (UInt32)448 => 480 Vibration on
+// 8209: 224 => 160 (A0); (UInt16)480 => 416; (UInt32)480 => 416 Screen shake off
+// 8209: 160 => 224 (E0); (UInt16)416 => 480; (UInt32)416 => 480 Screen shake on
+// 8209: 224 => 240 (F0); (UInt16)480 => 496; (UInt32)480 => 496 Subtitles off
+// 8209: 240 => 224 (E0); (UInt16)496 => 480; (UInt32)496 => 480 Subtitles on
+// 820d: 0 => 1 (01); (UInt16)25088 => 25089; (UInt32)25088 => 25089 Camera Y-axis inverted
+// 820d: 1 => 0 (00); (UInt16)25089 => 25088; (UInt32)25089 => 25088 Camera Y-axis normal
+// 820d: 0 => 2 (02); (UInt16)25088 => 25090; (UInt32)25088 => 25090 Camera X-axis inverted
+// 820d: 2 => 0 (00); (UInt16)25090 => 25088; (UInt32)25090 => 25088 Camera X-axis normal
+// 820d: 0 => 4 (04); (UInt16)25088 => 25092; (UInt32)25088 => 25092 Language japanese
+// 820d: 4 => 0 (00); (UInt16)25092 => 25088; (UInt32)25092 => 25088 Language english
+// 820e: 98 => 226 (E2); (UInt16)98 => 226; (UInt32)98 => 226 Speed Mult. x4
+// 820e: 226 => 98 (62); (UInt16)226 => 98; (UInt32)226 => 98 Speed Mult. x2
+// 8210: 21 => 28 (1C); (UInt16)21 => 28; (UInt32)2293781 => 2293788 Volume music
+// 8212: 38 => 46 (2E); (UInt16)38 => 46; (UInt32)2883622 => 2883630 Volume Effects
+// 8214: 57 => 58 (3A); (UInt16)57 => 58; (UInt32)65593 => 65594 Volume Voice
+// 8216: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 Music OST
+// 8216: 2 => 1 (01); (UInt16)2 => 1; (UInt32)2 => 1 Music Reorchestrated
+// 8216: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 Music Original
+// 820a: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 Cursor default
+// 820a: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1  Cursor Last Selection
+// 820e: 98 => 34 (22); (UInt16)98 => 34; (UInt32)98 => 34 Target lines - off
+// 820e: 34 => 98 (62); (UInt16)34 => 98; (UInt32)34 => 98 Target lines - on
+
+VAR|0x8217|25
+
+VAR|0x8230|1|MENU__SELECTION|Menu - selection|EBytesBlockType.Cursor // b3 - Party, b4 - Status, b6 - Equip, b5 - Licenses, b9 - Gambits, b7 - World Map, b8 - Inventory, bc - Clan Primer, be - Config
+VAR|0x8231|1|MENU__SELECTED|Menu - dive in submenu|EBytesBlockType.Cursor // 04 - in submenu, 00 - not selected
+VAR|0x8232|1|MENU__SUBMENU|Menu - submenu|EBytesBlockType.Cursor // вошли в субменю 15 - Key Items, 14 - Loot, 13 - Abilities, 9 - Items, 5 - Weapons, 8 - ammunition, 6 - armor, 7 - accessories
+VAR|0x8233|1|MENU__SUBMENU_SELECTED|Menu - dive in submenu|EBytesBlockType.Cursor // 04 - in submenu, 00 - not selected
+// 8233: 0 => 4 (04); (UInt16)0 => 4; (UInt32)0 => 4 // закрыли меню Inventory
+// 8233: 4 => 0 (00); (UInt16)4 => 0; (UInt32)4 => 0 // закрыли меню Inventory
+// 8233: 0 => 4 (04) вошли в меню Abilities
+// 8233: 0 => 4 (04) вошли в меню Weapon
+
+VAR|0x8234|4
+// 8236: 0 => 2(02) => 0; (UInt16)0 => 2 => 0 что-то в меню; вышли из Clan Primer
+// 8236: 0 => 1 => 0 (00); (UInt16)1 => 0 вышли из Clan Primer после прочтения статей в Bestiary
+
+VAR|0x8238|1|MENU__CHARACTER|Menu - selected character|EBytesBlockType.Cursor // номер выбранного портрета в меню Party
+
+VAR|0x8239|23
+
+VAR|0x8250|1|MENU__HUNT|Menu Clan Primer/Hunts - selected hunt|EBytesBlockType.Cursor // номер охоты в Clan Primer-Hunts
+
+VAR|0x8251|31
+
+// 8260: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 что-то в меню; вышли из Clan Primer
+// 8260: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 убили судью Bergan
+// 8260: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 сброс курсоров к default
+// 8260: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 // вышли из меню Hunts
+// 8260: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 // вышли из меню Bestiary
+// 8260: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 // вышли из меню Sky Pirate's Den
+// 8260: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 открыли View Hunt Map
+// 8260: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 вышли из Bestiary, прочитав там все
+
+
+// SORT {0 - none, 1 - auto, 2 - str, 3 - qty }
+VAR|0x8270|1|SETTINGS__SORT__Weapons|Settings: sort Weapons|EBytesBlockType.Settings 
+VAR|0x8271|1|SETTINGS__SORT__Armor|Settings: sort Armor|EBytesBlockType.Settings 
+VAR|0x8272|1|SETTINGS__SORT__Accessories|Settings: sort Accessories|EBytesBlockType.Settings 
+VAR|0x8273|1|SETTINGS__SORT__Ammunition|Settings: sort Ammunition|EBytesBlockType.Settings 
+VAR|0x8274|1|SETTINGS__SORT__Items|Settings: sort Items|EBytesBlockType.Settings 
+VAR|0x8275|1|SETTINGS__SORT__Abilities|Settings: sort Abilities|EBytesBlockType.Settings 
+VAR|0x8276|1|SETTINGS__SORT__Loot|Settings: sort Loot|EBytesBlockType.Settings 
+VAR|0x8277|1|SETTINGS__SORT__KeyItems|Settings: sort Key Items|EBytesBlockType.Settings 
+
+VAR|0x8278|28
+
+VAR|0x8294|4|MENU__INVENTORYWEAPONS_ALL_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Weapons, страница All
+VAR|0x8298|4|MENU__INVENTORYWEAPONS_1H_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Weapons, страница 1H
+VAR|0x829C|4|MENU__INVENTORYWEAPONS_2H_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Weapons, страница 2h
+VAR|0x82A0|4|MENU__INVENTORYWEAPONS_RANGED_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Weapons, страница ranged
+VAR|0x82A4|4|MENU__INVENTORYARMOR_ALL_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Armor, страница All
+VAR|0x82A8|4|MENU__INVENTORYARMOR_SHIELDS_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Armor, страница Shields
+VAR|0x82AC|4|MENU__INVENTORYARMOR_HELMS_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Armor, страница Helms
+VAR|0x82B0|4|MENU__INVENTORYARMOR_CHEST_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Armor, страница Chest
+VAR|0x82B4|4|MENU__INVENTORYACCESSORIES_ALL_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Accessories
+VAR|0x82B8|4|MENU__INVENTORYAMMUNITION_ALL_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Ammunition, страница All
+VAR|0x82BC|4|MENU__INVENTORYITEMS_ALL_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Items
+VAR|0x82C0|4
+VAR|0x82C4|4
+VAR|0x82C8|4
+VAR|0x82CC|4|MENU__INVENTORYABILITIES_TECHNICKS_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Abilities, страница Technicks
+VAR|0x82D0|4|MENU__INVENTORYABILITIES_ALL_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Abilities, страницы All
+VAR|0x82D4|4|MENU__INVENTORYABILITIES_WHITE_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Abilities, страница White
+VAR|0x82D8|4|MENU__INVENTORYABILITIES_BLACK_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Abilities, страница Black
+VAR|0x82DC|4|MENU__INVENTORYABILITIES_TIME_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Abilities, страница Time
+VAR|0x82E0|4|MENU__INVENTORYABILITIES_GREEN_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Abilities, страница Green
+VAR|0x82E4|4|MENU__INVENTORYABILITIES_ARCANE_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Abilities, страница Arcane
+VAR|0x82E8|4
+VAR|0x82EC|4|MENU__INVENTORYKEYITEMS_ALL_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Key Items
+VAR|0x82F0|4
+VAR|0x82F4|4
+VAR|0x82F8|4|MENU__INVENTORYLOOT_ALL_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Inventory-Loot
+VAR|0x82FC|4|MENU__INVENTORYAMMUNITION_ARROWS_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Ammunition, страница Arrows
+VAR|0x8300|4|MENU__INVENTORYAMMUNITION_BOLTS_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Ammunition, страница Bolts
+VAR|0x8304|4|MENU__INVENTORYAMMUNITION_SHOTS_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Ammunition, страница Shots
+VAR|0x8308|4|MENU__INVENTORYAMMUNITION_BOMBS_SELECTED|Menu Inventory - cursored item|EBytesBlockType.Cursor // id выбранного умения в меню Inventory-Ammunition, страница Bombs
+VAR|0x830C|4
+VAR|0x8310|4
+VAR|0x8314|4|MENU__EQUIPWEAPONS_ALL_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // id выбранного предмета в меню Equip-Weapons, страница All
+VAR|0x8318|4|MENU__EQUIPWEAPONS_1H_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Weapons-1h - Cursored Item 
+VAR|0x831c|4|MENU__EQUIPWEAPONS_2H_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Weapons-2h - Cursored Item 
+VAR|0x8320|4|MENU__EQUIPWEAPONS_RANGED_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Weapons-ranged - Cursored Item 
+VAR|0x8324|4|MENU__EQUIPOFFHAND_SHIELDS_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Offhand-Shield - Cursored Item 
+VAR|0x8328|4
+VAR|0x832C|4|MENU__EQUIPHELMS_ALL_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Helm-All - Cursored Item 
+VAR|0x8330|4|MENU__EQUIPCHESTS_ALL_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Chest-All - Cursored Item 
+VAR|0x8334|4|MENU__EQUIPACCESSORIES_ALL_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Accessories-All - Cursored Item 
+VAR|0x8338|4|MENU__EQUIPOFFHAND_AMMUNITION_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Offhand-Ammunition - Cursored Item 
+VAR|0x833C|64
+VAR|0x837C|4|MENU__EQUIPOFFHAND_ARROWS_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Offhand-Arrows - Cursored Item 
+VAR|0x8380|4|MENU__EQUIPOFFHAND_BOLTS_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Offhand-Bolts - Cursored Item 
+VAR|0x8384|4|MENU__EQUIPOFFHAND_SHOTS_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Offhand-Shots - Cursored Item 
+VAR|0x8388|4|MENU__EQUIPOFFHAND_BOMBS_SELECTED|Menu Equip - cursored item|EBytesBlockType.Cursor // Menu Equip-Offhand-Bombs - Cursored Item 
+VAR|0x838C|4
+VAR|0x8390|4|MENU__INVENTORYWEAPONS_PAGE|Menu Inventory page|EBytesBlockType.Cursor // (UInt32)2 => 3 // страница в меню Inventory-Weapons: 1 - all, 2 - 1h, 3 - 2h, 4 - ranged
+VAR|0x8394|4|MENU__INVENTORYARMOR_PAGE|Menu Inventory page|EBytesBlockType.Cursor // (UInt32)6 => 7 // страница в меню Inventory-Armor: 5 - all, 6 - shield, 7 - helms, 8 - chest
+VAR|0x8398|4|MENU__INVENTORYACCESORIES_PAGE|Menu Inventory page|EBytesBlockType.Cursor // 9 - all
+VAR|0x839C|4|MENU__INVENTORYAMMUNITION_PAGE|Menu Inventory page|EBytesBlockType.Cursor // (UInt32)27 => 10 // страница в меню Inventory-Ammunition: 10 - all, 27 - arrows, 28 - bolts, 29 - shots, 30 - bombs
+VAR|0x83A0|4|MENU__INVENTORYITEMS_PAGE|Menu Inventory page|EBytesBlockType.Cursor // страница в меню Inventory-Items: 11 - all,
+VAR|0x83A4|4|MENU__INVENTORYABILITIES_PAGE|Menu Inventory page|EBytesBlockType.Cursor // (UInt32)18 => 17 // страница в меню Inventory-Abilities: 16 - all, 17 - white, 18 - black, 19 - time, 21 - arcane, 15 - technicks
+VAR|0x83A8|4|MENU__INVENTORYLOOT_PAGE|Menu Inventory page|EBytesBlockType.Cursor // (UInt32)18 => 17 // страница в меню Inventory-Loot: 26 - all
+VAR|0x83AC|4|MENU__INVENTORYKEYITEMS_PAGE|Menu Inventory page|EBytesBlockType.Cursor // // 83ac: 0 => 23 // страница в меню Inventory-Key Items: 23
+VAR|0x83B0|4|MENU__EQUIPWEAPON_PAGE|Menu Equip page|EBytesBlockType.Cursor
+VAR|0x83B4|4|MENU__EQUIPOFFHAND_PAGE|Menu Equip page|EBytesBlockType.Cursor
+VAR|0x83B8|4|MENU__EQUIPHELM_PAGE|Menu Equip page|EBytesBlockType.Cursor
+VAR|0x83BC|4|MENU__EQUIPCHEST_PAGE|Menu Equip page|EBytesBlockType.Cursor
+VAR|0x83C0|4|MENU__EQUIPACCESSORIES_PAGE|Menu Equip page|EBytesBlockType.Cursor
+ARRAY6|0x83C4|&LASTLEARNEDLICENSES.map|CHAR[]__LICENSES__LASTLEARNED|Char last learned ability|EBytesBlockType.Timer
+ 
+VAR|0x83DC|104
+// 83e8: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 сброс курсоров к default
+// 83f4: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 сброс курсоров к default
+// 840c: 3 => 0 (00); (UInt16)3 => 0; (UInt32)3 => 0 сброс курсоров к default
+// 8418: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 сброс курсоров к default
+
+// 83dc: 0 => 2 (0x02); (UInt16)0 => 2; (UInt32)0 => 2 выучили Vaan Red Spiral за 75LP
+// 83e0: 0 => 4 (0x04); (UInt16)0 => 4; (UInt32)0 => 4 выучили Vaan White Whorl за 125LP
+// 83e4: 0 => 3 (0x03); (UInt16)0 => 3; (UInt32)0 => 3 выучили Vaan Pyroclasm за 100LP
+// 83e8: 0 => 1 (0x01); (UInt16)0 => 1; (UInt32)0 => 1 выучили Ashe Nordswain's Glow за 50LP
+// 83ec: 0 => 4 (0x04); (UInt16)0 => 4; (UInt32)0 => 4 выучили Ashe Heaven's Wrath за 125LP
+// 83f0: 0 => 3 (0x03); (UInt16)0 => 3; (UInt32)0 => 3 выучили Ashe Maelstrom's Bolt за 100LP
+// 83f4: 0 => 1 (0x01); (UInt16)0 => 1; (UInt32)0 => 1 выучили Fran Feral Strike за 50LP
+// 83f8: 0 => 4 (0x04); (UInt16)0 => 4; (UInt32)0 => 4 выучили Fran Whip Kick за 125LP
+// 83fc: 0 => 3 (0x03); (UInt16)0 => 3; (UInt32)0 => 3 выучили Fran Shatterheart за 100LP
+// 8400: 0 => 4 (0x04); (UInt16)0 => 4; (UInt32)0 => 4 выучили Balthier Fires of War за 125LP
+// 8404: 0 => 3 (0x03); (UInt16)0 => 3; (UInt32)0 => 3 выучили Balthier Tides of Fate за 100LP
+// 8408: 0 => 1 (0x01); (UInt16)0 => 1; (UInt32)0 => 1 выучили Balthier Element of Treachery за 50LP
+// 840c: 0 => 4 (0x04); (UInt16)0 => 4; (UInt32)0 => 4 выучили Basch Fulminating Darkness за 125LP
+// 8410: 0 => 1 (0x01); (UInt16)0 => 1; (UInt32)0 => 1 выучили Basch Ruin Impendent за 50LP
+// 8414: 0 => 2 (0x02); (UInt16)0 => 2; (UInt32)0 => 2 выучили Basch Flame Purge за 75LP
+// 8418: 0 => 4 (0x04); (UInt16)0 => 4; (UInt32)0 => 4 выучили Penelo Intercession за 125LP
+// 841c: 0 => 3 (0x03); (UInt16)0 => 3; (UInt32)0 => 3 выучили Penelo Evanescence за 100LP 
+// 8420: 0 => 1 (0x01); (UInt16)0 => 1; (UInt32)0 => 1 выучили Penelo Replendence за 50LP
+
+
+// 8e3b: 0 => 7 (07); (UInt16)0 => 7; (UInt32)0 => 7 Barheim Passage/Great Eastern Passage - Barheim Passage/Special Op Sector 3
+
+ARRAY384|0x8444|32|UNWANTED__ROOM[]_ACTORSTATES|room actors state|EBytesBlockType.SPReq // ACTORS STATES - 384 room * 32 bytes = 12288 (0x3000)
+VAR|0xB444|1|MENU_VISIBILITY|Menu: visibility of options // видимость пунктов меню?
+// b444[3]: 246 => 254 (FE); (UInt16)52726 => 52734; (UInt32)521653750 => 521653758 купили Onion Arrows
+// b444[3]: 54 => 62 (3E); (UInt16)64566 => 64574; (UInt32)51641398 => 51641406 купили Onion Arrow у Shop Clerk в Migelo's Sundries
+// b444[6]: 54 => 118 (76); (UInt16)52278 => 52342; (UInt32)236178486 => 236178550 первая кража, Rat Pelt
+// b444[7]: 118 => 246 (F6); (UInt16)52342 => 52470; (UInt32)252955766 => 252955894 получили Clan Primer
+VAR|0xB445|4|MASK__MENU_INVENTORYPAGE_VISIBILITY|Menu: visibility of Inventory submenu options
+VAR|0xB449|1
+// b449[__1____1]: 0 => 132 (84); (UInt16)0 => 14468; (UInt32)0 => 342148 обучение, зашел в меню
+// b449[--1---11]: 132 => 196 (C4); (UInt16)47236 => 47300; (UInt32)374916 => 374980 первый раз открыли карту, там подсказка
+// b449[--11--11]: 196 => 204 (CC); (UInt16)47300 => 47308; (UInt32)374980 => 374988 первый раз открыли Equip, там подсказка
+// b449[--111-11]: 204 => 220 (DC); (UInt16)63692 => 63708; (UInt32)391372 => 391388 первый раз открыли меню Licenses, там подсказка
+// b449[-1111-11]: b449: 220 => 222 (DE) первый раз открыли меню Party, там подсказка
+// b449[-1111111]: 222 => 254 (FE) первый раз открыли меню Gambits, там подсказка
+
+
+
+VAR|0xB44A|1|Unk_b44a|Menu: visibility of options // видимость пунктов меню? НЕТ!, добавление World Map не меняет ничего
+// b44a[1]: 248 => 250 (FA); (UInt16)1528 => 1530; (UInt32)1528 => 1530 открыли Clan Primer
+// b44a[___345__]: 0 => 56 (38); (UInt16)0 => 1336; (UInt32)0 => 1336 обучение, зашел в меню (Status, Inventory, Config)
+// b44a[6]: 184 => 248 (F8); (UInt16)1464 => 1528; (UInt32)1464 => 1528 очередной раз открыли меню Vaan
+// b44a[7]: 56 => 184 (B8); (UInt16)1336 => 1464; (UInt32)1336 => 1464 первый раз открыли меню Vaan (появился Equip)
+VAR|0xB44B|1|Unk_b44b|Menu: visibility of options // видимость пунктов меню? НЕТ!, добавление World Map не меняет ничего
+
+// b44b: 0 => 5 (05); (UInt16)0 => 5; (UInt32)0 => 5 обучение, зашел в меню
+// b44b: 5 => 7 (07); (UInt16)5 => 7; (UInt32)5 => 7 открыли меню после покупки Onion Arrows и Eye Drops
+
+VAR|0xB44C|424
+// b44d[3]: 100 => 108 (6C); (UInt16)100 => 108; (UInt32)100 => 108 побили Belias, дали вторую доску
+// b44d[6]: 36 => 100 (64); (UInt16)36 => 100; (UInt32)36 => 100 побили Belias, дали вторую доску
+// b44d[7]: 108 => 236 (EC); (UInt16)108 => 236; (UInt32)108 => 236 Mateus добавлен на доску
+// b44d[5]: 76 => 108 (0x6C); (UInt16)76 => 108; (UInt32)76 => 108 выучили Vaan Red Spiral за 75LP
+// b44d[2]: 72 => 76 (0x4C); (UInt16)72 => 76; (UInt32)72 => 76 выучили Vaan Red Spiral за 75LP
+
+// b44e: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 добавлен на доску Adrammelech
+
+// b45b: 0 => 8 (08); (UInt16)0 => 8; (UInt32)0 => 8 открыли пустую доску Vaan, там подсказка
+
+// b478: 0 => 16 (10); (UInt16)0 => 16; (UInt32)0 => 16 побили Belias, дали вторую доску
+
+// ??? VAR|0x503| блоки территорий в меню Bestiary
+// b503: 0 => 251 (FB); (UInt16)0 => 59643; (UInt32)0 => 59643 первый раз открыли Clan Primer, там все с пометками
+// b503: 251 => 255 (FF); (UInt16)59643 => 59647; (UInt32)59643 => 59647 открыли Clan Primer
+
+// b504: 0 => 232 (E8); (UInt16)0 => 232; (UInt32)0 => 232 первый раз открыли Clan Primer, там все с пометками
+// b504: 232 => 235 (EB); (UInt16)232 => 235; (UInt32)232 => 235 очередной раз открыли Clan Primer
+// b504: 235 => 255 (FF); (UInt16)235 => 255; (UInt32)235 => 255 очередной раз открыли Clan Primer  после убийства Belias
+
+
+// b543-b544: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 TIPS: The Clan Primer
+// b543: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 TIPS: The Clan Primer
+// b543: 1 => 3 (03); (UInt16)1 => 3; (UInt32)1 => 3 TIPS: Restoring MP
+
+VAR|0xB5F4|16|HUNTS__VIEWEDMASK|Hunts - viewed mask 
+ARRAY512|0xB604|1|BESTIARY__EMENY[]__Count|Bestiary - Counters
+VAR|0xB804|380|BESTIARY__READMASK|Bestiary - readmask // b804-b97f - маски просмотренной информации в Bestiary
+
+VAR|0xB980|196
+// b980: 0 => 252 (FC); (UInt16)0 => 63740; (UInt32)0 => 4244437244 первый раз открыли Clan Primer, там все 4 пункта с пометкой
+// b981: 0 => 248 (F8); (UInt16)0 => 64760; (UInt32)0 => 16579832 первый раз открыли Clan Primer, там все 4 пункта с пометкой
+// b982: 0 => 252 (FC); (UInt16)0 => 64764; (UInt32)0 => 64764 первый раз открыли Clan Primer, там все 4 пункта с пометкой
+// b983: 0 => 252 (FC); (UInt16)0 => 252; (UInt32)0 => 252 первый раз открыли Clan Primer, там все 4 пункта с пометкой
+
+VAR|0xBA44|4|CHALLENGES__ACHIEVEMASK|Sky Pirate's Den - achievemask // ba44-ba47 - видимость фигурок в Sky Pirate's Den - маски достижений
+VAR|0xBA48|4|CHALLENGES__VIEWMASK|Sky Pirate's Den - viewmask // ba48-ba4b - просмотр фигурок в Sky Pirate's Den - маски достижений
+VAR|0xBA4C|2|CHALLENGES__COUNT_Attacks|Challenges - Attacks|EBytesBlockType.Timer
+VAR|0xBA4E|2|CHALLENGES__COUNT_Casts|Challenges - Casts|EBytesBlockType.Timer
+VAR|0xBA50|2|CHALLENGES__COUNT_Technicks|Challenges - use Technicks|EBytesBlockType.Timer
+VAR|0xBA52|2|CHALLENGES__COUNT_Steals|Challenges - Steals|EBytesBlockType.Timer
+VAR|0xBA54|2|CHALLENGES__COUNT_Kills|Challenges - Kills|EBytesBlockType.Timer
+VAR|0xBA56|2|CHALLENGES__QUICKENINGS|Challenges - Quickenings|EBytesBlockType.SPReq
+VAR|0xBA58|2|CHALLENGES__COUNT_SoldItems|Challenges - Sold Items|EBytesBlockType.Timer
+VAR|0xBA5A|2
+VAR|0xBA5C|4|CHALLENGES__COUNT_LPEarned|Challenges - LP earned|EBytesBlockType.Timer
+VAR|0xBA60|4|CHALLENGES__COUNT_GilEarned|Challenges - GIL earned|EBytesBlockType.Timer
+VAR|0xBA64|4|CHALLENGES__COUNT_GilSpended|Challenges - Gil spended|EBytesBlockType.Timer
+VAR|0xBA68|4|QUEST__CLANPOINTS|Clan Points|EBytesBlockType.Timer
+
+VAR|0xBA6C|96
+
+ARRAY64|0xBACC|2|ITEMSLOT[]__ITEM|Items Slots
+ARRAY200|0xBB4C|2|WEAPONSLOT[]__ITEM|Weapon Slots
+ARRAY140|0xBCDC|2|ARMORSLOT[]__ITEM|Armor Slots
+ARRAY48|0xBDF4|2|ACCESSORYSLOT[]__ITEM|Accessory Slots
+ARRAY32|0xBE54|2|AMMUNITIONSLOT[]__ITEM|Ammunition Slots
+
+VAR|0xBE94|80
+
+ARRAY256|0xBEE4|2|GAMBITSLOT[]__ITEM|Gambits
+ARRAY24|0xC0E4|2|TECHNICKSLOT[]__ITEM|Technick Slots
+ARRAY81|0xC114|2|MAGICKSLOT[]__ITEM|Magick Slots
+// VAR|0xC1B4|2 // скорее всего, MAGICKSLOTS до 81
+ARRAY256|0xC1B6|2|KEYITEMSLOT[]__ITEM|Key Items Slots // Teleportation destinations and Maps are KeyItems -)
+//VAR|0xC2C6|750
+VAR|0xC3B6|510
+
+ARRAY279|0xC5B4|2|LOOTSLOT[]__ITEM|Loot Slots // индексы Loot в меню
+
+VAR|0xC7E2|470
+
+VAR|0xC9B8|4|TOTALCOUNT__ITEMS|Count of known Items
+VAR|0xC9BC|4|TOTALCOUNT__WEAPON|Count of known Weapons
+VAR|0xC9C0|4|TOTALCOUNT__ARMOR|Count of known Armor
+VAR|0xC9C4|4|TOTALCOUNT__ACCESSORY|Count of known Accessories
+VAR|0xC9C8|4|TOTALCOUNT__AMMUNITION|Count of known Ammunition
+VAR|0xC9CC|4
+VAR|0xC9D0|4|TOTALCOUNT__GAMBIT|Count of known Gambits
+VAR|0xC9D4|4
+VAR|0xC9D8|4|TOTALCOUNT__TECHNICK|Count of known Technicks
+VAR|0xC9DC|4|TOTALCOUNT__MAGICK|Count of known Magicks
+VAR|0xC9E0|4|TOTALCOUNT__KEYITEM|Count of known Key Items 
+VAR|0xC9E4|4|TOTALCOUNT__LOOT|Count of known Loot
+VAR|0xC9E8|4|UNWANTED__PlaySeconds2||EBytesBlockType.Timer // (duplicate)
+
+VAR|0xC9EC|6164
+
+VAR|0xE200|4|SAVE__HASH__NEGATIVE|maybe hash of second file in packed save?|EBytesBlockType.Timer // каждый байт = 255 - соответствующий байт SAVE_HASH
+
+VAR|0xE204|263264
+// e440-204c6 выставляются в 00 при первом сохранении в обучении
+// e440: 35 => 0 (00); (UInt16)291 => 0; (UInt32)19923235 => 0 диалог со списком сохранений
+// e441: 1 => 0 (00); (UInt16)12289 => 0; (UInt32)77825 => 0 диалог со списком сохранений
+// e442: 48 => 0 (00); (UInt16)304 => 0; (UInt32)304 => 0 диалог со списком сохранений
+// e443: 1 => 0 (00); (UInt16)1 => 0; (UInt32)1 => 0 диалог со списком сохранений
+// e440-3f435 выставляются в 00 при сохранении в Nalbina Dungeons/The Confiscatory после возвращения вещей
+// e440-1f475 выставляются в 00 при сохранении в Bhujerba/Aerodrome
+// e440-e443 выставляются в 00 при сохранении в Bhujerba/Lhusu Square
+// e242-20966 выставляются в 00 при сохранении в Bhujerba/Aerodrome
+
+VAR|0x4E664|4|GENERAL__ROOM|Room|EBytesBlockType.Timer
+
+VAR|0x4E668|40
+
+VAR|0x4E690|1|COMMANDMENU_VISIBILITY|command menu options visibility // маска доступности команд Magicks&Technicks в бою! { 0 - Technicks, 1 - White, 2 - Black, 3 - Time, 4 - Green, 5 - Arcane, 6 - Gambits, 7 - Mist }
+VAR|0x4E691|3
+// VAR|0x4E691|1 // 4e691: 0 => 1 (01); (UInt16)0 => 1; (UInt32)469762048 => 469762049 убили Belias похоже, маска доступных в бою Эсперов
+
+//2164280 - начало
+//21B290C - указатель по адресу 000002EBF190 = +40 Vaan etc.
+//2670A760 - указатель по адресу 000002EBF130 = структура с именем, моделью, квикенингами и прочим
+//24CED368 - chain
+//24CEF73A - chain
+//209A030 - счетчик Urutan-Yensa для появления Urutan Exile
+ARRAY40|0x4E694|&FFXIICHARACTERINFO.map|CHAR[]|CHAR data // 0x4740 bytes
+ARRAY64|0x52DD4|2|ITEM[]__Count|Items Counts // !!!количества предметов в порядке индексов!!!
+ARRAY200|0x52E54|2|WEAPON[]__Count|Weapons Counts
+ARRAY140|0x52FE4|2|ARMOR[]__Count|Armor Counts //  20 Shields, 60 Helms, 60 Chests, 
+// <Armor - Chests Counts: 0x0> [ARMOR#21__Count: +0x530AE +0x1]: 4 => 0 (00)
+ARRAY48|0x530FC|2|ACCESSORY[]__Count|Accessories Counts
+ARRAY32|0x5315C|2|AMMUNITION[]__Count|Ammunition Counts
+ARRAY512|0x5319C|2|LOOT[]__Count|Loot Counts
+VAR|0x5359C|12|MASK__MAGICKS|Mask of owned Magicks|EBytesBlockType.SPReq
+VAR|0x535A8|4|MASK__TECHNICKS|Mask of owned Technicks|EBytesBlockType.SPReq
+VAR|0x535AC|32|MASK__GAMBITS|Mask of owned Gambits|EBytesBlockType.SPReq
+VAR|0x535CC|32|MASK__KEYITEMS|Mask of owned KeyItems|EBytesBlockType.SPReq
+
+VAR|0x535EC|32
+
+VAR|0x5360C|4
+// 5360c[0]: 0 => 1 (0x01); выучили Vaan Red Spiral за 75LP
+// 5360c[1]: 1 => 3 (0x03); выучили Vaan White Whorl за 125LP
+// 5360c[2]: 3 => 7 (0x07); выучили Vaan Pyroclasm за 100LP
+// 5360c[3]: 199 => 207 (0xCF); выучили Fran Feral Strike за 50LP
+// 5360c[4]: 207 => 223 (0xDF); выучили Fran Whip Kick за 125LP
+// 5360c[5]: 223 => 255 (0xFF); выучили Fran Shatterheart за 100LP
+// 5360c[6]: 7 => 71 (0x47); выучили Balthier Fires of War за 125LP
+// 5360c[7]: 71 => 199 (0xC7); выучили Balthier Tides of Fate за 100LP
+// 5360d[0]: 146 => 147 (0x93) выучили Balthier Element of Treachery за 50LP
+// 5360d[1]: 0 => 2 (0x02) выучили Basch Fulminating Darkness за 125LP
+// 5360d[2]: 147 => 151 (0x97) выучили Basch Ruin Impendent за 50LP
+// 5360d[3]: 151 => 159 (0x9F) выучили Basch Flame Purge за 75LP
+// 5360d[4]: 2 => 18 (0x12) выучили Ashe Nordswain's Glow за 50LP
+// 5360d[5]: 159 => 191 (0xBF) выучили Ashe Heaven's Wrath за 125LP
+// 5360d[6]: 191 => 255 (0xFF) выучили Ashe Maelstrom's Bolt за 100LP
+// 5360d[7]: 18 => 146 (0x92) выучили Penelo Intercession за 125LP
+// 5360e[0]: 4 => 5 (0x05) выучили Penelo Evanescence за 100LP 
+// 5360e[1]: 5 => 7 (0x07) выучили Penelo Replendence за 50LP
+// 5360e[2]: 0 => 4 (04); убили Belias
+// 5360e[3]: 4 => 12 (0C); побили Mateus
+// 5360e[4]: 4 => 20 (0x14) получили Adrammelech
+
+// 5360f: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 убили Belias
+
+ARRAY64|0x53610|2|ARRESTED__ITEMS[]_Counts|Arrested: Items // KnotOfRust hasn't been confiscated
+ARRAY200|0x53690|2|ARRESTED__WEAPON[]_Counts|Arrested: Weapon
+ARRAY140|0x53820|2|ARRESTED__ARMOR[]_Counts|Arrested: Armor
+ARRAY48|0x53938|2|ARRESTED__ACCESSORY[]_Counts|Arrested: Accessory
+ARRAY32|0x53998|2|ARRESTED__AMMUNITION[]_Counts|Arrested: Ammunition
+
+VAR|0x539D8|1140
+// 539ea: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 // выучили Penelo-WhiteMage Evanescence за 75LP - доступность Quickening
+
+VAR|0x53E4C|8|MASK__ITEM|Mask of owned Items|EBytesBlockType.SPReq
+ARRAY512|0x53E54|1|BAZAAR__LOOTSOLD[]__Count|Bazaar sell
+ARRAY128|0x54054|1|BAZAAR__GOODS[]|Bazaar - Goods // 0 - not able, 3 - pretexts sold, 7 - good shown in Bazaar, 3 - buyed, 2 - pretext for Grimoire done, 6 - Grimoire shown in Bazaar, 0 - Grimoire bought
+ARRAY9|0x540D4|2|PARTY__CHAR[]|Party // 1-3 active party, +guest, +3-5 reserve party
+ARRAY9|0x540E6|2|PARTY__CHAR[]__2|Party2 // набор персонажей на экране
+ARRAY9|0x540F8|2|PARTY__CHAR[]__3|Party3 // набор персонажей на экране
+ARRAY9|0x5410A|2|PARTY__CHAR[]__4|Party4 // 1-3 active party, +guest, +3-5 reserve party
+ARRAY9|0x5411C|2|PARTY__CHAR[]__5|Party5 // видимо, предыдущий набор
+
+VAR|0x5412E|2
+
+VAR|0x54130|1|PARTY__LEADER|Party leader
+
+VAR|0x54131|35
+
+VAR|0x54154|4|UNWANTED__MicroSteps2|Microsteps|EBytesBlockType.Timer // 54154: 249 => 239 (EF); (UInt16)52985 => 28399; (UInt32)1079365369 => 1084387055; (float)5,0760417 // растет при ходьбе большими числами, порядка 100000/шаг
+VAR|0x54158|4|UNWANTED__Steps2|Steps2 (rounded to 10)|EBytesBlockType.Timer // 54158: 164 => 174 (AE); (UInt16)20644 => 20654; (UInt32)86180 => 86190 // количество шагов, округленное до 10
+
+VAR|0x5415C|16
+
+//54160: 27 => 0 (00); (UInt16)27 => 0; (UInt32)27 => 0 новая игра
+
+VAR|0x5416C|1
+// 5416c: 0 => 13 (0D); (UInt16)0 => 13; (UInt32)0 => 13 сели на чокобо по сюжету
+// 5416c: 13 => 12 (0C); (UInt16)13 => 12; (UInt32)13 => 12 слезли с Чокобо
+// 5416c: 12 => 0 (00); (UInt16)12 => 0; (UInt32)12 => 0  слезли с Чокобо
+// 5416c: 13 => 11 (0B); (UInt16)13 => 11; (UInt32)13 => 11 активировали 1-й Choсobo Sprint
+// 5416c: 11 => 9 (09); (UInt16)11 => 9; (UInt32)11 => 9 закончился 1-й Choсobo Sprint
+// 5416c: 9 => 7 (07); (UInt16)9 => 7; (UInt32)9 => 7 активировали 2-й Choсobo Sprint
+// 5416c: 7 => 5 (05); (UInt16)7 => 5; (UInt32)7 => 5 закончился 2-й Choсobo Sprint
+// 5416c: 5 => 3 (03); (UInt16)5 => 3; (UInt32)5 => 3 активировали 3-й Choсobo Sprint
+// 5416c: 3 => 1 (01); (UInt16)3 => 1; (UInt32)3 => 1 закончился 3-й Choсobo Sprint
+// 5416c: 1 => 0 (00) на время после сценки
+// 5416c: 0 => 1 (01) после сценки вернулись на Чокобо
+// 5416c: 0 => 12 (0C) сели на Чокобо
+// 5416c: 12 => 13 (0D) сели на Чокобо
+// 5416c: 9 => 8 (08); левая сценка
+// 5416c: 8 => 9 (0x09) после сценки вернулись на Чокобо
+// 5416c: 12 => 0 (0x00) слезли с Чокобо
+
+VAR|0x5416D|3
+
+VAR|0x54170|4|GENERAL__CHOCOBORIDETIMER|Chocobo ride time|EBytesBlockType.Timer // float seconds
+VAR|0x54174|4|GENERAL__CHOCOBOSPRINTTIMER|Chocobo sprint time|EBytesBlockType.Timer // float seconds
+VAR|0x54178|1|GENERAL__CHOCOBOSPRINT|Chocobo sprint active // 1 - active, 0 - none
+VAR|0x54179|27
+
+// 5418c: 0 => 54 (36); (UInt16)0 => 310; (UInt32)0 => 310 случайное число для Traveler
+// 5418d: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 использовали Traveler на Treant
+
+
+// 54190: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 сели на чокобо по сюжету
+// 54190: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 слезли с Чокобо
+// 54190: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 сели на Чокобо
+// 54190: 2 => 6 (06); (UInt16)2 => 6; (UInt32)2 => 6 левая сценка при въезде в Golmore Jungle
+// 54190: 6 => 2 (02); (UInt16)6 => 2; (UInt32)6 => 2 после сценки вернулись на Чокобо
+// 54190: 0 => 2 (02); (UInt16)0 => 2; (UInt32)0 => 2 сели на Чокобо
+
+VAR|0x54194|1|UNWANTEDFLAG__54194|Flag 54194 {0=>3=>0}|EBytesBlockType.Flag
+VAR|0x54195|7
+
+// 5419a: 0 => 1 (01); (UInt16)0 => 1 количество использований Numerology
+// 5419a: 1 => 2 (02); (UInt16)1 => 2 количество использований Numerology
+// 5419a: 1 => 0 (00); (UInt16)1 => 0 количество использований Numerology, ... уменьшается? похоже, сбрасывается в 0 после загрузки игры
+
+ARRAY90|0x5419C|&GAMBITSETINFO.map|CHAR[]__GAMBITSET[]|Gambits
+
+VAR|0x553E4|0
+
+// 559fc: 1 => 2 (02); (UInt16)1 => 2; (UInt32)1 => 2 номер набора гамбитов у Vaan
+// 55a00: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 номер набора гамбитов у Ashe
+// 55a04: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 номер набора гамбитов у Fran
+// 55a08: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 номер набора гамбитов у Balthier
+// 55a0c: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 номер набора гамбитов у Basch
+// 55a10: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 номер набора гамбитов у Penelo
+
+// 55a18: 2 => 0 (00); (UInt16)2 => 0; (UInt32)2 => 0 номер набора гамбитов у Amalia (7)
+// 55a1c: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 номер набора гамбитов у Basch-Guest (8)
+
+// 55a24: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 номер набора гамбитов у Lamont (10)
+// 55a2c: 0 => 1 (01); (UInt16)0 => 1; (UInt32)0 => 1 номер набора гамбитов у Vossler (12)
 
