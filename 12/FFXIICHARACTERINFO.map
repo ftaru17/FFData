@@ -1,0 +1,146 @@
+SIZE|456
+//0x1C8
+VAR|0|4|GambitsActive // { 4 - N/A, 24 - Gambits off, 28 - Gambits on }
+VAR|4|2|IDX
+VAR|6|2|QuickeningGauge||EBytesBlockType.Timer
+VAR|8|4|nk8
+// <CHAR data: 0x4E694> [CHAR#0__nk8: +0x8 +0x0]: 56 => 67 (43); (UInt16)56 => 67; (UInt32)56 => 67 Vaan lvl up to 2
+// <CHAR data: 0x4E694> [CHAR#0__nk8: +0x8 +0x0]: 67 => 79 (4F); (UInt16)67 => 79; (UInt32)67 => 79 Vaan lvl up to 3
+VAR|12|4|nk12
+VAR|16|2|nk16
+//VAR|17|1|nk17
+VAR|18|2|nk18
+VAR|20|2|nk20
+//VAR|21|1|nk21
+VAR|22|2|nk22
+VAR|24|2|nk24
+//VAR|25|1|nk25
+VAR|26|2|nk26
+VAR|28|2|nk28
+//VAR|29|1|nk29
+VAR|30|2|nk30
+VAR|32|1|MistBarMax
+VAR|33|3|Unk33
+VAR|36|4|MaxHP
+VAR|40|2|MaxMP
+VAR|42|1|STR
+VAR|43|1|MAG
+VAR|44|1|VIT
+VAR|45|1|SPD
+VAR|46|1|AttackPower
+VAR|47|1|Defense
+VAR|48|1|MagicResist
+VAR|49|1|Unk_ATTR49
+VAR|50|1|EvadeFromWeapon
+VAR|51|1|EvadeFromShield
+VAR|52|1|MagicEvadeFromShield
+VAR|53|1|Evade
+VAR|54|1|MagicEvade
+VAR|55|1|MistBarMax2
+VAR|56|4|StatusImmunities
+VAR|60|4|EquipStatuses
+VAR|64|1|Weaks
+VAR|65|1|Absorbs
+VAR|66|1|Resists
+VAR|67|1|Immunes
+VAR|68|1|BoostAttacks
+VAR|69|3|Unk69
+VAR|72|4|HP||EBytesBlockType.Timer
+VAR|76|2|MP||EBytesBlockType.Timer
+VAR|78|1|MistBar
+VAR|79|1|Unk79
+VAR|80|2|Weapon
+VAR|82|2|OffHand
+VAR|84|2|Helm
+VAR|86|2|Armor
+VAR|88|2|Accessory
+VAR|90|2|ConfiscatedWeapon
+VAR|92|2|ConfiscatedOffHand
+VAR|94|2|ConfiscatedHelm
+VAR|96|2|ConfiscatedArmor
+VAR|98|2|ConfiscatedAccessory
+VAR|100|4|Statuses||EBytesBlockType.Timer
+VAR|104|16|Unk104
+VAR|120|16|Augments||EBytesBlockType.Timer
+ARRAY1|136|&GAMBITSETINFO.map|ActiveGambitsSetInfo
+ARRAY32|188|4|Countdowns[]||EBytesBlockType.Timer
+ARRAY32|316|2|Countdowns2[]||EBytesBlockType.Timer
+// VAR|188|4|CountdownKO
+// VAR|192|4|CountdownStone
+// VAR|196|4|CountdownPetrify||EBytesBlockType.Timer // 10 секунд // <CHAR data: 0x4E6B4> [CHAR#2__Unk104: +0x3F8 +0x3C]: 11 => 10 (0A); (UInt16)11 => 10; (UInt32)11 => 10 Fran Petrify
+// VAR|200|4|CountdownStop||EBytesBlockType.Timer
+// VAR|204|4|CountdownSleep||EBytesBlockType.Timer // чуть больше 20 секунд
+// VAR|208|4|CountdownConfuse||EBytesBlockType.Timer
+// VAR|212|4|CountdownDoom||EBytesBlockType.Timer // в секундах
+// VAR|216|4|CountdownBlind||EBytesBlockType.Timer
+// VAR|220|4|CountdownPoison||EBytesBlockType.Timer
+// VAR|224|4|CountdownSilence||EBytesBlockType.Timer // NOT TICKS!!!
+// VAR|228|4|Unk228
+// VAR|232|4|Unk232
+// VAR|236|4|CountdownReverse||EBytesBlockType.Timer
+// VAR|240|4|CountdownDisable||EBytesBlockType.Timer
+// VAR|244|4|CountdownImmobilaze||EBytesBlockType.Timer
+// VAR|248|4|CountdownSlow||EBytesBlockType.Timer
+// VAR|252|4|Unk252
+// VAR|256|4|Unk256
+// VAR|260|4|CountdownProtect||EBytesBlockType.Timer
+// VAR|264|4|CountdownShell||EBytesBlockType.Timer
+// VAR|268|4|CountdownHaste||EBytesBlockType.Timer
+// VAR|272|4|Unk272
+// VAR|276|4|CountdownFaith||EBytesBlockType.Timer
+// VAR|280|4|CountdownReflect||EBytesBlockType.Timer
+// VAR|284|4|CountdownInvisible||EBytesBlockType.Timer
+// VAR|288|4|CountdownRegen||EBytesBlockType.Timer
+// VAR|292|4|Unk292
+// VAR|296|4|CountdownBerserk||EBytesBlockType.Timer
+// VAR|300|4|CountdownBubble||EBytesBlockType.Timer
+// VAR|304|4|Unk304
+// VAR|308|4|CountdownLibra||EBytesBlockType.Timer // 5 минут
+// VAR|312|4|Unk312
+// VAR|316|2|Unk316
+// VAR|318|2|Unk318
+// VAR|320|2|Petrify2||EBytesBlockType.Timer // <CHAR data: 0x4E6B4> [CHAR#4__Unk280: +0x838 +0x8]: 42 => 210 (D2); (UInt16)2090 => 1490; (UInt32)2090 => 1490 Countdown Petrify
+// VAR|322|2|Unk322
+// VAR|324|2|Unk324
+// VAR|326|2|Unk326
+// VAR|328|2|Doom2||EBytesBlockType.Timer
+// VAR|330|2|Unk330
+// VAR|332|2|Poison2||EBytesBlockType.Timer // тоже Poison? раз в 10 меньше, чем 220|CountdownPoison
+// VAR|334|2|Unk334
+// VAR|336|2|Sap2||EBytesBlockType.Timer // <CHAR data: 0x4E694> [CHAR#4__Unk336: +0x870 +0x0]: 10 => 60 (3C); (UInt16)10 => 60; (UInt32)10 => 60 Sap
+// VAR|338|2|Unk338
+// VAR|340|2|Unk340
+// VAR|342|2|Unk342
+// VAR|344|2|Unk344
+// VAR|346|2|Unk346
+// VAR|348|2|Unk348
+// VAR|350|2|Unk350
+// VAR|352|2|Unk352
+// VAR|354|2|Unk354
+// VAR|356|2|Unk356
+// VAR|358|2|Unk358
+// VAR|360|2|Unk360
+// VAR|362|2|Unk362
+// VAR|364|2|Unk364
+// VAR|366|2|Regen2||EBytesBlockType.Timer // [0-900] +600/sec. 
+// VAR|368|2|Unk368
+// VAR|370|2|Unk370
+// VAR|372|2|Unk372
+// VAR|374|2|Unk374
+// VAR|376|2|Unk376
+// VAR|378|2|Unk378
+VAR|380|16|Unk380
+VAR|396|4|EXP||EBytesBlockType.Timer
+VAR|400|4|LP||EBytesBlockType.Timer
+VAR|404|46|Licenses
+VAR|450|1|Level||EBytesBlockType.Timer
+VAR|451|1|Job1
+VAR|452|1|Job2
+VAR|453|1|ShowedJobBoard
+VAR|454|2|Unk454
+
+// <CHAR data: 0x4E6B4> [CHAR#0__unk419: +0x1A3 +0x0]: 255 => 10 (0A); (UInt16)65535 => 65290; (UInt32)16777215 => 720650 ВЫБРАЛИ ПРОФЕССИЮ BUSHI
+// <CHAR data: 0x4E6B4> [CHAR#0__unk419: +0x1A3 +0x0]: 255 => 9 (09); (UInt16)65535 => 65289; (UInt32)16777215 => 655113 перевыбрали Работу Vaan, теперь Black Mage
+// <CHAR data: 0x4E6B4> [CHAR#3__unk419: +0x6FB +0x1]: 255 => 2 (02); (UInt16)511 => 514; (UInt32)511 => 514 выбрали вторую доску Balthier - Machinist
+// <CHAR data: 0x4E6B4> [CHAR#3__unk419: +0x6FB +0x2]: 2 => 1 (01); (UInt16)2 => 1; (UInt32)469762050 => 469762049 переключили доску в меню Licenses для Balthier
+// <CHAR data: 0x4E6B4> [CHAR#1__unk419: +0x36B +0x1]: 255 => 9 (09); (UInt16)1791 => 2313; (UInt32)1791 => 2313 выбрали вторую доску Ashe - Black Mage

@@ -1,0 +1,136 @@
+﻿16b4[2]: 0 => 4 (04); сундук с Silence в Lhusu Mines/Shaft Entry
+16b4[3]: 244 => 252 (FC); ?
+16b4[4]: 4 => 20 (14); сундук с Sleep Dreadnought Leviathan/Starboard Section (or Ogir-Yensa Sandsea/Platform 1 - East Tanks)
+16b4[5]: 20 => 52 (34); сундук с Reflect в Ogir-Yensa Sandsea/Primary Tank Complex
+16b4[6]: 52 => 116 (74); сундук с Balance в Nam-Yensa Sandsea/Demesne of the Sandqueen
+16b4[7]: 116 => 244 (F4); сундук с Dispel в The Tomb of Raithwall/Royal Passage
+16b5[0]: 0 => 1 (01); сундук с Vanish в The Tomb of Raithwall/Royal Passage
+16b5[1]: 1 => 3 (03); сундук с Regen в Giza Plains/Nomad Villige (Rains)
+16b5[2]: 27 => 31 (1F); сундук с Countdown в Stilshrine of Miriam/Ward of Velitation
+16b5[3]: 19 => 27 (1B); сундук с Death в Paramina Rift/Karydine Glacier
+16b5[4]: 3 => 19 (13); сундук с Haste в Eruyt Villige/Fane of the Path
+16b5[5]: 95 => 127 (7F); сундук с Blindga в Tchita Uplands/Field of Eternity
+16b5[6]: 31 => 95 (5F); сундук с Float в Tchita Uplands/Oliphzak Rise
+16b5[7]: 127 => 255 (FF); сундук с Shock Mote в Sochen Cave Palace/Mirror of the Soul
+
+16B6[1]: 0 => 2 (0x02) сундук с Silencega в Necrohol of Nabudis/Hall of Effulgent Light
+16B6[2]: 10 => 14 (0x0E) сундук с Faith в Necrohol of Nabudis/Hall of the Ivory Covenant
+16B6[3]: 2 => 10 (0x0A) сундук с Bravery в Necrohol of Nabudis/Cloister of the Highborn
+
+16B7[6]: 0 => 64 (0x40) сундук с Protectga в Necrohol of Nabudis/Cloister of Distant Song
+
+16b8[3]: 0 => 8 (08); сундук с Numerology в Lhusu Mines/Transitway 1
+16b8[4]: 8 => 24 (18); сундук с Infuse в Dreadnought Leviathan/Sub-control Room (or Ogir-Yensa Sandsea/Platform 1 - East Tanks)
+16b8[5]: 152 => 184 (B8); сундук с Shade of Black в The Tomb of Raithwall/Cloister of Flame
+
+16B8[7]: 56 => 184 (0xB8) сундук с Sight Unseeing в Zertinan Caverns/Canopy of Clay
+16b9[0]: 0 => 1 (01); сундук с Revive в Paramina Rift/Spine of the Icewyrm
+16b9[1]: 33 => 35 (23); сундук с Bonecrusher в Henne Mines/Phase 1 Dig
+
+16b9[5]: 1 => 33 (21); сундук с Charm в The Salikawood/Quietened Trace
+16b9[6]: 35 => 99 (63); сундук с 1000 Needles в Sochen Cave Palace/Falls of Time
+
+16ba[4]: 64 => 80 (50); сундук с Firefly в Zertinan Caverns/Invitation to Heresy
+16ba[5]: 64 => 96 (60); сундук с Diamond Armlet в Dalmasca Westersand/Windtrace Dunes (rare spawn)
+16ba[6]: 0 => 64 (40); сундук с Battle Harness в Barheim Passage/Op Sector 36
+16ba[7]: 96 => 224 (E0); сундук с Embroidered Tippet в Nam-Yensa Sandsea/Simoon Bluff
+16bb[0]: 0 => 1 (01); сундук с Golden Amulet в Ogir-Yensa Sandsea/Platform 1 - Refinery
+16BB[1]: 1 => 3 (0x03) сундук с Turtleshell Choker в Nam-Yensa Sandsea/Withering Shores
+
+16bb[3]: 3 => 11 (0B); сундук с Amber Armlet в Golmore Jungle/The Parting Glade
+
+16BB[6]: 11 => 75 (0x4B) сундук с Gillie Boots в Mosphoran Highwaste/Trail of Sky-flung Stone
+
+16bc[0]: 2 => 3 (03); сундук с Sage's Ring в Stilshrine of Miriam/Ward of Steel
+16bc[1]: 0 => 2 (02); сундук с Ruby Ring в Stilshrine of Miriam/Walk of Prescience
+
+16be[0]: 0 => 1 (01); сундук с Blood Sword в The Tomb of Raithwall/Cloister of Flame
+
+16BE[4]: 1 => 17 (0x11) сундук с Ashura в Stilshrine of Miriam/Walk of Reason
+
+16bf[1]: 0 => 2 (02); сундук с Sakura-saezuri в Sochen Cave Palace/Falls of Time
+16BF[2]: 8 => 12 (0x0C) сундук с Mythril Blade в Nabreus Deadlands/The Slumbermead
+16BF[3]: 0 => 8 (0x08) сундук с Cross Scale в Nabreus Deadlands/Field of the Fallen Lord
+16bf[4]: 2 => 18 (12); Claymore
+
+16C3[2]: 0 => 4 (0x04) сундук с Shell Shield в Stilshrine of Miriam/Cold Distance
+16C3[5]: 4 => 36 (0x24) сундук с Black Robes в Necrohol of Nabudis/Cloister of the Highborn
+
+16B4[3]: 0 => 8 (0x08) сундук с White Mask в Necrohol of Nabudis/Cloister of Distant Song
+
+16c7[1]: 0 => 2 (02); сундук с Orrachea Armlet в Royal Palace/Lower Halls
+16C7[2]: 26 => 30 (0x1E) сундук с Firefly в Dalmasca Estersand/Outpost
+16c7[3]: 22 => 30 (1E); сундук с Diamond Armlet в Zertinan Caverns/Sandfalls
+16c7[4]: 6 => 22 (16); сундук с Battle Harness в Stilshrine of Miriam/Walk of Sky
+
+16c8[0]: 0 => 1 (01); сундук с Thief's Cuffs в Mosphoran Highwaste/Babbling Vale
+16C8[2]: 1 => 5 (0x05) сундук с Jade Collar в Necrohol of Nabudis/Hall of Slumbering Might
+
+16CA[1]: 0 => 2 (0x02) сундук с Elixir в Nabreus Deadlands/The Fog Mutters
+16CA[2]: 2 => 6 (0x06) сундук с 4416 gil в Nabreus Deadlands/The Fog Mutters
+16CA[3]: 6 => 14 (0x0E) сундук с Serum в Nabreus Deadlands/The Fog Mutters
+16CA[4]: 14 => 30 (0x1E) сундук с Holy Mote в Nabreus Deadlands/Echoes of the Past
+
+16CD[0]: 236 => 237 (0xED) все 5 сундуков в Sochen Cave Palace/Hall of Shadowlight
+16cd[2]: 224 => 228 (E4); все 2 сундука Stilshrine of Miriam/Hall of Worth
+16CD[3]: 228 => 236 (EC); сундук с Elixir в Mosphoran Highwaste/Halny Crossing
+16cd[5]: 192 => 224 (E0); сундук с Ice Shield в Stilshrine of Miriam/Walk of Sky
+16cd[6]: 128 => 192 (C0); сундук с Tourmaline Ring в Stilshrine of Miriam/Walk of Sky
+16cd[7]: 0 => 128 (80); сундук с Hastega Mote в The Tomb of Raithwall/Southfall Passage
+16ce[0]: 56 => 57 (39); сундук с Elixir в The Tomb of Raithwall/Cloister of Flame
+16ce[1]: 56 => 58 (3A); сундук с Phoenix Down в The Tomb of Raithwall/Cloister of Flame
+16ce[2]: 121 => 125 (7D); сундук с Megalixir в Sochen Cave Palace/Mirror of the Soul
+16ce[3]: 16 => 24 (18); сундук с Hi-Potion в Garamsythe Waterway/Southern Sluiceway
+16ce[5]: 24 => 56 (38); сундук с Reflectga Mote в Dreadnought Leviathan/Large Freight Stores
+16ce[6]: 57 => 121 (79); сундук с 9872 gil в Golmore Jungle/Dell of the Dreamer
+
+16cf[2]: 8 => 12 (0C); сундук с 4963 gil в Sochen Cave Palace/The Acolyte's Burden
+16cf[3]: 0 => 8 (08); сундук с Hastega Mote в Sochen Cave Palace/The Acolyte's Burden
+
+16d0[0]: 0 => 1 (01); взяли 1-й сундук (Eksir Berries) в Phon Coast/The Vaddu Strand
+16d0[1]: 1 => 3 (03); взяли 2-й сундук (Teleport Stone) в Phon Coast/The Vaddu Strand
+16d0[2]: 3 => 7 (07); 3-й (Braid Wool)
+16d0[3]: 7 => 15 (0F); 4-й (Chronos Tear)
+16d0[4]: 15 => 31 (1F); 5-й (Rime Fang)
+16d0[5]: 31 => 63 (3F); 6-й (War Hammer)
+16d0[6]: 63 => 127 (7F); 7-й (Solein Fang)
+16d0[7]: 127 => 255 (FF); 8-й (Calot Hat)
+16d1[0]: 0 => 1 (01); 9-й ()
+16d1[1]: 1 => 3 (03); 10-й (Dark Mote)
+16d1[2]: 3 => 7 (07); 11-й (Soldier`s Cap)
+16d1[3]: 7 => 15 (0F); 12-й (Pointy Hat)
+16d1[4]: 15 => 31 (1F); 13-й (Dispel Mote)
+16d1[5]: 31 => 63 (3F); 14-й (Nu Kai Sand)
+16d1[6]: 63 => 127 (7F); 15-й (Round Shield)
+16d1[7]: 127 => 255 (FF); 16-й (Gravity Mote)
+
+16d2[3]: 240 => 248 (F8); сундук с 2918 gil в Nam-Yensa Sandsea/Simoon Bluff
+16d2[4]: 224 => 240 (F0); сундук с 2510 gil в Barheim Passage/The Lightworks
+16d2[5]: 192 => 224 (E0); сундук с Orrachea Armlet в Nalbina Dungeons/The Confiscatory
+16d2[6]: 0 => 64 (40); сундук с Tourmaline Ring в Nalbina Dungeons/The Confiscatory
+16d2[7]: 64 => 192 (C0); сундук с 428 gil в Nalbina Dungeons/The Confiscatory
+16d3[0]: 62 => 63 (3F); сундук с Potion в Royal Palace/Cellars
+16d3[1]: 0 => 2 (02); сундук с Ether в Royal Palace/Cellars
+16d3[2]: 42 => 46 (2E); сундук с Elixir в Royal Palace/Cellars
+16d3[3]: 34 => 42 (2A); сундук с Antidote в Royal Palace/Cellars
+16d3[4]: 46 => 62 (3E); сундук с Phoenix Down в Royal Palace/Cellars
+16d3[5]: 2 => 34 (22); сундук с Remedy в Royal Palace/Cellars
+
+16d4[0]: 0 => 1 (01); You obtain a map of the Royal Palace of Rabanastre
+16d4[1]: 1 => 3 (03); You obtain a map of the Garamsythe Waterway of Rabanastre
+
+16d4[4]: 3 => 19 (13); You obtain a map of the Barheim Passage
+
+16d5[0]: 0 => 1 (01); You obtain a map of the Ogir-Yensa Sandsea
+16d5[1]: 1 => 3 (03); You obtain a map of the Nam-Yensa Sandsea
+16d5[2]: 3 => 7 (07); You obtain a map of the The Tomb of Raithwall
+16d5[3]: 135 => 143 (8F); You obtain a map of the The Salikawood
+16D5[4]: 175 => 191 (0xBF) You obtain a map of the Nabreus Deadlands
+16d5[5]: 143 => 175 (AF); You obtain a map of the Henne Mines
+
+16d5[7]: 7 => 135 (87); You obtain a map of the Golmore Jungle
+
+16d6[3]: 0 => 8 (08); You obtain a map of the Stilshrine of Miriam
+16d6[4]: 8 => 24 (18); You obtain a map of the Sochen Cave Palace
+
+16d8[0]: 0 => 1 (01); You obtain a map of the Leviathan

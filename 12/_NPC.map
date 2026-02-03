@@ -1,0 +1,309 @@
+﻿15b6[0]: 128 => 129 (81); взяли охоту на Wywern Lord
+15b4[6]: 0 => 64 (40); Batahn
+
+15b7[7]: 0 => 128 (80); диалог после мульта в Dalan`s House
+
+15b9[6]: 0 => 64 (40); Tomaj
+15b9[7]: 64 => 192 (C0); Kytes перед входом в город после охоты
+
+15ba[4]: 0 => 16 (10); Gurdy в Phon Coast/Hunters` Camp
+15ba[4]: 0 => 16 (0x10) другая игра, Gurdy в Jahara/Banks of the Sogoht
+
+15bb[2]: 0 => 4 (04); поговорили с NPC в Rabanastre/East End
+
+15bd[3]: 0 => 8 (08); Tavernmaster в The Sandsea
+15bd[5]: 0 => 32 (20); поговорили с NPC в Rabanastre/North End
+
+15c0[0]: 2 => 3 (0x03) Rabanastran в Rabanastre/Eastgate
+15c0[1]: 0 => 2 (02); Yamoora
+
+15c2[7]: 0 => 128 (80); Conspicuous Bangaa у Дома Клана
+
+15c3[1]: 8 => 10 (0A); Clan Provisioner
+15c3[3]: 0 => 8 (08); Gastly
+
+15c6[6]: 0 => 64 (40); Docent в Nalbina Town/Aerodrome
+
+15c7[7]: 8 => 136 (88); Ktjn
+
+15c8[0]: 0 => 1 (01); Shop Clerk в Migelo`s Sundries
+15c8[5]: 1 => 33 (21); Panamis
+
+15c9[3]: 0 => 8 (08); NPC в Rabanastre/North End
+15c9[7]: 8 => 136 (88); Yugri
+
+15ce[3]: 0 => 8 (08); Amal
+
+15cf[5]: 0 => 32 (20); Arjie - торговка в Nomad Village
+15cf[7]: 40 => 168 (A8); Dania
+
+15d0[1]: 32 => 34 (22); Jinn в Crystal Glade
+15d0[5]: 0 => 32 (20); Masyua в Giza Plains/Nomad Villige (Rains)
+15d0[7]: 34 => 162 (A2); приняли охоту на Gil Snapper
+
+15d1[1]: 0 => 2 (02); Sadeen в Giza Plains/Nomad Villige (Rains)
+15d1[6]: 2 => 66 (42); Cockatrice в Old Archades/Alley of Low Whispers
+
+15d2[0]: 0 => 1 (01); Nutsy - мугл-картограф в Nomad Village
+
+15d4[5]: 0 => 32 (20); приняли охоту на Bloodwing
+
+15d6[2]: 32 => 36 (24); Tchigri в Dalmasca Estersand/South Bank Village
+15d6[5]: 0 => 32 (20); взяли третью охоту (Flowering Cactoid)
+
+15d7[3]: 128 => 136 (88); Dantro`s Wife
+15d7[7]: 0 => 128 (80); Unlucky Merchant в Dalmasca Estersand/South Bank Village
+
+15d8[1]: 0 => 2 (02); мугл в Dalmasca Estersand/Outpost
+15d8[3]: 2 => 10 (0A); сценка с Thcigri и прочими у воды
+15d8[4]: 10 => 26 (1A); сценка с кактусами и плывем обратно
+
+15d9[2]: 0 => 4 (04); сценка с кактусами и плывем обратно
+
+15da[0]: 0 => 1 (01); обучение, поговорили с солдатиком, показали камерой на ворота
+15da[7]: 1 => 129 (81); Archadian Wayfarer в Tchita Uplands/The Chosen Path
+
+15e1[4]: 32 => 48 (30); Targe в Bhujerba/Targe`s Arms
+15e1[5]: 0 => 32 (20); Rthil в Bhujerba/Rithil`s Protectives
+15e1[6]: 48 => 112 (70); Mait в Bhujerba/Mait`s Magicks
+15e1[7]: 112 => 240 (F0); Clio в Bhujerba/Clio`s Technicks
+15e2[0]: 0 => 1 (01); Bashketi в Bhujerba/Bashketi`s Gambits
+15e2[1]: 1 => 3 (03); Niray в Bhujerba/The Staras Residence
+
+15e4[1]: 0 => 2 (02); Shop Clerk в Bhujerba/Bashketi`s Gambits
+
+15e4[3]: 2 => 10 (0A); Bhujerban Sainikah 
+
+15e5[4]: 64 => 80 (50); Pilika в Bhujerba/ - приняли охоту (Rocktoise)
+
+15e5[6]: 0 => 64 (40); Aekon в Bhujerba/Lhusu Square
+
+15e6[5]: 0 => 32 (20); Street Vendor в Bhujerba/Lhusu Square
+
+15e7[0]: 0 => 1 (01); Informed Parijanah в Bhujerba/Bashketi`s Gambits
+
+15e7[5]: 1 => 33 (21); взяли охоту на Ixtab
+
+15e8[0]: 0 => 1 (01); War-chief Supinelu в деревне Гарифов
+
+15e8[2]: 193 => 197 (C5); взяли охоту на Enkelados
+
+15e8[6]: 129 => 193 (C1); Old War-chief Kadalu в деревне Гарифов
+15e8[7]: 1 => 129 (81); Garif Elder в деревне Гарифов
+
+15e9[5]: 0 => 32 (20); торговец в деревне Гарифов
+
+15ea[3]: 0 => 8 (08); коснулись кристала в Rabanastre
+15EA[4]: 136 => 152 (0x98) кристал в Nalbina Town/West Barbarican
+
+15ea[6]: 152 => 216 (D8); кристалл в Estersand или картограф
+15ea[7]: 8 => 136 (88); кристалл в Dalmasca Westersand
+15eb[0]: 0 => 1 (01); кристалл в Bhujerba
+
+15eb[2]: 1 => 5 (05); кристалл в Nam-Yensa Sandsea
+15eb[3]: 5 => 13 (0D); кристалл в Гробнице
+15eb[4]: 173 => 189 (BD); кристалл в Mosphoran Highwaste
+15EB[5]: 157 => 189 (0xBD) кристалл в Salikawood
+15eb[6]: 189 => 253 (FD); кристалл в Nabreus Deadlands
+15EB[7]: 13 => 141 (0x8D) кристалл в Jahara
+15ec[0]: 4 => 5 (05); кристалл Henne Mines/Staging Shaft
+15ec[1]: 5 => 7 (07); кристалл в Golmore Jungle/The Parting Glade
+15ec[2]: 0 => 4 (0x04) кристалл в Eruyt Villige/Road of Verdant Praise
+
+15ec[4]: 7 => 23 (17); кристалл в Mt Bur-Omisace/Sand-strewn Pass
+15ec[5]: 23 => 55 (37); кристалл в Stilshrine of Miriam/Walk of Mind
+15ec[6]: 183 => 247 (F7); кристалл в Phon Coast/Hunters` Camp
+15ec[7]: 55 => 183 (B7); кристалл в Tchita Uplands/The Chosen Path
+15ed[0]: 0 => 1 (01); кристалл в Sochen Cave Palace/Skybent Chamber
+15ed[1]: 1 => 3 (03); кристалл в Archades
+
+15ee[5]: 0 => 32 (20); кристалл в обучении
+15EE[6]: 32 => 96 (0x60) Al-Cid в Mt Bur-Omisace/Hall of the Light
+
+15ef[0]: 0 => 1 (01); Traveling Merchant (weapon) в Mt Bur-Omisace/Sand-strewn Pass
+15ef[1]: 1 => 3 (03); Traveling Merchant (accessories) в Mt Bur-Omisace/Sand-strewn Pass
+15ef[5]: 3 => 35 (23); Cartographers` Guild в Mt Bur-Omisace/Sand-strewn Pass
+
+15f0[5]: 0 => 32 (20); Game Hunter в Ozmone Plain/Sunlit Path
+15f0[5]: 0 => 32 (20); Game Hunter в Phon Coast/Hunters` Camp
+
+15f1[5]: 0 => 32 (20); картограф в Phon Coast/Hunters` Camp
+
+15f3[1]: 0 => 2 (02); Vendor of Goods в Phon Coast/Hunters` Camp
+
+15f3[4]: 2 => 18 (12); Nera в Eruyt Villige после убийства Vorpal Bunny
+
+15f5[4]: 0 => 16 (10); Wood-warder в Golmore Jungle/The Parting Glade
+
+15f9[2]: 32 => 36 (24); Chief Steward на самолете
+15f9[5]: 0 => 32 (20); продавец на самолете
+15f9[7]: 36 => 164 (A4); steward
+
+15fc[1]: 128 => 130 (82); поговорили с торговцем Dyce у Гробницы
+15fc[7]: 0 => 128 (80); Balzac
+
+15ff[3]: 0 => 8 (08); Traveling Merchant в Lowtown/North Sprawl
+15ff[7]: 8 => 136 (88); поговорили с охотодателем (Orthros)
+
+1601[5]: 0 => 32 (20); доска показала охотодателя на Wraith
+
+1602[0]: 0 => 1 (01); Traveling Merchant в Lowtown/South Sprawl
+
+1608[1]: 128 => 130 (82); поговорили с охотодателем Roblon
+
+1608[7]: 0 => 128 (0x80) Antiqued Armors в Nalbina Town/West Ward
+1609[0]: 32 => 33 (0x21) Troublesome Technicks в Nalbina Town/Jajim Bazaar
+1609[1]: 49 => 51 (0x33) Weapons of War в Nalbina Town/West Ward
+
+1609[4]: 33 => 49 (0x31) Morning Star Gambits
+1609[5]: 0 => 32 (0x20) Mysterious Magicks в Nalbina Town/Jajim Bazaar
+
+1609[7]: 55 => 183 (B7); Imperial у входа на аэродром в Nalbina Town/West Ward
+
+160a[3]: 192 => 200 (C8); приняли охоту на Roblon
+160a[5]: 200 => 232 (E8); приняли охоту на Carrot
+160a[6]: 0 => 64 (40); сценка с Imperial в подвале дворца
+160a[7]: 64 => 192 (0xC0) Lulucce - мугл-картограф в Eruyt Villige/Road of Verdant Praise
+
+160b[1]: 0 => 2 (02); Tetran в Dreadnout Leviathan/Brig No. 1
+160b[4]: 66 => 82 (52); Balthier ушел
+160b[6]: 2 => 66 (42); Hymms - охотодатель Feral Retriever
+
+160c[4]: 0 => 4 (04); Horne - мугл-телепортатор в Rabanastre/Southgate
+
+160d[0]: 48 => 49 (31); Hurdy - мугл-телепортатор в Rabanastre/Eastgate
+160d[4]: 32 => 48 (30); Moogling Attendant мугл-телепортатор у The Sandsea и Muthru Bazaar
+160d[5]: 0 => 32 (20); Montblanc
+
+160e[6]: 0 => 64 (40); Burrogh - торговец в Barheim Passage/The Lightworks
+160e[0]: 64 => 65 (41); Nono - мугл в Dalmasca Westersand/The Western Divide
+
+160f[3]: 128 => 136 (88); Ma'kleou в Nabreus Deadlands/The Muted Scarp
+160f[7]: 0 => 128 (80); Kait в Bhujerba/The Staras Residence
+
+1610[6]: 0 => 64 (40); Dyce - торговец в Ogir-Yensa Sandsea/Yensa Border Tunnel
+1610[7]: 64 => 192 (C0); Dyce - торговец в Nam-Yensa Sandsea/Trail of Fading Warmth
+
+
+1611[0]: 36 => 37 (25); приняли охоту на White Mousse
+1611[2]: 32 => 36 (24); Lohen - торговец в Dalmasca Westersand/The Western Divide
+1611[5]: 0 => 32 (20); Palace Servant в подвале дворца
+1610[7]: 64 => 192 (C0); поговорили с торговцем Dyce у выхода с Ogir-Yensa Sandsea
+
+1611[0]: 36 => 37 (0x25) Sorbet - мугл-телепортатор в Rabanastre/Westersand
+
+1612[1]: 8 => 10 (0A); Caravaner в Mosphoran Highwaste/Babbling Vale
+1612[3]: 0 => 8 (08); торговец в Mosphoran Highwaste/Babbling Vale
+1612[5]: 10 => 42 (2A); Moogle Boss в The Salikawood/Living Chasm
+
+1613[0]: 84 => 85 (55); Armor Seller в Archades/Vint`s Armaments
+1613[1]: 117 => 119 (77); Lebleu`s Daughter
+1613[2]: 64 => 68 (44); Magickery Proprietor в Archades/Charlotte's Magickery
+1613[3]: 119 => 127 (7F); Granch
+1613[4]: 68 => 84 (54); Technick Seller в Archades/Bulward's Technicks
+1613[5]: 85 => 117 (75); Weapon Seller в Archades/Vint`s Armaments
+1613[6]: 0 => 64 (40); Stranded Merchant в Old Archades/Alley of Low Whispers
+
+161f[4]: 128 => 144 (90); Mummer
+161f[5]: 144 => 176 (B0); Proud Mother
+161f[6]: 176 => 240 (F0); Traveling Gentleman
+161f[7]: 0 => 128 (80); Poor Husband
+
+1620[0]: 86 => 87 (57); Ardent Woman
+1620[1]: 68 => 70 (46); Look-alike
+1620[2]: 64 => 68 (44); Talented Woman
+1620[3]: 215 => 223 (DF); Man from Giza
+1620[4]: 70 => 86 (56); Judge's Wife
+1620[6]: 0 => 64 (40); Family-minded Girl
+1620[7]: 87 => 215 (D7); Tutor
+
+1621[0]: 0 => 1 (01); Avid Traveler
+1621[1]: 1 => 3 (03); Poor Wife
+1621[2]: 35 => 39 (27); Ardent Man
+1621[3]: 39 => 47 (2F); Look-alike
+1621[4]: 111 => 127 (7F); Akademician
+1621[5]: 3 => 35 (23); Daughter-in-Law
+1621[6]: 47 => 111 (6F); Would-be Judge
+
+1622[0]: 228 => 229 (E5); Reminiscing Lady
+1622[2]: 224 => 228 (E4); Moneyed Gentleman
+1622[5]: 0 => 32 (20); Smitten Woman
+1622[6]: 32 => 96 (60); Historian
+1622[7]: 96 => 224 (E0); Music Appreciator
+
+1623[0]: 192 => 193 (C1); Artisan Architect
+1623[1]: 193 => 195 (C3); Face-Goer
+1623[3]: 195 => 203 (CB); Boutiquere
+1623[6]: 0 => 64 (40); Smitten Man
+1623[7]: 64 => 192 (C0); Perceptive Man
+
+1624[0]: 254 => 255 (FF); Lutenist
+1624[1]: 252 => 254 (FE); Builder
+1624[2]: 248 => 252 (FC); Girl on an Errand
+1624[3]: 0 => 8 (08); Cab Guide
+1624[4]: 232 => 248 (F8); Determined Researcher
+1624[5]: 200 => 232 (E8); Faded Star
+1624[6]: 8 => 72 (48); Failed Researcher
+1624[7]: 72 => 200 (C8); Worried Husband
+
+1625[0]: 242 => 243 (F3); Athletic Woman
+1625[1]: 240 => 242 (F2); Gentleman Onlooker
+1625[2]: 251 => 255 (FF); Ex-Researcher
+1625[3]: 243 => 251 (FB); Aspiring Starlet
+1625[4]: 0 => 16 (10); Senior Researcher
+1625[5]: 16 => 48 (30); Materialistic Woman
+1625[6]: 48 => 112 (70); Avid Reader
+1625[7]: 112 => 240 (F0); Eager Crier
+
+1626[0]: 190 => 191 (BF); Tour Leader
+1626[1]: 0 => 2 (02); Researcher`s Wife
+1626[2]: 10 => 14 (0E); Good Brother
+1626[3]: 2 => 10 (0A); Vegetable Seller
+1626[4]: 14 => 30 (1E); Dangerous Chef
+1626[5]: 30 => 62 (3E); Happy Novelist
+1626[7]: 62 => 190 (BE); Romantic Lady
+
+1627[0]: 176 => 177 (B1); Bhujerbian Lady
+1627[1]: 181 => 183 (B7); Lazy Profiteer
+1627[2]: 177 => 181 (B5); Waiting Woman
+1627[3]: 183 => 191 (BF); Greenseller
+1627[4]: 0 => 16 (10); Philosopher of Cuisine
+1627[5]: 16 => 48 (30); Tarot Reader
+1627[7]: 48 => 176 (B0); Lucky Man
+
+162c[3]: 128 => 136 (88); Chopmaster
+162c[7]: 0 => 128 (80); (UInt16)0 => 128; (UInt32)0 => 128 Sandsea Moogle в Nam-Yensa Sandsea/The Sandscale Bank
+
+162d[1]: 0 => 2 (02); Wounded Imperial в Henne Mines/Pithead Junction A
+
+162e[5]: 0 => 32 (20); поговорили с Adair в Mosphoran Highwaste/Babbling Vale
+162e[6]: 32 => 96 (60); поговорили с Caravaner в Mosphoran Highwaste/Babbling Vale
+
+162F[2]: 0 => 4 (0x04) Scout в Mosphoran Highwaste/Babbling Vale
+
+1630[2]: 0 => 4 (04); overseer в The Salikawood/Quietened Trace
+1630[4]: 4 => 20 (14); Ada в Dalmasca Estersand/South Bank Village
+
+1631[1]: 112 => 114 (72); Shifty-Eyed Man
+1631[2]: 114 => 118 (76); Beasley
+1631[4]: 32 => 48 (30); Indefatigable Granny
+1631[5]: 0 => 32 (20); поговорили с Lucky Man
+1631[6]: 48 => 112 (70); Worried Grandson
+
+1632[1]: 0 => 2 (02); Little Sister
+
+1636[__23____]: 128 => 140 (8C); старики у Cockatrice в Old Archades/Alley of Low Whispers
+1636[4]: 140 => 156 (9C); старики у Cockatrice в Old Archades/Alley of Low Whispers
+1636[7]: 0 => 128 (80); Imperial, не пускающий в Archades
+
+1637[3]: 32 => 40 (28); Docent в Archades/Tsenoble
+1637[5]: 0 => 32 (20); (UInt16)0 => 32; (UInt32)0 => 32 Informed Sainikah в Bhujerba/Clio`s Technicks спалил нас во время квеста Notoriety
+
+163a[0]: 16 => 17 (11); диалог с Чокобо в Ozmone Plain/The Shred
+163A[0]: 0 => 1 (0x01) Wayward Chocobo в Mosphoran Highwaste/Rays of Ashen Light
+
+163b[0]: 0 => 1 (01); диалог с High-chief Zayalu
+
+163c[2]: 0 => 4 (04); мугл-картограф в Jahara/Banks of the Sogoht
+
+163f[4]: 0 => 16 (10); закончили лечение, дали Barheim Key и Golden Armlet

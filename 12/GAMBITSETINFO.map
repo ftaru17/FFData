@@ -1,0 +1,8 @@
+SIZE|52
+
+ARRAY12|0|&GAMBITSLOT.map|Slot[]
+VAR|48|2|EnabledMask
+VAR|50|1|SlotCount
+// <Gambits: 0x542D4> [CHAR#6__GAMBITSET#5__Slot[]__Action: +0x16 +0x0]: 51 => 52 (34); (UInt16)51 => 52 заменили gambit-action у Fran!!!!
+
+VAR|51|1|Unk51

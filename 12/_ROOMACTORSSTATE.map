@@ -1,0 +1,407 @@
+﻿
+VAR | 0x8444 | 32	// Dalmasca Estersand/The Stepping
+VAR | 0x8464 | 32	// Dalmasca Estersand/Yardang Labirinth
+VAR | 0x8484 | 32	// Dalmasca Estersand/Sand-swept Naze
+VAR | 0x84A4 | 32	// 84a4 вернулись в Dalmasca Estersand/South Bank Village c собранными Semclam Shells
+VAR | 0x84C4 | 32	// Dalmasca Estersand/Passage Entrance
+VAR | 0x84E4 | 32
+VAR | 0x8504 | 32	// Dalmasca Estersand/Outpost
+VAR | 0x8524 | 32	// 8525-8528 диалог с Tchigri и плывем на север
+VAR | 0x8544 | 32
+VAR | 0x8564 | 32
+VAR | 0x8584 | 32	// Giza Plains/The Throneroad
+VAR | 0x85A4 | 32
+VAR | 0x85C4 | 32	// 85cc-85d8 сценка с Jinn после заряда Sunstone
+VAR | 0x85E4 | 32	// Toam Hills
+VAR | 0x8604 | 32	// Nomad Village
+VAR | 0x8624 | 32	// Starfall Field
+                // 8638-863b
+                // 863c перешли в Ozmone Plain/Field of Fallen Wings
+VAR | 0x8644 | 32	// Giza Plains/Crystal Glade
+VAR | 0x8664 | 32	// Giza Plains/Gizas South Bank - Gizas North Bank
+				// 8678 коснулись кристалла сохранения
+VAR | 0x8684 | 32
+VAR | 0x86A4 | 32	// Dalmasca Westersand/Galtea Downs
+VAR | 0x86C4 | 32
+VAR | 0x86E4 | 32	// Dalmasca Westersand/Shimmering Horizons
+VAR | 0x8704 | 32	// Dalmasca Westersand/The Midfault
+VAR | 0x8724 | 32	// Dalmasca Westersand/Windtrace Dunes
+VAR | 0x8744 | 32	// Dalmasca Westersand/The Western Divide
+VAR | 0x8764 | 32
+VAR | 0x8784 | 32	// Garamsythe Waterway/Central Spur Stairs
+VAR | 0x87A4 | 32	// Garamsythe Waterway/Northern Sluiceway
+VAR | 0x87C4 | 32	// Garamsythe Waterway/North Spur Stairs
+VAR | 0x87E4 | 32	// Garamsythe Waterway/East Spur Stairs
+VAR | 0x8804 | 32	// Garamsythe Waterway/No. 11 Channel
+VAR | 0x8824 | 32	// Garamsythe Waterway/East Sluice Control
+VAR | 0x8844 | 32	// Garamsythe Waterway/West Sluice Control
+VAR | 0x8864 | 32	// Garamsythe Waterway/No. 10 Channel
+VAR | 0x8884 | 32	// Garamsythe Waterway/Central Waterway Control
+VAR | 0x88A4 | 32	// Garamsythe Waterway/Southern Sluiceway
+VAR | 0x88C4 | 32	// 88c4-88c8 Vaan вылез в Rabanastre из канализации
+VAR | 0x88E4 | 32
+VAR | 0x8904 | 32
+VAR | 0x8924 | 32
+VAR | 0x8944 | 32
+VAR | 0x8964 | 32
+VAR | 0x8984 | 32
+VAR | 0x89A4 | 32
+VAR | 0x89C4 | 32
+VAR | 0x89E4 | 32
+VAR | 0x8A04 | 32
+VAR | 0x8A24 | 32
+VAR | 0x8A44 | 32
+VAR | 0x8A64 | 32
+VAR | 0x8A84 | 32
+VAR | 0x8AA4 | 32	// обучение, Nalbina Fortress
+                // 8aa4-8aa9 обучение, следующая комната за брифингом по мини-карте, сценка
+                // 8aa4-8aa9 другая игра! обучение, следующая комната за брифингом по мини-карте, сценка
+                // 8aaa-8aad обучение, следующая комната за брифингом по мини-карте, сценка
+                // 8aaa-8aad обучение, Aerial Gardens (Reks)
+VAR | 0x8AC4 | 32	// 8ac4-8acb обучение, Upper Apartments (или перед переходом я пытался убегать от врагов)
+				// 8ac4-8ac9 Lower Apartments
+VAR | 0x8AE4 | 32	// 8ae4-8ae7 подготовка сохранения в обучении
+				// 8ae4-8ae7 The Highhall
+VAR | 0x8B04 | 32	// 8b04-8b08 обучение, Upper Apartments
+                // 8b04-8b0a закончилось обучение
+                // 8b04-8b08	Highhall - Upper Apartments
+                // 8b05-8b0a закончилось обучение, мульт с Vaan в канализации
+VAR | 0x8B24 | 32	// Rabanastre/North End
+VAR | 0x8B44 | 32	// Rabanastre/Muthru Bazaar
+VAR | 0x8B64 | 32	// Rabanastre/East End
+VAR | 0x8B84 | 32	// Rabanastre/Southern Plaza
+VAR | 0x8BA4 | 32
+VAR | 0x8BC4 | 32	// Garamsythe Waterway/East Waterway Control
+VAR | 0x8BE4 | 32	// Rabanastre/Eastgate
+VAR | 0x8C04 | 32	// Rabanastre/Southgate
+VAR | 0x8C24 | 32	// Rabanastre/Westgate
+VAR | 0x8C44 | 32	// Lowtown/North Sprawl
+VAR | 0x8C64 | 32	// Lowtown/South Sprawl
+VAR | 0x8C84 | 32	// Royal Palace/Cellar Stores
+VAR | 0x8CA4 | 32	// Royal Palace/Cellars
+VAR | 0x8CC4 | 32	// Royal Palace/Lower Halls
+VAR | 0x8CE4 | 32	// Nalbina Dungeons/Stockade
+VAR | 0x8D04 | 32	// Royal Palace/The Garden Stairs
+VAR | 0x8D24 | 32
+VAR | 0x8D44 | 32	// 8d49 Nalbina Town/Jajim Bazaar
+VAR | 0x8D64 | 32	// 8d64-8d66 Nalbina Town/West Ward
+				// 8d65 поговорили с охотодателем Roblon
+VAR | 0x8D84 | 32	// 8d84-8d89 Nalbina Town/Aerodrome
+VAR | 0x8DA4 | 32	// Nalbina Dungeons/Arena
+VAR | 0x8DC4 | 32	// Nalbina Dungeons/The Black Watch
+VAR | 0x8DE4 | 32	// Nalbina Dungeons/The Confiscatory
+VAR | 0x8E04 | 32
+VAR | 0x8E24 | 32	// Barheim Passage/Great Eastern Passage
+VAR | 0x8E44 | 32	// Barheim Passage/Op Sector 36
+VAR | 0x8E64 | 32	// Barheim Passage/Special Op Sector 3
+VAR | 0x8E84 | 32	// Barheim Passage/Op Sector 37
+VAR | 0x8EA4 | 32	// Barheim Passage/Op Sector 29
+VAR | 0x8EC4 | 32	// Barheim Passage/Great Central Passage
+VAR | 0x8EE4 | 32	// Barheim Passage/The Zeviah Subterrane
+VAR | 0x8F04 | 32	// Barheim Passage/North-South Junction
+VAR | 0x8F24 | 32	// Barheim Passage/Terminus No. 4
+VAR | 0x8F44 | 32	// Barheim Passage/Terminus No. 4 Adjunct
+VAR | 0x8F64 | 32
+VAR | 0x8F84 | 32
+VAR | 0x8FA4 | 32
+VAR | 0x8FC4 | 32
+VAR | 0x8FE4 | 32
+VAR | 0x9004 | 32
+VAR | 0x9024 | 32	// Bhujerba/Travica Way
+VAR | 0x9044 | 32	// Bhujerba/Cloudborne Row
+VAR | 0x9064 | 32	// Bhujerba/Miners' End
+VAR | 0x9084 | 32	// Bhujerba/Lhusu Square
+VAR | 0x90A4 | 32
+VAR | 0x90C4 | 32
+VAR | 0x90E4 | 32	// Lhusu Mines/Shaft Entry
+VAR | 0x9104 | 32	// Lhusu Mines/Oltam Span
+VAR | 0x9124 | 32	// Lhusu Mines/Transitway 1
+VAR | 0x9144 | 32
+VAR | 0x9164 | 32	// Lhusu Mines/Shunia Twinspan
+VAR | 0x9184 | 32	// Lhusu Mines/Site 2
+VAR | 0x91A4 | 32
+VAR | 0x91C4 | 32
+VAR | 0x91E4 | 32
+VAR | 0x9204 | 32
+VAR | 0x9224 | 32
+VAR | 0x9244 | 32
+VAR | 0x9264 | 32
+VAR | 0x9284 | 32
+VAR | 0x92A4 | 32
+VAR | 0x92C4 | 32	// 93c4-93c7 убили Vossler
+VAR | 0x92E4 | 32	// Dreadnought Leviathan/Port Launch
+VAR | 0x9304 | 32	// Dreadnought Leviathan/Port Section
+VAR | 0x9324 | 32	// Dreadnought Leviathan/Large Freight Stores
+VAR | 0x9344 | 32	// Dreadnought Leviathan/Starboard Section
+VAR | 0x9364 | 32	// Dreadnought Leviathan/Sub-control Room
+VAR | 0x9384 | 32	// Dreadnought Leviathan/Airship Berth Access
+VAR | 0x93A4 | 32	// Dreadnought Leviathan/Central Brig Access
+VAR | 0x93C4 | 32	// Shiva/?? (там, где убивали Vossler)
+VAR | 0x93E4 | 32	// Ogir-Yensa Sandsea/Platform 1 - East Tanks
+VAR | 0x9404 | 32	// Ogir-Yensa Sandsea/Platform 1 - Refinery
+VAR | 0x9424 | 32	// Ogir-Yensa Sandsea/East Junction
+VAR | 0x9444 | 32	// Ogir-Yensa Sandsea/Primary Tank Complex
+VAR | 0x9464 | 32
+VAR | 0x9484 | 32	// Ogir-Yensa Sandsea/Platform 1 - South Tanks
+VAR | 0x94A4 | 32	// Ogir-Yensa Sandsea/Platform 2 - Refinery
+VAR | 0x94C4 | 32	// Ogir-Yensa Sandsea/Yensa Border Tunnel
+VAR | 0x94E4 | 32	// Ogir-Yensa Sandsea/South Tank Approach
+VAR | 0x9504 | 32	// Nam-Yensa Sandsea/The Urutan-Yensa Sea
+VAR | 0x9524 | 32	// Nam-Yensa Sandsea/Withering Shores
+VAR | 0x9544 | 32	// Nam-Yensa Sandsea/Augur Hill
+VAR | 0x9564 | 32	// Nam-Yensa Sandsea/Yellow Sands
+VAR | 0x9584 | 32	// Nam-Yensa Sandsea/The Sandscale Bank
+VAR | 0x95A4 | 32	// Nam-Yensa Sandsea/Demesne of the Sandqueen
+VAR | 0x95C4 | 32	// Nam-Yensa Sandsea/Trail of Fading Warmth
+VAR | 0x95E4 | 32	// Nam-Yensa Sandsea/Simoon Bluff
+VAR | 0x9604 | 32	// The Tomb of Raithwall/Valley of the Dead
+VAR | 0x9624 | 32	// The Tomb of Raithwall/Hall of the Destroyer
+VAR | 0x9644 | 32	// The Tomb of Raithwall/Hall of the Sentinel
+VAR | 0x9664 | 32	// The Tomb of Raithwall/Royal Passage
+VAR | 0x9684 | 32	// The Tomb of Raithwall/Southfall Passage
+VAR | 0x96A4 | 32	// The Tomb of Raithwall/Northfall Passage
+VAR | 0x96C4 | 32	// The Tomb of Raithwall/Cloister of Flame
+VAR | 0x96E4 | 32	// The Tomb of Raithwall/Chamber of First Light
+VAR | 0x9704 | 32
+VAR | 0x9724 | 32
+VAR | 0x9744 | 32
+VAR | 0x9764 | 32
+VAR | 0x9784 | 32	// 9792 въехали на Чокобо через скрытый путь в Ozmone Plain/The Shred
+VAR | 0x97A4 | 32
+VAR | 0x97C4 | 32	// 97c4 вошли в Golmore Jungle по сюжету
+					// 97c5 первый вход в Golmore Jungle/Paths of Chained Light
+VAR | 0x97E4 | 32
+VAR | 0x9804 | 32
+VAR | 0x9824 | 32
+VAR | 0x9844 | 32	// 9844-9852 в деревню Гарифов пришел Ларса
+VAR | 0x9864 | 32	// 9864-986c Henne Mines/Pithead Junction A
+VAR | 0x9884 | 32
+VAR | 0x98A4 | 32
+VAR | 0x98C4 | 32
+VAR | 0x98E4 | 32
+VAR | 0x9904 | 32
+VAR | 0x9924 | 32
+VAR | 0x9944 | 32
+VAR | 0x9964 | 32
+VAR | 0x9984 | 32
+VAR | 0x99A4 | 32
+VAR | 0x99C4 | 32
+VAR | 0x99E4 | 32
+VAR | 0x9A04 | 32
+VAR | 0x9A24 | 32
+VAR | 0x9A44 | 32	// 9a47 Game Hunter в Tchita Uplands/The Shaded Path
+VAR | 0x9A64 | 32
+VAR | 0x9A84 | 32
+VAR | 0x9AA4 | 32
+VAR | 0x9AC4 | 32	// 9ac6 вышли обратно в Tchita Uplands/Uazcuff Hills
+VAR | 0x9AE4 | 32
+VAR | 0x9B04 | 32
+VAR | 0x9B24 | 32
+VAR | 0x9B44 | 32
+VAR | 0x9B64 | 32
+VAR | 0x9B84 | 32
+VAR | 0x9BA4 | 32
+VAR | 0x9BC4 | 32
+VAR | 0x9BE4 | 32
+VAR | 0x9C04 | 32
+VAR | 0x9C24 | 32
+VAR | 0x9C44 | 32
+VAR | 0x9C64 | 32
+VAR | 0x9C84 | 32
+VAR | 0x9CA4 | 32
+VAR | 0x9CC4 | 32
+VAR | 0x9CE4 | 32
+VAR | 0x9D04 | 32
+VAR | 0x9D24 | 32
+VAR | 0x9D44 | 32
+VAR | 0x9D64 | 32
+VAR | 0x9D84 | 32
+VAR | 0x9DA4 | 32
+VAR | 0x9DC4 | 32
+VAR | 0x9DE4 | 32
+VAR | 0x9E04 | 32
+VAR | 0x9E24 | 32	// 9e2c ???
+VAR | 0x9E44 | 32
+VAR | 0x9E64 | 32
+VAR | 0x9E84 | 32
+VAR | 0x9EA4 | 32
+VAR | 0x9EC4 | 32	// 9ec4-9ec6 ???
+VAR | 0x9EE4 | 32
+VAR | 0x9F04 | 32
+VAR | 0x9F24 | 32
+VAR | 0x9F44 | 32
+VAR | 0x9F64 | 32
+VAR | 0x9F84 | 32
+VAR | 0x9FA4 | 32
+VAR | 0x9FC4 | 32
+VAR | 0x9FE4 | 32
+VAR | 0xA004 | 32
+VAR | 0xA024 | 32
+VAR | 0xA044 | 32
+VAR | 0xA064 | 32
+VAR | 0xA084 | 32
+VAR | 0xA0A4 | 32
+VAR | 0xA0C4 | 32
+VAR | 0xA0E4 | 32
+VAR | 0xA104 | 32
+VAR | 0xA124 | 32
+VAR | 0xA144 | 32
+VAR | 0xA164 | 32
+VAR | 0xA184 | 32
+VAR | 0xA1A4 | 32
+VAR | 0xA1C4 | 32
+VAR | 0xA1E4 | 32
+VAR | 0xA204 | 32
+VAR | 0xA224 | 32
+VAR | 0xA244 | 32	// a250-a252 вошли в комнатушку с Iga Blade/ Koga Blade
+					// a251 ходим по водопадам в Sochen Cave
+VAR | 0xA264 | 32
+VAR | 0xA284 | 32
+VAR | 0xA2A4 | 32	// a2ba использовали ключ и вошли в пещеру к Mandragoras
+VAR | 0xA2C4 | 32	// a2c4 Old Archades/Alley of Low Whispers
+VAR | 0xA2E4 | 32
+VAR | 0xA304 | 32
+VAR | 0xA324 | 32
+VAR | 0xA344 | 32
+VAR | 0xA364 | 32
+VAR | 0xA384 | 32
+VAR | 0xA3A4 | 32	// a3ad-a3ae Archades/Trant
+VAR | 0xA3C4 | 32
+VAR | 0xA3E4 | 32
+VAR | 0xA404 | 32
+VAR | 0xA424 | 32	// a42f Archades/Nilbasse
+VAR | 0xA444 | 32
+VAR | 0xA464 | 32
+VAR | 0xA484 | 32	// a484 Archades/Trant
+VAR | 0xA4A4 | 32
+VAR | 0xA4C4 | 32
+VAR | 0xA4E4 | 32
+VAR | 0xA504 | 32
+VAR | 0xA524 | 32
+VAR | 0xA544 | 32
+VAR | 0xA564 | 32
+VAR | 0xA584 | 32
+VAR | 0xA5A4 | 32
+VAR | 0xA5C4 | 32
+VAR | 0xA5E4 | 32
+VAR | 0xA604 | 32
+VAR | 0xA624 | 32
+VAR | 0xA644 | 32
+VAR | 0xA664 | 32
+VAR | 0xA684 | 32	// a69a Golmore Jungle/The Needlebrake
+VAR | 0xA6A4 | 32	// a6a5-a6b4 сценка с Fran и Vaan на входе в деревню Виер
+					// a6a9 Golmore Jungle/Whisperleaf Way
+VAR | 0xA6C4 | 32	// a6db: 0 => 1 (01); (UInt16)30720 => 63489; (UInt32)30720 => 63489
+					// a6dc: 120 => 248 (F8); (UInt16)120 => 248; (UInt32)120 => 248
+VAR | 0xA6E4 | 32
+VAR | 0xA704 | 32
+VAR | 0xA724 | 32
+VAR | 0xA744 | 32
+VAR | 0xA764 | 32
+VAR | 0xA784 | 32
+VAR | 0xA7A4 | 32
+VAR | 0xA7C4 | 32
+VAR | 0xA7E4 | 32
+VAR | 0xA804 | 32
+VAR | 0xA824 | 32
+VAR | 0xA844 | 32
+VAR | 0xA864 | 32
+VAR | 0xA884 | 32
+VAR | 0xA8A4 | 32
+VAR | 0xA8C4 | 32
+VAR | 0xA8E4 | 32
+VAR | 0xA904 | 32
+VAR | 0xA924 | 32	// a926 ??? что-то по дороге с охоты на Trickster
+					// a933: 3 => 7 (07); (UInt16)65027 => 65031; (UInt32)4161011203 => 4161011207 поговорили с Monid в Paramina Rift/Frozen Brook по охоте
+VAR | 0xA944 | 32
+VAR | 0xA964 | 32
+VAR | 0xA984 | 32
+VAR | 0xA9A4 | 32	// a9a9: 31 => 63 (3F); (UInt16)31 => 3135; (UInt32)31 => 3135 Monid говорит, что Trickster вылез
+					// a9aa: 0 => 12 (0C); (UInt16)0 => 12; (UInt32)0 => 12 Monid говорит, что Trickster вылез
+VAR | 0xA9C4 | 32
+VAR | 0xA9E4 | 32
+VAR | 0xAA04 | 32
+VAR | 0xAA24 | 32
+VAR | 0xAA44 | 32
+VAR | 0xAA64 | 32	// aa64: 230 => 239 (EF); (UInt16)230 => 239; (UInt32)33489126 => 33489135 зашли в Stilshrine of Miriam/Ward of Measure после подъема статуей меча
+VAR | 0xAA84 | 32	// aa85: 1 => 3 (03); (UInt16)65281 => 65283; (UInt32)4278451969 => 4278451971 статуя подняла меч
+VAR | 0xAAA4 | 32
+VAR | 0xAAC4 | 32
+VAR | 0xAAE4 | 32
+VAR | 0xAB04 | 32
+VAR | 0xAB24 | 32
+VAR | 0xAB44 | 32	// ab46: 127 => 255 (FF); (UInt16)65407 => 65535; (UInt32)4294967167 => 4294967295 по дороге по Stilshrine of Miriam 
+                    // ab4f: 12 => 31 (1F); (UInt16)12 => 7967; (UInt32)12 => 1974047 Mateus
+                    // ab50: 0 => 31 (1F); (UInt16)0 => 7711; (UInt32)0 => 7711 Mateus
+                    // ab51: 0 => 30 (1E); (UInt16)0 => 30; (UInt32)0 => 30 Mateus
+VAR | 0xAB64 | 32	// ab64: 30 => 31 (1F); (UInt16)16158 => 16159; (UInt32)2139045662 => 2139045663 вернулись в Stilshrine of Miriam/Ward of the Sword-King
+VAR | 0xAB84 | 32
+VAR | 0xABA4 | 32
+VAR | 0xABC4 | 32
+VAR | 0xABE4 | 32
+VAR | 0xAC04 | 32
+VAR | 0xAC24 | 32
+VAR | 0xAC44 | 32
+VAR | 0xAC64 | 32
+VAR | 0xAC84 | 32	// ac87: 7 => 15 (0F); (UInt16)1799 => 1807; (UInt32)460551 => 460559 убили судью Bergan
+VAR | 0xACA4 | 32	// acac: 248 => 252 (FC); (UInt16)16376 => 16380; (UInt32)266354680 => 266354684 вышли в Temple Approach
+VAR | 0xACC4 | 32
+VAR | 0xACE4 | 32
+VAR | 0xAD04 | 32
+VAR | 0xAD24 | 32
+VAR | 0xAD44 | 32
+VAR | 0xAD64 | 32
+VAR | 0xAD84 | 32
+VAR | 0xADA4 | 32
+VAR | 0xADC4 | 32
+VAR | 0xADE4 | 32
+VAR | 0xAE04 | 32
+VAR | 0xAE24 | 32
+VAR | 0xAE44 | 32
+VAR | 0xAE64 | 32	// ae64-ae67 новая игра, Nalbina Fortress/Inner Ward
+VAR | 0xAE84 | 32
+VAR | 0xAEA4 | 32
+VAR | 0xAEC4 | 32
+VAR | 0xAEE4 | 32
+VAR | 0xAF04 | 32
+VAR | 0xAF24 | 32
+VAR | 0xAF44 | 32
+VAR | 0xAF64 | 32
+VAR | 0xAF84 | 32
+VAR | 0xAFA4 | 32
+VAR | 0xAFC4 | 32
+VAR | 0xAFE4 | 32
+VAR | 0xB004 | 32
+VAR | 0xB024 | 32
+VAR | 0xB044 | 32
+VAR | 0xB064 | 32
+VAR | 0xB084 | 32
+VAR | 0xB0A4 | 32
+VAR | 0xB0C4 | 32
+VAR | 0xB0E4 | 32
+VAR | 0xB104 | 32
+VAR | 0xB124 | 32
+VAR | 0xB144 | 32
+VAR | 0xB164 | 32
+VAR | 0xB184 | 32
+VAR | 0xB1A4 | 32
+VAR | 0xB1C4 | 32
+VAR | 0xB1E4 | 32
+VAR | 0xB204 | 32
+VAR | 0xB224 | 32	// Dreadnout Leviathan/Brig No. 1
+VAR | 0xB244 | 32
+VAR | 0xB264 | 32
+VAR | 0xB284 | 32
+VAR | 0xB2A4 | 32
+VAR | 0xB2C4 | 32
+VAR | 0xB2E4 | 32
+VAR | 0xB304 | 32
+VAR | 0xB324 | 32
+VAR | 0xB344 | 32
+VAR | 0xB364 | 32
+VAR | 0xB384 | 32
+VAR | 0xB3A4 | 32
+VAR | 0xB3C4 | 32
+VAR | 0xB3E4 | 32
+VAR | 0xB404 | 32
+VAR | 0xB424 | 32
