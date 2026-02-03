@@ -67,11 +67,11 @@ ARRAY32|188|4|Countdowns[]||EBytesBlockType.Timer
 ARRAY32|316|2|Countdowns2[]||EBytesBlockType.Timer
 // VAR|188|4|CountdownKO
 // VAR|192|4|CountdownStone
-// VAR|196|4|CountdownPetrify||EBytesBlockType.Timer // 10 секунд // <CHAR data: 0x4E6B4> [CHAR#2__Unk104: +0x3F8 +0x3C]: 11 => 10 (0A); (UInt16)11 => 10; (UInt32)11 => 10 Fran Petrify
+// VAR|196|4|CountdownPetrify||EBytesBlockType.Timer // 10 Г±ГҐГЄГіГ­Г¤ // <CHAR data: 0x4E6B4> [CHAR#2__Unk104: +0x3F8 +0x3C]: 11 => 10 (0A); (UInt16)11 => 10; (UInt32)11 => 10 Fran Petrify
 // VAR|200|4|CountdownStop||EBytesBlockType.Timer
-// VAR|204|4|CountdownSleep||EBytesBlockType.Timer // чуть больше 20 секунд
+// VAR|204|4|CountdownSleep||EBytesBlockType.Timer // Г·ГіГІГј ГЎГ®Г«ГјГёГҐ 20 Г±ГҐГЄГіГ­Г¤
 // VAR|208|4|CountdownConfuse||EBytesBlockType.Timer
-// VAR|212|4|CountdownDoom||EBytesBlockType.Timer // в секундах
+// VAR|212|4|CountdownDoom||EBytesBlockType.Timer // Гў Г±ГҐГЄГіГ­Г¤Г Гµ
 // VAR|216|4|CountdownBlind||EBytesBlockType.Timer
 // VAR|220|4|CountdownPoison||EBytesBlockType.Timer
 // VAR|224|4|CountdownSilence||EBytesBlockType.Timer // NOT TICKS!!!
@@ -95,7 +95,7 @@ ARRAY32|316|2|Countdowns2[]||EBytesBlockType.Timer
 // VAR|296|4|CountdownBerserk||EBytesBlockType.Timer
 // VAR|300|4|CountdownBubble||EBytesBlockType.Timer
 // VAR|304|4|Unk304
-// VAR|308|4|CountdownLibra||EBytesBlockType.Timer // 5 минут
+// VAR|308|4|CountdownLibra||EBytesBlockType.Timer // 5 Г¬ГЁГ­ГіГІ
 // VAR|312|4|Unk312
 // VAR|316|2|Unk316
 // VAR|318|2|Unk318
@@ -105,7 +105,7 @@ ARRAY32|316|2|Countdowns2[]||EBytesBlockType.Timer
 // VAR|326|2|Unk326
 // VAR|328|2|Doom2||EBytesBlockType.Timer
 // VAR|330|2|Unk330
-// VAR|332|2|Poison2||EBytesBlockType.Timer // тоже Poison? раз в 10 меньше, чем 220|CountdownPoison
+// VAR|332|2|Poison2||EBytesBlockType.Timer // ГІГ®Г¦ГҐ Poison? Г°Г Г§ Гў 10 Г¬ГҐГ­ГјГёГҐ, Г·ГҐГ¬ 220|CountdownPoison
 // VAR|334|2|Unk334
 // VAR|336|2|Sap2||EBytesBlockType.Timer // <CHAR data: 0x4E694> [CHAR#4__Unk336: +0x870 +0x0]: 10 => 60 (3C); (UInt16)10 => 60; (UInt32)10 => 60 Sap
 // VAR|338|2|Unk338
@@ -139,8 +139,8 @@ VAR|452|1|Job2
 VAR|453|1|ShowedJobBoard
 VAR|454|2|Unk454
 
-// <CHAR data: 0x4E6B4> [CHAR#0__unk419: +0x1A3 +0x0]: 255 => 10 (0A); (UInt16)65535 => 65290; (UInt32)16777215 => 720650 ВЫБРАЛИ ПРОФЕССИЮ BUSHI
-// <CHAR data: 0x4E6B4> [CHAR#0__unk419: +0x1A3 +0x0]: 255 => 9 (09); (UInt16)65535 => 65289; (UInt32)16777215 => 655113 перевыбрали Работу Vaan, теперь Black Mage
-// <CHAR data: 0x4E6B4> [CHAR#3__unk419: +0x6FB +0x1]: 255 => 2 (02); (UInt16)511 => 514; (UInt32)511 => 514 выбрали вторую доску Balthier - Machinist
-// <CHAR data: 0x4E6B4> [CHAR#3__unk419: +0x6FB +0x2]: 2 => 1 (01); (UInt16)2 => 1; (UInt32)469762050 => 469762049 переключили доску в меню Licenses для Balthier
-// <CHAR data: 0x4E6B4> [CHAR#1__unk419: +0x36B +0x1]: 255 => 9 (09); (UInt16)1791 => 2313; (UInt32)1791 => 2313 выбрали вторую доску Ashe - Black Mage
+// <CHAR data: 0x4E6B4> [CHAR#0__unk419: +0x1A3 +0x0]: 255 => 10 (0A); (UInt16)65535 => 65290; (UInt32)16777215 => 720650 Г‚Г›ГЃГђГЂГ‹Г€ ГЏГђГЋГ”Г…Г‘Г‘Г€Гћ BUSHI
+// <CHAR data: 0x4E6B4> [CHAR#0__unk419: +0x1A3 +0x0]: 255 => 9 (09); (UInt16)65535 => 65289; (UInt32)16777215 => 655113 ГЇГҐГ°ГҐГўГ»ГЎГ°Г Г«ГЁ ГђГ ГЎГ®ГІГі Vaan, ГІГҐГЇГҐГ°Гј Black Mage
+// <CHAR data: 0x4E6B4> [CHAR#3__unk419: +0x6FB +0x1]: 255 => 2 (02); (UInt16)511 => 514; (UInt32)511 => 514 ГўГ»ГЎГ°Г Г«ГЁ ГўГІГ®Г°ГіГѕ Г¤Г®Г±ГЄГі Balthier - Machinist
+// <CHAR data: 0x4E6B4> [CHAR#3__unk419: +0x6FB +0x2]: 2 => 1 (01); (UInt16)2 => 1; (UInt32)469762050 => 469762049 ГЇГҐГ°ГҐГЄГ«ГѕГ·ГЁГ«ГЁ Г¤Г®Г±ГЄГі Гў Г¬ГҐГ­Гѕ Licenses Г¤Г«Гї Balthier
+// <CHAR data: 0x4E6B4> [CHAR#1__unk419: +0x36B +0x1]: 255 => 9 (09); (UInt16)1791 => 2313; (UInt32)1791 => 2313 ГўГ»ГЎГ°Г Г«ГЁ ГўГІГ®Г°ГіГѕ Г¤Г®Г±ГЄГі Ashe - Black Mage
