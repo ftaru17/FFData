@@ -9,6 +9,7 @@
 [*.db]: SQLite DB with in-game data lists, dictionaries, enumeration\
 -- extract the required data into your program's data format
 
+**For a quick reference, see the WIKI section.**
 
 links:\
 **[NFFXSS - Final Fantasy {xxx} Spoiler Server](https://www.moddb.com/mods/nffxss-final-fantasy-xx-2-spoiler-server)** - my own tool for monitoring game process memory, viewing game data (and cheating some values) - in fact, these files are collected on its basis\
